@@ -1,0 +1,27 @@
+feature,group,missing_rate,distinct_values,status
+lag5_auction_volume,Auction history,0.02912110046616908,669072,Use with missing indicator / imputation
+lag2_auction_volume,Auction history,0.027420401268193558,669598,Use with missing indicator / imputation
+lag1_auction_volume,Auction history,0.0268559126909496,669847,Use with missing indicator / imputation
+avg5_auction_volume,Auction history,0.016732398472737067,1525869,Ready
+std20_auction_volume,Auction history,0.014404613393486096,3508543,Ready
+median20_auction_volume,Auction history,0.009359548898788227,559420,Ready
+volatility20,Returns,0.0006042726415839733,3587697,Ready
+lag1_return,Returns,0.00039617138195929006,200512,Ready
+lag1_daily_volume,Liquidity,0.00022284640235210065,2012306,Ready
+lag1_market_cap,Size,0.00022284640235210065,3199432,Ready
+avg20_daily_volume,Liquidity,0.00021672577706902173,3433523,Ready
+is_last_trading_day_quarter,Calendar,0.0,2,Ready
+day_of_week,Calendar,0.0,5,Ready
+ff12_code,Industry,0.0,12,Ready
+month,Calendar,0.0,12,Ready
+is_early_close,Calendar,0.0,2,Ready
+quarterly_options_expiry,Calendar,0.0,2,Ready
+monthly_options_expiry,Calendar,0.0,2,Ready
+market_volatility20,Market,0.0,2766,Ready
+is_last_trading_day_month,Calendar,0.0,2,Ready
+is_friday,Calendar,0.0,2,Ready
+is_monday,Calendar,0.0,2,Ready
+lag1_market_volume,Market,0.0,2766,Ready
+lag1_market_return,Market,0.0,2766,Ready
+prior_auction_observations,Auction history,0.0,2766,Ready
+size_decile,Size,0.0,10,Ready

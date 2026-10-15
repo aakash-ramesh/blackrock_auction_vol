@@ -1,0 +1,8 @@
+check_name,issue_count
+auction duplicate date-permno groups,0
+CRSP duplicate date-permno groups,0
+trade duplicate date-permno-checkpoint groups,0
+negative auction volumes,0
+nonpositive observed auction prices,0
+auction share above 100%,0
+target flag/value disagreements,0

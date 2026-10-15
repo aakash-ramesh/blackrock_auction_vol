@@ -1,0 +1,14 @@
+artifact,path
+Candidate design,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/10_segmentation_tests/candidate_design.csv
+Architecture summary,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/10_segmentation_tests/segmentation_architecture_summary.csv
+Decision table,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/10_segmentation_tests/segmentation_decision_table.csv
+Annual metrics,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+Paired date bootstrap,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/10_segmentation_tests/segmentation_date_block_bootstrap.csv
+Segment metrics,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/10_segmentation_tests/segmentation_segment_metrics.csv
+Targeted segment improvements,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/10_segmentation_tests/targeted_segment_improvements.csv
+Targeted segment bootstrap,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/10_segmentation_tests/targeted_segment_date_bootstrap.csv
+Training counts,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/10_segmentation_tests/segment_training_counts.csv
+Lambda validation,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/10_segmentation_tests/segmentation_lambda_validation.csv
+Architecture recommendation,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/10_segmentation_tests/model_architecture_recommendation.json
+Comparison figure,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/10_segmentation_tests/segmentation_architecture_comparison.png
+Predictions,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/10_segmentation_tests/predictions

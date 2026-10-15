@@ -1,0 +1,4 @@
+check,passed,details
+All approved features exist in canonical panel,True,All present
+No known daily-leakage fields are approved,True,None approved
+Approved list excludes target fields,True,Targets excluded

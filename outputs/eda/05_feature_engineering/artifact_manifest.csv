@@ -1,0 +1,6 @@
+artifact,path
+Enriched daily panel,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/05_feature_engineering/enriched_daily_panel.parquet
+Approved feature catalog,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/05_feature_engineering/approved_enriched_daily_features.csv
+Missingness audit,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/05_feature_engineering/enriched_feature_missingness.csv
+Ratio quantiles,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/05_feature_engineering/engineered_ratio_quantiles.csv
+High-correlation pairs,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/05_feature_engineering/high_correlation_pairs.csv

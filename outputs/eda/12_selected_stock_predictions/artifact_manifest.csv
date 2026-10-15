@@ -1,0 +1,6 @@
+artifact,path
+Daily predictions,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/12_selected_stock_predictions/selected_stock_daily_walk_forward_predictions.parquet
+Stock profiles,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/12_selected_stock_predictions/selected_stock_profiles.csv
+Stock metrics,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/12_selected_stock_predictions/selected_stock_walk_forward_metrics.csv
+Lambda history,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/12_selected_stock_predictions/walk_forward_lambda_validation.csv
+Prediction figure,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/12_selected_stock_predictions/selected_stock_actual_vs_walk_forward_predictions.png

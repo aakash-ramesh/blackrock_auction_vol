@@ -1,0 +1,31 @@
+{
+  "features": [
+    "lag1_auction_volume",
+    "lag2_auction_volume",
+    "lag5_auction_volume",
+    "avg5_auction_volume",
+    "median20_auction_volume",
+    "std20_auction_volume",
+    "prior_auction_observations",
+    "lag1_daily_volume",
+    "avg20_daily_volume",
+    "lag1_return",
+    "volatility20",
+    "lag1_market_cap",
+    "lag1_market_return",
+    "market_volatility20",
+    "lag1_market_volume",
+    "is_monday",
+    "is_friday",
+    "is_last_trading_day_month",
+    "is_last_trading_day_quarter",
+    "monthly_options_expiry",
+    "quarterly_options_expiry",
+    "is_early_close",
+    "month",
+    "day_of_week",
+    "ff12_code",
+    "size_decile"
+  ],
+  "target": "log1p_auction_volume"
+}

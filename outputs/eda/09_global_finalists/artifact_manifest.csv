@@ -1,0 +1,9 @@
+artifact,path
+Finalist selection,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/09_global_finalists/global_finalist_selection.csv
+Paired date-block bootstrap,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/09_global_finalists/global_finalist_date_block_bootstrap.csv
+Finalist metrics,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/09_global_finalists/global_finalist_metrics.csv
+Lambda validation,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/09_global_finalists/global_finalist_lambda_validation.csv
+Champion segment/tail diagnostics,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/09_global_finalists/champion_segment_and_tail_diagnostics.csv
+Champion coefficient stability,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/09_global_finalists/champion_coefficient_stability.csv
+Frozen benchmark specification,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/09_global_finalists/frozen_global_benchmark.json
+Prediction directory,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/09_global_finalists/predictions

@@ -1,0 +1,17 @@
+feature,analysis_expression
+lag1_auction_volume,ln(1 + lag1_auction_volume)
+lag2_auction_volume,ln(1 + lag2_auction_volume)
+lag5_auction_volume,ln(1 + lag5_auction_volume)
+avg5_auction_volume,ln(1 + avg5_auction_volume)
+median20_auction_volume,ln(1 + median20_auction_volume)
+std20_auction_volume,ln(1 + std20_auction_volume)
+prior_auction_observations,ln(1 + prior_auction_observations)
+lag1_daily_volume,ln(1 + lag1_daily_volume)
+avg20_daily_volume,ln(1 + avg20_daily_volume)
+lag1_return,lag1_return
+volatility20,ln(1 + volatility20)
+lag1_market_cap,ln(1 + lag1_market_cap)
+size_decile,size_decile
+lag1_market_return,lag1_market_return
+market_volatility20,ln(1 + market_volatility20)
+lag1_market_volume,ln(1 + lag1_market_volume)

@@ -1,0 +1,6 @@
+recommended_role,features,median_absolute_within,median_baseline_mae_range
+context_control_or_interaction,16,0.010883096635477357,0.028174183155678434
+direct_predictor_candidate,5,0.059338063955522595,0.04432929978107386
+predictor_and_segmentation_candidate,70,0.23714392494717296,0.12067421910827175
+retain_with_caution,4,0.07569422370783258,0.07121727913764384
+segmentation_candidate,4,0.02800545486352192,0.06456232020596159

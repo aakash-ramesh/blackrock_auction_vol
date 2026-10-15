@@ -1,0 +1,10 @@
+candidate,architecture,segmentation,estimation
+interaction_size,pooled interaction,size tertiles,Residual target; selected slopes vary
+interaction_liquidity,pooled interaction,liquidity tertiles,Residual target; selected slopes vary
+interaction_intensity,pooled interaction,auction-intensity tertiles,Residual target; selected slopes vary
+split_size,hard split,size tertiles,Independent residual models
+split_liquidity,hard split,liquidity tertiles,Independent residual models
+split_intensity,hard split,auction-intensity tertiles,Independent residual models
+split_size_liquidity_2x2,hard split,2x2 size×liquidity,Independent residual models
+event_hybrid,specialist hybrid,calendar event regime,Specialists for non-regular regimes; global fallback
+history_hybrid,specialist hybrid,fewer than 20 prior auctions,Pooled log-level specialist; residual model otherwise

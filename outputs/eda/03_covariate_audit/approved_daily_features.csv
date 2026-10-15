@@ -1,0 +1,27 @@
+variable,group,definition,information_time,classification,approved_daily_feature
+lag1_auction_volume,Auction history,Previous observed closing-auction volume,Previous close,daily_safe,True
+lag2_auction_volume,Auction history,Auction volume two trading observations earlier,t-2,daily_safe,True
+lag5_auction_volume,Auction history,Auction volume five trading observations earlier,t-5,daily_safe,True
+avg5_auction_volume,Auction history,Mean auction volume over five prior rows,Through t-1,daily_safe,True
+median20_auction_volume,Auction history,Median auction volume over twenty prior rows,Through t-1,daily_safe,True
+std20_auction_volume,Auction history,Auction-volume standard deviation over twenty prior rows,Through t-1,daily_safe,True
+prior_auction_observations,Auction history,Number of observed prior auctions for the stock,Through t-1,daily_safe,True
+lag1_daily_volume,Liquidity,Previous trading-day share volume,Previous close,daily_safe,True
+avg20_daily_volume,Liquidity,Mean daily volume over twenty prior rows,Through t-1,daily_safe,True
+lag1_return,Returns,Previous trading-day total return,Previous close,daily_safe,True
+volatility20,Returns,Return standard deviation over twenty prior rows,Through t-1,daily_safe,True
+lag1_market_cap,Size,Previous trading-day market capitalization,Previous close,daily_safe,True
+lag1_market_return,Market,Previous value-weighted market return,Previous close,daily_safe,True
+market_volatility20,Market,Market return standard deviation over twenty prior days,Through t-1,daily_safe,True
+lag1_market_volume,Market,Previous total market volume,Previous close,daily_safe,True
+is_monday,Calendar,Monday indicator,Known in advance,daily_safe,True
+is_friday,Calendar,Friday indicator,Known in advance,daily_safe,True
+is_last_trading_day_month,Calendar,Last trading day of month,Known in advance,daily_safe,True
+is_last_trading_day_quarter,Calendar,Last trading day of quarter,Known in advance,daily_safe,True
+monthly_options_expiry,Calendar,Monthly options expiry,Known in advance,daily_safe,True
+quarterly_options_expiry,Calendar,Quarterly options expiry,Known in advance,daily_safe,True
+is_early_close,Calendar,Scheduled early close,Known in advance,daily_safe,True
+month,Calendar,Calendar month,Known in advance,daily_safe,True
+day_of_week,Calendar,Trading weekday,Known in advance,daily_safe,True
+ff12_code,Industry,Point-in-time Fama–French 12 industry,Known by prediction date,daily_safe,True
+size_decile,Size,Daily decile formed from lagged market capitalization,Previous close,daily_safe,True

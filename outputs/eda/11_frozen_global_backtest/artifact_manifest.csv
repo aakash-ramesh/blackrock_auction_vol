@@ -1,0 +1,4 @@
+artifact,path
+Backtest metrics,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/11_frozen_global_backtest/frozen_global_train_validation_test_metrics.csv
+Generalization gaps,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/11_frozen_global_backtest/frozen_global_generalization_gaps.csv
+Backtest figure,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/11_frozen_global_backtest/frozen_global_train_validation_test_backtest.png

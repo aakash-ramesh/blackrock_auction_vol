@@ -1,0 +1,100 @@
+feature,eligible_rows,missing,missing_rate,distinct_values,group
+lag5_auction_volume,3499401,28793,0.008227979588506719,668908,Auction history
+lag2_auction_volume,3499401,21991,0.006284218356227251,669430,Auction history
+lag1_auction_share,3499401,19682,0.005624391145798952,3474286,Auction history
+auction_spike_lag1,3499401,19457,0.005560094427589179,2,Auction history
+lag1_auction_to_adv20,3499401,19457,0.005560094427589179,3479716,Auction history
+lag1_auction_volume,3499401,19457,0.005560094427589179,669741,Auction history
+std20_auction_share,3499401,6264,0.0017900206349600975,3492930,Auction history
+std20_auction_volume,3499401,6167,0.001762301605331884,3491004,Auction history
+auction_cv20,3499401,6167,0.001762301605331884,3491550,Auction history
+auction_short_long_ratio,3499401,5696,0.0016277071418794246,3480207,Auction history
+avg5_auction_volume,3499401,5696,0.0016277071418794246,1524722,Auction history
+std60_auction_volume,3499401,4754,0.0013585182149745056,3493517,Auction history
+lag1_overnight_gap,3499401,3726,0.0010647536535538511,1146810,Returns and price
+avg20_auction_share,3499401,3037,0.0008678628142359221,3496038,Auction history
+avg20_auction_volume,3499401,2984,0.0008527173650576199,2572850,Auction history
+median20_auction_volume,3499401,2984,0.0008527173650576199,559332,Auction history
+lag1_amihud,3499401,2550,0.0007286961397107676,3444897,Liquidity
+avg60_auction_volume,3499401,2331,0.0006661140006532547,3151541,Auction history
+median60_auction_volume,3499401,2331,0.0006661140006532547,448252,Auction history
+days_since_last_auction,3499401,2149,0.0006141050997013488,189,Auction history
+lag1_price,3499401,2086,0.0005961020186026122,91303,Returns and price
+lag1_hl_range,3499401,2086,0.0005961020186026122,2073735,Liquidity
+volatility5,3499401,1666,0.0004760814779443682,3491371,Returns and price
+volatility60,3499401,1666,0.0004760814779443682,3496117,Returns and price
+volatility20,3499401,1666,0.0004760814779443682,3495311,Returns and price
+lag1_quoted_spread,3499401,1291,0.0003689202809280788,376724,Liquidity
+std60_daily_volume,3499401,1208,0.00034520193598847347,3498138,Liquidity
+std20_daily_volume,3499401,1208,0.00034520193598847347,3498112,Liquidity
+stock_minus_sector_return,3499401,1056,0.00030176593079787086,3460641,Sector state
+lag1_abs_return,3499401,1056,0.00030176593079787086,121808,Returns and price
+lag1_return,3499401,1056,0.00030176593079787086,199483,Returns and price
+avg20_amihud,3499401,1051,0.0003003371148376536,3495250,Liquidity
+momentum60,3499401,1047,0.0002991940620694799,3495019,Returns and price
+momentum20,3499401,1047,0.0002991940620694799,3494518,Returns and price
+momentum5,3499401,1047,0.0002991940620694799,3491746,Returns and price
+max_abs_return20,3499401,1047,0.0002991940620694799,104987,Returns and price
+abnormal_volume_lag1,3499401,595,0.0001700290992658458,3496658,Liquidity
+volume_short_long_ratio,3499401,594,0.00016974333607380234,3495540,Liquidity
+lag1_turnover,3499401,592,0.00016917180968971547,3494672,Liquidity
+lag1_dollar_volume,3499401,592,0.00016917180968971547,3483387,Liquidity
+lag1_daily_volume,3499401,592,0.00016917180968971547,2010149,Liquidity
+lag1_market_cap,3499401,592,0.00016917180968971547,3156578,Size and history
+stock_share_sector_volume,3499401,592,0.00016917180968971547,3497160,Sector state
+avg20_turnover,3499401,591,0.00016888604649767204,3498653,Liquidity
+avg60_daily_volume,3499401,591,0.00016888604649767204,3455868,Liquidity
+avg20_daily_volume,3499401,591,0.00016888604649767204,3368651,Liquidity
+avg5_daily_volume,3499401,591,0.00016888604649767204,3019317,Liquidity
+avg20_dollar_volume,3499401,591,0.00016888604649767204,3498510,Liquidity
+lag1_distribution_flag,3499401,590,0.00016860028330562858,2,Security and corporate actions
+lag1_dividend_flag,3499401,590,0.00016860028330562858,2,Security and corporate actions
+lag1_price_adjustment_flag,3499401,590,0.00016860028330562858,2,Security and corporate actions
+lag1_shares_outstanding,3499401,590,0.00016860028330562858,58297,Size and history
+liquidity_percentile,3499401,0,0.0,241302,Size and history
+trading_days_to_year_end,3499401,0,0.0,253,Calendar
+trading_days_to_month_end,3499401,0,0.0,23,Calendar
+is_first_trading_day_month,3499401,0,0.0,2,Calendar
+is_last_trading_day_month,3499401,0,0.0,2,Calendar
+is_last_3_trading_days_month,3499401,0,0.0,2,Calendar
+is_last_5_trading_days_month,3499401,0,0.0,2,Calendar
+trading_days_to_quarter_end,3499401,0,0.0,64,Calendar
+is_last_trading_day_quarter,3499401,0,0.0,2,Calendar
+is_last_3_trading_days_quarter,3499401,0,0.0,2,Calendar
+is_last_5_trading_days_quarter,3499401,0,0.0,2,Calendar
+is_last_trading_day_year,3499401,0,0.0,2,Calendar
+turnover_percentile,3499401,0,0.0,241315,Size and history
+monthly_options_expiry,3499401,0,0.0,2,Calendar
+quarterly_options_expiry,3499401,0,0.0,2,Calendar
+after_long_market_gap,3499401,0,0.0,2,Calendar
+before_long_market_gap,3499401,0,0.0,2,Calendar
+is_early_close,3499401,0,0.0,2,Calendar
+early_close_month_end_window,3499401,0,0.0,2,Calendar
+expiry_month_end_window,3499401,0,0.0,2,Calendar
+ff12_code,3499401,0,0.0,12,Security and corporate actions
+prior_auction_observations,3499401,0,0.0,2766,Auction history
+trading_day_of_month,3499401,0,0.0,23,Calendar
+month,3499401,0,0.0,12,Calendar
+day_of_week,3499401,0,0.0,5,Calendar
+lag1_market_breadth,3499401,0,0.0,2744,Market state
+auction_intensity_percentile,3499401,0,0.0,237853,Size and history
+size_decile,3499401,0,0.0,10,Size and history
+liquidity_decile,3499401,0,0.0,10,Size and history
+lag1_market_return,3499401,0,0.0,2765,Market state
+market_volatility20,3499401,0,0.0,2765,Market state
+lag1_market_volume,3499401,0,0.0,2765,Market state
+lag1_market_dollar_volume,3499401,0,0.0,2765,Market state
+market_abnormal_volume_lag1,3499401,0,0.0,2765,Market state
+lag1_market_dispersion,3499401,0,0.0,2765,Market state
+lag1_market_hl_range,3499401,0,0.0,2763,Market state
+is_friday,3499401,0,0.0,2,Calendar
+lag1_sector_return,3499401,0,0.0,33180,Sector state
+sector_volatility20,3499401,0,0.0,33180,Sector state
+lag1_sector_volume,3499401,0,0.0,33178,Sector state
+lag1_sector_dollar_volume,3499401,0,0.0,33180,Sector state
+lag1_sector_dispersion,3499401,0,0.0,33180,Sector state
+lag1_sector_breadth,3499401,0,0.0,10968,Sector state
+size_percentile,3499401,0,0.0,242073,Size and history
+prior_stock_observations,3499401,0,0.0,3772,Size and history
+is_monday,3499401,0,0.0,2,Calendar
+data_age_days,3499401,0,0.0,5468,Size and history

@@ -1,0 +1,5 @@
+artifact,path
+Representative years,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/13_representative_stock_year_daily/representative_stock_years.csv
+All stock-year metrics,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/13_representative_stock_year_daily/stock_year_daily_metrics.csv
+Largest daily misses,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/13_representative_stock_year_daily/representative_year_largest_daily_misses.csv
+Daily figure,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/13_representative_stock_year_daily/representative_stock_year_daily_actual_vs_predicted.png

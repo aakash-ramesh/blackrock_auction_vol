@@ -1,0 +1,8 @@
+candidate,window,target,weight,source_feature_count
+expanding_log_full,expanding,log_level,uniform,99
+rolling5_log_full,rolling5,log_level,uniform,99
+rolling5_residual_full,rolling5,median20_residual,uniform,99
+rolling3_residual_full,rolling3,median20_residual,uniform,99
+rolling5_residual_recent_full,rolling5,median20_residual,recent,99
+rolling5_residual_auction_calendar,rolling5,median20_residual,uniform,42
+rolling5_residual_auction_calendar_liquidity,rolling5,median20_residual,uniform,58

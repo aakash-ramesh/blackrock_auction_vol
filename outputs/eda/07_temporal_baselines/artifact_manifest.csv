@@ -1,0 +1,9 @@
+artifact,path
+Overall fold metrics,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/07_temporal_baselines/overall_baseline_metrics.csv
+Aggregate metrics,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/07_temporal_baselines/aggregate_baseline_metrics.csv
+Segment fold metrics,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/07_temporal_baselines/segment_baseline_metrics.csv
+Segment summary,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/07_temporal_baselines/segment_performance_summary.csv
+Date-block bootstrap,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/07_temporal_baselines/ridge_vs_median20_date_block_bootstrap.csv
+Ridge coefficients,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/07_temporal_baselines/ridge_coefficients_by_fold.csv
+Preprocessing manifest,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/07_temporal_baselines/preprocessing_manifest.json
+Out-of-time prediction directory,/Users/aramesh/Documents/Fall 2026/Capstone/outputs/eda/07_temporal_baselines/predictions

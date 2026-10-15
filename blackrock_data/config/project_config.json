@@ -1,0 +1,47 @@
+{
+  "project_name": "blackrock_equity_auction",
+  "start_date": "2011-01-01",
+  "end_date": "2025-12-31",
+  "years": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "exchange": "NYSE",
+  "universe": {
+    "primary_exchange": "N",
+    "security_type": "EQTY",
+    "security_subtype": "COM",
+    "share_type": "NS",
+    "us_incorporated": "Y",
+    "issuer_type": [
+      "CORP"
+    ],
+    "conditional_type": "RW",
+    "trading_status": "A"
+  },
+  "primary_security_id": "permno",
+  "intraday_checkpoints": [
+    "10:30",
+    "12:00",
+    "14:00",
+    "15:00",
+    "15:30"
+  ],
+  "storage": {
+    "format": "parquet",
+    "compression": "zstd"
+  }
+}

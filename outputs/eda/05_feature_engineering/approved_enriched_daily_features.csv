@@ -1,0 +1,100 @@
+variable,group,information_time,classification,approved_daily_feature
+lag1_auction_volume,Auction history,Through t-1,daily_safe,True
+lag2_auction_volume,Auction history,Through t-1,daily_safe,True
+lag5_auction_volume,Auction history,Through t-1,daily_safe,True
+avg5_auction_volume,Auction history,Through t-1,daily_safe,True
+avg20_auction_volume,Auction history,Through t-1,daily_safe,True
+avg60_auction_volume,Auction history,Through t-1,daily_safe,True
+median20_auction_volume,Auction history,Through t-1,daily_safe,True
+median60_auction_volume,Auction history,Through t-1,daily_safe,True
+std20_auction_volume,Auction history,Through t-1,daily_safe,True
+std60_auction_volume,Auction history,Through t-1,daily_safe,True
+auction_cv20,Auction history,Through t-1,daily_safe,True
+auction_short_long_ratio,Auction history,Through t-1,daily_safe,True
+lag1_auction_share,Auction history,Through t-1,daily_safe,True
+avg20_auction_share,Auction history,Through t-1,daily_safe,True
+std20_auction_share,Auction history,Through t-1,daily_safe,True
+lag1_auction_to_adv20,Auction history,Through t-1,daily_safe,True
+auction_spike_lag1,Auction history,Through t-1,daily_safe,True
+days_since_last_auction,Auction history,Through t-1,daily_safe,True
+prior_auction_observations,Auction history,Through t-1,daily_safe,True
+lag1_daily_volume,Liquidity,Through t-1,daily_safe,True
+avg5_daily_volume,Liquidity,Through t-1,daily_safe,True
+avg20_daily_volume,Liquidity,Through t-1,daily_safe,True
+avg60_daily_volume,Liquidity,Through t-1,daily_safe,True
+std20_daily_volume,Liquidity,Through t-1,daily_safe,True
+std60_daily_volume,Liquidity,Through t-1,daily_safe,True
+abnormal_volume_lag1,Liquidity,Through t-1,daily_safe,True
+volume_short_long_ratio,Liquidity,Through t-1,daily_safe,True
+lag1_dollar_volume,Liquidity,Through t-1,daily_safe,True
+avg20_dollar_volume,Liquidity,Through t-1,daily_safe,True
+lag1_turnover,Liquidity,Through t-1,daily_safe,True
+avg20_turnover,Liquidity,Through t-1,daily_safe,True
+lag1_amihud,Liquidity,Through t-1,daily_safe,True
+avg20_amihud,Liquidity,Through t-1,daily_safe,True
+lag1_quoted_spread,Liquidity,Through t-1,daily_safe,True
+lag1_hl_range,Liquidity,Through t-1,daily_safe,True
+lag1_return,Returns and price,Through t-1,daily_safe,True
+lag1_abs_return,Returns and price,Through t-1,daily_safe,True
+momentum5,Returns and price,Through t-1,daily_safe,True
+momentum20,Returns and price,Through t-1,daily_safe,True
+momentum60,Returns and price,Through t-1,daily_safe,True
+volatility5,Returns and price,Through t-1,daily_safe,True
+volatility20,Returns and price,Through t-1,daily_safe,True
+volatility60,Returns and price,Through t-1,daily_safe,True
+max_abs_return20,Returns and price,Through t-1,daily_safe,True
+lag1_price,Returns and price,Through t-1,daily_safe,True
+lag1_overnight_gap,Returns and price,Through t-1,daily_safe,True
+lag1_market_cap,Size and history,Through t-1,daily_safe,True
+lag1_shares_outstanding,Size and history,Through t-1,daily_safe,True
+prior_stock_observations,Size and history,Through t-1,daily_safe,True
+data_age_days,Size and history,Through t-1,daily_safe,True
+size_percentile,Size and history,Through t-1,daily_safe,True
+liquidity_percentile,Size and history,Through t-1,daily_safe,True
+turnover_percentile,Size and history,Through t-1,daily_safe,True
+auction_intensity_percentile,Size and history,Through t-1,daily_safe,True
+size_decile,Size and history,Through t-1,daily_safe,True
+liquidity_decile,Size and history,Through t-1,daily_safe,True
+lag1_market_return,Market state,Through t-1,daily_safe,True
+market_volatility20,Market state,Through t-1,daily_safe,True
+lag1_market_volume,Market state,Through t-1,daily_safe,True
+lag1_market_dollar_volume,Market state,Through t-1,daily_safe,True
+market_abnormal_volume_lag1,Market state,Through t-1,daily_safe,True
+lag1_market_dispersion,Market state,Through t-1,daily_safe,True
+lag1_market_breadth,Market state,Through t-1,daily_safe,True
+lag1_market_hl_range,Market state,Through t-1,daily_safe,True
+lag1_sector_return,Sector state,Through t-1,daily_safe,True
+sector_volatility20,Sector state,Through t-1,daily_safe,True
+lag1_sector_volume,Sector state,Through t-1,daily_safe,True
+lag1_sector_dollar_volume,Sector state,Through t-1,daily_safe,True
+lag1_sector_dispersion,Sector state,Through t-1,daily_safe,True
+lag1_sector_breadth,Sector state,Through t-1,daily_safe,True
+stock_minus_sector_return,Sector state,Through t-1,daily_safe,True
+stock_share_sector_volume,Sector state,Through t-1,daily_safe,True
+is_monday,Calendar,Known in advance,daily_safe,True
+is_friday,Calendar,Known in advance,daily_safe,True
+day_of_week,Calendar,Known in advance,daily_safe,True
+month,Calendar,Known in advance,daily_safe,True
+trading_day_of_month,Calendar,Known in advance,daily_safe,True
+trading_days_to_month_end,Calendar,Known in advance,daily_safe,True
+is_first_trading_day_month,Calendar,Known in advance,daily_safe,True
+is_last_trading_day_month,Calendar,Known in advance,daily_safe,True
+is_last_3_trading_days_month,Calendar,Known in advance,daily_safe,True
+is_last_5_trading_days_month,Calendar,Known in advance,daily_safe,True
+trading_days_to_quarter_end,Calendar,Known in advance,daily_safe,True
+is_last_trading_day_quarter,Calendar,Known in advance,daily_safe,True
+is_last_3_trading_days_quarter,Calendar,Known in advance,daily_safe,True
+is_last_5_trading_days_quarter,Calendar,Known in advance,daily_safe,True
+trading_days_to_year_end,Calendar,Known in advance,daily_safe,True
+is_last_trading_day_year,Calendar,Known in advance,daily_safe,True
+monthly_options_expiry,Calendar,Known in advance,daily_safe,True
+quarterly_options_expiry,Calendar,Known in advance,daily_safe,True
+after_long_market_gap,Calendar,Known in advance,daily_safe,True
+before_long_market_gap,Calendar,Known in advance,daily_safe,True
+is_early_close,Calendar,Known in advance,daily_safe,True
+early_close_month_end_window,Calendar,Known in advance,daily_safe,True
+expiry_month_end_window,Calendar,Known in advance,daily_safe,True
+ff12_code,Security and corporate actions,Point-in-time classification,daily_safe,True
+lag1_dividend_flag,Security and corporate actions,Through t-1,daily_safe,True
+lag1_distribution_flag,Security and corporate actions,Through t-1,daily_safe,True
+lag1_price_adjustment_flag,Security and corporate actions,Through t-1,daily_safe,True

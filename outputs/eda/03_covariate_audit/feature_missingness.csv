@@ -1,0 +1,27 @@
+feature,rows,missing,missing_rate,distinct_values,group,information_time
+lag5_auction_volume,3594404,104673,0.02912110046616908,669072,Auction history,t-5
+lag2_auction_volume,3594404,98560,0.027420401268193558,669598,Auction history,t-2
+lag1_auction_volume,3594404,96531,0.0268559126909496,669847,Auction history,Previous close
+avg5_auction_volume,3594404,60143,0.016732398472737067,1525869,Auction history,Through t-1
+std20_auction_volume,3594404,51776,0.014404613393486096,3508543,Auction history,Through t-1
+median20_auction_volume,3594404,33642,0.009359548898788227,559420,Auction history,Through t-1
+volatility20,3594404,2172,0.0006042726415839733,3587697,Returns,Through t-1
+lag1_return,3594404,1424,0.00039617138195929006,200512,Returns,Previous close
+lag1_daily_volume,3594404,801,0.00022284640235210065,2012306,Liquidity,Previous close
+lag1_market_cap,3594404,801,0.00022284640235210065,3199432,Size,Previous close
+avg20_daily_volume,3594404,779,0.00021672577706902173,3433523,Liquidity,Through t-1
+is_last_trading_day_quarter,3594404,0,0.0,2,Calendar,Known in advance
+day_of_week,3594404,0,0.0,5,Calendar,Known in advance
+ff12_code,3594404,0,0.0,12,Industry,Known by prediction date
+month,3594404,0,0.0,12,Calendar,Known in advance
+is_early_close,3594404,0,0.0,2,Calendar,Known in advance
+quarterly_options_expiry,3594404,0,0.0,2,Calendar,Known in advance
+monthly_options_expiry,3594404,0,0.0,2,Calendar,Known in advance
+market_volatility20,3594404,0,0.0,2766,Market,Through t-1
+is_last_trading_day_month,3594404,0,0.0,2,Calendar,Known in advance
+is_friday,3594404,0,0.0,2,Calendar,Known in advance
+is_monday,3594404,0,0.0,2,Calendar,Known in advance
+lag1_market_volume,3594404,0,0.0,2766,Market,Previous close
+lag1_market_return,3594404,0,0.0,2766,Market,Previous close
+prior_auction_observations,3594404,0,0.0,2766,Auction history,Through t-1
+size_decile,3594404,0,0.0,10,Size,Previous close
