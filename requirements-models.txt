@@ -1,0 +1,3 @@
+-r requirements-eda.txt
+lightgbm>=4.6,<5
+scikit-learn>=1.7,<2

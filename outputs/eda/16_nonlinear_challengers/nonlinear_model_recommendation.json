@@ -1,0 +1,19 @@
+{
+  "frozen_benchmark": "rolling5_residual_auction_calendar_liquidity",
+  "development_years": [
+    2022,
+    2023,
+    2024
+  ],
+  "confirmation_year": 2025,
+  "eligible_replacements": [
+    "blend50_residual_58_huber",
+    "blend50_residual_58_l2",
+    "blend50_residual_99_l2",
+    "lgbm_residual_58_huber",
+    "lgbm_residual_58_l2",
+    "lgbm_residual_99_l2"
+  ],
+  "retain_frozen_benchmark": false,
+  "best_development_candidate": "lgbm_residual_58_l2"
+}

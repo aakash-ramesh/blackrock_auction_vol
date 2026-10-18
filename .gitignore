@@ -79,6 +79,11 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Rebuilt locally by Notebooks 03 and 05; both exceed GitHub's normal file limit.
+outputs/eda/03_covariate_audit/daily_covariate_panel.parquet
+outputs/eda/05_feature_engineering/enriched_daily_panel.parquet
+outputs/eda/16_nonlinear_challengers/predictions/
+
 # IPython
 profile_default/
 ipython_config.py
