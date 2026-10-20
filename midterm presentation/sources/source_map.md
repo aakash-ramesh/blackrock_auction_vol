@@ -170,3 +170,8 @@ Calibration uses the 58-input ridge's saved 2022–2024 share predictions. Poole
 `data_analysis/build_baseline_adjusted_analysis.py` joins saved 09 forecast keys to the isolated `data_analysis/cache/analysis_panel.parquet` derived from the in-scope canonical panel. Key uniqueness, exact actual-target equality, and 963,525 matched rows are checked. Missing stock median cases (616) are excluded only from this descriptive study. The target is the existing log1p deviation; predictors use prior-close values. Quantile groups keep equal input values together.
 
 Same-pair rank correlations with raw shares versus log deviation: daily volume 0.857092/0.075029 (962,909 pairs), market cap 0.633994/0.011704 (962,909), spread −0.447779/−0.014653 (962,802), absolute return −0.052598/0.067043 (962,850). These distinguish scale associations from baseline departures without controlling other covariates or proving incremental forecasting gains. Complete curves, summaries, metadata, two chart variants, and a report are saved under the presentation folder. This support analysis adds no model fit or post-13 input.
+
+
+## Current slide map after descriptive-summary removal
+
+The former descriptive summary page was removed. Its sample-size and coverage figures are retained on slide 7 and in the script. Main pages: background/data 1–8; descriptive graphs 9–10; covariate relationships 11–14; family removal 15; residual target 16; ridge specifications 17; annual comparison 18; calibration 19; smoothed/daily examples 20–21; group comparison 22; roadmap 23. Appendix pages: ridge diagnostic 24, baseline-adjusted covariates 25, literature 26. Earlier mappings above refer to prior drafts. All saved analytical inputs and numerical results remain unchanged.

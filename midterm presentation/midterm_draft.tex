@@ -141,6 +141,8 @@ CRSP daily stocks & 2011--2025 & Prices, returns, trading volume, shares outstan
 \textbf{Universe:} NYSE-primary, US-incorporated ordinary common equity with active regular-way trading status, across market-cap sizes.
 \par\medskip
 \textbf{Observation key:} trading date $\times$ PERMNO, CRSP's permanent security identifier.
+\par\medskip
+{\small\textbf{Analytical sample:} 3.50 million eligible labels; annual observed-target coverage of 93.0\%--99.0\%.\par}
 \source{Counts describe our extracted sample. Source rows include missing targets and do not equal the number of valid training labels.}
 \end{frame}
 
@@ -162,7 +164,7 @@ Checkpoint data are available for a future intraday update model. The daily mode
 
 
 
-% Compact descriptive section: two graph slides and one synthesis slide.
+% Compact descriptive section: two graph slides, followed directly by analysis.
 \begin{frame}{Auction-volume distribution and stock-size comparison}
 \centering
 \includegraphics[width=\textwidth,height=4.45cm,keepaspectratio]{assets/descriptive_scale.pdf}
@@ -179,21 +181,6 @@ Checkpoint data are available for a future intraday update model. The daily mode
 \raggedright
 \textbf{Purpose:} examine participation over time and around calendar events, motivating forward tests and calendar inputs.
 \source{Auction share = auction volume / same-day daily volume. Eligible stock-days, 2015--2025. Each event has its own non-event comparison. Groups overlap, and pooled associations do not establish causality.}
-\end{frame}
-
-\begin{frame}{Descriptive statistics: summary}
-\small
-\begin{tabularx}{\textwidth}{@{}L{6.7cm}Y@{}}
-\toprule
-\textbf{Finding} & \textbf{Implication for the analysis}\\
-\midrule
-3.50 million eligible labels. Annual observed-target coverage: 93.0\%--99.0\%. & Check coverage and assess accuracy by year.\\[0.8em]
-Median auction: 55.2k shares. Mean: 190.4k. 99th percentile: 2.08m. & Report errors in shares and in log space.\\[0.8em]
-Largest size-decile median: about 81 times the smallest. & Account for stock scale and compare size groups.\\[0.8em]
-Median auction share: 4.8\% in 2015, 14.0\% in 2025, with calendar differences. & Evaluate forward in time and test known calendar flags.\\
-\bottomrule
-\end{tabularx}
-\source{Statistics describe the extracted NYSE sample. Same-day auction share is a descriptive outcome, not an input to the prior-close daily forecast.}
 \end{frame}
 
 % Analysis: individual relationships, conditional evidence, target, model, results.

@@ -86,3 +86,8 @@ Add one main slide (20) showing mean-share calibration and predicted/actual rati
 Upgrade the existing group-error slide (now 23) to compare ridge with the exact saved median-rule definition on the same rows. Use the saved historical training fallbacks and verify annual baseline metrics against original results. Ridge improves all displayed groups, but short-history absolute errors remain large and the 0–4 baseline WAPE exceeds 100%. Keep counts and the 0.33% under-20 share visible.
 
 Keep the new baseline-adjusted covariate study in appendix page 26 and a separate report. It examines log departures from the recent median for volume, cap, spread, and absolute return using development-year pairs, excluding missing stock medians. Economic interpretation remains descriptive. No extra individual-variable slide enters the main recording. The main deck is 24 slides with three appendix pages; the complete main narration is about 2,480 words, preserving the 20-minute target with rehearsal.
+
+
+## Descriptive summary removed after review
+
+Remove the former main slide 11 because it repeats the preceding descriptive graphs and later modeling decisions. Preserve 3.50 million eligible labels and 93.0%–99.0% annual observed-target coverage in main slide 7 and its script. Add a spoken transition after the time/calendar graph. The first covariate slide is now 11; subsequent pages shift back by one. The main recording covers 23 slides, with three appendix pages (24–26). No chart data or model results change.
