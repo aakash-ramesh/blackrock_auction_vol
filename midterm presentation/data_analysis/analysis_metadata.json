@@ -1,0 +1,14 @@
+{
+  "target": "official NYSE closing-auction volume in raw shares; no log transform in primary associations or bin outcomes",
+  "eligible_stock_days": 3499401,
+  "covariates_profiled": 193,
+  "selected_features_covered": 58,
+  "rank_sample": "deterministic 7% hash(date,permno), shared across stock-date features; date/sector context ranks use all native observations",
+  "p_values": "not reported; no IID significance claims",
+  "causal_effects": "not identified",
+  "new_analysis_status": "retrospective economic diagnostics; not an original pre-selection test or new holdout",
+  "generated_utc": "2026-10-19T15:48:45.953054+00:00",
+  "binning": "Full-population quantiles with tied values kept together; low-cardinality numeric values treated as observed groups; common mass separated from other-value quantile groups for concentrated numeric inputs.",
+  "verification": "All bin/native/annual observation totals checked; all 58 selected features covered; 16 independent SQL correlation/slope/lag checks passed; source notebooks have saved execution counts and no saved error outputs.",
+  "presentation_unchanged": true
+}

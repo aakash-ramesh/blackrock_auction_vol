@@ -1,0 +1,9 @@
+check,expected,actual,passed
+inventory rows: crsp_daily,4927078,4927078,True
+inventory rows: auction_daily,3594398,3594398,True
+inventory rows: trade_checkpoints,17971990,17971990,True
+inventory rows: market_daily,3772,3772,True
+inventory rows: sector_daily,45264,45264,True
+sample counts: stock_days,3594404,3594404,True
+sample counts: observed_targets,3499885,3499885,True
+sample counts: eligible_targets,3499401,3499401,True

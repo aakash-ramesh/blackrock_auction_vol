@@ -1,0 +1,275 @@
+dataset,variable,sql_type,role,unit,rows,non_null,missing_count,missing_pct,distinct_approx,files_with_field,files_total,schema_absent_rows,null_in_present_schema_rows
+crsp_daily,permno,BIGINT,identifier,identifier,4927078,4927078,0,0.0,2712,15,15,0,0
+crsp_daily,permco,BIGINT,identifier,identifier,4927078,4927078,0,0.0,2713,15,15,0,0
+crsp_daily,date,TIMESTAMP_NS,date/time,date/time,4927078,4927078,0,0.0,3469,15,15,0,0
+crsp_daily,ticker,VARCHAR,identifier,identifier,4927078,4927078,0,0.0,2619,15,15,0,0
+crsp_daily,cusip,VARCHAR,identifier,identifier,4927078,4927078,0,0.0,2386,15,15,0,0
+crsp_daily,price,DOUBLE,continuous/count,USD per share,4927078,4926961,117,0.0023746325915684,108399,15,15,0,117
+crsp_daily,price_flag,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,3,15,15,0,0
+crsp_daily,open,DOUBLE,continuous/count,USD per share,4927078,4896335,30743,0.623960083440936,104312,15,15,0,30743
+crsp_daily,high,DOUBLE,continuous/count,USD per share,4927078,4896341,30737,0.6238383074105991,371071,15,15,0,30737
+crsp_daily,low,DOUBLE,continuous/count,USD per share,4927078,4896341,30737,0.6238383074105991,373408,15,15,0,30737
+crsp_daily,close,DOUBLE,continuous/count,USD per share,4927078,4896341,30737,0.6238383074105991,101151,15,15,0,30737
+crsp_daily,bid,DOUBLE,continuous/count,USD per share,4927078,4926951,127,0.0025775926421298,73116,15,15,0,127
+crsp_daily,ask,DOUBLE,continuous/count,USD per share,4927078,4926951,127,0.0025775926421298,93895,15,15,0,127
+crsp_daily,daily_volume,DOUBLE,continuous/count,shares,4927078,4926955,123,0.0024964086219053,2292389,15,15,0,123
+crsp_daily,daily_price_volume,DOUBLE,continuous/count,USD,4927078,4926955,123,0.0024964086219053,4510316,15,15,0,123
+crsp_daily,return_total,DOUBLE,continuous/count,decimal return (dispersion is standard deviation),4927078,4926082,996,0.0202148210359162,227072,15,15,0,996
+crsp_daily,return_price,DOUBLE,continuous/count,decimal return (dispersion is standard deviation),4927078,4926082,996,0.0202148210359162,227072,15,15,0,996
+crsp_daily,market_cap_crsp_thousands,DOUBLE,continuous/count,USD thousands,4927078,4926961,117,0.0023746325915684,5956565,15,15,0,117
+crsp_daily,shares_outstanding_thousands,BIGINT,continuous/count,shares thousands,4927078,4927078,0,0.0,71923,15,15,0,0
+crsp_daily,ordinary_dividend,DOUBLE,continuous/count,USD per share,4927078,4927078,0,0.0,1086,15,15,0,0
+crsp_daily,nonordinary_dividend,DOUBLE,continuous/count,USD per share,4927078,4927078,0,0.0,11,15,15,0,0
+crsp_daily,daily_price_factor,DOUBLE,continuous/count,dimensionless factor,4927078,4927078,0,0.0,270,15,15,0,0
+crsp_daily,distribution_flag,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,9,15,15,0,0
+crsp_daily,cum_price_factor,DOUBLE,continuous/count,dimensionless factor,4927078,4927078,0,0.0,340,15,15,0,0
+crsp_daily,cum_share_factor,DOUBLE,continuous/count,"dimensionless, native scale",4927078,4927078,0,0.0,163,15,15,0,0
+crsp_daily,delisting_day_flag,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,15,15,0,0
+crsp_daily,primary_exchange,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,15,15,0,0
+crsp_daily,security_type,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,15,15,0,0
+crsp_daily,security_subtype,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,15,15,0,0
+crsp_daily,share_type,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,15,15,0,0
+crsp_daily,us_incorporated,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,15,15,0,0
+crsp_daily,issuer_type,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,15,15,0,0
+crsp_daily,conditional_type,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,15,15,0,0
+crsp_daily,trading_status,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,15,15,0,0
+crsp_daily,market_cap_usd,DOUBLE,continuous/count,USD,4927078,4926961,117,0.0023746325915684,4091336,15,15,0,117
+crsp_daily,market_cap_rank,DOUBLE,continuous/count,count or native units (see field name),4927078,4926961,117,0.0023746325915684,1458,15,15,0,117
+crsp_daily,nyse_stock_count,BIGINT,continuous/count,count or native units (see field name),4927078,4927078,0,0.0,206,15,15,0,0
+crsp_daily,market_cap_percentile,DOUBLE,continuous/count,"fraction or ratio, native scale",4927078,4926961,117,0.0023746325915684,237881,15,15,0,117
+crsp_daily,top_100_mcap,BOOLEAN,boolean,boolean,4927078,4926961,117,0.0023746325915684,2,15,15,0,117
+crsp_daily,top_500_mcap,BOOLEAN,boolean,boolean,4927078,4926961,117,0.0023746325915684,2,15,15,0,117
+crsp_daily,top_1000_mcap,BOOLEAN,boolean,boolean,4927078,4926961,117,0.0023746325915684,2,15,15,0,117
+crsp_daily,missing_price,BOOLEAN,boolean,boolean,4927078,4927078,0,0.0,2,15,15,0,0
+crsp_daily,missing_volume,BOOLEAN,boolean,boolean,4927078,4927078,0,0.0,2,15,15,0,0
+crsp_daily,zero_volume,BOOLEAN,boolean,boolean,4927078,4927078,0,0.0,2,15,15,0,0
+crsp_daily,missing_market_cap,BOOLEAN,boolean,boolean,4927078,4927078,0,0.0,2,15,15,0,0
+crsp_daily,missing_any_ohlc,BOOLEAN,boolean,boolean,4927078,4927078,0,0.0,2,15,15,0,0
+crsp_daily,year,INTEGER,category_code,category_code,4927078,4927078,0,0.0,17,15,15,0,0
+auction_daily,date,TIMESTAMP_NS,date/time,date/time,3594398,3594398,0,0.0,2756,11,11,0,0
+auction_daily,permno,BIGINT,identifier,identifier,3594398,3594398,0,0.0,1980,11,11,0,0
+auction_daily,permco,BIGINT,identifier,identifier,3594398,3594398,0,0.0,2097,11,11,0,0
+auction_daily,ticker_daily,VARCHAR,identifier,identifier,3594398,1949060,1645338,45.77506441968864,2387,6,11,1645338,0
+auction_daily,tradingsymbol,VARCHAR,identifier,identifier,3594398,1949060,1645338,45.77506441968864,2387,6,11,1645338,0
+auction_daily,cusip_hist,VARCHAR,identifier,identifier,3594398,1949060,1645338,45.77506441968864,1885,6,11,1645338,0
+auction_daily,sym_root,VARCHAR,identifier,identifier,3594398,1949060,1645338,45.77506441968864,2387,6,11,1645338,0
+auction_daily,sym_suffix,VARCHAR,identifier,identifier,3594398,35704,3558694,99.0066765004877,4,6,11,1645338,1913356
+auction_daily,taq_symbol_full,VARCHAR,identifier,identifier,3594398,1949060,1645338,45.77506441968864,2441,6,11,1645338,0
+auction_daily,match_lvl,DOUBLE,category_code,category_code,3594398,1885515,1708883,47.54295434172843,2,6,11,1645338,63545
+auction_daily,exact_symbol_match,BOOLEAN,boolean,boolean,3594398,1949060,1645338,45.77506441968864,2,6,11,1645338,0
+auction_daily,cusip_match,BOOLEAN,boolean,boolean,3594398,1949060,1645338,45.77506441968864,2,6,11,1645338,0
+auction_daily,link_source,VARCHAR,category/text,category/text,3594398,1949060,1645338,45.77506441968864,2,6,11,1645338,0
+auction_daily,link_quality,VARCHAR,category/text,category/text,3594398,1949060,1645338,45.77506441968864,4,6,11,1645338,0
+auction_daily,bridge_year,BIGINT,category_code,category_code,3594398,1949060,1645338,45.77506441968864,6,6,11,1645338,0
+auction_daily,high_confidence_link,BOOLEAN,boolean,boolean,3594398,1949060,1645338,45.77506441968864,2,6,11,1645338,0
+auction_daily,bridge_symbol_collision,BOOLEAN,boolean,boolean,3594398,1949060,1645338,45.77506441968864,2,6,11,1645338,0
+auction_daily,time_m,VARCHAR,date/time,date/time,3594398,1919987,1674411,46.58390640101625,1918925,6,11,1645338,29073
+auction_daily,time_m_nano,VARCHAR,date/time,date/time,3594398,316212,3278186,91.20264366939888,121,2,11,2930864,347322
+auction_daily,auction_volume,BIGINT,continuous/count,shares,3594398,3499885,94513,2.6294528318789405,617964,11,11,0,94513
+auction_daily,auction_price,DOUBLE,continuous/count,USD per share,3594398,3499885,94513,2.6294528318789405,85215,11,11,0,94513
+auction_daily,tr_seqnum,BIGINT,identifier,identifier,3594398,1919987,1674411,46.58390640101625,1307242,6,11,1645338,29073
+auction_daily,tr_id,VARCHAR,identifier,identifier,3594398,316212,3278186,91.20264366939888,81496,2,11,2930864,347322
+auction_daily,auction_volume_raw,BIGINT,continuous/count,shares,3594398,1920043,1674355,46.58234842107079,441083,6,11,1645338,29017
+auction_daily,auction_price_raw,DOUBLE,continuous/count,USD per share,3594398,1920043,1674355,46.58234842107079,63316,6,11,1645338,29017
+auction_daily,close,DOUBLE,continuous/count,USD per share,3594398,3568126,26272,0.730915162984177,101151,11,11,0,26272
+auction_daily,daily_volume,DOUBLE,continuous/count,shares,3594398,3594373,25,0.0006955267613658,2146286,11,11,0,25
+auction_daily,target_found,BOOLEAN,boolean,boolean,3594398,3594398,0,0.0,2,11,11,0,0
+auction_daily,price_diff_abs,DOUBLE,continuous/count,USD per share,3594398,1919401,1674997,46.600209548302665,1470,6,11,1645338,29659
+auction_daily,price_diff_bps,DOUBLE,continuous/count,basis points,3594398,1919401,1674997,46.600209548302665,6375,6,11,1645338,29659
+auction_daily,auction_share_daily_volume,DOUBLE,continuous/count,"fraction or ratio, native scale",3594398,3499299,95099,2.6457559791653567,3161291,11,11,0,95099
+auction_daily,crsp_zero_volume,BOOLEAN,boolean,boolean,3594398,3272767,321631,8.948118711394788,2,10,11,321631,0
+auction_daily,auction_with_zero_crsp_volume,BOOLEAN,boolean,boolean,3594398,3272767,321631,8.948118711394788,2,10,11,321631,0
+auction_daily,auction_time,VARCHAR,date/time,date/time,3594398,1580382,2014016,56.03208103276265,945932,6,11,1632510,381506
+auction_daily,auction_tr_seqnum,BIGINT,identifier,identifier,3594398,1580382,2014016,56.03208103276265,1131336,6,11,1632510,381506
+auction_daily,ticker,VARCHAR,identifier,identifier,3594398,1645338,1949060,54.22493558031136,1930,5,11,1949060,0
+auction_daily,cusip,VARCHAR,identifier,identifier,3594398,1645338,1949060,54.22493558031136,1641,5,11,1949060,0
+auction_daily,price,DOUBLE,continuous/count,USD per share,3594398,1645316,1949082,54.22554764386136,70252,5,11,1949060,22
+auction_daily,price_flag,VARCHAR,category/text,category/text,3594398,1645338,1949060,54.22493558031136,3,5,11,1949060,0
+auction_daily,open,DOUBLE,continuous/count,USD per share,3594398,1629430,1964968,54.6675131691037,89799,5,11,1949060,15908
+auction_daily,high,DOUBLE,continuous/count,USD per share,3594398,1629430,1964968,54.6675131691037,231964,5,11,1949060,15908
+auction_daily,low,DOUBLE,continuous/count,USD per share,3594398,1629430,1964968,54.6675131691037,216216,5,11,1949060,15908
+auction_daily,bid,DOUBLE,continuous/count,USD per share,3594398,1645313,1949085,54.22563110707273,67982,5,11,1949060,25
+auction_daily,ask,DOUBLE,continuous/count,USD per share,3594398,1645313,1949085,54.22563110707273,76287,5,11,1949060,25
+auction_daily,daily_price_volume,DOUBLE,continuous/count,USD,3594398,1645316,1949082,54.22554764386136,1642499,5,11,1949060,22
+auction_daily,return_total,DOUBLE,continuous/count,decimal return (dispersion is standard deviation),3594398,1644968,1949430,54.23522937637958,210302,5,11,1949060,370
+auction_daily,return_price,DOUBLE,continuous/count,decimal return (dispersion is standard deviation),3594398,1644968,1949430,54.23522937637958,210302,5,11,1949060,370
+auction_daily,market_cap_crsp_thousands,DOUBLE,continuous/count,USD thousands,3594398,1645316,1949082,54.22554764386136,1442013,5,11,1949060,22
+auction_daily,shares_outstanding_thousands,BIGINT,continuous/count,shares thousands,3594398,1645338,1949060,54.22493558031136,30408,5,11,1949060,0
+auction_daily,ordinary_dividend,DOUBLE,continuous/count,USD per share,3594398,1645338,1949060,54.22493558031136,687,5,11,1949060,0
+auction_daily,nonordinary_dividend,DOUBLE,continuous/count,USD per share,3594398,1645338,1949060,54.22493558031136,4,5,11,1949060,0
+auction_daily,daily_price_factor,DOUBLE,continuous/count,dimensionless factor,3594398,1645338,1949060,54.22493558031136,97,5,11,1949060,0
+auction_daily,distribution_flag,VARCHAR,category/text,category/text,3594398,1645338,1949060,54.22493558031136,9,5,11,1949060,0
+auction_daily,cum_price_factor,DOUBLE,continuous/count,dimensionless factor,3594398,1645338,1949060,54.22493558031136,115,5,11,1949060,0
+auction_daily,cum_share_factor,DOUBLE,continuous/count,"dimensionless, native scale",3594398,1645338,1949060,54.22493558031136,55,5,11,1949060,0
+auction_daily,delisting_day_flag,VARCHAR,category/text,category/text,3594398,1645338,1949060,54.22493558031136,1,5,11,1949060,0
+auction_daily,primary_exchange,VARCHAR,category/text,category/text,3594398,1645338,1949060,54.22493558031136,1,5,11,1949060,0
+auction_daily,security_type,VARCHAR,category/text,category/text,3594398,1645338,1949060,54.22493558031136,1,5,11,1949060,0
+auction_daily,security_subtype,VARCHAR,category/text,category/text,3594398,1645338,1949060,54.22493558031136,1,5,11,1949060,0
+auction_daily,share_type,VARCHAR,category/text,category/text,3594398,1645338,1949060,54.22493558031136,1,5,11,1949060,0
+auction_daily,us_incorporated,VARCHAR,category/text,category/text,3594398,1645338,1949060,54.22493558031136,1,5,11,1949060,0
+auction_daily,issuer_type,VARCHAR,category/text,category/text,3594398,1645338,1949060,54.22493558031136,1,5,11,1949060,0
+auction_daily,conditional_type,VARCHAR,category/text,category/text,3594398,1645338,1949060,54.22493558031136,1,5,11,1949060,0
+auction_daily,trading_status,VARCHAR,category/text,category/text,3594398,1645338,1949060,54.22493558031136,1,5,11,1949060,0
+auction_daily,market_cap_usd,DOUBLE,continuous/count,USD,3594398,1645316,1949082,54.22554764386136,1502504,5,11,1949060,22
+auction_daily,market_cap_rank,DOUBLE,continuous/count,count or native units (see field name),3594398,1645316,1949082,54.22554764386136,1458,5,11,1949060,22
+auction_daily,nyse_stock_count,BIGINT,continuous/count,count or native units (see field name),3594398,1645338,1949060,54.22493558031136,186,5,11,1949060,0
+auction_daily,market_cap_percentile,DOUBLE,continuous/count,"fraction or ratio, native scale",3594398,1645316,1949082,54.22554764386136,230244,5,11,1949060,22
+auction_daily,top_100_mcap,BOOLEAN,boolean,boolean,3594398,1645316,1949082,54.22554764386136,2,5,11,1949060,22
+auction_daily,top_500_mcap,BOOLEAN,boolean,boolean,3594398,1645316,1949082,54.22554764386136,2,5,11,1949060,22
+auction_daily,top_1000_mcap,BOOLEAN,boolean,boolean,3594398,1645316,1949082,54.22554764386136,2,5,11,1949060,22
+auction_daily,missing_price,BOOLEAN,boolean,boolean,3594398,1645338,1949060,54.22493558031136,2,5,11,1949060,0
+auction_daily,missing_volume,BOOLEAN,boolean,boolean,3594398,1645338,1949060,54.22493558031136,2,5,11,1949060,0
+auction_daily,zero_volume,BOOLEAN,boolean,boolean,3594398,1645338,1949060,54.22493558031136,2,5,11,1949060,0
+auction_daily,missing_market_cap,BOOLEAN,boolean,boolean,3594398,1645338,1949060,54.22493558031136,2,5,11,1949060,0
+auction_daily,missing_any_ohlc,BOOLEAN,boolean,boolean,3594398,1645338,1949060,54.22493558031136,2,5,11,1949060,0
+auction_daily,year,INTEGER,category_code,category_code,3594398,1645338,1949060,54.22493558031136,5,5,11,1949060,0
+auction_daily,auction_gt_positive_crsp_volume,BOOLEAN,boolean,boolean,3594398,1645338,1949060,54.22493558031136,1,5,11,1949060,0
+auction_daily,auction_close_abs_diff,DOUBLE,continuous/count,count or native units (see field name),3594398,1579898,2014500,56.04554643086269,20,5,11,1949060,65440
+auction_daily,auction_close_diff_bps,DOUBLE,continuous/count,basis points,3594398,1579898,2014500,56.04554643086269,236,5,11,1949060,65440
+trade_checkpoints,date,TIMESTAMP_NS,date/time,date/time,17971990,17971990,0,0.0,2756,11,11,0,0
+trade_checkpoints,permno,BIGINT,identifier,identifier,17971990,17971990,0,0.0,1980,11,11,0,0
+trade_checkpoints,sym_root,VARCHAR,identifier,identifier,17971990,17971990,0,0.0,2510,11,11,0,0
+trade_checkpoints,sym_suffix,VARCHAR,identifier,identifier,17971990,316070,17655920,98.24131885228068,5,11,11,0,17655920
+trade_checkpoints,bridge_collision,BOOLEAN,boolean,boolean,17971990,17971990,0,0.0,2,11,11,0,0
+trade_checkpoints,cum_volume,BIGINT,continuous/count,shares,17971990,17823714,148276,0.825039408546299,3934020,11,11,0,148276
+trade_checkpoints,cum_dollar_volume,DOUBLE,continuous/count,USD,17971990,17823714,148276,0.825039408546299,16037083,11,11,0,148276
+trade_checkpoints,cum_trade_count,BIGINT,continuous/count,count or native units (see field name),17971990,17823714,148276,0.825039408546299,170154,11,11,0,148276
+trade_checkpoints,recent_30m_volume,BIGINT,continuous/count,shares,17971990,17823714,148276,0.825039408546299,917431,11,11,0,148276
+trade_checkpoints,checkpoint,VARCHAR,category/text,category/text,17971990,17971990,0,0.0,5,11,11,0,0
+trade_checkpoints,checkpoint_data_found,BOOLEAN,boolean,boolean,17971990,17971990,0,0.0,2,11,11,0,0
+trade_checkpoints,vwap,DOUBLE,continuous/count,USD per share,17971990,17782930,189060,1.0519703160306677,16701693,11,11,0,189060
+trade_checkpoints,recent_30m_volume_share,DOUBLE,continuous/count,"fraction or ratio, native scale",17971990,17782930,189060,1.0519703160306677,18523284,11,11,0,189060
+trade_checkpoints,checkpoint_after_market_close,BOOLEAN,boolean,boolean,17971990,17971990,0,0.0,2,11,11,0,0
+market_daily,date,TIMESTAMP_NS,date/time,date/time,3772,3772,0,0.0,3469,1,1,0,0
+market_daily,market_stock_count,BIGINT,continuous/count,count or native units (see field name),3772,3772,0,0.0,206,1,1,0,0
+market_daily,market_return_count,BIGINT,continuous/count,count,3772,3772,0,0.0,206,1,1,0,0
+market_daily,market_return_ew,DOUBLE,continuous/count,decimal return (dispersion is standard deviation),3772,3772,0,0.0,3871,1,1,0,0
+market_daily,market_return_vw,DOUBLE,continuous/count,decimal return (dispersion is standard deviation),3772,3772,0,0.0,3493,1,1,0,0
+market_daily,market_price_return_vw,DOUBLE,continuous/count,decimal return (dispersion is standard deviation),3772,3772,0,0.0,3783,1,1,0,0
+market_daily,market_median_return,DOUBLE,continuous/count,decimal return (dispersion is standard deviation),3772,3772,0,0.0,3443,1,1,0,0
+market_daily,market_return_dispersion,DOUBLE,continuous/count,decimal return (dispersion is standard deviation),3772,3772,0,0.0,4068,1,1,0,0
+market_daily,market_median_abs_return,DOUBLE,continuous/count,decimal return (dispersion is standard deviation),3772,3772,0,0.0,3863,1,1,0,0
+market_daily,market_total_volume,DOUBLE,continuous/count,shares,3772,3772,0,0.0,3954,1,1,0,0
+market_daily,market_total_dollar_volume,DOUBLE,continuous/count,USD,3772,3772,0,0.0,4188,1,1,0,0
+market_daily,market_total_cap_usd,DOUBLE,continuous/count,USD,3772,3772,0,0.0,4554,1,1,0,0
+market_daily,market_advancers,BIGINT,continuous/count,count or native units (see field name),3772,3772,0,0.0,1155,1,1,0,0
+market_daily,market_decliners,BIGINT,continuous/count,count or native units (see field name),3772,3772,0,0.0,1079,1,1,0,0
+market_daily,market_unchanged,BIGINT,continuous/count,count or native units (see field name),3772,3772,0,0.0,56,1,1,0,0
+market_daily,market_advance_fraction,DOUBLE,continuous/count,"fraction or ratio, native scale",3772,3772,0,0.0,4500,1,1,0,0
+market_daily,market_decline_fraction,DOUBLE,continuous/count,"fraction or ratio, native scale",3772,3772,0,0.0,4330,1,1,0,0
+market_daily,market_breadth,DOUBLE,continuous/count,"fraction or ratio, native scale",3772,3772,0,0.0,3399,1,1,0,0
+market_daily,market_zero_volume_count,BIGINT,continuous/count,shares,3772,3772,0,0.0,43,1,1,0,0
+market_daily,market_median_hl_range,DOUBLE,continuous/count,"dimensionless, native scale",3772,3772,0,0.0,4461,1,1,0,0
+sector_daily,date,TIMESTAMP_NS,date/time,date/time,45264,45264,0,0.0,3469,1,1,0,0
+sector_daily,ff12_code,BIGINT,category_code,category_code,45264,45264,0,0.0,13,1,1,0,0
+sector_daily,ff12_name,VARCHAR,category/text,category/text,45264,45264,0,0.0,12,1,1,0,0
+sector_daily,sector_stock_count,BIGINT,continuous/count,count or native units (see field name),45264,45264,0,0.0,330,1,1,0,0
+sector_daily,sector_return_count,BIGINT,continuous/count,count,45264,45264,0,0.0,336,1,1,0,0
+sector_daily,sector_return_ew,DOUBLE,continuous/count,decimal return (dispersion is standard deviation),45264,45264,0,0.0,51512,1,1,0,0
+sector_daily,sector_return_vw,DOUBLE,continuous/count,decimal return (dispersion is standard deviation),45264,45264,0,0.0,57647,1,1,0,0
+sector_daily,sector_price_return_vw,DOUBLE,continuous/count,decimal return (dispersion is standard deviation),45264,45264,0,0.0,60582,1,1,0,0
+sector_daily,sector_median_return,DOUBLE,continuous/count,decimal return (dispersion is standard deviation),45264,45264,0,0.0,34139,1,1,0,0
+sector_daily,sector_return_dispersion,DOUBLE,continuous/count,decimal return (dispersion is standard deviation),45264,45264,0,0.0,57441,1,1,0,0
+sector_daily,sector_total_volume,DOUBLE,continuous/count,shares,45264,45264,0,0.0,55996,1,1,0,0
+sector_daily,sector_total_dollar_volume,DOUBLE,continuous/count,USD,45264,45264,0,0.0,43121,1,1,0,0
+sector_daily,sector_total_cap_usd,DOUBLE,continuous/count,USD,45264,45264,0,0.0,31556,1,1,0,0
+sector_daily,sector_advancers,BIGINT,continuous/count,count or native units (see field name),45264,45264,0,0.0,331,1,1,0,0
+sector_daily,sector_decliners,BIGINT,continuous/count,count or native units (see field name),45264,45264,0,0.0,299,1,1,0,0
+sector_daily,sector_breadth,DOUBLE,continuous/count,"fraction or ratio, native scale",45264,45264,0,0.0,13059,1,1,0,0
+event_calendar,date,TIMESTAMP_NS,date/time,date/time,3772,3772,0,0.0,3469,1,1,0,0
+event_calendar,year,INTEGER,category_code,category_code,3772,3772,0,0.0,17,1,1,0,0
+event_calendar,month,INTEGER,category_code,category_code,3772,3772,0,0.0,13,1,1,0,0
+event_calendar,quarter,INTEGER,category_code,category_code,3772,3772,0,0.0,4,1,1,0,0
+event_calendar,day,INTEGER,category_code,category_code,3772,3772,0,0.0,29,1,1,0,0
+event_calendar,day_of_week,INTEGER,category_code,category_code,3772,3772,0,0.0,5,1,1,0,0
+event_calendar,is_monday,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,is_friday,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,trading_day_of_month,BIGINT,continuous/count,count or native units (see field name),3772,3772,0,0.0,23,1,1,0,0
+event_calendar,trading_days_in_month,BIGINT,continuous/count,count or native units (see field name),3772,3772,0,0.0,4,1,1,0,0
+event_calendar,trading_days_to_month_end,BIGINT,continuous/count,count or native units (see field name),3772,3772,0,0.0,24,1,1,0,0
+event_calendar,is_first_trading_day_month,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,is_last_trading_day_month,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,trading_day_of_quarter,BIGINT,continuous/count,count or native units (see field name),3772,3772,0,0.0,61,1,1,0,0
+event_calendar,trading_days_in_quarter,BIGINT,continuous/count,count or native units (see field name),3772,3772,0,0.0,4,1,1,0,0
+event_calendar,trading_days_to_quarter_end,BIGINT,continuous/count,count or native units (see field name),3772,3772,0,0.0,59,1,1,0,0
+event_calendar,is_last_trading_day_quarter,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,trading_day_of_year,BIGINT,continuous/count,count or native units (see field name),3772,3772,0,0.0,265,1,1,0,0
+event_calendar,trading_days_in_year,BIGINT,continuous/count,count or native units (see field name),3772,3772,0,0.0,3,1,1,0,0
+event_calendar,trading_days_to_year_end,BIGINT,continuous/count,count or native units (see field name),3772,3772,0,0.0,266,1,1,0,0
+event_calendar,is_last_trading_day_year,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,is_last_3_trading_days_month,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,is_last_5_trading_days_month,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,is_last_3_trading_days_quarter,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,is_last_5_trading_days_quarter,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,monthly_options_expiry,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,quarterly_options_expiry,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,calendar_days_since_prev_trade,DOUBLE,continuous/count,count or native units (see field name),3772,3771,1,0.0265111346765641,5,1,1,0,1
+event_calendar,calendar_days_to_next_trade,DOUBLE,continuous/count,count or native units (see field name),3772,3771,1,0.0265111346765641,5,1,1,0,1
+event_calendar,after_long_market_gap,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,before_long_market_gap,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,market_open_time,VARCHAR,category/text,category/text,3772,3772,0,0.0,1,1,1,0,0
+event_calendar,market_close_time,VARCHAR,category/text,category/text,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,session_minutes,DOUBLE,continuous/count,minutes,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,is_early_close,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,gap_after_today_ge_2,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,gap_after_today_ge_3,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,gap_after_today_ge_4,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,gap_before_today_ge_2,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,gap_before_today_ge_3,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,gap_before_today_ge_4,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,early_close_month_end_window,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,expiry_month_end_window,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+event_calendar,session_close_ny,TIMESTAMP WITH TIME ZONE,date/time,date/time,3772,2766,1006,26.670201484623544,2873,1,1,0,1006
+event_calendar,session_close_minutes,DOUBLE,continuous/count,minutes,3772,2766,1006,26.670201484623544,2,1,1,0,1006
+event_calendar,early_close,BOOLEAN,boolean,boolean,3772,2766,1006,26.670201484623544,2,1,1,0,1006
+industry_history,permno,BIGINT,identifier,identifier,70963,70963,0,0.0,21934,1,1,0,0
+industry_history,secinfostartdt,TIMESTAMP_NS,date/time,date/time,70963,70963,0,0.0,5205,1,1,0,0
+industry_history,secinfoenddt,TIMESTAMP_NS,date/time,date/time,70963,70963,0,0.0,4491,1,1,0,0
+industry_history,siccd,BIGINT,category_code,category_code,70963,70963,0,0.0,772,1,1,0,0
+industry_history,naics,VARCHAR,category/text,category/text,70963,70963,0,0.0,1039,1,1,0,0
+industry_history,icbindustry,VARCHAR,category/text,category/text,70963,70963,0,0.0,12,1,1,0,0
+industry_history,uesindustry,VARCHAR,category/text,category/text,70963,70963,0,0.0,13,1,1,0,0
+industry_history,ff12_code,BIGINT,category_code,category_code,70963,70963,0,0.0,13,1,1,0,0
+industry_history,ff12_name,VARCHAR,category/text,category/text,70963,70963,0,0.0,12,1,1,0,0
+source_anomalies,date,TIMESTAMP_NS,date/time,date/time,1,1,0,0.0,1,1,1,0,0
+source_anomalies,auction_source_anomaly,BOOLEAN,boolean,boolean,1,1,0,0.0,1,1,1,0,0
+source_anomalies,exclude_from_model,BOOLEAN,boolean,boolean,1,1,0,0.0,1,1,1,0,0
+source_anomalies,reason,VARCHAR,category/text,category/text,1,1,0,0.0,1,1,1,0,0
+security_master,date,TIMESTAMP_NS,date/time,date/time,4927078,4927078,0,0.0,3469,1,1,0,0
+security_master,permno,BIGINT,identifier,identifier,4927078,4927078,0,0.0,2712,1,1,0,0
+security_master,permco,BIGINT,identifier,identifier,4927078,4927078,0,0.0,2713,1,1,0,0
+security_master,ticker,VARCHAR,identifier,identifier,4927078,4927078,0,0.0,2619,1,1,0,0
+security_master,cusip,VARCHAR,identifier,identifier,4927078,4927078,0,0.0,2386,1,1,0,0
+security_master,primary_exchange,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,1,1,0,0
+security_master,security_type,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,1,1,0,0
+security_master,security_subtype,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,1,1,0,0
+security_master,share_type,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,1,1,0,0
+security_master,us_incorporated,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,1,1,0,0
+security_master,issuer_type,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,1,1,0,0
+security_master,conditional_type,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,1,1,0,0
+security_master,trading_status,VARCHAR,category/text,category/text,4927078,4927078,0,0.0,1,1,1,0,0
+security_master,market_cap_usd,DOUBLE,continuous/count,USD,4927078,4926961,117,0.0023746325915684,4091336,1,1,0,117
+security_master,market_cap_rank,DOUBLE,continuous/count,count or native units (see field name),4927078,4926961,117,0.0023746325915684,1458,1,1,0,117
+trading_calendar,date,TIMESTAMP_NS,date/time,date/time,3772,3772,0,0.0,3469,1,1,0,0
+trading_calendar,year,INTEGER,category_code,category_code,3772,3772,0,0.0,17,1,1,0,0
+trading_calendar,month,INTEGER,category_code,category_code,3772,3772,0,0.0,13,1,1,0,0
+trading_calendar,day_of_week,INTEGER,category_code,category_code,3772,3772,0,0.0,5,1,1,0,0
+trading_calendar,month_end,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+trading_calendar,quarter_end,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+trading_calendar,year_end,BOOLEAN,boolean,boolean,3772,3772,0,0.0,2,1,1,0,0
+taq_crsp_bridge,date,TIMESTAMP_NS,date/time,date/time,4926979,4926979,0,0.0,3469,15,15,0,0
+taq_crsp_bridge,permno,BIGINT,identifier,identifier,4926979,4926979,0,0.0,2712,15,15,0,0
+taq_crsp_bridge,permco,BIGINT,identifier,identifier,4926979,4926979,0,0.0,2713,15,15,0,0
+taq_crsp_bridge,ticker_daily,VARCHAR,identifier,identifier,4926979,4926979,0,0.0,2619,15,15,0,0
+taq_crsp_bridge,tradingsymbol,VARCHAR,identifier,identifier,4926979,4926979,0,0.0,2619,15,15,0,0
+taq_crsp_bridge,cusip_hist,VARCHAR,identifier,identifier,4926979,4926979,0,0.0,2386,15,15,0,0
+taq_crsp_bridge,sym_root,VARCHAR,identifier,identifier,4926979,4926979,0,0.0,2619,15,15,0,0
+taq_crsp_bridge,sym_suffix,VARCHAR,identifier,identifier,4926979,85782,4841197,98.25893311093876,5,15,15,0,4841197
+taq_crsp_bridge,taq_symbol_full,VARCHAR,identifier,identifier,4926979,4926979,0,0.0,2684,15,15,0,0
+taq_crsp_bridge,match_lvl,DOUBLE,category_code,category_code,4926979,4454681,472298,9.585955207034576,2,15,15,0,472298
+taq_crsp_bridge,exact_symbol_match,BOOLEAN,boolean,boolean,4926979,4926979,0,0.0,2,15,15,0,0
+taq_crsp_bridge,cusip_match,BOOLEAN,boolean,boolean,4926979,4926979,0,0.0,2,15,15,0,0
+taq_crsp_bridge,link_source,VARCHAR,category/text,category/text,4926979,4926979,0,0.0,3,15,15,0,0
+taq_crsp_bridge,link_quality,VARCHAR,category/text,category/text,4926979,4926979,0,0.0,5,15,15,0,0
+taq_crsp_bridge,bridge_year,BIGINT,category_code,category_code,4926979,4926979,0,0.0,17,15,15,0,0
+taq_crsp_bridge,high_confidence_link,BOOLEAN,boolean,boolean,4926979,4926979,0,0.0,2,15,15,0,0

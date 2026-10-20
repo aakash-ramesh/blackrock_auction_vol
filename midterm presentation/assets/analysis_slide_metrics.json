@@ -1,0 +1,18 @@
+{
+  "selection_years": [
+    2022,
+    2023,
+    2024
+  ],
+  "confirmation_year": 2025,
+  "development_mean_annual_log_rmse_baseline": 0.6211356932719426,
+  "development_mean_annual_log_rmse_selected": 0.48764270318300995,
+  "development_mean_annual_wape_baseline": 0.4346778121817554,
+  "development_mean_annual_wape_selected": 0.36800685897967506,
+  "direct_log_level_99_feature_rmse": 0.4960917136385265,
+  "residual_99_feature_rmse": 0.487102675198619,
+  "best_99_feature_residual_rmse": 0.4867653693271052,
+  "selected_58_feature_residual_rmse": 0.48764270318301,
+  "auction_calendar_42_feature_residual_rmse": 0.4905876420841006,
+  "practical_tolerance": 0.002
+}

@@ -1,0 +1,46 @@
+{
+  "source_notebook": "notebooks/05_feature_engineering_enriched_daily_panel.ipynb",
+  "sql_sha256": "df4f09ba8262f7d42735c9d6955916bc4142d817d6dfb5d9587547b8c810d8e7",
+  "rows": 3499401,
+  "sum_auction_shares": "666444010390",
+  "cache_git_ignored": true,
+  "raw_numeric_fields": [
+    "close",
+    "open",
+    "high",
+    "low",
+    "bid",
+    "ask",
+    "daily_volume",
+    "daily_price_volume",
+    "return_total",
+    "market_cap_usd",
+    "shares_outstanding_thousands",
+    "ordinary_dividend",
+    "nonordinary_dividend",
+    "daily_price_factor"
+  ],
+  "raw_categorical_fields": [
+    "distribution_flag",
+    "security_type",
+    "security_subtype",
+    "share_type",
+    "us_incorporated",
+    "issuer_type"
+  ],
+  "raw_market_fields": [
+    "market_return_vw",
+    "market_total_volume",
+    "market_total_dollar_volume",
+    "market_return_dispersion",
+    "market_breadth",
+    "market_median_hl_range"
+  ],
+  "raw_sector_fields": [
+    "sector_return_vw",
+    "sector_total_volume",
+    "sector_total_dollar_volume",
+    "sector_return_dispersion",
+    "sector_breadth"
+  ]
+}

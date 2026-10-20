@@ -1,0 +1,12 @@
+key_groups,duplicate_excess_rows,duplicate_groups,dataset,key
+4927078.0,0.0,0.0,crsp_daily,date × permno
+3594398.0,0.0,0.0,auction_daily,date × permno
+17971990.0,0.0,0.0,trade_checkpoints,date × permno × checkpoint
+3772.0,0.0,0.0,market_daily,date
+45264.0,0.0,0.0,sector_daily,date × ff12_code
+3772.0,0.0,0.0,event_calendar,date
+70963.0,0.0,0.0,industry_history,permno × secinfostartdt × secinfoenddt
+1.0,0.0,0.0,source_anomalies,date
+4927078.0,0.0,0.0,security_master,date × permno
+3772.0,0.0,0.0,trading_calendar,date
+4926979.0,0.0,0.0,taq_crsp_bridge,date × permno

@@ -1,0 +1,12 @@
+rows,dates,first_date,last_date,securities,dataset,role,files,columns,source_pattern,bytes
+4927078,3772.0,2011-01-03,2025-12-31,2414.0,crsp_daily,daily model source,15,47,blackrock_data/stock_daily/crsp_daily/year=*/*.parquet,280585372
+3594398,2766.0,2015-01-02,2025-12-31,2149.0,auction_daily,target and historical predictors,11,80,blackrock_data/stock_daily/auction_daily/year=*/*.parquet,246279454
+17971990,2766.0,2015-01-02,2025-12-31,2149.0,trade_checkpoints,"audited data, not a daily-model input",11,14,blackrock_data/stock_intraday/trade_checkpoints/year=*/*.parquet,688874971
+3772,3772.0,2011-01-03,2025-12-31,,market_daily,daily model source,1,20,blackrock_data/market/market_daily.parquet,495119
+45264,3772.0,2011-01-03,2025-12-31,,sector_daily,daily model source,1,16,blackrock_data/sector/sector_daily.parquet,3423212
+3772,3772.0,2011-01-03,2025-12-31,,event_calendar,daily model source,1,46,blackrock_data/events/event_calendar.parquet,102820
+70963,,1969-12-19,2025-12-31,18497.0,industry_history,daily model classification source,1,9,blackrock_data/reference/industry_history.parquet,555816
+1,1.0,2019-08-12,2019-08-12,,source_anomalies,eligibility control,1,4,blackrock_data/quality/auction_source_anomalies.parquet,3862
+4927078,3772.0,2011-01-03,2025-12-31,2414.0,security_master,"upstream reference, not directly loaded by stages 01–13",1,15,blackrock_data/reference/security_master.parquet,48116206
+3772,3772.0,2011-01-03,2025-12-31,,trading_calendar,"upstream reference, not directly loaded by stages 01–13",1,7,blackrock_data/reference/calendar.parquet,35913
+4926979,3772.0,2011-01-03,2025-12-31,2414.0,taq_crsp_bridge,"upstream reference, already embedded in TAQ extracts",15,16,blackrock_data/reference/taq_crsp_bridge/year=*/*.parquet,24363272

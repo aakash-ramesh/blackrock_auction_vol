@@ -1,0 +1,10 @@
+{
+  "generated_utc": "2026-10-19T15:13:31.309386+00:00",
+  "scope": "repository notebooks 01\u201313; options data excluded; expiry calendar flags retained",
+  "duckdb": "1.5.6",
+  "pandas": "2.2.3",
+  "python": "3.12.14",
+  "quantiles": "numeric_summary uses full-population approx_quantile; selected annual and checkpoint tables use exact medians/quantiles",
+  "source_files": 59,
+  "mutations": "only this descriptive_stats directory; source tables never modified"
+}

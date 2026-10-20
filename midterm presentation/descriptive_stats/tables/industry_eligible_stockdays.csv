@@ -1,0 +1,13 @@
+ff12_code,ff12_name,eligible_stock_days,securities
+1,Consumer NonDurables,180761,127
+2,Consumer Durables,108910,74
+3,Manufacturing,435569,256
+4,Energy,227453,163
+5,Chemicals,152677,89
+6,Business Equipment,374370,303
+7,Telecom,71853,60
+8,Utilities,175820,97
+9,Shops,397627,281
+10,Healthcare,173545,112
+11,Finance,635121,555
+12,Other,565695,444

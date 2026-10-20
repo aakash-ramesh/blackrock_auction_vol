@@ -1,0 +1,212 @@
+[
+  {
+    "file": "blackrock_data/stock_daily/crsp_daily/year=2020/crsp_daily_2020.parquet",
+    "bytes": 18845960,
+    "mtime_ns": 1791382292000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/crsp_daily/year=2018/crsp_daily_2018.parquet",
+    "bytes": 18072453,
+    "mtime_ns": 1791382232000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/crsp_daily/year=2011/crsp_daily_2011.parquet",
+    "bytes": 17239960,
+    "mtime_ns": 1791381978000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/crsp_daily/year=2016/crsp_daily_2016.parquet",
+    "bytes": 18816821,
+    "mtime_ns": 1791382170000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/crsp_daily/year=2017/crsp_daily_2017.parquet",
+    "bytes": 17928211,
+    "mtime_ns": 1791382200000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/crsp_daily/year=2019/crsp_daily_2019.parquet",
+    "bytes": 18249147,
+    "mtime_ns": 1791382262000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/crsp_daily/year=2021/crsp_daily_2021.parquet",
+    "bytes": 20368758,
+    "mtime_ns": 1791382324000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/crsp_daily/year=2024/crsp_daily_2024.parquet",
+    "bytes": 19303536,
+    "mtime_ns": 1791382416000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/crsp_daily/year=2023/crsp_daily_2023.parquet",
+    "bytes": 19817524,
+    "mtime_ns": 1791382386000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/crsp_daily/year=2015/crsp_daily_2015.parquet",
+    "bytes": 19268918,
+    "mtime_ns": 1791382138000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/crsp_daily/year=2012/crsp_daily_2012.parquet",
+    "bytes": 16876799,
+    "mtime_ns": 1791382024000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/crsp_daily/year=2013/crsp_daily_2013.parquet",
+    "bytes": 17112652,
+    "mtime_ns": 1791382072000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/crsp_daily/year=2014/crsp_daily_2014.parquet",
+    "bytes": 18871708,
+    "mtime_ns": 1791382104000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/crsp_daily/year=2022/crsp_daily_2022.parquet",
+    "bytes": 20819235,
+    "mtime_ns": 1791382356000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/crsp_daily/year=2025/crsp_daily_2025.parquet",
+    "bytes": 18993690,
+    "mtime_ns": 1791382446000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/auction_daily/year=2020/auction_daily_2020.parquet",
+    "bytes": 30673917,
+    "mtime_ns": 1791488444000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/auction_daily/year=2018/auction_daily_2018.parquet",
+    "bytes": 13580560,
+    "mtime_ns": 1791407580000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/auction_daily/year=2016/auction_daily_2016.parquet",
+    "bytes": 13444059,
+    "mtime_ns": 1791404262000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/auction_daily/year=2017/auction_daily_2017.parquet",
+    "bytes": 13326327,
+    "mtime_ns": 1791405768000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/auction_daily/year=2019/auction_daily_2019.parquet",
+    "bytes": 17679157,
+    "mtime_ns": 1791484494000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/auction_daily/year=2021/auction_daily_2021.parquet",
+    "bytes": 32789761,
+    "mtime_ns": 1791492270000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/auction_daily/year=2024/auction_daily_2024.parquet",
+    "bytes": 14735680,
+    "mtime_ns": 1791401236000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/auction_daily/year=2023/auction_daily_2023.parquet",
+    "bytes": 32116012,
+    "mtime_ns": 1791500446000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/auction_daily/year=2015/auction_daily_2015.parquet",
+    "bytes": 13619280,
+    "mtime_ns": 1791402458000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/auction_daily/year=2022/auction_daily_2022.parquet",
+    "bytes": 33542499,
+    "mtime_ns": 1791496532000000000
+  },
+  {
+    "file": "blackrock_data/stock_daily/auction_daily/year=2025/auction_daily_2025.parquet",
+    "bytes": 30772202,
+    "mtime_ns": 1791506460000000000
+  },
+  {
+    "file": "blackrock_data/stock_intraday/trade_checkpoints/year=2020/trade_checkpoints_2020.parquet",
+    "bytes": 60235519,
+    "mtime_ns": 1791629942000000000
+  },
+  {
+    "file": "blackrock_data/stock_intraday/trade_checkpoints/year=2018/trade_checkpoints_2018.parquet",
+    "bytes": 60835269,
+    "mtime_ns": 1791629922000000000
+  },
+  {
+    "file": "blackrock_data/stock_intraday/trade_checkpoints/year=2016/trade_checkpoints_2016.parquet",
+    "bytes": 63540636,
+    "mtime_ns": 1791629904000000000
+  },
+  {
+    "file": "blackrock_data/stock_intraday/trade_checkpoints/year=2017/trade_checkpoints_2017.parquet",
+    "bytes": 61532532,
+    "mtime_ns": 1791629918000000000
+  },
+  {
+    "file": "blackrock_data/stock_intraday/trade_checkpoints/year=2019/trade_checkpoints_2019.parquet",
+    "bytes": 60331212,
+    "mtime_ns": 1791629934000000000
+  },
+  {
+    "file": "blackrock_data/stock_intraday/trade_checkpoints/year=2021/trade_checkpoints_2021.parquet",
+    "bytes": 64415843,
+    "mtime_ns": 1791629948000000000
+  },
+  {
+    "file": "blackrock_data/stock_intraday/trade_checkpoints/year=2024/trade_checkpoints_2024.parquet",
+    "bytes": 61799741,
+    "mtime_ns": 1791629980000000000
+  },
+  {
+    "file": "blackrock_data/stock_intraday/trade_checkpoints/year=2023/trade_checkpoints_2023.parquet",
+    "bytes": 63251206,
+    "mtime_ns": 1791629964000000000
+  },
+  {
+    "file": "blackrock_data/stock_intraday/trade_checkpoints/year=2015/trade_checkpoints_2015.parquet",
+    "bytes": 65517450,
+    "mtime_ns": 1791629902000000000
+  },
+  {
+    "file": "blackrock_data/stock_intraday/trade_checkpoints/year=2022/trade_checkpoints_2022.parquet",
+    "bytes": 66755835,
+    "mtime_ns": 1791629962000000000
+  },
+  {
+    "file": "blackrock_data/stock_intraday/trade_checkpoints/year=2025/trade_checkpoints_2025.parquet",
+    "bytes": 60659728,
+    "mtime_ns": 1791629986000000000
+  },
+  {
+    "file": "blackrock_data/market/market_daily.parquet",
+    "bytes": 495119,
+    "mtime_ns": 1791406212000000000
+  },
+  {
+    "file": "blackrock_data/sector/sector_daily.parquet",
+    "bytes": 3423212,
+    "mtime_ns": 1791406854000000000
+  },
+  {
+    "file": "blackrock_data/events/event_calendar.parquet",
+    "bytes": 102820,
+    "mtime_ns": 1791629892000000000
+  },
+  {
+    "file": "blackrock_data/reference/industry_history.parquet",
+    "bytes": 555816,
+    "mtime_ns": 1791406654000000000
+  },
+  {
+    "file": "blackrock_data/quality/auction_source_anomalies.parquet",
+    "bytes": 3862,
+    "mtime_ns": 1791484924000000000
+  }
+]

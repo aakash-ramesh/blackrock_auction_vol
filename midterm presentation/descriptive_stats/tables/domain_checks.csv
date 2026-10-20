@@ -1,0 +1,11 @@
+check_name,flagged_rows
+auction volume negative,0
+auction share above one,0
+auction shares above positive CRSP daily volume,0
+auction raw ratio disagrees with volume/daily_volume (>1e-8),0
+CRSP high below low,0
+CRSP negative daily volume,0
+CRSP total return below -100 percent,0
+checkpoint cumulative volume negative,0
+checkpoint recent volume share above one,0
+checkpoint cumulative volume decreases within stock-day,0

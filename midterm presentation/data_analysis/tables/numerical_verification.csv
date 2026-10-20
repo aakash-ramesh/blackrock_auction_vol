@@ -1,0 +1,17 @@
+check,expected,actual,passed
+Independent SQL raw correlation: median20_auction_volume,0.521303780627467,0.5213037806274771,True
+Independent SQL univariate slope: median20_auction_volume,1.1903450967773532,1.1903450967773563,True
+Independent SQL within-stock correlation: median20_auction_volume,0.2221046312796951,0.2221046312796976,True
+Independent SQL raw correlation: prior_raw_daily_volume,0.3926761042006419,0.3926761042006386,True
+Independent SQL univariate slope: prior_raw_daily_volume,0.043570740464821504,0.0435707404648212,True
+Independent SQL within-stock correlation: prior_raw_daily_volume,0.13822180651708776,0.1382218065170864,True
+Independent SQL raw correlation: prior_raw_market_cap_usd,0.2887417207608798,0.2887417207608742,True
+Independent SQL univariate slope: prior_raw_market_cap_usd,4.372740990271552e-06,4.372740990271509e-06,True
+Independent SQL within-stock correlation: prior_raw_market_cap_usd,0.02155754306696326,0.0215575430669636,True
+Independent SQL raw correlation: prior_raw_return_total,0.001156148612057577,0.0011561486120575,True
+Independent SQL univariate slope: prior_raw_return_total,24341.554007075585,24341.554007076113,True
+Independent SQL within-stock correlation: prior_raw_return_total,0.0011783695631785087,0.0011783695631785,True
+Equivalent source lag: lag1_daily_volume,0.0,0.0,True
+Equivalent source lag: lag1_price,0.0,0.0,True
+Equivalent source lag: lag1_market_return,0.0,0.0,True
+Equivalent source lag: lag1_sector_return,0.0,0.0,True

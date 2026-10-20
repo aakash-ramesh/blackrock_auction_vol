@@ -1,0 +1,5 @@
+stage,already_available_or_added,remaining_interpretation_limit
+02,"Raw target distribution, persistence, size/industry and calendar summaries",Not an exhaustive one-input-at-a-time raw-source study.
+04,"Sixteen continuous/ordered predictors; pooled/within and annual relationships, mostly transformed. Binary/category summaries include raw target medians.","Continuous Pearson/within and binned means mainly use log target and selected transformed predictors, not all raw inputs in shares."
+06,"All 99 daily-safe features audited using ranks, log/residual diagnostics and grouped separation.","Broad coverage, but primarily engineered features and transformed/ranked outcomes, not a complete natural-unit source-covariate analysis."
+New,"193 diagnostic specifications: 99 engineered daily features, 31 raw same-day inputs, 31 prior-close raw counterparts, 2 auction-outcome diagnostics, and 30 checkpoint-specific associations.","Retrospective, descriptive extension. It does not select or refit a model or create a new holdout."
