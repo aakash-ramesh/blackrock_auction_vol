@@ -1,0 +1,15 @@
+{
+  "model": "rolling5_residual_auction_calendar_liquidity",
+  "period": [
+    2022,
+    2024
+  ],
+  "aggregation": "pooled stock-day WAPE",
+  "total_stock_days": 963525,
+  "under_20_history_share": 0.0033460470667600736,
+  "size_definition": "daily cross-sectional prior-day market-cap percentile, cut at 1/3 and 2/3",
+  "history_definition": "count of nonmissing observed auction targets before forecast day",
+  "original_2022_2025_diagnostics_reproduced": true,
+  "baseline_annual_metrics_reproduced": true,
+  "baseline_fallback_rows_2022_2024": 616
+}

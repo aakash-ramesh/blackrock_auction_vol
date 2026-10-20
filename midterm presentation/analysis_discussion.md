@@ -68,3 +68,21 @@ Add slides 13–15 immediately after the original two-variable relationship slid
 ## Recording-script conversion
 
 The current `speaker_notes.md` replaces the earlier narration/Q&A outline with a continuous, conversational script for slides 1–23 and separate complete appendix scripts. It retains essential interpretation caveats in spoken form without reading every technical footnote. The earlier technical notes remain in `sources/speaker_reference_notes.md`. Use the current script's approximately 2,400 words and 130–135-word-per-minute speaking estimate for rehearsal; the historical per-slide timings above describe earlier drafts. No presentation slide or numerical result changes in this update.
+
+
+## Current revision: economic framework and error diagnostics
+
+Retain the 23-slide main sequence. Slide 4 provides economic hypotheses for recent activity, scale/liquidity, common conditions, and known calendar inputs while retaining the general predictor vector and availability rule. Slides 12–16 distinguish individual associations from incremental family information within the earlier controlled ridge audit. Slide 19 addresses forecast accuracy. Smoothing on slide 20 motivates the unsmoothed misses on slide 21; no economic cause is assigned to example spikes.
+
+Replace the text-heavy challenges slide with size/history error panels on a common 2022–2024 sample. WAPE pools stock-day errors within each group; counts and the 0.33% share of under-20-history observations prevent overstating rare-group evidence. The new chart is a reaggregation of saved in-scope forecasts, checked against the original full-period diagnostic. The script describes the distinct aggregation from the mean annual headline. The prior-close information boundary leads into intraday updates in the roadmap narration. New stock-specific options and index-rebalancing work remains deferred until after the midterm.
+
+The complete read-aloud script is approximately 2,450 spoken words, about 18–19 minutes at 130–135 words per minute before pauses. Earlier per-slide timing notes are historical. The cover includes Aakash Ramesh, Arjo Bhattacharya, Alisa Priyadarsini, and Ivan Sysoev.
+
+
+## Current revision: calibration, group gains, and baseline-adjusted support
+
+Add one main slide (20) showing mean-share calibration and predicted/actual ratios by forecast decile on 2022–2024 saved ridge predictions. The aggregate shortfall is 14.4%; all decile means are underpredicted. Explain the arithmetic-mean calibration question separately from log-space training, without assigning a unique cause. Any future correction must use earlier fitting data and forward evaluation. The roadmap now explicitly includes calibration tests.
+
+Upgrade the existing group-error slide (now 23) to compare ridge with the exact saved median-rule definition on the same rows. Use the saved historical training fallbacks and verify annual baseline metrics against original results. Ridge improves all displayed groups, but short-history absolute errors remain large and the 0–4 baseline WAPE exceeds 100%. Keep counts and the 0.33% under-20 share visible.
+
+Keep the new baseline-adjusted covariate study in appendix page 26 and a separate report. It examines log departures from the recent median for volume, cap, spread, and absolute return using development-year pairs, excluding missing stock medians. Economic interpretation remains descriptive. No extra individual-variable slide enters the main recording. The main deck is 24 slides with three appendix pages; the complete main narration is about 2,480 words, preserving the 20-minute target with rehearsal.

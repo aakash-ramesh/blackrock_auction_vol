@@ -146,3 +146,27 @@ All six inputs precede the auction day and contain no auction-history components
 ## Recording-script conversion
 
 The speaker notes are now a continuous read-aloud script, including natural slide transitions and no Q&A branches. Slides 1–23 form the main narration, with separate scripts for the two appendix slides. Approximate main-script length is 2,400 words, supporting roughly 18–19 minutes of speech at 130–135 words per minute before pauses. Earlier detailed technical notes were retained as `sources/speaker_reference_notes.md`, distinct from the spoken recording script. Interpretation and empirical values follow the evidence already mapped above. The presentation PDF, chart assets, raw data, and fitted results remain unchanged.
+
+
+## Group-error exhibit added for the revised narrative
+
+`midterm presentation/build_group_error_slide.py` reads saved predictions from `outputs/eda/09_global_finalists/predictions/global_finalist_predictions_2022.parquet` through `_2024.parquet`, using `rolling5_residual_auction_calendar_liquidity` (58-input ridge reference). It reproduces the source 2022–2025 size/history entries in `champion_segment_and_tail_diagnostics.csv` as a cross-check, then reports development-only 2022–2024 results. Definitions follow `notebooks/build_notebook_09.py`; underlying daily size ranks and prior-target counts follow `build_notebook_05.py`. There is no model refit or use of post-13 research.
+
+The diagnostic pools errors across 963,525 stock-days: size WAPEs small 46.2139%, mid 39.7105%, large 34.3544%; history WAPEs 0–4 prior auctions 92.1939% (n=758), 5–19 51.6708% (n=2,466), 20+ 36.6264% (n=960,301). Under-20 cases comprise 0.3346% of observations. Counts are stock-days, not unique stocks. Stocks may change size groups and enter multiple history groups over time; group differences are observational. This pooled metric differs from the mean annual headline used on the annual benchmark slide. Compact data and metadata are saved in `assets/group_error_development_inputs.csv` and `assets/group_error_metadata.json`.
+
+
+## Calibration and same-row baseline comparisons
+
+Current slide map: 1–19 unchanged order, calibration 20, smoothed/daily examples 21–22, group comparison 23, roadmap 24; appendix diagnostic 25, baseline-adjusted covariates 26, literature 27. The main script has approximately 2,480 spoken words.
+
+`build_group_error_slide.py` reconstructs `median20_fallback` using the saved `median20_auction_volume` in the 09 predictions and annual `training_global_median_raw_target` from `outputs/eda/07_temporal_baselines/preprocessing_manifest.json`. The earlier point-level baseline predictions are unavailable locally, but these saved inputs recover annual WAPEs and observation counts to numerical tolerance. No new fallback is estimated. This preserves all 963,525 development stock-days, including 616 fallback cases. The comparison therefore matches the simple rule used in the annual main slide.
+
+Size-group baseline/ridge WAPEs: small 53.2174/46.2139%, mid 47.0868/39.7105%, large 40.6947/34.3544%. History-group values: 0–4 prior auctions 142.5067/92.1939%, 5–19 67.5732/51.6708%, 20+ 43.2212/36.6264%. Group definitions and the original ridge-only checks are unchanged. WAPE above 100% is allowed by its definition. Saved CSVs include `assets/group_error_baseline_fallbacks.csv`, `group_error_development_inputs.csv`, and `forecast_diagnostic_annual_checks.csv`.
+
+Calibration uses the 58-input ridge's saved 2022–2024 share predictions. Pooled predicted/actual totals are 185,058,667,712 / 216,150,063,209 shares, yielding −14.384171% aggregate bias. Ten pooled equal-count prediction groups show lower mean forecast than mean actual in each group. Deciles use prediction ranks, with date and PERMNO tie-breaks, rather than realized-volume ranks. Data and metrics are `assets/calibration_development_inputs.csv` and `calibration_development_metrics.json`. No recalibration is fitted on evaluation outcomes.
+
+## Baseline-adjusted covariate support
+
+`data_analysis/build_baseline_adjusted_analysis.py` joins saved 09 forecast keys to the isolated `data_analysis/cache/analysis_panel.parquet` derived from the in-scope canonical panel. Key uniqueness, exact actual-target equality, and 963,525 matched rows are checked. Missing stock median cases (616) are excluded only from this descriptive study. The target is the existing log1p deviation; predictors use prior-close values. Quantile groups keep equal input values together.
+
+Same-pair rank correlations with raw shares versus log deviation: daily volume 0.857092/0.075029 (962,909 pairs), market cap 0.633994/0.011704 (962,909), spread −0.447779/−0.014653 (962,802), absolute return −0.052598/0.067043 (962,850). These distinguish scale associations from baseline departures without controlling other covariates or proving incremental forecasting gains. Complete curves, summaries, metadata, two chart variants, and a report are saved under the presentation folder. This support analysis adds no model fit or post-13 input.

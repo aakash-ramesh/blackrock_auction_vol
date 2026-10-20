@@ -1,0 +1,8 @@
+{
+  "observations": 963525,
+  "actual_shares": 216150063209.0,
+  "predicted_shares": 185058667712.00403,
+  "aggregate_bias": -0.14384171364749065,
+  "wape": 0.3668230922529406,
+  "all_decile_means_underpredicted": true
+}

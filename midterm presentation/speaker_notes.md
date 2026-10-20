@@ -1,10 +1,10 @@
 # Recording script
 
-Read the paragraphs below aloud. The numbered headings identify the slides and are not spoken. The main script has approximately 2,400 words. At 130–135 words per minute, allow about 18–19 minutes of speech, with the remaining time for pauses and slide changes. Slides 1–23 form the main recording. The two appendix scripts at the end are separate from the main recording.
+Read the paragraphs below aloud. The numbered headings identify the slides and are not spoken. The main script has approximately 2,500 words. At 130–135 words per minute, allow about 18–19 minutes of speech, with the remaining time for pauses and slide changes. Slides 1–24 form the main recording. The three appendix scripts at the end are separate from the main recording.
 
 ## 1. Forecasting Closing Auction Volume
 
-Hello everyone. Our project focuses on forecasting the number of shares traded in a stock's closing auction. We'll introduce the problem and data, discuss the patterns we have found, and examine a ridge benchmark. We'll close with the remaining challenges and next steps.
+Hello everyone. We are Aakash Ramesh, Arjo Bhattacharya, Alisa Priyadarsini, and Ivan Sysoev. Our project focuses on forecasting the number of shares traded in a stock's closing auction. We'll introduce the problem and data, discuss the patterns we have found, and examine a ridge benchmark. We'll close with the remaining challenges and next steps.
 
 ## 2. The closing auction
 
@@ -22,15 +22,15 @@ The broader project includes daily forecasts and intraday updates across several
 
 We have prepared intraday trading data, but we are not presenting a completed intraday model yet. Execution-cost savings and broader trading applications remain to be evaluated.
 
-## 4. Forecast target and information set
+## 4. Forecast target and economic inputs
 
-Our target is straightforward: the official closing-auction volume, measured in shares, for a particular stock and date.
+Our target is the official closing-auction volume in shares for each stock and date. The equation allows any predictors available at the previous trading day's close.
 
-The predictor vector in the equation represents whatever information is available when the forecast is made. For the daily model, that cutoff is the previous trading day's close.
+The table organizes our economic hypotheses. Recent auction and trading activity may tell us about persistent demand. Stock size and liquidity may explain differences in trading scale and participation. Market and sector activity may capture common changes in demand. Known calendar information may capture scheduled changes in participation or session length.
 
-This allows many possible feature families, including auction history, liquidity, stock characteristics, market conditions, and events known in advance. It does not limit us to a fixed set of categories.
+These are reasons to investigate the variables, rather than claims that their effects are already established. Other predictor families remain possible.
 
-For example, yesterday's trading volume is available, and we may already know that tomorrow is an expiry date. Tomorrow's realized trading volume is not available. The key restriction is timing. We then ask whether eligible inputs improve forecasts over simple rules based on recent auction history.
+The restriction is availability. Yesterday's volume and tomorrow's known calendar flags are eligible; tomorrow's realized volume is not. We will examine individual relationships, test what families add together, and evaluate forecasts against recent-history rules.
 
 ## 5. Background literature: closing auctions
 
@@ -100,13 +100,13 @@ We now move from describing the outcome to examining individual predictors.
 
 ## 12. Individual covariate relationships with auction volume
 
-These plots examine two inputs separately: the stock's recent auction median and its previous day's total trading volume.
+We begin the predictor analysis by examining each input separately. This provides economic intuition before we test inputs together.
 
-For each input, we sort stock-days into ten groups, from the lowest values to the highest. The navy line shows today's mean auction volume within each group, and the teal line shows its median.
+The left chart uses the stock's recent auction median. The right uses previous-day total trading volume, which includes trading beyond the auction itself.
 
-Both relationships rise strongly. Stocks with larger recent auctions or higher trading activity generally have larger auctions today.
+For each input, we sort stock-days into ten groups, from lowest to highest. Navy shows today's mean auction shares within each group, and teal shows the median.
 
-This supports their economic relevance, but it does not tell us how much each input adds after other predictors are included. The curves also combine differences across stocks with changes within a stock.
+Both relationships rise strongly: larger recent auctions and higher trading activity generally accompany larger auctions today. These curves combine differences across stocks with changes within a stock. They show associations; the later model tests address added forecast value.
 
 ## 13. Stock size and liquidity: individual relationships
 
@@ -132,21 +132,21 @@ This is useful because a plausible economic story does not always produce a stro
 
 Market and sector inputs are shared across stocks, so we summarize the target at the same level.
 
-The left chart uses each day's average auction shares per eligible stock. The right uses each sector-day's average. We then group those outcomes by the previous day's market or sector trading volume.
+The left chart uses each day's average auction shares per eligible stock. The right uses each sector-day's average. We group these outcomes by previous-day market or sector trading volume.
 
-Higher market activity generally accompanies larger average auctions. The sector relationship rises and falls across groups instead of showing the same simple increasing pattern.
+Higher market activity generally accompanies larger average auctions. The sector relationship rises and falls across groups instead of following the same simple pattern.
 
-These comparisons still mix changes in composition and market conditions. They help interpret common activity, but forward forecasting tests are needed to establish incremental value.
+Composition and market conditions remain mixed together here. We have now examined individual associations across several families. Next, we ask which families add information when other inputs are already present.
 
 ## 16. Feature-family removal tests
 
-We now move from individual relationships to inputs considered together.
+Starting from a full ridge specification, we remove one economic family at a time while holding the other settings fixed. This addresses incremental information within that model, beyond the separate relationships we just saw.
 
-Starting from a full ridge specification, we remove one economic family at a time and examine the change in forecasting error. The measure is root mean squared error after transforming auction shares into log space. Lower error is better, so a positive bar means that removing the family makes performance worse.
+The chart measures the change in root mean squared error in log auction shares. A positive bar means that removing the family makes forecasts worse.
 
-Auction history and calendar information produce the largest changes. Removing liquidity has a much smaller effect, and its contribution depends on the error measure.
+Auction history and calendar information produce the largest changes. Liquidity's contribution is much smaller and depends on the error measure.
 
-This earlier audit uses direct log levels and an expanding training history. It is a controlled comparison within that setup. It does not prove that every retained variable is necessary, or that omitted families are economically irrelevant.
+This earlier audit uses direct log levels and expanding training history. Its results support those families within that setup. They do not prove that every retained variable is necessary. We also need to test how the target is formulated.
 
 ## 17. Target formulation: deviation from the 20-day median
 
@@ -162,77 +162,85 @@ Holding the history window, inputs, and observation weights fixed, development l
 
 ## 18. Ridge benchmark: specification comparison
 
-Ridge is one modeling approach we have built so far. We use it as a reference for continued work, rather than presenting it as the final project model.
+Ridge is one approach we have built so far, and serves as a reference for continued work.
 
-The weights in this table apply to training observations. Equal weights give each stock-day equal influence. Recent-data weights emphasize newer observations, with a two-year half-life. These are different from the predictor coefficients learned by ridge.
+The weights apply to training observations. Equal weights give each stock-day equal influence. Recent-data weights emphasize newer observations with a two-year half-life. These differ from ridge's fitted predictor coefficients.
 
-The full, recently weighted specification scores about zero point four eight six eight. The fifty-eight-input version scores about zero point four eight seven six. That difference is within our tolerance of zero point zero zero two for these ridge comparisons.
+The full, recently weighted model scores about zero point four eight six eight; the fifty-eight-input model scores zero point four eight seven six. That difference falls within our tolerance of zero point zero zero two.
 
-We therefore use the smaller specification as a consistent reference. It uses a five-year history, equal observation weights, and auction-history, calendar, and liquidity inputs. Further model comparisons remain open.
+We use the smaller version as our ridge reference, with five years of history and equal observation weights. Further model comparisons remain open.
 
 ## 19. Annual forecast errors: ridge versus recent median
 
-The next question is whether ridge improves on a simple historical forecast.
+We now evaluate forecasts against a simple historical rule.
 
-The recent-median rule predicts exactly the stock's trailing twenty-day auction median. If that median is fifty thousand shares, the forecast is fifty thousand shares. A historical training-median fallback handles cases without a usable stock median.
+The rule predicts the stock's trailing twenty-day auction median. A median of fifty thousand shares gives a forecast of fifty thousand shares. A historical training-median fallback handles unavailable stock medians.
 
-The dark bars show that rule, and the teal bars show ridge. Each year's forecasts use earlier fitting data and are evaluated on the same eligible stock-days. Lower bars mean less error.
+Dark bars show that rule; teal bars show ridge. Both use earlier fitting information and identical eligible evaluation stock-days.
 
-Our measure is weighted absolute percentage error, or WAPE. We calculate it as total absolute share error divided by total actual shares. Mean annual development WAPE falls from about forty-three point five percent to thirty-six point eight percent. For a given sample, thirty-six point eight percent means absolute errors totaling thirty-six thousand eight hundred shares per hundred thousand actual shares.
+WAPE means total absolute share error divided by total actual shares. Mean annual development WAPE falls from about forty-three point five to thirty-six point eight percent. For a sample, thirty-six point eight percent means absolute errors totaling thirty-six point eight shares per hundred actual shares.
 
-The improvement is useful, but the remaining error is substantial. The 2025 confirmation year had already been inspected during research, so it is not an untouched holdout.
+Substantial error remains. The 2025 confirmation year had already been inspected, so it is not an untouched holdout. We next examine the direction of errors.
 
-## 20. Actual versus predicted volume: 20-day rolling medians
+## 20. Forecast calibration in share volume
 
-These curves show twenty-day rolling medians of actual and predicted auction shares for two example stocks over the full history.
+Calibration asks whether forecast volumes match actual volumes on average.
 
-The forecast follows broad changes in activity. The shaded 2015 period contains actuals only, with forecasts beginning in 2016.
+We sort the 2022 through 2024 forecasts into ten equally sized groups by predicted auction volume. On the left, each point compares mean forecast shares with mean actual shares. Points above the dashed equality line indicate underprediction. Both axes use logarithmic scales.
 
-This smoothing is for display. It is different from the prior-only median used as the simple forecast baseline. The model specification was also chosen retrospectively, although each historical forecast uses earlier fitting data.
+The right chart shows forecast shares divided by actual shares within each group. Every point is below one. Across the whole sample, predicted shares total about eighty-six percent of actual shares, a fourteen point four percent shortfall.
 
-Smoothing can hide daily misses, so let's look at those next.
+This concerns average shares; it does not mean every auction is underpredicted. Fitting in log space makes average-share calibration a separate question. Any correction must be learned using earlier data and evaluated forward.
 
-## 21. Daily actual versus predicted auction volume
+We now look at how forecasts track activity over time.
 
-These are unsmoothed forecasts for JPM in 2021 and CATO in 2017. Each example year is selected near that stock's median annual error.
+## 21. Actual versus predicted volume: 20-day rolling medians
 
-Ridge WAPE is about thirty-one percent for JPM and forty-six percent for CATO. Those are substantial errors. The corresponding median-rule errors are about thirty-eight and fifty-seven percent.
+These twenty-day rolling medians show what the forecasts follow over time for two example stocks.
 
-Ridge improves both examples, but that does not establish sufficient accuracy for execution decisions. Several auction spikes still rise well above the forecast.
+Forecasts follow broad changes in typical activity. The shaded 2015 period contains actuals only; forecasts start in 2016.
 
-The crosses mark the largest absolute log errors, which can include overprediction and underprediction. Different years and vertical ranges make these illustrative cases, rather than a controlled comparison of stock size.
+The display smoothing includes the current observation and differs from the prior-only median used as the forecast baseline. Each forecast uses earlier fitting data, although the specification was chosen retrospectively.
 
-## 22. Remaining challenges
+Smoothing can hide difficult daily departures. The next slide removes that smoothing.
 
-The results leave three practical challenges.
+## 22. Daily actual versus predicted auction volume
 
-First, large auctions and sharp spikes remain difficult. We need to investigate these misses before attributing them to particular economic events.
+These unsmoothed examples show JPM in 2021 and CATO in 2017, using years near each stock's median annual log error.
 
-Second, errors are higher for small stocks and stocks with limited histories. Coverage, fallback behavior, and adaptation to changing activity all deserve further examination.
+Ridge WAPE is about thirty-one percent for JPM and forty-six percent for CATO, versus thirty-eight and fifty-seven percent for the median rule. Substantial errors remain.
 
-Third, the prior-close forecast cannot respond to information arriving during the trading day. This creates a clear reason to test intraday updates.
+Several spikes rise above the forecast. Their economic causes need investigation. Crosses mark the largest absolute log errors, including overprediction and underprediction.
 
-These challenges motivate better calibration and further modeling work.
+Different years and vertical ranges make these illustrative cases. Next, we compare both methods across stock groups over one common period.
 
-## 23. Roadmap and next steps
+## 23. Forecast errors across stock groups
 
-Our next steps follow directly from those challenges.
+Both panels use identical stock-days for ridge and the median rule from 2022 through 2024. WAPE pools observations within each group; the earlier headline averaged annual WAPEs. Counts below the bars are stock-days.
 
-We will first examine large errors, coverage, and limited-history cases, and refine how historical features respond to changing stock activity.
+Ridge improves every displayed group. For small-stock observations, WAPE falls from about fifty-three to forty-six percent; for large-stock observations, from forty-one to thirty-four percent.
 
-We also plan to compare ridge with nonlinear models, such as boosted trees. These could capture thresholds or interactions that the current specification misses. We will begin with the same information set and time splits, so we can distinguish a model change from adding new data.
+Cases with fewer than five prior auctions remain difficult: WAPE falls from about one hundred forty-three to ninety-two percent. WAPE can exceed one hundred percent when absolute errors exceed total actual volume.
 
-Another direction is additional daily context, including lagged VIX and interest rates and scheduled inflation or employment releases. These inputs still need to be sourced and tested. We also plan to develop forecast updates using the prepared intraday checkpoints.
+All cases with fewer than twenty prior auctions account for only one-third of one percent of evaluated stock-days. They deserve focused fallback checks, while overlapping size and history characteristics prevent attributing these differences to a single cause.
 
-For every extension, we will compare accuracy and calibration against the fixed ridge reference, examine difficult stocks and large auctions, and seek additional periods unused in model development.
+## 24. Roadmap and next steps
 
-At this stage, we have established the data foundation, identified useful patterns, and built a ridge benchmark that improves on recent history while leaving important errors to address. That is the basis for the next phase of the project. Thank you.
+Our next steps follow from these weaknesses. We will examine large misses, coverage, and limited-history fallbacks. We will test calibration using earlier data and refine how history features adapt to changing activity.
+
+We will compare ridge with nonlinear models, such as boosted trees, beginning with the same inputs and time splits.
+
+Additional daily context could include lagged VIX, interest rates, and scheduled inflation or employment releases. These still need sourcing and testing. Our prepared intraday checkpoints also provide a basis for updates as new information arrives.
+
+New stock-specific options and index-rebalancing studies remain post-midterm work. Extensions will be compared against the fixed ridge reference, seeking periods unused in development.
+
+We have established the data foundation, interpreted predictor relationships, and built a preliminary benchmark that improves on recent history. The remaining errors give us a concrete agenda for the next phase. Thank you.
 
 ---
 
 # Appendix scripts — outside the main recording
 
-## 24. Ridge diagnostic: training and evaluation stages
+## 25. Ridge diagnostic: training and evaluation stages
 
 This additional slide examines one ridge specification across training, historical validation, and forward evaluation. It answers a different question from the annual bar chart, which compares ridge against the recent-median rule.
 
@@ -242,6 +250,19 @@ The charts use log-scale root mean squared error and WAPE. Lower is better for b
 
 The 2025 result remains confirmation evidence from a year already inspected during research.
 
-## 25. References: background literature
+## 26. Covariates and deviations from the recent median
+
+This supporting analysis asks which inputs are associated with departures from a stock's recent typical auction.
+
+The outcome is the log of one plus actual shares, minus the log of one plus the prior twenty-day auction median. Zero means equality to the baseline. Positive values mean an auction above it; negative values mean one below it.
+
+Each panel groups stock-days by a prior-close input. Navy shows the mean log deviation and teal the median. Trading-volume groups show increasing departures. The market-capitalization relationship is much flatter than its relationship with raw auction shares.
+
+On the same paired observations, market capitalization's rank correlation falls from about zero point six three with auction shares to about zero point zero one with this adjusted outcome. This suggests its strong level association mainly describes scale in this sample.
+
+These remain descriptive associations, without controls for other predictors. They do not establish causality or incremental forecast value. The analysis uses 2022 through 2024 and excludes cases without a stock-specific recent median. Additional spread and absolute-return comparisons are available in the supporting analysis.
+
+## 27. References: background literature
 
 This slide lists the three background studies discussed earlier. They motivate our interest in closing-auction activity, venue design, and the use of common and stock-specific information in volume forecasting. They provide context for the project; the performance results shown today come from our own data analysis and forecasting comparisons.
+

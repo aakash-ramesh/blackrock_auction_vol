@@ -1,0 +1,14 @@
+{
+  "years": [
+    2022,
+    2024
+  ],
+  "forecast_stock_days": 963525,
+  "missing_stock_median_excluded": 616,
+  "baseline_available_rows": 962909,
+  "target": "log(1 + actual shares) - log(1 + prior-20-observation median shares)",
+  "causal_or_incremental_prediction_test": false,
+  "models_fitted": 0,
+  "binning": "observed input quantiles; ties kept together; duplicate edges removed",
+  "selection": "four illustrative prior-close covariates, not a feature-selection screen"
+}

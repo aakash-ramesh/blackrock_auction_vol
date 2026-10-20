@@ -28,7 +28,7 @@
 \newenvironment{points}{\begin{itemize}\setlength{\itemsep}{0.65em}}{\end{itemize}}
 \title{Forecasting Closing Auction Volume}
 \subtitle{Data Analysis and Preliminary Modeling}
-\author{BlackRock Capstone Project}
+\author{Aakash Ramesh\quad Arjo Bhattacharya\\Alisa Priyadarsini\quad Ivan Sysoev}
 \date{Midterm Presentation\quad October 20, 2026}
 \begin{document}
 
@@ -40,7 +40,8 @@
 \vspace{0.35cm}
 {\usebeamerfont{subtitle}\color{Teal}\insertsubtitle\par}
 \vspace{0.8cm}
-\insertauthor\par\medskip
+BlackRock Capstone Project\par\smallskip
+{\small\insertauthor\par}\medskip
 {\color{Muted}\insertdate\par}
 \vfill
 {\small Project background, data, and daily forecasting analysis}
@@ -72,22 +73,26 @@ A forecast can inform how much of an order a trader plans to execute at the clos
 
 \end{frame}
 
-\begin{frame}{Forecast target and information set}
-\[
- A_{i,t}=\text{official closing-auction volume in shares for stock }i\text{ on day }t
-\]
+\begin{frame}{Forecast target and economic inputs}
+$A_{i,t}$ = official closing-auction volume in shares for stock $i$ on day $t$.
 \[
  \widehat A_{i,t}=f\!\left(\mathbf x_{i,t}^{(\tau_t)}\right),
  \qquad \tau_t=\text{previous trading day's close}
 \]
-\begin{points}
-\item $\mathbf x_{i,t}^{(\tau_t)}$ represents any predictors available at the forecast origin, including information about day $t$ known in advance.
-\item Candidate families include auction history, liquidity, stock characteristics, market/sector conditions, and scheduled events. Additional families can be tested.
-\item Availability determines eligibility. Same-day final outcomes become available after the daily forecast is made.
-\end{points}
+\small
+\begin{tabularx}{\textwidth}{@{}L{3.1cm}L{4.0cm}Y@{}}
+\toprule
+\textbf{Economic family} & \textbf{Example inputs} & \textbf{Reason to investigate}\\
+\midrule
+Recent activity & Auction history; daily volume & Persistence in typical auction demand.\\[0.6em]
+Stock scale and liquidity & Market capitalization; spread & Differences in trading scale and participation.\\[0.6em]
+Common conditions & Market and sector activity & Shared changes in trading demand.\\[0.6em]
+Known calendar information & Month-end; early-close flags & Scheduled changes in participation and session length.\\
+\bottomrule
+\end{tabularx}
 \par\medskip
-\textbf{Evaluation question:} do these inputs improve forecasts over yesterday's auction volume and a trailing auction median?
-\source{Auction-volume forecasts do not directly establish execution-cost savings.}
+\textbf{Eligibility:} any predictor known at the forecast origin can be tested. Same-day realized outcomes are unavailable.
+\source{The families illustrate economic hypotheses, not an exhaustive input list or proven effects. Calendar information for the forecast day may be known in advance. Auction-volume forecasts do not directly establish execution-cost savings.}
 \end{frame}
 
 \begin{frame}{Background literature: closing auctions}
@@ -193,8 +198,10 @@ Median auction share: 4.8\% in 2015, 14.0\% in 2025, with calendar differences. 
 
 % Analysis: individual relationships, conditional evidence, target, model, results.
 \begin{frame}{Individual covariate relationships with auction volume}
+\small
+\textbf{Individual associations:} examine each input separately to interpret its relationship with auction shares.\par\smallskip
 \centering
-\includegraphics[width=\textwidth,height=4.45cm,keepaspectratio]{assets/analysis_individual_relationships.pdf}
+\includegraphics[width=\textwidth,height=4.05cm,keepaspectratio]{assets/analysis_individual_relationships.pdf}
 \par\medskip
 \raggedright
 \textbf{Inference:} recent auction activity and trading volume help describe a stock's normal auction scale.
@@ -229,8 +236,10 @@ Median auction share: 4.8\% in 2015, 14.0\% in 2025, with calendar differences. 
 \end{frame}
 
 \begin{frame}{Feature-family removal tests}
+\small
+\textbf{Incremental information:} compare forecast error with and without an input family.\par\smallskip
 \centering
-\includegraphics[width=\textwidth,height=4.15cm,keepaspectratio]{assets/analysis_family_ablation.pdf}
+\includegraphics[width=\textwidth,height=3.95cm,keepaspectratio]{assets/analysis_family_ablation.pdf}
 \par\medskip
 \raggedright
 \textbf{Inference:} auction history and calendar information contribute most. Liquidity's additional gain is small and depends on the error metric.
@@ -293,12 +302,22 @@ Auction / calendar, equal row weights & 42 & 0.49059\\
 \source{The median uses only earlier observations, with a training-median fallback if unavailable. WAPE = total absolute share error / total actual shares. The headline averages annual WAPEs on common rows. The 2025 confirmation year had already been inspected during research.}
 \end{frame}
 
+\begin{frame}{Forecast calibration in share volume}
+\centering
+\includegraphics[width=\textwidth,height=4.05cm,keepaspectratio]{assets/backtest_calibration.pdf}
+\par\medskip
+\raggedright\small
+\textbf{Aggregate bias:} predicted shares total 85.6\% of actual shares, a 14.4\% shortfall.\par\smallskip
+\textbf{Inference:} average volume is underpredicted in every forecast-size group; investigate calibration alongside daily accuracy.
+\source{Saved ridge forecasts, 2022--2024, 963,525 stock-days. Ten equal-count groups ordered by predicted volume. Left: arithmetic mean shares, logarithmic axes; points above the dashed line indicate underprediction. Right: total forecast / total actual shares within each group. This diagnostic applies no correction; any calibration method needs historical fitting and forward evaluation.}
+\end{frame}
+
 \begin{frame}{Actual versus predicted volume: 20-day rolling medians}
 \centering
 \includegraphics[width=\textwidth,height=4.4cm,keepaspectratio]{assets/backtest_rolling_medians.pdf}
 \par\medskip
 \raggedright
-\textbf{Inference:} the smoothed forecasts follow changes in typical activity. Daily errors require a separate view.
+\textbf{Inference:} forecasts follow broad changes in typical activity. Smoothing can hide sharp daily misses.
 \source{Trailing 20-trading-observation medians of actual and predicted shares, minimum five non-missing values per series. Logarithmic axes with separate ranges. 2015 is actuals-only warm-up. Forecasts begin in 2016 and use earlier fitting data. The model specification was selected retrospectively.}
 \end{frame}
 
@@ -317,21 +336,18 @@ CATO, 2017 & 56.6\% & 46.4\%\\
 \bottomrule
 \end{tabularx}
 \par\smallskip
-\textbf{Inference:} ridge improves on the median rule in these examples, but absolute errors remain substantial.
+\textbf{Inference:} ridge improves on the median rule, while several daily spikes remain underpredicted. Their causes require investigation.
 \source{Unsmoothed daily actuals and walk-forward forecasts. Each example year is nearest its stock's median annual log RMSE over 2016--2025. Years and axis ranges differ. The model specification was selected retrospectively. Crosses mark the five largest absolute log errors in each example.}
 \end{frame}
 
-\begin{frame}{Remaining challenges}
-\lead{Overall gains leave important gaps across auctions and stocks}
-\begin{points}
-\item \textbf{Large auctions and sharp spikes}\par
-Tail forecasts remain too low, and daily case studies reveal missed spikes. Their economic causes still need investigation.
-\item \textbf{Small stocks and limited history}\par
-Errors are higher in these groups. Uneven coverage and limited auction history complicate reliable forecasts.
-\item \textbf{Information arriving during the day}\par
-The daily forecast uses the previous close. It cannot respond to announcement outcomes or trading activity observed later.
-\end{points}
-\source{Challenges follow the forward evaluations and stock-level diagnostics. Group differences and missed spikes do not establish their causes.}
+\begin{frame}{Forecast errors across stock groups}
+\centering
+\includegraphics[width=\textwidth,height=4.15cm,keepaspectratio]{assets/backtest_group_errors.pdf}
+\par\medskip
+\raggedright\small
+\textbf{Comparison:} ridge lowers WAPE in every displayed group; small-stock and short-history errors remain high.\par\smallskip
+\textbf{Coverage:} fewer than 20 prior auctions account for only 0.33\% of evaluated stock-days.
+\source{Same 2022--2024 stock-days for both methods; n = stock-days. Pooled group WAPE differs from the earlier mean annual headline and can exceed 100\%. The median rule retains saved historical fallbacks. Size uses prior-close market-cap percentile thirds; history counts prior observed auctions. Group differences do not identify causes.}
 \end{frame}
 
 \begin{frame}{Roadmap and next steps}
@@ -341,7 +357,7 @@ The daily forecast uses the previous close. It cannot respond to announcement ou
 \toprule
 \textbf{Sequence} & \textbf{Planned analysis}\\
 \midrule
-\textbf{1. Diagnose errors and refine history} & Review large misses, coverage, and limited-history fallbacks. Test adaptation to changing stock activity.\\[0.6em]
+\textbf{1. Diagnose errors and calibration} & Review large misses, coverage, and limited-history fallbacks. Test calibration using earlier data and refine history features.\\[0.6em]
 \textbf{2. Test nonlinear models} & Compare ridge with nonlinear models, such as boosted trees, to test thresholds and feature interactions.\\[0.6em]
 \textbf{3. Test daily context} & Evaluate lagged VIX/rates and scheduled CPI/NFP indicators beyond the existing calendar inputs.\\[0.6em]
 \textbf{4. Develop intraday updates} & Update the daily forecast using trading activity at the prepared checkpoints.\\
@@ -363,6 +379,16 @@ The daily forecast uses the previous close. It cannot respond to announcement ou
 \raggedright
 {\small \textbf{Purpose:} examine errors during fitting, tuning, and later-year forecasting. This graph does not compare ridge with the median rule.\par}
 \source{Training: 350k sampled rows per fold. Historical validation: 120k rows from an earlier year. Forward evaluation: all eligible forecast-year rows. Periods, samples, and fitted stages differ, so lower forward error alone cannot rule out overfitting. The 2025 confirmation year had already been inspected during research.}
+\end{frame}
+
+\begin{frame}[noframenumbering]{Covariates and deviations from the recent median}
+\centering
+\includegraphics[width=\textwidth,height=4.1cm,keepaspectratio]{assets/analysis_baseline_adjusted.pdf}
+\par\medskip
+\raggedright\small
+\textbf{Outcome:} $r=\log(1+A)-\log(1+B)$, where $B$ is the stock's prior-only 20-day auction median.\par\smallskip
+\textbf{Inference:} trading-volume groups show increasing departures; market capitalization has little rank association with this adjusted outcome.
+\source{Supporting retrospective analysis, 2022--2024; 962,909 complete stock-days for each displayed input. Input deciles keep ties together. Zero means equality to the recent median. Missing stock baselines are excluded here. These associations do not control for other inputs or measure incremental forecast value.}
 \end{frame}
 
 \begin{frame}[noframenumbering]{References: background literature}
