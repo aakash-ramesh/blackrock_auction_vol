@@ -1,0 +1,13 @@
+{
+  "period": [
+    2022,
+    2024
+  ],
+  "observations_per_candidate": 963525,
+  "aggregation": "arithmetic average of three annual metrics; not pooled metrics",
+  "mape": "100 * mean(abs(prediction - actual) / actual)",
+  "mspe": "mean(((prediction - actual) / actual)^2); unscaled ratio-squared units",
+  "zero_actual_policy": "undefined relative errors excluded if present; zero actuals observed = 0",
+  "new_fits": 0,
+  "saved_rmse_and_wape_reproduced": true
+}

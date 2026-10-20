@@ -175,3 +175,24 @@ Same-pair rank correlations with raw shares versus log deviation: daily volume 0
 ## Current slide map after descriptive-summary removal
 
 The former descriptive summary page was removed. Its sample-size and coverage figures are retained on slide 7 and in the script. Main pages: background/data 1–8; descriptive graphs 9–10; covariate relationships 11–14; family removal 15; residual target 16; ridge specifications 17; annual comparison 18; calibration 19; smoothed/daily examples 20–21; group comparison 22; roadmap 23. Appendix pages: ridge diagnostic 24, baseline-adjusted covariates 25, literature 26. Earlier mappings above refer to prior drafts. All saved analytical inputs and numerical results remain unchanged.
+
+
+## Current and remaining challenges restored
+
+Add a dedicated synthesis slide 23 immediately before roadmap slide 24. It summarizes observed spike/calibration errors, weaker small-stock/short-history accuracy, the daily forecast information cutoff, and the need for further model development and unused evaluation periods. Keep the existing diagnostic graphs. Appendix pages shift to 25–27, and the read-aloud script adds a complete challenges section while tightening the roadmap. No raw data, fitted models, or numerical results change.
+
+
+## Literature and empirical questions reorganized
+
+Slide 5, “Background literature,” consolidates all three existing studies and their contributions, with L1–L3 citations and full references retained in the appendix. Slide 6, “Empirical questions,” expands four questions: persistence/target formulation, incremental information, forward forecast value, and performance across stocks/auction conditions. Speaker notes provide complete narration for each. Slide numbering remains unchanged: 24 main pages plus three appendix pages. No new literature claim, analysis, or model result is introduced.
+
+
+## Current review: general questions, common source window, and relative errors
+
+Slide 6 is renamed “Research questions”; forecasting models and historical baselines are introduced without naming ridge. On slides 7–8, periods now describe the common 2015–2025 analysis window. Querying `blackrock_data/stock_daily/crsp_daily/year=*/*.parquet` with that date filter gives 3,594,404 rows and 2,149 PERMNOs (2015-01-02 through 2025-12-31), saved in `sources/data_source_analysis_window.csv`. Original 2011–2025 extraction counts remain in the inventory for provenance. Earlier observations still support lag construction.
+
+`build_metric_comparison.py` computes MAPE (%) and MSPE (unscaled squared relative error) for the five saved 09 candidates used in the two comparison tables. It uses common 2022–2024 dates/keys, with annual counts 328,634/318,679/316,212. All actual targets are positive; no MAPE/MSPE cases are dropped. Saved annual log RMSE and WAPE are reproduced to numerical tolerance before new summaries are written. Displayed values are arithmetic averages of the three annual metrics.
+
+Controlled comparison: direct log level log RMSE/MAPE/MSPE = 0.49609/37.49%/2.773; full equal-weight residual = 0.48710/34.68%/1.483. Ridge specifications: full recent-weighted = 0.48677/34.82%/1.171; 58-input reference = 0.48764/34.59%/1.325; 42-input auction/calendar = 0.49059/35.26%/1.278. The first is best on log RMSE and MSPE among the three, while the reference is best on MAPE. These diagnostics preserve the provisional reference and do not establish a final model or a universal loss function. Exact outputs are `assets/metric_comparison_annual.csv`, `metric_comparison_summary.csv`, `metric_comparison_metadata.json`, and `metric_comparison_denominator_sensitivity.csv`.
+
+The sensitivity check pools development squared-relative-error contributions. Actual auctions of at most 100 shares comprise 2,377 rows (0.2467%) and contribute 75.2% of direct-log squared relative error, or 42.2% for the 58-input reference. The pooled concentration check is distinct from mean-annual table values. Full interpretation is in `metric_choice_notes.md`.

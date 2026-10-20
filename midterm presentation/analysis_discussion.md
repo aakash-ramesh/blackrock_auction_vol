@@ -91,3 +91,20 @@ Keep the new baseline-adjusted covariate study in appendix page 26 and a separat
 ## Descriptive summary removed after review
 
 Remove the former main slide 11 because it repeats the preceding descriptive graphs and later modeling decisions. Preserve 3.50 million eligible labels and 93.0%–99.0% annual observed-target coverage in main slide 7 and its script. Add a spoken transition after the time/calendar graph. The first covariate slide is now 11; subsequent pages shift back by one. The main recording covers 23 slides, with three appendix pages (24–26). No chart data or model results change.
+
+
+## Current and remaining challenges restored
+
+Add a dedicated synthesis slide 23 immediately before roadmap slide 24. It summarizes observed spike/calibration errors, weaker small-stock/short-history accuracy, the daily forecast information cutoff, and the need for further model development and unused evaluation periods. Keep the existing diagnostic graphs. Appendix pages shift to 25–27, and the read-aloud script adds a complete challenges section while tightening the roadmap. No raw data, fitted models, or numerical results change.
+
+
+## Literature and empirical questions reorganized
+
+Slide 5, “Background literature,” consolidates all three existing studies and their contributions, with L1–L3 citations and full references retained in the appendix. Slide 6, “Empirical questions,” expands four questions: persistence/target formulation, incremental information, forward forecast value, and performance across stocks/auction conditions. Speaker notes provide complete narration for each. Slide numbering remains unchanged: 24 main pages plus three appendix pages. No new literature claim, analysis, or model result is introduced.
+
+
+## Review: research questions and alternative error measures
+
+Use the title “Research questions” on slide 6 and keep its forecasting question model-neutral. Align source-table presentation to the 2015–2025 analysis window without relabeling full-history counts: recompute CRSP rows/security counts for the shown period and retain earlier history for lag construction. Improve separation of all source-table rows with rules and spacing.
+
+Add MAPE and MSPE to slides 16–17 from existing saved predictions on identical 2022–2024 observations. Preserve log RMSE as the existing selection criterion and explain its scale/large-log-error rationale. Define relative metrics clearly, report that all actuals are positive, and explain their sensitivity to small actual denominators. The residual target improves all displayed measures in the controlled comparison. Among the ridge specifications, rankings differ by metric; keep the 58-input version provisional. The read-aloud notes include these interpretations. All 24 main slides and three appendix pages remain; no model is refitted.

@@ -1,6 +1,6 @@
 # Recording script
 
-Read the paragraphs below aloud. The numbered headings identify the slides and are not spoken. The main script has approximately 2,450 words. At 130–135 words per minute, allow about 18–19 minutes of speech, with the remaining time for pauses and slide changes. Slides 1–23 form the main recording. The three appendix scripts at the end are separate from the main recording.
+Read the paragraphs below aloud. The numbered headings identify the slides and are not spoken. The main script has approximately 2,600 words. At about 135 words per minute, allow roughly 19 minutes of speech, with the remaining time for pauses and slide changes. Slides 1–24 form the main recording. The three appendix scripts at the end are separate from the main recording.
 
 ## 1. Forecasting Closing Auction Volume
 
@@ -32,29 +32,37 @@ These are reasons to investigate the variables, rather than claims that their ef
 
 The restriction is availability. Yesterday's volume and tomorrow's known calendar flags are eligible; tomorrow's realized volume is not. We will examine individual relationships, test what families add together, and evaluate forecasts against recent-history rules.
 
-## 5. Background literature: closing auctions
+## 5. Background literature
 
-Two studies help motivate our focus on the close.
+Three studies provide the background for our project.
 
-Bogousslavsky and Muravyev connect U.S. closing-auction activity with indexing and exchange-traded funds. They also report lower price impact than in continuous trading in their studied setting. This supports the relevance of auction participation, without implying that every order is cheaper to execute there.
+Bogousslavsky and Muravyev connect U.S. closing-auction activity with indexing and exchange-traded funds. They report lower price impact than continuous trading in their setting, which does not imply that every order is cheaper to execute there.
 
-Kandel and coauthors examine closing auctions in Milan and Paris. Their findings show that auction design can affect trading near the close.
+Kandel and coauthors study Milan and Paris. They show that closing auctions affect trading near the close and that auction design matters for participation.
 
-Together, these studies motivate treating auction volume as a distinct forecasting problem and being careful when extending results across venues. They provide background for our project rather than direct evidence about our own forecast accuracy.
+Białkowski and coauthors develop an intraday volume model for volume-weighted average price strategies. Their model separates common market activity from stock-specific dynamics and updates forecasts during the day.
 
-## 6. Background literature: volume forecasting
+These papers establish context. They do not directly validate our closing-auction forecasts.
 
-A related volume-forecasting study is the paper by Białkowski and coauthors on improving volume-weighted average price strategies, often called VWAP strategies.
+## 6. Research questions
 
-Their approach separates common market activity from stock-specific dynamics and updates volume forecasts during the day. Our target is different because we focus on the official closing auction. However, the distinction between common conditions and individual trading history is useful motivation.
+We organize our analysis around four questions.
 
-This leads to our empirical questions. How much can recent stock history explain? Do known calendar events add information? Does a model that pools stocks perform consistently across different sizes and liquidity levels? Our data analysis and benchmark comparisons address these questions.
+First, how much can recent auction history explain? We compare predicting the log level directly with predicting a correction to the stock's trailing twenty-day auction median.
+
+Second, what information do other inputs add? We examine liquidity, known calendar information, stock characteristics, and market or sector conditions. Individual relationships provide economic intuition; removing input families tests their contribution within a model.
+
+Third, can forecasting models beat simple historical rules in chronological forward tests? We examine both proportional accuracy and errors measured in shares.
+
+Finally, where does performance weaken? We compare stock sizes and history lengths, examine missed daily spikes, and check whether forecast volumes are systematically too low.
+
+All daily predictors must be available at the previous close or known in advance. These questions guide the data and results that follow.
 
 ## 7. Data sources: auction targets and stock history
 
 We combine two main data layers. Auction records come from Trade and Quote extracts obtained through Wharton Research Data Services. CRSP supplies daily stock information, including prices, returns, trading volume, shares outstanding, and corporate actions.
 
-The auction extracts cover 2015 through 2025 and contain about three point six million source rows. CRSP history starts in 2011, allowing us to construct earlier stock-level lags.
+Both rows show our common 2015 through 2025 analysis window, with about three point six million rows in each source. Earlier source history is available for constructing lags.
 
 We connect records using the trading date and a permanent security identifier, called PERMNO.
 
@@ -144,25 +152,27 @@ This earlier audit uses direct log levels and expanding training history. Its re
 
 ## 16. Target formulation: deviation from the 20-day median
 
-Another question is how to formulate the prediction problem.
+We can predict the log level directly, or start from each stock's trailing twenty-day auction median and predict a correction.
 
-We can predict the log level of auction volume directly, or start from the stock's recent typical auction and predict an adjustment.
+The residual is the log of one plus actual shares, minus the log of one plus that historical median. Positive values mean above the baseline; negative values mean below it. We add the predicted correction back in log space and convert to shares.
 
-Here, the starting point is its trailing twenty-day auction median. The residual is the log of one plus actual auction volume, minus the log of one plus that median. Positive values mean an auction above the recent baseline; negative values mean one below it.
+Log RMSE was our development criterion. It compares errors across stock scales and penalizes large log misses without letting the largest share volumes dominate.
 
-We predict that adjustment, add it back to the baseline in log space, and convert the forecast to shares.
+Holding the inputs, history window, and weights fixed, mean annual log RMSE falls from about zero point four nine six to zero point four eight seven. The relative-error checks agree: MAPE falls from thirty-seven point five to thirty-four point seven percent, and MSPE from two point seven seven to one point four eight.
 
-Holding the history window, inputs, and observation weights fixed, development log error falls from about zero point four nine six to zero point four eight seven. This supports the residual formulation within these ridge trials.
+MAPE averages absolute errors divided by actual shares; MSPE squares those relative errors, using unscaled ratios. All actuals here are positive. These metrics are especially sensitive to small actual auctions.
 
 ## 17. Ridge benchmark: specification comparison
 
-Ridge is one approach we have built so far, and serves as a reference for continued work.
+Ridge is one approach we have built so far and remains a preliminary benchmark.
 
-The weights apply to training observations. Equal weights give each stock-day equal influence. Recent-data weights emphasize newer observations with a two-year half-life. These differ from ridge's fitted predictor coefficients.
+Training weights control each observation's influence. Equal weights treat stock-days equally; recent-data weights emphasize newer observations with a two-year half-life. They differ from fitted predictor coefficients.
 
-The full, recently weighted model scores about zero point four eight six eight; the fifty-eight-input model scores zero point four eight seven six. That difference falls within our tolerance of zero point zero zero two.
+We prefer fewer inputs within zero point zero zero two of the best development log RMSE. The fifty-eight-input version meets that tolerance and becomes our reference, using five years of history.
 
-We use the smaller version as our ridge reference, with five years of history and equal observation weights. Further model comparisons remain open.
+The extra columns show why the metric choice matters. This reference has the lowest MAPE among these three specifications, at about thirty-four point six percent. The larger, recently weighted model has the lowest log RMSE and MSPE.
+
+The comparison supports a practical reference within ridge, while further model development and evaluation remain open.
 
 ## 18. Annual forecast errors: ridge versus recent median
 
@@ -218,23 +228,35 @@ Cases with fewer than five prior auctions remain difficult: WAPE falls from abou
 
 All cases with fewer than twenty prior auctions account for only one-third of one percent of evaluated stock-days. They deserve focused fallback checks, while overlapping size and history characteristics prevent attributing these differences to a single cause.
 
-## 23. Roadmap and next steps
+## 23. Current and remaining challenges
 
-Our next steps follow from these weaknesses. We will examine large misses, coverage, and limited-history fallbacks. We will test calibration using earlier data and refine how history features adapt to changing activity.
+We have four main challenges to address.
 
-We will compare ridge with nonlinear models, such as boosted trees, beginning with the same inputs and time splits.
+First, sharp auction spikes remain difficult, and total forecast shares are about fourteen point four percent below actual shares in our development sample.
 
-Additional daily context could include lagged VIX, interest rates, and scheduled inflation or employment releases. These still need sourcing and testing. Our prepared intraday checkpoints also provide a basis for updates as new information arrives.
+Second, small stocks and stocks with short histories still have high errors despite improvements over the median rule. Short-history cases are rare, but their fallback forecasts need attention.
 
-New stock-specific options and index-rebalancing studies remain post-midterm work. Extensions will be compared against the fixed ridge reference, seeking periods unused in development.
+Third, our daily information cutoff prevents the forecast from responding to news or trading activity arriving during the session.
 
-We have established the data foundation, interpreted predictor relationships, and built a preliminary benchmark that improves on recent history. The remaining errors give us a concrete agenda for the next phase. Thank you.
+Finally, ridge remains a preliminary benchmark. The 2025 confirmation year was already inspected, so we need additional evaluation periods unused in development.
+
+These limitations determine our next steps.
+
+## 24. Roadmap and next steps
+
+We will investigate large misses and coverage, test calibration using earlier data, and refine history features and limited-history fallbacks.
+
+We will compare nonlinear models with ridge using the same inputs and time splits. Additional context, including lagged VIX, rates, and scheduled economic releases, still needs sourcing and testing. Prepared trading checkpoints provide a basis for intraday updates.
+
+New stock-specific options and index-rebalancing studies remain post-midterm work. All extensions need comparison with the fixed ridge reference and further evaluation on unused periods.
+
+We have a data foundation, interpretable relationships, and a preliminary benchmark that improves on recent history. The remaining challenges give us a clear agenda for the next phase. Thank you.
 
 ---
 
 # Appendix scripts — outside the main recording
 
-## 24. Ridge diagnostic: training and evaluation stages
+## 25. Ridge diagnostic: training and evaluation stages
 
 This additional slide examines one ridge specification across training, historical validation, and forward evaluation. It answers a different question from the annual bar chart, which compares ridge against the recent-median rule.
 
@@ -244,7 +266,7 @@ The charts use log-scale root mean squared error and WAPE. Lower is better for b
 
 The 2025 result remains confirmation evidence from a year already inspected during research.
 
-## 25. Covariates and deviations from the recent median
+## 26. Covariates and deviations from the recent median
 
 This supporting analysis asks which inputs are associated with departures from a stock's recent typical auction.
 
@@ -256,7 +278,7 @@ On the same paired observations, market capitalization's rank correlation falls 
 
 These remain descriptive associations, without controls for other predictors. They do not establish causality or incremental forecast value. The analysis uses 2022 through 2024 and excludes cases without a stock-specific recent median. Additional spread and absolute-return comparisons are available in the supporting analysis.
 
-## 26. References: background literature
+## 27. References: background literature
 
 This slide lists the three background studies discussed earlier. They motivate our interest in closing-auction activity, venue design, and the use of common and stock-specific information in volume forecasting. They provide context for the project; the performance results shown today come from our own data analysis and forecasting comparisons.
 

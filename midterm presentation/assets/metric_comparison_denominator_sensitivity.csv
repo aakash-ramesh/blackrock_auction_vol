@@ -1,0 +1,6 @@
+candidate,small_actual_observations,small_actual_share,squared_relative_error_share
+rolling5_log_full,2377,0.002466983212682598,0.7521190418422109
+rolling5_residual_full,2377,0.002466983212682598,0.4273620390755812
+rolling5_residual_recent_full,2377,0.002466983212682598,0.35241259488672433
+rolling5_residual_auction_calendar_liquidity,2377,0.002466983212682598,0.42247866200340617
+rolling5_residual_auction_calendar,2377,0.002466983212682598,0.45577964312645325

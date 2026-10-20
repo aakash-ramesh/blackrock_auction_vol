@@ -4,9 +4,9 @@ This folder is self-contained for the current presentation draft. Existing noteb
 
 ## Files
 
-- `midterm_draft.pdf`: presentation to review, twenty-three main slides plus three appendix slides (backtest diagnostic, baseline-adjusted covariates, and literature).
+- `midterm_draft.pdf`: presentation to review, twenty-four main slides plus three appendix slides (backtest diagnostic, baseline-adjusted covariates, and literature).
 - `midterm_draft.tex`: editable 16:9 Beamer source.
-- `speaker_notes.md`: complete conversational recording script for slides 1–23, with separate appendix narration.
+- `speaker_notes.md`: complete conversational recording script for slides 1–24, with separate appendix narration.
 - `analysis_discussion.md`: record of the selected descriptive, analysis, and closing sections.
 - `sources/speaker_reference_notes.md`: earlier technical notes retained for preparation, separate from the recording script.
 - `sources/source_map.md`: evidence paths, verified literature links, local-source distinctions, and limitations.
@@ -27,7 +27,7 @@ Alternatively open `midterm_draft.tex` in a LaTeX editor or upload it to Overlea
 
 ## Scope
 
-The current draft covers project understanding, problem definition, background literature, data sources, a compact descriptive section, individual relationships, preliminary modeling, forecast diagnostics, and the roadmap. The descriptive section has two graph slides. Main slides run 1–23; appendix pages 24–26 are outside the recording. The read-aloud script contains approximately 2,430 spoken words, about 18–19 minutes at 130–135 words per minute before pauses. Rehearse near the upper end of that speaking range to allow transitions within 20 minutes.
+The current draft covers project understanding, problem definition, background literature, data sources, a compact descriptive section, individual relationships, preliminary modeling, forecast diagnostics, and the roadmap. The descriptive section has two graph slides. Main slides run 1–24; appendix pages 25–27 are outside the recording. The read-aloud script contains approximately 2,600 spoken words, about 19 minutes at 135 words per minute before pauses. Rehearse near the upper end of that speaking range to allow transitions within 20 minutes.
 
 The deck uses a neutral academic style rather than official BlackRock branding. The cover includes Aakash Ramesh, Arjo Bhattacharya, Alisa Priyadarsini, and Ivan Sysoev, with the same names in the spoken introduction. The date is October 20, 2026, based on the supplied deadline and current project context.
 
@@ -57,7 +57,7 @@ Slide 22 compares ridge and median-rule WAPE by stock size and prior observed au
 
 `build_group_error_slide.py` produces `assets/backtest_group_errors.pdf` and `.png`, compact `group_error_development_inputs.csv`, and `group_error_metadata.json`. It reproduces the original 2022–2025 size/history diagnostics, reconstructs the deployable median rule from stock medians and saved annual training fallbacks, and verifies its annual WAPEs and row counts against saved results. It aggregates only 2022–2024 for both new diagnostics. It also builds `backtest_calibration.pdf`/`.png`, decile inputs, pooled bias metrics, and annual verification CSVs. No calibration correction is fitted. It uses pandas, NumPy, Matplotlib, and DuckDB and fits no models. Run it before `./build.sh` when regenerating the exhibit.
 
-Slide 23 links observed weaknesses and the prior-close information boundary to diagnosing errors, refining history and fallbacks, comparing nonlinear models, testing lagged VIX/rates and scheduled CPI/NFP indicators, and developing intraday updates. New stock-specific options and index-rebalancing studies remain post-midterm. No new raw datasets or models were added, and completed results remain within the first 13 notebooks.
+Slide 24 links observed weaknesses and the prior-close information boundary to diagnosing errors, refining history and fallbacks, comparing nonlinear models, testing lagged VIX/rates and scheduled CPI/NFP indicators, and developing intraday updates. New stock-specific options and index-rebalancing studies remain post-midterm. No new raw datasets or models were added, and completed results remain within the first 13 notebooks.
 
 
 ## Presentation edits after review
@@ -92,12 +92,12 @@ Three new slides (12–14) extend the existing auction-history/daily-volume comp
 
 `speaker_notes.md` is now a complete first-person group narration. Read only the paragraphs, using headings to navigate slides. It includes chart-reading explanations, the meaning of training weights and WAPE, the median-rule baseline, ridge's provisional status, uncertainty in the associations, confirmation-year limits, and transitions into the challenges and roadmap. There are no “If asked” branches or placeholders in the spoken script. All numerical model results remain unchanged.
 
-Slides 24–26 have complete appendix scripts after a separate divider and are outside the main recording. The previous detailed notes are retained in `sources/speaker_reference_notes.md` for technical preparation. Timing is now based on script length and speaking pace rather than the earlier slide-by-slide time labels. The current revision updates both the slides and the recording script.
+Slides 25–27 have complete appendix scripts after a separate divider and are outside the main recording. The previous detailed notes are retained in `sources/speaker_reference_notes.md` for technical preparation. Timing is now based on script length and speaking pace rather than the earlier slide-by-slide time labels. The current revision updates both the slides and the recording script.
 
 
 ## Economic framework and evidence sequence
 
-Slide 4 groups example inputs by recent activity, stock scale/liquidity, common conditions, and known calendar information. These are economic hypotheses, not exhaustive eligibility categories or established effects. The general predictor vector and prior-close availability rule remain. Slides 11 and 15 distinguish separate associations from incremental information within a model; slide 18 then evaluates forecast errors. Slides 20–21 connect smoothed activity to unsmoothed misses without attributing spikes to unverified events. The cover retains all four group names. The main deck remains 23 slides plus three appendix slides, with about 2,430 spoken words (18–19 minutes at 130–135 words per minute, before pauses).
+Slide 4 groups example inputs by recent activity, stock scale/liquidity, common conditions, and known calendar information. These are economic hypotheses, not exhaustive eligibility categories or established effects. The general predictor vector and prior-close availability rule remain. Slides 11 and 15 distinguish separate associations from incremental information within a model; slide 18 then evaluates forecast errors. Slides 20–21 connect smoothed activity to unsmoothed misses without attributing spikes to unverified events. The cover retains all four group names. The main deck remains 24 slides plus three appendix slides, with about 2,600 spoken words (18–19 minutes at 130–135 words per minute, before pauses).
 
 
 ## Calibration and baseline-adjusted support
@@ -106,9 +106,26 @@ Main slide 19 adds calibration by forecast decile using 963,525 stock-days from 
 
 Slide 22 now compares both methods on identical rows, including 616 baseline fallbacks. WAPE can exceed 100%, as in the 0–4-history median-rule group. Displayed size-group baseline/ridge WAPEs are 53.2/46.2%, 47.1/39.7%, and 40.7/34.4%; history groups are 142.5/92.2%, 67.6/51.7%, and 43.2/36.6%. The under-20 group remains only 0.33% of evaluated observations.
 
-`data_analysis/build_baseline_adjusted_analysis.py` creates a separate retrospective support report, curves and association summaries for prior-close daily volume, market cap, spread, and absolute return. It uses the same 2022–2024 forecast universe and the existing log-residual target, excluding 616 cases without stock medians. The report is `data_analysis/baseline_adjusted_covariates.md`; the two-panel excerpt appears only in appendix page 25, with a complete optional script. The four-panel version is `assets/analysis_baseline_adjusted_all.pdf`/`.png`. These associations do not establish causal or incremental forecast effects. No research model, raw source, or completed-results scope changed.
+`data_analysis/build_baseline_adjusted_analysis.py` creates a separate retrospective support report, curves and association summaries for prior-close daily volume, market cap, spread, and absolute return. It uses the same 2022–2024 forecast universe and the existing log-residual target, excluding 616 cases without stock medians. The report is `data_analysis/baseline_adjusted_covariates.md`; the two-panel excerpt appears only in appendix page 26, with a complete optional script. The four-panel version is `assets/analysis_baseline_adjusted_all.pdf`/`.png`. These associations do not establish causal or incremental forecast effects. No research model, raw source, or completed-results scope changed.
 
 
 ## Descriptive-summary removal
 
-Removed the former descriptive-statistics summary slide. Sample size and annual target coverage now appear on the auction/stock data-source slide and in its narration. The two descriptive graph slides lead directly into individual-covariate analysis with a short spoken transition. Current main slides are 1–23, with appendix pages 24–26. Prior slide numbers in decision logs describe earlier drafts.
+Removed the former descriptive-statistics summary slide. Sample size and annual target coverage now appear on the auction/stock data-source slide and in its narration. The two descriptive graph slides lead directly into individual-covariate analysis with a short spoken transition. The summary-removal draft had main slides 1–23 and appendix pages 24–26; the current map is below. Prior slide numbers in decision logs describe earlier drafts.
+
+
+## Explicit challenges slide restored
+
+Slide 23, “Current and remaining challenges,” consolidates spikes/calibration, small stocks and limited histories, the prior-close information boundary, and validation/model-development limits. The diagnostic graphs remain in the main sequence. The roadmap is now slide 24, followed by appendix pages 25–27. Its new read-aloud section and a tighter roadmap keep the recording near 20 minutes. No analysis or numerical result was changed.
+
+
+## Literature and empirical questions reorganized
+
+Slide 5, “Background literature,” consolidates all three existing studies and their contributions, with L1–L3 citations and full references retained in the appendix. Slide 6, “Empirical questions,” expands four questions: persistence/target formulation, incremental information, forward forecast value, and performance across stocks/auction conditions. Speaker notes provide complete narration for each. Slide numbering remains unchanged: 24 main pages plus three appendix pages. No new literature claim, analysis, or model result is introduced.
+
+
+## Research questions, source-window consistency, and error metrics
+
+Slide 6 is titled “Research questions” and introduces forecasting models generically, without mentioning ridge. Slides 7–8 use stronger row separators, spacing, and bold source labels. Displayed periods refer to the common 2015–2025 analysis window; CRSP counts are recomputed for that window (3,594,404 rows; 2,149 securities), while earlier source history remains available for lag construction. The original full-source inventory is preserved; the windowed count is `sources/data_source_analysis_window.csv`.
+
+Slides 16–17 now show MAPE and MSPE alongside log RMSE. `build_metric_comparison.py` computes all metrics from identical saved development stock-days, validates the original annual log RMSE/WAPE, and stores annual and mean-annual tables plus definitions in `assets/metric_comparison_*`. All actuals are positive, so no relative-error rows are excluded. MSPE is in unscaled ratio-squared units. `metric_choice_notes.md` documents formulas, low-denominator sensitivity, the original selection rationale, and metric-dependent rankings. The main script is approximately 2,600 words (about 19 minutes at 135 words per minute before pauses); rehearse at that pace for the 20-minute recording. No fitted model is changed.

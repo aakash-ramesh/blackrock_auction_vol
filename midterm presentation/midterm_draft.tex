@@ -95,46 +95,51 @@ Known calendar information & Month-end; early-close flags & Scheduled changes in
 \source{The families illustrate economic hypotheses, not an exhaustive input list or proven effects. Calendar information for the forecast day may be known in advance. Auction-volume forecasts do not directly establish execution-cost savings.}
 \end{frame}
 
-\begin{frame}{Background literature: closing auctions}
-\textbf{Bogousslavsky and Muravyev (2023)}\par
+\begin{frame}{Background literature}
+\small
+\begin{tabularx}{\textwidth}{@{}L{6.0cm}Y@{}}
+\toprule
+\textbf{Study} & \textbf{Main contribution}\\
+\midrule
+\textbf{Bogousslavsky and Muravyev (2023) [L1]}\newline
 \emph{Who trades at the close? Implications for price discovery and liquidity}
-\begin{points}
-\item US evidence links closing-auction volume to indexing and ETF activity, and finds lower price impact than in continuous trading.
-\end{points}
-\par\medskip
-\textbf{Kandel, Rindi, and Bosetti (2012)}\par
+& US evidence links closing-auction activity to indexing and ETFs, and finds lower price impact than in continuous trading in the studied setting.\\[0.9em]
+\textbf{Kandel, Rindi, and Bosetti (2012) [L2]}\newline
 \emph{The effect of a closing call auction on market quality and trading strategies}
-\begin{points}
-\item Evidence from Milan and Paris shows that closing auctions alter trading near the close and that reference-price design affects participation.
-\end{points}
-\par\medskip
-\textbf{Project implication:} auction volume deserves its own forecast, with attention to calendar effects and venue design.
-\source{Sources: [L1], Journal of Financial Markets 66, 100852. [L2], Journal of Financial Intermediation 21(1), 23--49.}
+& Evidence from Milan and Paris shows that closing auctions affect trading near the close and that reference-price design affects participation.\\[0.9em]
+\textbf{Bia{\l}kowski, Darolles, and Le Fol (2008) [L3]}\newline
+\emph{Improving VWAP strategies: A dynamic volume approach}
+& An intraday volume model separates common market activity from stock-specific dynamics and updates forecasts during the day.\\
+\bottomrule
+\end{tabularx}
+\source{[L1] Journal of Financial Markets 66, 100852. [L2] Journal of Financial Intermediation 21(1), 23--49. [L3] Journal of Banking \& Finance 32(9), 1709--1722. Full references in the appendix.}
 \end{frame}
 
-\begin{frame}{Background literature: volume forecasting}
-\textbf{Bia{\l}kowski, Darolles, and Le Fol (2008)}\par
-\emph{Improving VWAP strategies: A dynamic volume approach}
+\begin{frame}{Research questions}
 \begin{points}
-\item Their intraday volume model separates a market component from stock-specific dynamics and updates forecasts during the day.
+\item \textbf{Persistence and target formulation}\par
+How much does auction history explain? Does predicting a deviation from the trailing 20-day median improve on predicting the log level directly?
+\item \textbf{Incremental information}\par
+Do liquidity and known calendar inputs add information beyond auction history? What do stock characteristics and market/sector conditions contribute?
+\item \textbf{Forecast value}\par
+Can forecasting models improve on simple historical baselines in chronological forward tests, across proportional and share-volume error measures?
+\item \textbf{Performance across stocks and auction conditions}\par
+How do errors vary with stock size and available history? Where do missed spikes and systematic underprediction remain?
 \end{points}
-\par\medskip
-\textbf{Our empirical questions}
-\begin{points}
-\item How much can stock history and known calendar events explain tomorrow's closing-auction size?
-\item Do pooled models generalize across stock sizes and liquidity levels?
-\item Do calendar effects and market context add information beyond recent auction history?
-\end{points}
-\source{Source: [L3], Journal of Banking \& Finance 32(9), 1709--1722. The VWAP paper is related motivation, not an auction-volume forecasting result.}
+\source{Individual associations provide economic context; family-removal and forward tests assess added predictive value within the tested models. Daily inputs must be available at the previous close or known in advance.}
 \end{frame}
 
 \begin{frame}{Data sources: auction targets and stock history}
+\small
 \begin{tabularx}{\textwidth}{@{}L{3.0cm}L{2.3cm}Y@{}}
 \toprule
-\textbf{Source layer} & \textbf{Period} & \textbf{Role in the project}\\
+\textbf{Source layer} & \textbf{Analysis period} & \textbf{Role in the project}\\
 \midrule
-TAQ auction extracts\newline via WRDS & 2015--2025 & Official NYSE auction volume and auction history. 3,594,398 source rows across 2,149 PERMNOs.\\[0.8em]
-CRSP daily stocks & 2011--2025 & Prices, returns, trading volume, shares outstanding, and corporate actions. 4,927,078 rows across 2,414 PERMNOs.\\
+\addlinespace[0.4em]
+\textbf{TAQ auction extracts}\newline via WRDS & 2015--2025 & Official NYSE auction volume and auction history. 3,594,398 source rows across 2,149 PERMNOs.\\
+\addlinespace[0.5em]\midrule\addlinespace[0.5em]
+\textbf{CRSP daily stocks} & 2015--2025 & Prices, returns, trading volume, shares outstanding, and corporate actions. 3,594,404 rows across 2,149 PERMNOs.\\
+\addlinespace[0.4em]
 \bottomrule
 \end{tabularx}
 \par\medskip
@@ -143,22 +148,27 @@ CRSP daily stocks & 2011--2025 & Prices, returns, trading volume, shares outstan
 \textbf{Observation key:} trading date $\times$ PERMNO, CRSP's permanent security identifier.
 \par\medskip
 {\small\textbf{Analytical sample:} 3.50 million eligible labels; annual observed-target coverage of 93.0\%--99.0\%.\par}
-\source{Counts describe our extracted sample. Source rows include missing targets and do not equal the number of valid training labels.}
+\source{Counts shown cover 2015--2025. Earlier source history supports lag construction. Source rows include missing targets and do not equal the number of valid training labels.}
 \end{frame}
 
 \begin{frame}{Data sources: context and intraday trades}
+\small
 \begin{tabularx}{\textwidth}{@{}L{3.1cm}Y@{}}
 \toprule
 \textbf{Data layer} & \textbf{Content and use}\\
 \midrule
-Market and sector daily\newline 2011--2025 & Market context and FF12-style sector measures. Daily forecasts use lagged information.\\[0.6em]
-Calendar and references & Month/quarter-end, expiry and early-close indicators, security and industry history, and dated TAQ--CRSP links.\\[0.6em]
-TAQ trade checkpoints\newline 2015--2025 & Cumulative trading activity at 10:30, 12:00, 14:00, 15:00, and 15:30 ET. 17,971,990 source rows.\\
+\addlinespace[0.4em]
+\textbf{Market and sector daily}\newline 2015--2025 & Market context and FF12-style sector measures. Daily forecasts use lagged information.\\
+\addlinespace[0.5em]\midrule\addlinespace[0.5em]
+\textbf{Calendar and references} & Month/quarter-end, expiry and early-close indicators, security and industry history, and dated TAQ--CRSP links.\\
+\addlinespace[0.5em]\midrule\addlinespace[0.5em]
+\textbf{TAQ trade checkpoints}\newline 2015--2025 & Cumulative trading activity at 10:30, 12:00, 14:00, 15:00, and 15:30 ET. 17,971,990 source rows.\\
+\addlinespace[0.4em]
 \bottomrule
 \end{tabularx}
 \par\medskip
 Checkpoint data are available for a future intraday update model. The daily model uses the previous day's information and known calendar events.
-\source{Checkpoints after an early close are invalid.}
+\source{Periods shown refer to the 2015--2025 analysis window. Checkpoints after an early close are invalid.}
 \end{frame}
 
 
@@ -234,7 +244,6 @@ Checkpoint data are available for a future intraday update model. The daily mode
 \end{frame}
 
 \begin{frame}{Target formulation: deviation from the 20-day median}
-\lead{Learn a correction to each stock's recent typical auction}
 Let $B_{i,t}$ be the trailing 20-day auction median, using only observations before $t$.
 \[
  r_{i,t}=\log(1+A_{i,t})-\log(1+B_{i,t})
@@ -243,27 +252,30 @@ Let $B_{i,t}$ be the trailing 20-day auction median, using only observations bef
  \widehat A_{i,t}=\max\!\left\{0,\ \exp\!\left[\log(1+B_{i,t})+\widehat r_{i,t}\right]-1\right\}
 \]
 \medskip
-\begin{tabularx}{\textwidth}{@{}Y r@{}}
+\small
+\begin{tabularx}{\textwidth}{@{}Y r r r@{}}
 \toprule
-\textbf{Controlled target comparison} & \textbf{Development log RMSE}\\
+\textbf{Controlled target comparison} & \textbf{Log RMSE} & \textbf{MAPE (\%)} & \textbf{MSPE}\\
 \midrule
-Direct log level & 0.49609\\[0.3em]
-Deviation from the median in log space & \textbf{0.48710}\\
+Direct log level & 0.49609 & 37.49 & 2.773\\[0.4em]
+Deviation from the median in log space & \textbf{0.48710} & \textbf{34.68} & \textbf{1.483}\\
 \bottomrule
 \end{tabularx}
-\source{Same five-year rolling history, 99 source features, and uniform weights. Mean annual 2022--2024 log RMSE, lower is better. Missing baselines use a historical training-median fallback. The business target remains auction shares. Forecast safeguards also use historical training bounds.}
+\par\medskip
+\textbf{Why log RMSE?} Compare errors across stock scales while penalizing large log misses.\par\smallskip
+\textbf{Relative-error check:} MAPE and MSPE also improve; small actual auctions can strongly influence these denominator-based metrics.
+\source{Mean annual 2022--2024 metrics; lower is better. Same five-year history, 99 inputs, equal weights. MAPE = 100 $\times$ mean absolute relative error; MSPE = mean squared relative error, in unscaled ratio-squared units. All 963,525 actuals are positive. Missing baselines use a historical fallback.}
 \end{frame}
 
 \begin{frame}{Ridge benchmark: specification comparison}
-\lead{One modeling approach explored so far}
 \small
-\begin{tabularx}{\textwidth}{@{}Y r r@{}}
+\begin{tabularx}{\textwidth}{@{}Y r @{\hspace{0.45cm}}r @{\hspace{0.45cm}}r @{\hspace{0.45cm}}r@{}}
 \toprule
-\textbf{Ridge specification} & \textbf{Inputs} & \textbf{Development log RMSE}\\
+\textbf{Ridge specification} & \textbf{Inputs} & \textbf{Log RMSE} & \textbf{MAPE (\%)} & \textbf{MSPE}\\
 \midrule
-Full feature set, more weight on recent days & 99 & 0.48677\\[0.5em]
-\textbf{Auction / calendar / liquidity, equal row weights} & \textbf{58} & \textbf{0.48764}\\[0.5em]
-Auction / calendar, equal row weights & 42 & 0.49059\\
+Full feature set, more weight on recent days & 99 & 0.48677 & 34.82 & 1.171\\[0.5em]
+\textbf{Auction / calendar / liquidity, equal row weights} & \textbf{58} & \textbf{0.48764} & \textbf{34.59} & \textbf{1.325}\\[0.5em]
+Auction / calendar, equal row weights & 42 & 0.49059 & 35.26 & 1.278\\
 \bottomrule
 \end{tabularx}
 \medskip
@@ -272,7 +284,9 @@ Auction / calendar, equal row weights & 42 & 0.49059\\
 \item \textbf{Within these ridge trials:} prefer fewer inputs within 0.002 of the best mean annual development log RMSE.
 \item \textbf{Reference specification:} global ridge, five-year rolling history, equal training-row weights. 19 auction-history + 23 calendar + 16 liquidity inputs.
 \end{points}
-\source{Training weights control each stock-day's contribution to fitting error. Equal weights treat every row equally. Recent-data weights decay with age, with a two-year half-life. Development: 2022--2024. Input counts precede encoding and missingness indicators.}
+\small
+\textbf{Metric sensitivity:} the 58-input reference has the lowest MAPE here; the full recent-weighted model has the lowest log RMSE and MSPE.
+\source{Mean annual 2022--2024 metrics on identical stock-days; definitions on the preceding slide. Log RMSE drives this within-ridge comparison. Equal training weights treat each row equally; recent-data weights use a two-year half-life. Input counts precede encoding and missingness indicators.}
 \end{frame}
 
 \begin{frame}{Annual forecast errors: ridge versus recent median}
@@ -335,6 +349,22 @@ CATO, 2017 & 56.6\% & 46.4\%\\
 \textbf{Comparison:} ridge lowers WAPE in every displayed group; small-stock and short-history errors remain high.\par\smallskip
 \textbf{Coverage:} fewer than 20 prior auctions account for only 0.33\% of evaluated stock-days.
 \source{Same 2022--2024 stock-days for both methods; n = stock-days. Pooled group WAPE differs from the earlier mean annual headline and can exceed 100\%. The median rule retains saved historical fallbacks. Size uses prior-close market-cap percentile thirds; history counts prior observed auctions. Group differences do not identify causes.}
+\end{frame}
+
+\begin{frame}{Current and remaining challenges}
+\small
+\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\textwidth}{@{}L{3.4cm}Y@{}}
+\toprule
+\textbf{Challenge} & \textbf{Current limitation}\\
+\midrule
+\textbf{Spikes and calibration} & Sharp daily surges remain difficult. Total forecast shares are 14.4\% below actual shares in 2022--2024.\\[0.7em]
+\textbf{Small stocks and short histories} & Errors remain high despite gains over the median rule. Limited history complicates reliable stock-specific forecasts.\\[0.7em]
+\textbf{Daily information cutoff} & The previous-close forecast cannot respond to new information or trading activity arriving during the session.\\[0.7em]
+\textbf{Validation and model development} & Ridge is a preliminary benchmark. The 2025 confirmation year was already inspected; evaluation on additional unused periods is needed.\\
+\bottomrule
+\end{tabularx}
+\source{These limitations summarize the preceding diagnostics. Spike causes remain unverified. Cases with fewer than 20 prior auctions are only 0.33\% of evaluated stock-days. Future model, feature, and calibration gains remain to be tested.}
 \end{frame}
 
 \begin{frame}{Roadmap and next steps}
