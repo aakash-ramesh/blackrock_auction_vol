@@ -1,0 +1,33 @@
+{
+  "clip_log": [
+    4.61512051684126,
+    15.753380572151842
+  ],
+  "fallback_ratio": 0.15140000137328727,
+  "selected": {
+    "ridge_update": {
+      "test_year": 2023,
+      "candidate": "ridge_update",
+      "parameter": 0.1,
+      "iterations": 0,
+      "validation_rmse_log": 0.5007217964812549
+    },
+    "lgbm_daily_control": {
+      "test_year": 2023,
+      "candidate": "lgbm_daily_control",
+      "parameter": 31,
+      "iterations": 5,
+      "validation_rmse_log": 0.5105199020502464
+    },
+    "lgbm_intraday_update": {
+      "test_year": 2023,
+      "candidate": "lgbm_intraday_update",
+      "parameter": 63,
+      "iterations": 60,
+      "validation_rmse_log": 0.5003601851275126
+    }
+  },
+  "refit_start": "2021-01-04 00:00:00",
+  "refit_end": "2022-12-30 00:00:00",
+  "first_test_date": "2023-01-03 00:00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "all_checks_passed": true,
+  "checks": 92,
+  "completed_utc": "2026-11-03T02:34:04.273126+00:00",
+  "prediction_files": [
+    {
+      "path": "outputs/experiments/17_target_formulations/predictions/target_predictions_2022.parquet",
+      "rows": 328634,
+      "sha256": "5d546b0b50fceab95a4c9abbd1dfe16b1f0d22c9e7bc35f80db278fecd325452"
+    },
+    {
+      "path": "outputs/experiments/17_target_formulations/predictions/target_predictions_2023.parquet",
+      "rows": 318679,
+      "sha256": "914ae6973b875fdb84518c85d435d30907f0f26ce29060ef339a76b26a9973cc"
+    },
+    {
+      "path": "outputs/experiments/17_target_formulations/predictions/target_predictions_2024.parquet",
+      "rows": 316212,
+      "sha256": "56de1f13792cdf17ac5fdf3086a3c941f7fd53b100e41fc2f122feb9188cb736"
+    },
+    {
+      "path": "outputs/experiments/17_target_formulations/predictions/target_predictions_2025.parquet",
+      "rows": 307853,
+      "sha256": "169bcdd211e85b8113ebbad815749621818ec92706f5fb293c1a58a5c2335e25"
+    }
+  ],
+  "total_rows": 1271378,
+  "eligible_target_changes": [],
+  "median_lightgbm_exactly_reused": true,
+  "plan_sha256": "d93275a54ebea8a4ff3a501e668a09ac4a754820da296c3566087615cdbb21b6"
+}

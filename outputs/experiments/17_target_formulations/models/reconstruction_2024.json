@@ -1,0 +1,63 @@
+{
+  "fallback": 60379.5,
+  "clip_log": [
+    2.772588722239781,
+    15.845648706018062
+  ],
+  "selected": {
+    "ridge__log_level": {
+      "test_year": 2024,
+      "validation_year": 2023,
+      "candidate": "ridge__log_level",
+      "parameter": 1e-07,
+      "iterations": 0,
+      "validation_rmse_log": 0.4923264819650754,
+      "reused": false
+    },
+    "lgbm__log_level": {
+      "test_year": 2024,
+      "validation_year": 2023,
+      "candidate": "lgbm__log_level",
+      "parameter": 15,
+      "iterations": 1916,
+      "validation_rmse_log": 0.4621287122166143,
+      "reused": false
+    },
+    "ridge__lag1_log_growth": {
+      "test_year": 2024,
+      "validation_year": 2023,
+      "candidate": "ridge__lag1_log_growth",
+      "parameter": 1e-07,
+      "iterations": 0,
+      "validation_rmse_log": 0.48678087642387957,
+      "reused": false
+    },
+    "lgbm__lag1_log_growth": {
+      "test_year": 2024,
+      "validation_year": 2023,
+      "candidate": "lgbm__lag1_log_growth",
+      "parameter": 31,
+      "iterations": 1702,
+      "validation_rmse_log": 0.46163655429002337,
+      "reused": false
+    },
+    "ridge__median20_log_residual": {
+      "test_year": 2024,
+      "validation_year": 2023,
+      "candidate": "ridge__median20_log_residual",
+      "parameter": 1e-07,
+      "iterations": 0,
+      "validation_rmse_log": 0.48421658627540454,
+      "reused": false
+    },
+    "lgbm__median20_log_residual": {
+      "test_year": 2024,
+      "validation_year": 2023,
+      "candidate": "lgbm__median20_log_residual",
+      "parameter": 63,
+      "iterations": 1171,
+      "validation_rmse_log": 0.4622949035506817,
+      "reused": true
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "policy": "Generated Parquet and database files stay local; rerun the documented chronological pipeline to regenerate. Source data already in the repository are not modified.",
+  "files": [
+    {
+      "path": "outputs/reproduction/01_daily_panel/enriched_daily_panel.parquet",
+      "bytes": 1237207283,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/reproduction/03_compact_nonlinear/samples/2025_validation.parquet",
+      "bytes": 40790213,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/reproduction/03_compact_nonlinear/samples/2022_refit.parquet",
+      "bytes": 124788149,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/reproduction/03_compact_nonlinear/samples/2023_validation.parquet",
+      "bytes": 40787292,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/reproduction/03_compact_nonlinear/samples/2025_refit.parquet",
+      "bytes": 126485339,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/reproduction/03_compact_nonlinear/samples/2024_refit.parquet",
+      "bytes": 126127803,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/reproduction/03_compact_nonlinear/samples/2023_refit.parquet",
+      "bytes": 125407875,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/reproduction/03_compact_nonlinear/samples/2022_validation.parquet",
+      "bytes": 41489399,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/reproduction/03_compact_nonlinear/samples/2024_tune.parquet",
+      "bytes": 89725590,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/reproduction/03_compact_nonlinear/samples/2023_tune.parquet",
+      "bytes": 89208502,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/reproduction/03_compact_nonlinear/samples/2024_validation.parquet",
+      "bytes": 41022160,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/reproduction/03_compact_nonlinear/samples/2022_tune.parquet",
+      "bytes": 88949838,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/reproduction/03_compact_nonlinear/samples/2025_tune.parquet",
+      "bytes": 90213260,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/reproduction/03_compact_nonlinear/predictions/nonlinear_challenger_predictions_2025.parquet",
+      "bytes": 19405226,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/reproduction/03_compact_nonlinear/predictions/nonlinear_challenger_predictions_2024.parquet",
+      "bytes": 20032432,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/reproduction/03_compact_nonlinear/predictions/nonlinear_challenger_predictions_2022.parquet",
+      "bytes": 20695149,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/reproduction/03_compact_nonlinear/predictions/nonlinear_challenger_predictions_2023.parquet",
+      "bytes": 20507800,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/intraday_panel.parquet",
+      "bytes": 675393537,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/samples/2025_validation.parquet",
+      "bytes": 54730946,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/samples/2022_refit.parquet",
+      "bytes": 144137414,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/samples/2023_validation.parquet",
+      "bytes": 54718838,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/samples/2025_refit.parquet",
+      "bytes": 166110183,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/samples/2024_refit.parquet",
+      "bytes": 165179461,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/samples/2023_refit.parquet",
+      "bytes": 163234519,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/samples/2022_validation.parquet",
+      "bytes": 36346222,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/samples/2024_tune.parquet",
+      "bytes": 116759729,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/samples/2023_tune.parquet",
+      "bytes": 115525885,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/samples/2024_validation.parquet",
+      "bytes": 54930064,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/samples/2022_tune.parquet",
+      "bytes": 106170302,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/samples/2025_tune.parquet",
+      "bytes": 118146500,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/predictions/intraday_predictions_2023.parquet",
+      "bytes": 23915108,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/predictions/intraday_predictions_2022.parquet",
+      "bytes": 24362509,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/predictions/intraday_predictions_2024.parquet",
+      "bytes": 23212402,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/20_intraday_noon/predictions/intraday_predictions_2025.parquet",
+      "bytes": 22361643,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/18_error_diagnosis_calibration/historical_2021/predictions_2021.parquet",
+      "bytes": 17078472,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/18_error_diagnosis_calibration/historical_2021/validation_sample.parquet",
+      "bytes": 40868148,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/18_error_diagnosis_calibration/historical_2021/tune_sample.parquet",
+      "bytes": 89117548,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/18_error_diagnosis_calibration/historical_2021/refit_sample.parquet",
+      "bytes": 124875074,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/18_error_diagnosis_calibration/predictions/calibrated_predictions_2023.parquet",
+      "bytes": 26555850,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/18_error_diagnosis_calibration/predictions/calibrated_predictions_2022.parquet",
+      "bytes": 27155859,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/18_error_diagnosis_calibration/predictions/calibrated_predictions_2024.parquet",
+      "bytes": 26220262,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/18_error_diagnosis_calibration/predictions/calibrated_predictions_2025.parquet",
+      "bytes": 25298559,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/intraday_panel.parquet",
+      "bytes": 676144536,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/samples/2025_validation.parquet",
+      "bytes": 54809964,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/samples/2022_refit.parquet",
+      "bytes": 144404568,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/samples/2023_validation.parquet",
+      "bytes": 54823879,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/samples/2025_refit.parquet",
+      "bytes": 166458978,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/samples/2024_refit.parquet",
+      "bytes": 165541630,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/samples/2023_refit.parquet",
+      "bytes": 163601010,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/samples/2022_validation.parquet",
+      "bytes": 36445213,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/samples/2024_tune.parquet",
+      "bytes": 117022406,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/samples/2023_tune.parquet",
+      "bytes": 115740256,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/samples/2024_validation.parquet",
+      "bytes": 55032070,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/samples/2022_tune.parquet",
+      "bytes": 106368084,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/samples/2025_tune.parquet",
+      "bytes": 118412113,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/predictions/intraday_predictions_2023.parquet",
+      "bytes": 23914352,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/predictions/intraday_predictions_2022.parquet",
+      "bytes": 24369768,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/predictions/intraday_predictions_2024.parquet",
+      "bytes": 23206631,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/predictions/intraday_predictions_2025.parquet",
+      "bytes": 22383764,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/17_target_formulations/predictions/target_predictions_2024.parquet",
+      "bytes": 24051488,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/17_target_formulations/predictions/target_predictions_2025.parquet",
+      "bytes": 23380243,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/17_target_formulations/predictions/target_predictions_2023.parquet",
+      "bytes": 24302469,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    },
+    {
+      "path": "outputs/experiments/17_target_formulations/predictions/target_predictions_2022.parquet",
+      "bytes": 24980673,
+      "reason": "Regenerated data, sampled rows, forecasts or local database; fingerprints retained in experiment outputs"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "python": "3.11.4 (v3.11.4:d2340ef257, Jun  6 2023, 19:15:51) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.3.1-arm64-arm-64bit",
+  "packages": {
+    "duckdb": "1.5.6",
+    "numpy": "2.4.6",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "nbclient": "0.11.0"
+  }
+}

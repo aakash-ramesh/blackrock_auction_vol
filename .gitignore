@@ -223,3 +223,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local reproducibility runs retain large generated data outside Git.
+outputs/reproduction/**/*.parquet
+outputs/experiments/**/*.parquet
+outputs/reproduction/**/.matplotlib/
+outputs/experiments/**/.matplotlib/
+outputs/reproduction/**/*.sqlite
+outputs/experiments/**/*.sqlite
+.DS_Store

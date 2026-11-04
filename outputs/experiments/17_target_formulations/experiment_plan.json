@@ -1,0 +1,58 @@
+{
+  "targets": {
+    "log_level": "log1p(A_t)",
+    "lag1_log_growth": "log1p(A_t) - log1p(A_previous_stock_row); missing reference uses historical training median",
+    "median20_log_residual": "log1p(A_t) - log1p(median of available auctions in prior 20 stock rows); missing reference uses historical training median"
+  },
+  "families": [
+    "ridge",
+    "lgbm"
+  ],
+  "features": "Same 58 sources and shared preprocessing as step 03",
+  "samples": "Exact saved tuning, validation and refit rows in their saved order from step 03",
+  "development_years": [
+    2022,
+    2023,
+    2024
+  ],
+  "confirmation_year": 2025,
+  "confirmation_previously_inspected": true,
+  "ridge_penalties": [
+    1e-07,
+    1e-06,
+    1e-05,
+    0.0001,
+    0.001,
+    0.01,
+    0.1
+  ],
+  "lgbm_leaves": [
+    15,
+    31,
+    63
+  ],
+  "lgbm_max_trees": 2000,
+  "lgbm_early_stop_patience": 100,
+  "primary_metric": "equal-year mean development log RMSE",
+  "additional_metrics": [
+    "WAPE",
+    "raw MAE",
+    "log MAE",
+    "Spearman",
+    "aggregate bias",
+    "segment and tail errors"
+  ],
+  "target_change_gate": "vs own-family median target: development RMSE improvement >=0.002, no annual worsening >0.002, paired development date-bootstrap log-MAE upper CI <0",
+  "forecast_clipping": "common training log-target quantiles 0.001 and 0.999",
+  "excluded_changes": [
+    "new features",
+    "Huber search",
+    "blends",
+    "calibration",
+    "anomaly-history policy",
+    "new clipping policy"
+  ],
+  "median_lgbm_reuse": "Validated prior squared-error model, validation grid and test forecasts; other five combinations fitted on identical historical rows",
+  "script_sha256": "2db66422dab665163d4a11d2d8432ab7986d42f0ba5393b4384388ac70d1de1b",
+  "created_utc": "2026-11-03T02:22:32.945580+00:00"
+}

@@ -1,0 +1,3 @@
+candidate,objective,source_feature_count
+lgbm_residual_58_l2,regression,58
+lgbm_residual_58_huber,huber,58

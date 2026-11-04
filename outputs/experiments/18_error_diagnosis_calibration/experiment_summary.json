@@ -1,0 +1,32 @@
+{
+  "completed_utc": "2026-11-03T02:47:53.112446+00:00",
+  "all_checks_passed": true,
+  "checks": 87,
+  "prediction_files": [
+    {
+      "path": "outputs/experiments/18_error_diagnosis_calibration/predictions/calibrated_predictions_2022.parquet",
+      "rows": 328634,
+      "sha256": "1b2f67837d200bb79a040dafb45c1dcfcb5181b7990f28da05e557a50078b8db"
+    },
+    {
+      "path": "outputs/experiments/18_error_diagnosis_calibration/predictions/calibrated_predictions_2023.parquet",
+      "rows": 318679,
+      "sha256": "535004c10ccb198018232fe56919f71adc313c818ae1e1053c66d3a642fc89ce"
+    },
+    {
+      "path": "outputs/experiments/18_error_diagnosis_calibration/predictions/calibrated_predictions_2024.parquet",
+      "rows": 316212,
+      "sha256": "942bf96f13a33c0f2a16cdece247bc0741de20c0666f0626a8904ddd932c5997"
+    },
+    {
+      "path": "outputs/experiments/18_error_diagnosis_calibration/predictions/calibrated_predictions_2025.parquet",
+      "rows": 307853,
+      "sha256": "253a64168dc0422cb84c7bb8ee127292ef3d5bf3e28d850e9927854bfa683b39"
+    }
+  ],
+  "total_evaluation_rows": 1271378,
+  "passing_corrections": [],
+  "upper_clipping_share_of_net_volume_shortfall": 0.0422274280036534,
+  "calibration_2021_prediction_sha256": "a33439ca16cae31c544ed63df9ee4acdfa50b0ba6aa0f7f393a90aa15ace4bf9",
+  "plan_sha256": "6fd74b8f8a5d1d9866f447e1432d3216644915684e0ab9d60d85200ccd0d7ea1"
+}

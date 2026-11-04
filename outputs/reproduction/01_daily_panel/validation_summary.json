@@ -1,0 +1,173 @@
+{
+  "started_utc": "2026-11-03T01:20:44.301127+00:00",
+  "finished_utc": "2026-11-03T01:20:47.805088+00:00",
+  "source_notebook_sha256": "f72e2b240d7c79c699d61046ba7bb289d3ff079d5c4a5ca75e0e2676ead70fd9",
+  "source_files": 31,
+  "panel_bytes": 1237207283,
+  "panel_sha256": "beef58ef8a307e922e3d00f3833e28381f99587edc19577ece02b60dd0c48f35",
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "check": "rows",
+      "observed": 3594404,
+      "expected": 3594404,
+      "passed": true
+    },
+    {
+      "check": "securities",
+      "observed": 2149,
+      "expected": 2149,
+      "passed": true
+    },
+    {
+      "check": "trading_days",
+      "observed": 2766,
+      "expected": 2766,
+      "passed": true
+    },
+    {
+      "check": "eligible",
+      "observed": 3499401,
+      "expected": 3499401,
+      "passed": true
+    },
+    {
+      "check": "duplicate_keys",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "invalid_eligibility",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "anomaly_eligible",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "nonpositive_labels",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "annual_eligible_counts",
+      "observed": [
+        337566,
+        325638,
+        318040,
+        313807,
+        308240,
+        303168,
+        321564,
+        328634,
+        318679,
+        316212,
+        307853
+      ],
+      "expected": [
+        337566,
+        325638,
+        318040,
+        313807,
+        308240,
+        303168,
+        321564,
+        328634,
+        318679,
+        316212,
+        307853
+      ],
+      "passed": true
+    },
+    {
+      "check": "feature_count",
+      "observed": 99,
+      "expected": 99,
+      "passed": true
+    },
+    {
+      "check": "feature_catalog_matches",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "features_with_changed_null_counts",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "missingness_features_compared",
+      "observed": 99,
+      "expected": 99,
+      "passed": true
+    },
+    {
+      "check": "source_crsp_duplicate_keys",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "source_auction_duplicate_keys",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "target_values_match_source",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "target_flags_match_source",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "independent_median20_auction_volume_mismatches",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "independent_lag1_auction_volume_mismatches",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "independent_lag1_daily_volume_mismatches",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "independent_prior_auction_observations_mismatches",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "forbidden_features_in_catalog",
+      "observed": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "check": "nonfinite_numeric_feature_values",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    }
+  ]
+}

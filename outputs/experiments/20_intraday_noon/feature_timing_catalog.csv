@@ -1,0 +1,74 @@
+feature,information_time
+lag1_auction_volume,prior close / known calendar
+lag2_auction_volume,prior close / known calendar
+lag5_auction_volume,prior close / known calendar
+avg5_auction_volume,prior close / known calendar
+avg20_auction_volume,prior close / known calendar
+avg60_auction_volume,prior close / known calendar
+median20_auction_volume,prior close / known calendar
+median60_auction_volume,prior close / known calendar
+std20_auction_volume,prior close / known calendar
+std60_auction_volume,prior close / known calendar
+auction_cv20,prior close / known calendar
+auction_short_long_ratio,prior close / known calendar
+lag1_auction_share,prior close / known calendar
+avg20_auction_share,prior close / known calendar
+std20_auction_share,prior close / known calendar
+lag1_auction_to_adv20,prior close / known calendar
+auction_spike_lag1,prior close / known calendar
+days_since_last_auction,prior close / known calendar
+prior_auction_observations,prior close / known calendar
+is_monday,prior close / known calendar
+is_friday,prior close / known calendar
+day_of_week,prior close / known calendar
+month,prior close / known calendar
+trading_day_of_month,prior close / known calendar
+trading_days_to_month_end,prior close / known calendar
+is_first_trading_day_month,prior close / known calendar
+is_last_trading_day_month,prior close / known calendar
+is_last_3_trading_days_month,prior close / known calendar
+is_last_5_trading_days_month,prior close / known calendar
+trading_days_to_quarter_end,prior close / known calendar
+is_last_trading_day_quarter,prior close / known calendar
+is_last_3_trading_days_quarter,prior close / known calendar
+is_last_5_trading_days_quarter,prior close / known calendar
+trading_days_to_year_end,prior close / known calendar
+is_last_trading_day_year,prior close / known calendar
+monthly_options_expiry,prior close / known calendar
+quarterly_options_expiry,prior close / known calendar
+after_long_market_gap,prior close / known calendar
+before_long_market_gap,prior close / known calendar
+is_early_close,prior close / known calendar
+early_close_month_end_window,prior close / known calendar
+expiry_month_end_window,prior close / known calendar
+lag1_daily_volume,prior close / known calendar
+avg5_daily_volume,prior close / known calendar
+avg20_daily_volume,prior close / known calendar
+avg60_daily_volume,prior close / known calendar
+std20_daily_volume,prior close / known calendar
+std60_daily_volume,prior close / known calendar
+abnormal_volume_lag1,prior close / known calendar
+volume_short_long_ratio,prior close / known calendar
+lag1_dollar_volume,prior close / known calendar
+avg20_dollar_volume,prior close / known calendar
+lag1_turnover,prior close / known calendar
+avg20_turnover,prior close / known calendar
+lag1_amihud,prior close / known calendar
+avg20_amihud,prior close / known calendar
+lag1_quoted_spread,prior close / known calendar
+lag1_hl_range,prior close / known calendar
+log_daily_forecast,saved out-of-time daily prediction using prior-close information
+checkpoint_avg_volume20,"prior close; historical checkpoint normalization / prior price, available to both learned LightGBM candidates"
+checkpoint_avg_trades20,"prior close; historical checkpoint normalization / prior price, available to both learned LightGBM candidates"
+ratio20_auction_to_checkpoint,"prior close; historical checkpoint normalization / prior price, available to both learned LightGBM candidates"
+lag1_price,"prior close; historical checkpoint normalization / prior price, available to both learned LightGBM candidates"
+cp_cum_volume,observed by 12:00; normalization uses prior-only historical windows
+cp_cum_dollar_volume,observed by 12:00; normalization uses prior-only historical windows
+cp_cum_trade_count,observed by 12:00; normalization uses prior-only historical windows
+cp_recent_30m_volume,observed by 12:00; normalization uses prior-only historical windows
+cp_vwap,observed by 12:00; normalization uses prior-only historical windows
+cp_recent_30m_volume_share,observed by 12:00; normalization uses prior-only historical windows
+cp_volume_to_adv20,observed by 12:00; normalization uses prior-only historical windows
+cp_volume_surprise20,observed by 12:00; normalization uses prior-only historical windows
+cp_trade_count_surprise20,observed by 12:00; normalization uses prior-only historical windows
+cp_vwap_return_prior_close,observed by 12:00; normalization uses prior-only historical windows

@@ -1,0 +1,86 @@
+[
+  {
+    "path": "notebooks/build_intraday_noon_update.py",
+    "sha256": "a769cc743e466e469daeac58595027e21b3c881eccfffbecb3b21c6f1794cd9c"
+  },
+  {
+    "path": "notebooks/compare_intraday_times.py",
+    "sha256": "0833078c5ce2f9405d93b6aed0bed59bbd25e979cddec61ffaf180b244f79486"
+  },
+  {
+    "path": "notebooks/20_intraday_noon_update.ipynb",
+    "sha256": "52d401214b5a51352b662b0f1f7f06835d5680c3629be666253f873ae1428e94"
+  },
+  {
+    "path": "outputs/experiments/19_intraday_1530/samples/2022_refit.parquet",
+    "sha256": "ceb2532a617a1b03c5c26d6a9613a2133a187bfb6e627aa5641c0825355dd28a"
+  },
+  {
+    "path": "outputs/experiments/19_intraday_1530/samples/2022_tune.parquet",
+    "sha256": "31ea1896528595f632ea5888a0782ad13fd2bc12bd6ca6fb7e5316a764d51d6f"
+  },
+  {
+    "path": "outputs/experiments/19_intraday_1530/samples/2022_validation.parquet",
+    "sha256": "4b06db04b0937b4551a3f6ad0947366bdf5a904c8bf1cd27be8a57adad41baa3"
+  },
+  {
+    "path": "outputs/experiments/19_intraday_1530/samples/2023_refit.parquet",
+    "sha256": "91b5fc21807d29afa016a6f458f5e116bfea677e01dcf76a6b2c06e2d5c92326"
+  },
+  {
+    "path": "outputs/experiments/19_intraday_1530/samples/2023_tune.parquet",
+    "sha256": "9c30bbe25e1162874508a996ade5b10da2d70598d931a33723e4c60a1ba7a55f"
+  },
+  {
+    "path": "outputs/experiments/19_intraday_1530/samples/2023_validation.parquet",
+    "sha256": "76896406511dd111b3550f77322d40a2399e9e5b9c35ba881512586de1ced5f2"
+  },
+  {
+    "path": "outputs/experiments/19_intraday_1530/samples/2024_refit.parquet",
+    "sha256": "4cd31659900f72d9a83391cd90693518f9bd73052cecf9162f017941b106ec37"
+  },
+  {
+    "path": "outputs/experiments/19_intraday_1530/samples/2024_tune.parquet",
+    "sha256": "2932aaed2b060468337f34902061b60d823bcb1615e7fd8a8dbb973be3769750"
+  },
+  {
+    "path": "outputs/experiments/19_intraday_1530/samples/2024_validation.parquet",
+    "sha256": "02c06dc570caa1cef135e3b7f13fd9b59a70bc6f5a463a641aabdcca3e74b6cb"
+  },
+  {
+    "path": "outputs/experiments/19_intraday_1530/samples/2025_refit.parquet",
+    "sha256": "a99d74a622990327d565d2a7fc593680aa161ed80dd4f125d94d4ea675d6a36e"
+  },
+  {
+    "path": "outputs/experiments/19_intraday_1530/samples/2025_tune.parquet",
+    "sha256": "85958c28e563275774225e677da0964b0fd23ee4abcdbc9eb9324f5bf8d2d91a"
+  },
+  {
+    "path": "outputs/experiments/19_intraday_1530/samples/2025_validation.parquet",
+    "sha256": "043a8de2c622e372ec48d5f0cd5c9c8f4138ea93998668de5907405323d831fd"
+  },
+  {
+    "path": "outputs/experiments/20_intraday_noon/checkpoint_time_comparison.csv",
+    "sha256": "8de66f898bc70ea295680594e92033b73fc89c62d867443f1fb1fd9299ece885"
+  },
+  {
+    "path": "outputs/experiments/20_intraday_noon/intraday_comparison.csv",
+    "sha256": "4c27824e60e9fbb0364fc035ec06ba10d0b5cbc97b029b7e29c2dffed6fd87a3"
+  },
+  {
+    "path": "outputs/experiments/20_intraday_noon/full_checkpoint_availability_audit.csv",
+    "sha256": "ea90860dfd7b544f5c5d7109bf1e7947939e1c49a07ccc3ee235a6ebe59735e9"
+  },
+  {
+    "path": "outputs/experiments/20_intraday_noon/paired_checkpoint_time_bootstrap.csv",
+    "sha256": "c246bedba61f99a4cb1945785366332de4cdfb5f19544dc3093392e3d81696e5"
+  },
+  {
+    "path": "outputs/experiments/20_intraday_noon/timing_alignment_checks.csv",
+    "sha256": "b8acdd63d920d38446a1d6e7fc8100a0b365738937cf1cb878f1ebc52884e662"
+  },
+  {
+    "path": "outputs/experiments/20_intraday_noon/20_intraday_noon_update_executed.ipynb",
+    "sha256": "ddb4921d92f9a25c79674bac89cf171ec312a71aecee98a196b7cc46cbfa5532"
+  }
+]

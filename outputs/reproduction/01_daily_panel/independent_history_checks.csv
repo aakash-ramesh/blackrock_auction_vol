@@ -1,0 +1,5 @@
+feature,stocks,rows,mismatches
+median20_auction_volume,16,28333,0
+lag1_auction_volume,16,28333,0
+lag1_daily_volume,16,28333,0
+prior_auction_observations,16,28333,0

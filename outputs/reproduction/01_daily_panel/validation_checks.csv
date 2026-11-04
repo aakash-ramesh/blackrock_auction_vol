@@ -1,0 +1,24 @@
+check,observed,expected,passed
+rows,3594404,3594404,True
+securities,2149,2149,True
+trading_days,2766,2766,True
+eligible,3499401,3499401,True
+duplicate_keys,0,0,True
+invalid_eligibility,0,0,True
+anomaly_eligible,0,0,True
+nonpositive_labels,0,0,True
+annual_eligible_counts,"[337566, 325638, 318040, 313807, 308240, 303168, 321564, 328634, 318679, 316212, 307853]","[337566, 325638, 318040, 313807, 308240, 303168, 321564, 328634, 318679, 316212, 307853]",True
+feature_count,99,99,True
+feature_catalog_matches,True,True,True
+features_with_changed_null_counts,0,0,True
+missingness_features_compared,99,99,True
+source_crsp_duplicate_keys,0,0,True
+source_auction_duplicate_keys,0,0,True
+target_values_match_source,0,0,True
+target_flags_match_source,0,0,True
+independent_median20_auction_volume_mismatches,0,0,True
+independent_lag1_auction_volume_mismatches,0,0,True
+independent_lag1_daily_volume_mismatches,0,0,True
+independent_prior_auction_observations_mismatches,0,0,True
+forbidden_features_in_catalog,[],[],True
+nonfinite_numeric_feature_values,0,0,True

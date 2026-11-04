@@ -1,0 +1,33 @@
+{
+  "completed_utc": "2026-11-03T03:06:32.524367+00:00",
+  "all_checks_passed": true,
+  "checks": 124,
+  "prediction_files": [
+    {
+      "path": "outputs/experiments/19_intraday_1530/predictions/intraday_predictions_2022.parquet",
+      "sha256": "b64f4a59b95a2ee7af102f7d337eb38f3eae6d0d34fcce7d0b1c1b4252855594",
+      "rows": 327355
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/predictions/intraday_predictions_2023.parquet",
+      "sha256": "6cc552862db57cacb119a0e0a71ceb08a5208e4e9a8fb5f1552fb44cdb35b8d8",
+      "rows": 316159
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/predictions/intraday_predictions_2024.parquet",
+      "sha256": "26a4879dc01b3907d297d384168e635edff84361b8e808ed6e0f863c253f682c",
+      "rows": 312482
+    },
+    {
+      "path": "outputs/experiments/19_intraday_1530/predictions/intraday_predictions_2025.parquet",
+      "sha256": "61b662ed6d88c1a7a027a3c14ac4cd8f0006ac1b593ddfb21f097528e8771c5e",
+      "rows": 304172
+    }
+  ],
+  "regular_session_rows": 1260168,
+  "checkpoint_coverage": 0.9997849493083462,
+  "intraday_information_gate_passed": true,
+  "independent_history_audit_rows": 16228,
+  "independent_history_audit_stocks": 16,
+  "plan_sha256": "0de44914cc64ad4217ac6fbd0f8f4101941b6cd38aaf92ef1c3d63db269c8851"
+}

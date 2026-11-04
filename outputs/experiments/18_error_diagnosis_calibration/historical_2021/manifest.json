@@ -1,0 +1,16 @@
+{
+  "selected": {
+    "leaves": 31,
+    "iterations": 1545,
+    "validation_rmse": 0.5704546469993821
+  },
+  "fallback": 45301.5,
+  "clip_log": [
+    1.6094379124341003,
+    15.695692156329473
+  ],
+  "latest_fitting_date": "2020-12-31",
+  "evaluation_year": 2021,
+  "rows": 321564,
+  "prediction_sha256": "a33439ca16cae31c544ed63df9ee4acdfa50b0ba6aa0f7f393a90aa15ace4bf9"
+}

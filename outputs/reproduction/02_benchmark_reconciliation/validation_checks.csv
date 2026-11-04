@@ -1,0 +1,82 @@
+check,passed,detail
+2022_unique_keys,True,328634
+2022_dates,True,2022-01-03 00:00:00 to 2022-12-30 00:00:00
+2022_finite_targets,True,Positive finite labels
+2022_log_target,True,Stored log target equals log1p(shares)
+2022_evaluation_keys_match_panel,True,"(0, 0)"
+2022_all_context_fields_match,True,12 fields
+2022_expanding_log_full_finite_nonnegative,True,No scoring rows silently dropped
+2022_expanding_log_full_independent_metrics,True,SQL agrees with project metric helper
+2022_rolling3_residual_full_finite_nonnegative,True,No scoring rows silently dropped
+2022_rolling3_residual_full_independent_metrics,True,SQL agrees with project metric helper
+2022_rolling5_log_full_finite_nonnegative,True,No scoring rows silently dropped
+2022_rolling5_log_full_independent_metrics,True,SQL agrees with project metric helper
+2022_rolling5_residual_full_finite_nonnegative,True,No scoring rows silently dropped
+2022_rolling5_residual_full_independent_metrics,True,SQL agrees with project metric helper
+2022_rolling5_residual_recent_full_finite_nonnegative,True,No scoring rows silently dropped
+2022_rolling5_residual_recent_full_independent_metrics,True,SQL agrees with project metric helper
+2022_rolling5_residual_auction_calendar_finite_nonnegative,True,No scoring rows silently dropped
+2022_rolling5_residual_auction_calendar_independent_metrics,True,SQL agrees with project metric helper
+2022_rolling5_residual_auction_calendar_liquidity_finite_nonnegative,True,No scoring rows silently dropped
+2022_rolling5_residual_auction_calendar_liquidity_independent_metrics,True,SQL agrees with project metric helper
+2023_unique_keys,True,318679
+2023_dates,True,2023-01-03 00:00:00 to 2023-12-29 00:00:00
+2023_finite_targets,True,Positive finite labels
+2023_log_target,True,Stored log target equals log1p(shares)
+2023_evaluation_keys_match_panel,True,"(0, 0)"
+2023_all_context_fields_match,True,12 fields
+2023_expanding_log_full_finite_nonnegative,True,No scoring rows silently dropped
+2023_expanding_log_full_independent_metrics,True,SQL agrees with project metric helper
+2023_rolling3_residual_full_finite_nonnegative,True,No scoring rows silently dropped
+2023_rolling3_residual_full_independent_metrics,True,SQL agrees with project metric helper
+2023_rolling5_log_full_finite_nonnegative,True,No scoring rows silently dropped
+2023_rolling5_log_full_independent_metrics,True,SQL agrees with project metric helper
+2023_rolling5_residual_full_finite_nonnegative,True,No scoring rows silently dropped
+2023_rolling5_residual_full_independent_metrics,True,SQL agrees with project metric helper
+2023_rolling5_residual_recent_full_finite_nonnegative,True,No scoring rows silently dropped
+2023_rolling5_residual_recent_full_independent_metrics,True,SQL agrees with project metric helper
+2023_rolling5_residual_auction_calendar_finite_nonnegative,True,No scoring rows silently dropped
+2023_rolling5_residual_auction_calendar_independent_metrics,True,SQL agrees with project metric helper
+2023_rolling5_residual_auction_calendar_liquidity_finite_nonnegative,True,No scoring rows silently dropped
+2023_rolling5_residual_auction_calendar_liquidity_independent_metrics,True,SQL agrees with project metric helper
+2024_unique_keys,True,316212
+2024_dates,True,2024-01-02 00:00:00 to 2024-12-31 00:00:00
+2024_finite_targets,True,Positive finite labels
+2024_log_target,True,Stored log target equals log1p(shares)
+2024_evaluation_keys_match_panel,True,"(0, 0)"
+2024_all_context_fields_match,True,12 fields
+2024_expanding_log_full_finite_nonnegative,True,No scoring rows silently dropped
+2024_expanding_log_full_independent_metrics,True,SQL agrees with project metric helper
+2024_rolling3_residual_full_finite_nonnegative,True,No scoring rows silently dropped
+2024_rolling3_residual_full_independent_metrics,True,SQL agrees with project metric helper
+2024_rolling5_log_full_finite_nonnegative,True,No scoring rows silently dropped
+2024_rolling5_log_full_independent_metrics,True,SQL agrees with project metric helper
+2024_rolling5_residual_full_finite_nonnegative,True,No scoring rows silently dropped
+2024_rolling5_residual_full_independent_metrics,True,SQL agrees with project metric helper
+2024_rolling5_residual_recent_full_finite_nonnegative,True,No scoring rows silently dropped
+2024_rolling5_residual_recent_full_independent_metrics,True,SQL agrees with project metric helper
+2024_rolling5_residual_auction_calendar_finite_nonnegative,True,No scoring rows silently dropped
+2024_rolling5_residual_auction_calendar_independent_metrics,True,SQL agrees with project metric helper
+2024_rolling5_residual_auction_calendar_liquidity_finite_nonnegative,True,No scoring rows silently dropped
+2024_rolling5_residual_auction_calendar_liquidity_independent_metrics,True,SQL agrees with project metric helper
+2025_unique_keys,True,307853
+2025_dates,True,2025-01-02 00:00:00 to 2025-12-31 00:00:00
+2025_finite_targets,True,Positive finite labels
+2025_log_target,True,Stored log target equals log1p(shares)
+2025_evaluation_keys_match_panel,True,"(0, 0)"
+2025_all_context_fields_match,True,12 fields
+2025_expanding_log_full_finite_nonnegative,True,No scoring rows silently dropped
+2025_expanding_log_full_independent_metrics,True,SQL agrees with project metric helper
+2025_rolling3_residual_full_finite_nonnegative,True,No scoring rows silently dropped
+2025_rolling3_residual_full_independent_metrics,True,SQL agrees with project metric helper
+2025_rolling5_log_full_finite_nonnegative,True,No scoring rows silently dropped
+2025_rolling5_log_full_independent_metrics,True,SQL agrees with project metric helper
+2025_rolling5_residual_full_finite_nonnegative,True,No scoring rows silently dropped
+2025_rolling5_residual_full_independent_metrics,True,SQL agrees with project metric helper
+2025_rolling5_residual_recent_full_finite_nonnegative,True,No scoring rows silently dropped
+2025_rolling5_residual_recent_full_independent_metrics,True,SQL agrees with project metric helper
+2025_rolling5_residual_auction_calendar_finite_nonnegative,True,No scoring rows silently dropped
+2025_rolling5_residual_auction_calendar_independent_metrics,True,SQL agrees with project metric helper
+2025_rolling5_residual_auction_calendar_liquidity_finite_nonnegative,True,No scoring rows silently dropped
+2025_rolling5_residual_auction_calendar_liquidity_independent_metrics,True,SQL agrees with project metric helper
+notebook09_all_metrics_reproduce,True,"All seven candidates, four years, seven metrics"

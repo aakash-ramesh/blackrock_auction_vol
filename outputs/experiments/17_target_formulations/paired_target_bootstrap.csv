@@ -1,0 +1,13 @@
+candidate,reference,period,dates,mean_difference,ci_2_5,ci_97_5
+ridge__log_level,ridge__median20_log_residual,development,753,0.0035148850880106423,0.003263173951887329,0.0037524484699382942
+ridge__log_level,ridge__median20_log_residual,confirmation,250,0.0021437915999806237,0.0018466502627867074,0.0024609333113869113
+ridge__lag1_log_growth,ridge__median20_log_residual,development,753,0.001406432928070192,0.0010884590950992951,0.0017650242697635865
+ridge__lag1_log_growth,ridge__median20_log_residual,confirmation,250,0.0009531006634551524,0.0005271409587309719,0.001544341607821948
+ridge__median20_log_residual,ridge__median20_log_residual,development,753,0.0,0.0,0.0
+ridge__median20_log_residual,ridge__median20_log_residual,confirmation,250,0.0,0.0,0.0
+lgbm__log_level,lgbm__median20_log_residual,development,753,-0.0006451767108396689,-0.0018117918290028979,0.0004563892387297671
+lgbm__log_level,lgbm__median20_log_residual,confirmation,250,0.0002656253998532447,-0.0017242236621042677,0.0020760482201092833
+lgbm__lag1_log_growth,lgbm__median20_log_residual,development,753,-0.0007473936943403648,-0.0017858933980162374,0.00019801615830104572
+lgbm__lag1_log_growth,lgbm__median20_log_residual,confirmation,250,-0.00191271141067729,-0.0036226404665547197,-0.0002969055467025835
+lgbm__median20_log_residual,lgbm__median20_log_residual,development,753,0.0,0.0,0.0
+lgbm__median20_log_residual,lgbm__median20_log_residual,confirmation,250,0.0,0.0,0.0

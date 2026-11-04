@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-11-03T02:44:33.268535+00:00",
+  "script_sha256": "09574ef58ab0be9f3f2c3c4dc52fe7185ce34a5bee2803c79349027a1d202e40",
+  "base_model": "Fixed 58-feature squared-error LightGBM with median-relative log target; use verified 2022-2025 forecasts unchanged",
+  "development_years": [
+    2022,
+    2023,
+    2024
+  ],
+  "confirmation_year": 2025,
+  "confirmation_previously_inspected": true,
+  "calibration_history": "For evaluation year Y, fit correction only on full-year out-of-time forecasts for Y-1",
+  "2021_prerequisite": "Tune on 2020 using 2015-2019; refit on 2016-2020; predict full 2021. Original grid/seeds/sample sizes/processing unchanged.",
+  "methods": {
+    "uncalibrated": "P",
+    "global_share_ratio": "P * sum(A)/sum(P)",
+    "global_log_shift": "max(0, expm1(log1p(P) + mean(log1p(A)-log1p(P))))",
+    "global_smearing": "max(0, (1+P)*mean((1+A)/(1+P)) - 1)",
+    "shrunk_decile_ratio": "Prior-year forecast deciles; ratio sum(A)/sum(P) in each; blend with global ratio using n/(n+10000); multiply P"
+  },
+  "decile_shrinkage_pseudo_rows": 10000,
+  "calibration_factor_bounds": "none; no parameter tuning or test-year fitting",
+  "forecast_bounds": "Original bounds retained in base model; no additional re-clipping after correction",
+  "adoption_gate": "Mean development absolute annual aggregate bias improves; mean annual WAPE does not worsen; mean log RMSE deterioration <=0.002; no annual WAPE deterioration >0.002; paired daily-WAPE development CI upper <0",
+  "paired_uncertainty": "2000 whole-date bootstrap draws; same-date dependence preserved, serial dependence and multiplicity not corrected",
+  "diagnostics": [
+    "forecast-size calibration",
+    "size/history/events",
+    "ex-post actual-volume tail",
+    "largest stock/date errors",
+    "error concentration",
+    "clipping contribution"
+  ],
+  "excluded_changes": [
+    "new target",
+    "new predictors",
+    "2022-2025 base model refitting",
+    "clipping-policy adjustment",
+    "anomaly-history adjustment"
+  ]
+}

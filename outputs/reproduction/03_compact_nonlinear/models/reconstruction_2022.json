@@ -1,0 +1,25 @@
+{
+  "fallback": 49603.0,
+  "clip_log": [
+    1.6094379124341003,
+    15.720767485770317
+  ],
+  "selected": {
+    "lgbm_residual_58_l2": {
+      "test_year": 2022,
+      "validation_year": 2021,
+      "candidate": "lgbm_residual_58_l2",
+      "num_leaves": 31,
+      "best_iteration": 1993,
+      "validation_rmse_log": 0.5780199302926254
+    },
+    "lgbm_residual_58_huber": {
+      "test_year": 2022,
+      "validation_year": 2021,
+      "candidate": "lgbm_residual_58_huber",
+      "num_leaves": 31,
+      "best_iteration": 1999,
+      "validation_rmse_log": 0.5794753882110648
+    }
+  }
+}
