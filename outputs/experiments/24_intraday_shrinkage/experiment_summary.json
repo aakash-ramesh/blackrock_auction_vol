@@ -1,0 +1,27 @@
+{
+  "all_checks_passed": true,
+  "checks": 152,
+  "rows": 1260168,
+  "selected_candidate": "ridge_update",
+  "script_sha256": "7fbb89234bd37663572e1d6c32032f3d8a0c3bd50bf2d2e4587ae7f77f6be6ca",
+  "plan_sha256": "b672c5cf6f94419464e312bfaa8a4960e6c851ebf67a853a5bd70ec8cf24592f",
+  "development_decision_sha256": "a52536b943d29679e690f09e4de866a3fad4219fa0b1ac3c7dc41e81863269e9",
+  "prediction_files": [
+    {
+      "path": "outputs/experiments/24_intraday_shrinkage/predictions/shrinkage_predictions_2022.parquet",
+      "sha256": "ac9b04de88f96e37e398180edf1cd31ce9c37dbc23f4b1375fb1f5d0582946ff"
+    },
+    {
+      "path": "outputs/experiments/24_intraday_shrinkage/predictions/shrinkage_predictions_2023.parquet",
+      "sha256": "707ba9fc5e037494d446f0259c93f64001d75ad11d6005c9fc43b39ef14d8f5b"
+    },
+    {
+      "path": "outputs/experiments/24_intraday_shrinkage/predictions/shrinkage_predictions_2024.parquet",
+      "sha256": "0ee34d3495ebb5ccb7c68dd97fa6d6399e438c586470050ac4c424389f1df9b6"
+    },
+    {
+      "path": "outputs/experiments/24_intraday_shrinkage/predictions/shrinkage_predictions_2025.parquet",
+      "sha256": "93e780ff562a40ea5f13574cd9c48a930f4b439621a2d71e942d8f704b70acba"
+    }
+  ]
+}

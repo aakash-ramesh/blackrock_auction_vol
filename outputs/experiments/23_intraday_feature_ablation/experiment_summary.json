@@ -1,0 +1,24 @@
+{
+  "all_checks_passed": true,
+  "checks": 179,
+  "rows": 1260168,
+  "script_sha256": "6c52336b37846c19b9dcb312baef5aaffec8d79f3163be1b464b5954e413e546",
+  "prediction_files": [
+    {
+      "path": "outputs/experiments/23_intraday_feature_ablation/predictions/ablation_predictions_2022.parquet",
+      "sha256": "851a82a1f7ec0fc44961c9a8614532c16b8d4b3edfc4ec45213c92f1d8810d08"
+    },
+    {
+      "path": "outputs/experiments/23_intraday_feature_ablation/predictions/ablation_predictions_2023.parquet",
+      "sha256": "3d4826c24f20a7c9f09cfbc6dda1ad4f06fafe88a880f3171455c4612bc0f99f"
+    },
+    {
+      "path": "outputs/experiments/23_intraday_feature_ablation/predictions/ablation_predictions_2024.parquet",
+      "sha256": "20fb0e67804368068d3351e9443007b8dfd9cfd17b60f83e41a86074f3ae5fc5"
+    },
+    {
+      "path": "outputs/experiments/23_intraday_feature_ablation/predictions/ablation_predictions_2025.parquet",
+      "sha256": "4872773ca7d969d4ae4e8153c8cf6f0a8737fd5baed6d5b502765fa9f7093229"
+    }
+  ]
+}

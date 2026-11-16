@@ -1,0 +1,22 @@
+{
+  "year": 2023,
+  "global_alpha": 0.7000000000000001,
+  "strengths": {
+    "global_shrink": {
+      "global": 0.7000000000000001
+    },
+    "month_end_shrink": {
+      "month_end": 0.4
+    },
+    "low_liquidity_shrink": {
+      "low_liquidity": 0.5
+    },
+    "month_end_liquidity_shrink": {
+      "month_end_only": 0.4,
+      "low_liquidity_only": 0.5,
+      "month_end_and_low": 0.30000000000000004
+    }
+  },
+  "validation_end": "2022-12-30 00:00:00",
+  "formula": "log1p(daily)+alpha*(log1p(bounded full ridge)-log1p(daily)); no second clipping; exact endpoints"
+}

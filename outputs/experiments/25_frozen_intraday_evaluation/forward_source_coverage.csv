@@ -1,0 +1,10 @@
+family,files,dated_files,first_date,last_date,forward_rows,has_post_2025_dates,note
+auction_labels,11,11,2015-01-02 00:00:00,2025-12-31 00:00:00,0.0,False,"Range and counts do not certify continuity, label validity, point-in-time availability or prior non-use"
+crsp_daily,15,15,2011-01-03 00:00:00,2025-12-31 00:00:00,0.0,False,"Range and counts do not certify continuity, label validity, point-in-time availability or prior non-use"
+checkpoint_1530,11,11,2015-01-02 00:00:00,2025-12-31 00:00:00,0.0,False,"Range and counts do not certify continuity, label validity, point-in-time availability or prior non-use"
+market_daily,1,1,2011-01-03 00:00:00,2025-12-31 00:00:00,0.0,False,"Range and counts do not certify continuity, label validity, point-in-time availability or prior non-use"
+sector_daily,1,1,2011-01-03 00:00:00,2025-12-31 00:00:00,0.0,False,"Range and counts do not certify continuity, label validity, point-in-time availability or prior non-use"
+calendar,1,1,2011-01-03 00:00:00,2025-12-31 00:00:00,0.0,False,"Range and counts do not certify continuity, label validity, point-in-time availability or prior non-use"
+identifier_bridge,15,15,2011-01-03 00:00:00,2025-12-31 00:00:00,0.0,False,"Range and counts do not certify continuity, label validity, point-in-time availability or prior non-use"
+industry_history,1,0,,,,,"Range and counts do not certify continuity, label validity, point-in-time availability or prior non-use"
+security_master,1,1,2011-01-03 00:00:00,2025-12-31 00:00:00,0.0,False,"Range and counts do not certify continuity, label validity, point-in-time availability or prior non-use"

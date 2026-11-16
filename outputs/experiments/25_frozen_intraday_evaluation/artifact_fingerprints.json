@@ -1,0 +1,58 @@
+[
+  {
+    "path": "outputs/experiments/25_frozen_intraday_evaluation/README.md",
+    "sha256": "63e39e9950c7d3b65333cc8510098d2066a4d2e8038d5555c896a41f08d6fe99"
+  },
+  {
+    "path": "outputs/experiments/25_frozen_intraday_evaluation/annual_subgroup_metrics.csv",
+    "sha256": "0ede1f4b00c809114bcb08343b767cf1fc021cebbe4968634bedf355b1a463b3"
+  },
+  {
+    "path": "outputs/experiments/25_frozen_intraday_evaluation/bootstrap_weight_fingerprints.csv",
+    "sha256": "384aa8802e3e460efbe6f92a1a4339a8fe735b130979f11bd881f35b2c24dac8"
+  },
+  {
+    "path": "outputs/experiments/25_frozen_intraday_evaluation/daily_sufficient_statistics.csv",
+    "sha256": "b5f6a18b4cbdd08c321158827540ea47106777999a7bd1e72d808feae329267d"
+  },
+  {
+    "path": "outputs/experiments/25_frozen_intraday_evaluation/evaluation_protocol.md",
+    "sha256": "e3db5fe2838a2bd549716ed3e8729818c117cf7966c522dd4c9832a9a91bd2b7"
+  },
+  {
+    "path": "outputs/experiments/25_frozen_intraday_evaluation/evaluation_summary.json",
+    "sha256": "06b52aae4b58c6ab1b7c3e127f2e7835060234ad4eedc586b459cc4f89ca6f98"
+  },
+  {
+    "path": "outputs/experiments/25_frozen_intraday_evaluation/forward_source_coverage.csv",
+    "sha256": "669b7f4d316fdf8ede40028f3a79371b04aa4bec76ee5772462defc4e79f6c0d"
+  },
+  {
+    "path": "outputs/experiments/25_frozen_intraday_evaluation/forward_source_file_inventory.csv",
+    "sha256": "d3be7de182dce30b5d24761d617c036ad92e55255312dca5538b0fa15dcec326"
+  },
+  {
+    "path": "outputs/experiments/25_frozen_intraday_evaluation/input_fingerprints.csv",
+    "sha256": "1c2f3ea617ae27c66dbf4b58ba8b2cd3b4eea8cf217d7f79f91fe67344826995"
+  },
+  {
+    "path": "outputs/experiments/25_frozen_intraday_evaluation/metric_intervals.csv",
+    "sha256": "8ae0c3fa189f70f25b3ebdaeaf8710b2041e663dc5cf4020b8e0f4df2efb6b3d"
+  },
+  {
+    "path": "outputs/experiments/25_frozen_intraday_evaluation/period_metric_differences.csv",
+    "sha256": "77169cad4601edf383d254d5751dc85ebfa35ca7d014ec1154c90e6aa77ef8a3"
+  },
+  {
+    "path": "outputs/experiments/25_frozen_intraday_evaluation/unused_period_audit.json",
+    "sha256": "bf4a3ee67e7f589174081c7b339ce61bddff6ecc11a3ddfe88c46e98d119c633"
+  },
+  {
+    "path": "outputs/experiments/25_frozen_intraday_evaluation/unused_period_audit.md",
+    "sha256": "4775554077a907687868baea4a2ca6878faf0a329fa3d305d0dc61df48853d5f"
+  },
+  {
+    "path": "outputs/experiments/25_frozen_intraday_evaluation/validation_checks.csv",
+    "sha256": "3bf512fb3c7cd30b2887e87f47fea3eabe8ded003f996b041ab0a220a1749d9b"
+  }
+]

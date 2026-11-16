@@ -69,3 +69,20 @@ Use an OpenMP installation appropriate to your own platform if that local path d
 The repository includes new scripts, reader and executed notebooks, reports, fitted model files, preprocessing/reconstruction settings, numerical summaries, diagnostics, figures, validation checks, source fingerprints, and sample fingerprints. Approximately 6.95 GB of regenerated Parquet files (panels, sampled training rows and row-level forecasts) and local databases are omitted from this commit. An exact path/size inventory is in [generated_artifacts_not_committed.json](outputs/generated_artifacts_not_committed.json). Recreate those files by running the stages above with the existing source data. Fingerprints document the original run; exact reproduction can depend on the recorded software versions and sampling behavior.
 
 The reader notebooks display committed compact results without retraining. Scripts that rebuild summaries or verify row-level forecasts require the regenerated local Parquet files. The noon comparison reuses historical sample keys produced by the 15:30 stage, so the stated order matters. Local virtual environments and rendering/cache files are not committed.
+
+
+## Intraday continuation through November 16 2026
+
+The original annual forecasts remain preserved. New retrospective studies are documented here:
+
+- [21 — Frozen forecast robustness](outputs/experiments/21_intraday_robustness/README.md).
+- [22 — Matched daily-only ridge control](outputs/experiments/22_intraday_ridge_control/README.md).
+- [23 — Feature-group ablation](outputs/experiments/23_intraday_feature_ablation/findings.md).
+- [24 — Historical correction shrinkage](outputs/experiments/24_intraday_shrinkage/findings.md).
+- [25 — Direct metric-matched evaluation and forward-data audit](outputs/experiments/25_frozen_intraday_evaluation/README.md).
+- [26 — Quarterly walk-forward audit](outputs/experiments/26_quarterly_intraday_audit/README.md).
+- [Complete intraday research report](reports/intraday_progress_2026_11_16/intraday_research_report.md) and [editable Word report](reports/intraday_progress_2026_11_16/NYSE_Intraday_Forecasting_Research_Report.docx).
+
+Reader notebooks 22–26 are in `notebooks/`. Each study's README and notebook identify its fitting and summary scripts. Run fitting stages in numerical order using the existing project environment and source data. Quarterly fitting saves actual sample keys, preprocessors, coefficients and full forecasts locally; the committed fingerprints and fold manifest document the run. Generated Parquet files and local databases are not included in this update. See [the publication inventory](outputs/intraday_publication_2026_11_16.json) for omitted files.
+
+The quarterly audit passes 178 checks and improves on the daily anchor in all 16 quarters of 2022–2025. Its small development advantage over the annual intraday ridge is not established by the paired intervals. All years were previously inspected, so this remains retrospective evidence. The local forward-data audit finds core source coverage ending December 31, 2025; no new forward period was scored.

@@ -1,0 +1,28 @@
+{
+  "audited_utc": "2026-11-13T20:41:05.474638+00:00",
+  "scope": "Local workspace source inventory only; no remote source availability inferred",
+  "last_inspected_research_period_end": "2025-12-31",
+  "potential_unused_dates_must_be_after": "2025-12-31",
+  "forward_outcomes_scored": false,
+  "forward_auction_volume_values_read": false,
+  "source_date_metadata_only": true,
+  "configured_source_end_date": "2025-12-31",
+  "missing_forward_core_components": [
+    "auction_labels",
+    "crsp_daily",
+    "checkpoint_1530",
+    "market_daily",
+    "sector_daily",
+    "calendar"
+  ],
+  "candidate_forward_period_locally_available": false,
+  "prior_nonuse_verified": false,
+  "holdout_ready": false,
+  "prior_nonuse_note": "No attestation establishes that any future outcomes were unused elsewhere. 2015-2025 have appeared in training/descriptive/development/confirmation research. A newer date alone does not certify an untouched holdout.",
+  "optional_newer_files": [
+    "blackrock_data/events/fomc_decisions_2016_2026.xlsx"
+  ],
+  "optional_note": "An event file extending into 2026 cannot substitute for forward labels, daily features and checkpoint observations. These files were inventoried by name only.",
+  "script_sha256": "f3e571bc885dc04e73c2657b77d8b4b7eb3dbf726f124efd5642d6c5fb91023b",
+  "config_sha256": "f6c1bee6ccbfcf2fb6ea1e3af36d050301dfa84e9618d0f9a8d2675da706ad13"
+}

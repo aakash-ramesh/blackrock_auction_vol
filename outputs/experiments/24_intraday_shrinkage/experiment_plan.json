@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-11-13T20:23:17.361910+00:00",
+  "source_experiment": 19,
+  "variants": [
+    "global_shrink",
+    "month_end_shrink",
+    "low_liquidity_shrink",
+    "month_end_liquidity_shrink"
+  ],
+  "alpha_grid": [
+    0.0,
+    0.1,
+    0.2,
+    0.30000000000000004,
+    0.4,
+    0.5,
+    0.6000000000000001,
+    0.7000000000000001,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "formula": "log1p(daily)+alpha*(log1p(bounded full ridge)-log1p(daily)); no second clipping; exact endpoints",
+  "month_end": "is_last_trading_day_month AND NOT monthly_options_expiry AND NOT quarterly_options_expiry, matching previous disjoint event diagnostics",
+  "low_liquidity": "prior-information liquidity_percentile < 1/3; missing percentile treated as not low and reported",
+  "segments": "Targeted variants retain full update outside target. Combined has separate month_end_only, low_only, intersection strengths. Sparse target cells use global strength.",
+  "fitting": "Rebuild original tuning ridge on saved tune rows with original selected penalty, predict saved historical validation rows; choose alpha minimizing validation mean squared log error; ties prefer alpha 1 (less change). Same historical validation selects original penalty and shrinkage, not a new nested calibration split. Final full ridge and anchor are unchanged saved forecasts.",
+  "minimum_cell_dates": 8,
+  "minimum_cell_rows": 500,
+  "chronology": "2022 validation Q4 2021; later years previous full year, using saved reservoir sample; only earlier labels fit alpha",
+  "fallback": "Exact daily fallback when checkpoint missing, inherited from both endpoints",
+  "evaluation": "Equal-year 2022-2024 development decision saved before scoring previously inspected 2025. No 2025 choice of variants or strength.",
+  "adoption_gate": "Versus full ridge: development mean log RMSE gain >=0.002, no annual worsening >0.002, no mean WAPE worsening, 20-date paired log-MAE upper CI <0. Versus daily: no annual log RMSE worsening >0.002, no mean WAPE worsening. Pick lowest development RMSE among passers, else retain full.",
+  "bootstrap": "2000 within-year moving 20-trading-date blocks; equal-year mean daily log-MAE difference; unadjusted exploratory multiple comparisons",
+  "limits": "Hypotheses were motivated by inspected development diagnostics, so this is retrospective research. No production claim, new external data or new ridge fitting policy. Q4 validation may force sparse month-end cell fallback."
+}

@@ -1,0 +1,74 @@
+{
+  "all_checks_passed": true,
+  "checks": 178,
+  "folds": 16,
+  "rows": 1260168,
+  "script_sha256": "18f92113a0baeeca51b28bfda8ac80f1bbf5da55be243833004d953366683849",
+  "plan_sha256": "5c090ffb122ad42233ea106fb094a090afde331de0cd9c754d555dac2b3f6fe1",
+  "prediction_files": [
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2022Q1.parquet",
+      "sha256": "7e8f34779bc8aa3c8f977e5022c77562adae8bf33555a449a3a3e807df4b6aa8"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2022Q2.parquet",
+      "sha256": "3dbde8d238ea6eef3c3a5faed8755022979c59c63d3176bd254fd11ea6f03a1d"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2022Q3.parquet",
+      "sha256": "8d4f4f72392d7f9296d58b84295e2e6df058371d911149f5cd9f46c815d9dbfa"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2022Q4.parquet",
+      "sha256": "9c69a50d85ce82e084e32f0632ddaa851fbfbc28293a455c87658d7b29cd630a"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2023Q1.parquet",
+      "sha256": "eb368e1b07a6b944c68825589e28d228a55e97944c15d3926dc88abf2ee129b5"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2023Q2.parquet",
+      "sha256": "4b6ab096457f2639bc7f88082be69373c9199f78414f5556680692aa3c2b51db"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2023Q3.parquet",
+      "sha256": "c1760c104dbdebf615b085974a6ef59e2d4a40d637d76ed6c93dc52ed5af7170"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2023Q4.parquet",
+      "sha256": "62e74be44c65f89757d8262c414a7f59f488df6928cecc8a505230d69a088cb1"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2024Q1.parquet",
+      "sha256": "bdc816cde48c2d36cf7785aad689ba48fd07b604a4ac0e8a9229c0771c4d57a7"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2024Q2.parquet",
+      "sha256": "1da2d09869f2375c3e8433972fa28f7266dc8090258b9d82c4b0176bbba75b3d"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2024Q3.parquet",
+      "sha256": "417d67fb61fa8a322e125c7421d291e4ffa3eca720ab2bf1ab8a8eac30a94583"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2024Q4.parquet",
+      "sha256": "4422dcdb1bf65b66cd41ad69a9630a15fa3029c7ebd6a27390cb80d2e4684dd2"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2025Q1.parquet",
+      "sha256": "c202d6d63501da58777a2c4fbe8d85be35380966bc1596b3c2233ecce66946a5"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2025Q2.parquet",
+      "sha256": "cd5642d19e90ab706cd1848f4f7ca8a0d3d3f6ed5b17e96ec36f5ccd09e12c01"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2025Q3.parquet",
+      "sha256": "5cbf99dfb022ac6a398fe41a39af944d8b3ba06cacac6ee1470e0553b422b58c"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2025Q4.parquet",
+      "sha256": "7dda9e69a5c0bb5f3db12193ae70ec6eabe475b0fe1dfc3ffcd4ed527b6a703f"
+    }
+  ]
+}

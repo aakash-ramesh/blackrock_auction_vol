@@ -1,0 +1,51 @@
+{
+  "selected_candidate": "ridge_update",
+  "decided_before_scoring_2025": true,
+  "development_only": true,
+  "decision_utc": "2026-11-13T20:23:27.678448+00:00",
+  "gate": "Versus full ridge: development mean log RMSE gain >=0.002, no annual worsening >0.002, no mean WAPE worsening, 20-date paired log-MAE upper CI <0. Versus daily: no annual log RMSE worsening >0.002, no mean WAPE worsening. Pick lowest development RMSE among passers, else retain full.",
+  "development_metrics": [
+    {
+      "candidate": "fixed_daily",
+      "rmse_log": 0.4694907439571591,
+      "wape": 0.35467575667531087,
+      "aggregate_bias": -0.14468375423180754,
+      "period": "development"
+    },
+    {
+      "candidate": "global_shrink",
+      "rmse_log": 0.4583515029517911,
+      "wape": 0.34543342977749075,
+      "aggregate_bias": -0.12558307234285057,
+      "period": "development"
+    },
+    {
+      "candidate": "low_liquidity_shrink",
+      "rmse_log": 0.45674731353029346,
+      "wape": 0.34598056132036437,
+      "aggregate_bias": -0.11877357358363132,
+      "period": "development"
+    },
+    {
+      "candidate": "month_end_liquidity_shrink",
+      "rmse_log": 0.45695698379002225,
+      "wape": 0.3460312798598076,
+      "aggregate_bias": -0.1188454621525719,
+      "period": "development"
+    },
+    {
+      "candidate": "month_end_shrink",
+      "rmse_log": 0.45992865952163037,
+      "wape": 0.34586063248387805,
+      "aggregate_bias": -0.1182009018135572,
+      "period": "development"
+    },
+    {
+      "candidate": "ridge_update",
+      "rmse_log": 0.45995391294968435,
+      "wape": 0.3459194146307749,
+      "aggregate_bias": -0.11800066554162929,
+      "period": "development"
+    }
+  ]
+}

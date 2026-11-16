@@ -1,0 +1,217 @@
+period,dimension,segment,metric,block_dates,replicates,difference,ci_lower,ci_upper,status,reason,interpretation
+development,overall,all,rmse_log,5,5000,-0.009536831007474711,-0.011379427148555294,-0.00770343201996955,reported,,descriptive unadjusted interval
+development,overall,all,wape,5,5000,-0.008756342044535959,-0.010261161649960984,-0.00729187129310229,reported,,descriptive unadjusted interval
+development,overall,all,signed_bias,5,5000,0.026683088690178297,0.021170391495482572,0.032113732883496886,reported,,descriptive unadjusted interval
+development,overall,all,absolute_annual_bias,5,5000,-0.026683088690178297,-0.032113732883496886,-0.02117039149548258,reported,,descriptive unadjusted interval
+development,overall,all,rmse_log,20,5000,-0.009536831007474711,-0.011351806714601996,-0.00780759009872232,reported,,primary retrospective contrast
+development,overall,all,wape,20,5000,-0.008756342044535959,-0.010351074815558026,-0.00716964588652812,reported,,descriptive unadjusted interval
+development,overall,all,signed_bias,20,5000,0.026683088690178297,0.02081025030078741,0.03280405594427514,reported,,descriptive unadjusted interval
+development,overall,all,absolute_annual_bias,20,5000,-0.026683088690178297,-0.03280405594427515,-0.02081025030078742,reported,,descriptive unadjusted interval
+development,overall,all,rmse_log,60,5000,-0.009536831007474711,-0.011468158817994305,-0.007890437393327489,reported,,descriptive unadjusted interval
+development,overall,all,wape,60,5000,-0.008756342044535959,-0.010591906162456175,-0.006994343955318089,reported,,descriptive unadjusted interval
+development,overall,all,signed_bias,60,5000,0.026683088690178297,0.021903081905959385,0.0313822875115095,reported,,descriptive unadjusted interval
+development,overall,all,absolute_annual_bias,60,5000,-0.026683088690178297,-0.03138228751150951,-0.021903081905959385,reported,,descriptive unadjusted interval
+development,size,small,rmse_log,20,5000,-0.01227580002768447,-0.014387000325520724,-0.010125856689283001,reported,,descriptive unadjusted interval
+development,size,small,wape,20,5000,-0.008137319134675913,-0.010748829940843089,-0.005717865310002791,reported,,descriptive unadjusted interval
+development,size,small,signed_bias,20,5000,0.028050003859447337,0.021241858143053297,0.036803050998078776,reported,,descriptive unadjusted interval
+development,size,small,absolute_annual_bias,20,5000,-0.028050003859447337,-0.036803050998078776,-0.021241858143053304,reported,,descriptive unadjusted interval
+development,size,mid,rmse_log,20,5000,-0.01759544348356773,-0.019615504434741002,-0.015663805490523663,reported,,descriptive unadjusted interval
+development,size,mid,wape,20,5000,-0.010689202218512384,-0.012271676400677433,-0.009132591676614276,reported,,descriptive unadjusted interval
+development,size,mid,signed_bias,20,5000,0.029485777086263376,0.023180381866638594,0.036067425116410284,reported,,descriptive unadjusted interval
+development,size,mid,absolute_annual_bias,20,5000,-0.029485777086263376,-0.036067425116410284,-0.023180381866638605,reported,,descriptive unadjusted interval
+development,size,large,rmse_log,20,5000,0.0018887344769435432,-0.0003816174117003232,0.004229155552383404,reported,,descriptive unadjusted interval
+development,size,large,wape,20,5000,-0.008103772535528297,-0.009951066417139349,-0.006260366346736732,reported,,descriptive unadjusted interval
+development,size,large,signed_bias,20,5000,0.025834555610789983,0.019722326652049905,0.0319576954588162,reported,,descriptive unadjusted interval
+development,size,large,absolute_annual_bias,20,5000,-0.025834555610789983,-0.031940536930665724,-0.01972232665204991,reported,,descriptive unadjusted interval
+development,size,missing,rmse_log,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,size,missing,wape,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,size,missing,signed_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,size,missing,absolute_annual_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,liquidity,low,rmse_log,20,5000,0.00249186240792576,-0.0002835053224453238,0.0053630688303289605,reported,,descriptive unadjusted interval
+development,liquidity,low,wape,20,5000,-0.010004426883005735,-0.01213453060451315,-0.007925907061101136,reported,,descriptive unadjusted interval
+development,liquidity,low,signed_bias,20,5000,0.04450884373490163,0.037213601940395705,0.051990212704500785,reported,,descriptive unadjusted interval
+development,liquidity,low,absolute_annual_bias,20,5000,-0.04450884373490163,-0.051990212704500785,-0.03721360194039571,reported,,descriptive unadjusted interval
+development,liquidity,mid,rmse_log,20,5000,-0.01672971275646823,-0.01851513897482587,-0.015030773060802298,reported,,descriptive unadjusted interval
+development,liquidity,mid,wape,20,5000,-0.010596499167887241,-0.012509820557922886,-0.008739516640201277,reported,,descriptive unadjusted interval
+development,liquidity,mid,signed_bias,20,5000,0.036562911413734064,0.029911195977353235,0.04328399591367301,reported,,descriptive unadjusted interval
+development,liquidity,mid,absolute_annual_bias,20,5000,-0.036562911413734064,-0.04328399591367302,-0.029911195977353238,reported,,descriptive unadjusted interval
+development,liquidity,high,rmse_log,20,5000,-0.015358587647391064,-0.016978926452678515,-0.013726658259911215,reported,,descriptive unadjusted interval
+development,liquidity,high,wape,20,5000,-0.008292436937230974,-0.009931088143788198,-0.006626651591327859,reported,,descriptive unadjusted interval
+development,liquidity,high,signed_bias,20,5000,0.02397146608050195,0.0181963510086338,0.030009532597090476,reported,,descriptive unadjusted interval
+development,liquidity,high,absolute_annual_bias,20,5000,-0.02397146608050195,-0.030009532597090487,-0.0181963510086338,reported,,descriptive unadjusted interval
+development,liquidity,missing,rmse_log,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,liquidity,missing,wape,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,liquidity,missing,signed_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,liquidity,missing,absolute_annual_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,history,0_4,rmse_log,20,0,-0.11692973129447903,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,history,0_4,wape,20,0,-0.023009960673552876,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,history,0_4,signed_bias,20,0,0.006955796439570783,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,history,0_4,absolute_annual_bias,20,0,-0.006955796439570783,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,history,5_19,rmse_log,20,5000,-0.013880634322152696,-0.025348849819532587,-0.0031536406970350075,reported,,descriptive unadjusted interval
+development,history,5_19,wape,20,5000,-0.015603479149364163,-0.02311467673287642,-0.008980372827128413,reported,,descriptive unadjusted interval
+development,history,5_19,signed_bias,20,5000,0.02059825069525381,0.011472764404307337,0.031584735625313436,reported,,descriptive unadjusted interval
+development,history,5_19,absolute_annual_bias,20,5000,-0.02059825069525381,-0.03158473562531344,-0.011447435444275822,reported,,descriptive unadjusted interval
+development,history,20_plus,rmse_log,20,5000,-0.009264415246453439,-0.011068912236965326,-0.007547193947408073,reported,,descriptive unadjusted interval
+development,history,20_plus,wape,20,5000,-0.008740283863469978,-0.010337845782969078,-0.007152498313100746,reported,,descriptive unadjusted interval
+development,history,20_plus,signed_bias,20,5000,0.026704330441631424,0.02082556842262998,0.03283709126774447,reported,,descriptive unadjusted interval
+development,history,20_plus,absolute_annual_bias,20,5000,-0.026704330441631424,-0.03283709126774447,-0.020825568422629982,reported,,descriptive unadjusted interval
+development,history,missing,rmse_log,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,history,missing,wape,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,history,missing,signed_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,history,missing,absolute_annual_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,event,quarterly_expiry,rmse_log,20,0,-0.0342132842659888,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,event,quarterly_expiry,wape,20,0,-0.0069096124371731404,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,event,quarterly_expiry,signed_bias,20,0,0.05127075249027563,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,event,quarterly_expiry,absolute_annual_bias,20,0,-0.05127075249027563,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,event,monthly_expiry,rmse_log,20,0,-0.008943342495648543,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,event,monthly_expiry,wape,20,0,0.00031333431440488946,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,event,monthly_expiry,signed_bias,20,0,0.03240441071519891,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,event,monthly_expiry,absolute_annual_bias,20,0,-0.03240441071519891,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,event,month_end,rmse_log,20,0,0.0013277871632249028,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,event,month_end,wape,20,0,0.003933308663470858,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,event,month_end,signed_bias,20,0,0.00030314476866488693,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,event,month_end,absolute_annual_bias,20,0,-0.00030314476866488693,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,event,regular,rmse_log,20,5000,-0.009773292364781916,-0.011762914179699154,-0.007927886929912455,reported,,descriptive unadjusted interval
+development,event,regular,wape,20,5000,-0.010926835308309901,-0.012857128454463978,-0.008941552620485089,reported,,descriptive unadjusted interval
+development,event,regular,signed_bias,20,5000,0.026361402565380887,0.01926174734909979,0.03356765017198742,reported,,descriptive unadjusted interval
+development,event,regular,absolute_annual_bias,20,5000,-0.026361402565380887,-0.03356765017198742,-0.019261747349099793,reported,,descriptive unadjusted interval
+development,month_end_x_liquidity,month_end_low,rmse_log,20,0,0.004540333821065778,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,month_end_low,wape,20,0,0.003768703692999309,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,month_end_low,signed_bias,20,0,0.003621348693383486,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,month_end_low,absolute_annual_bias,20,0,-0.003621348693383486,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,month_end_mid,rmse_log,20,0,-0.0018800391146555073,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,month_end_mid,wape,20,0,0.002055731028518526,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,month_end_mid,signed_bias,20,0,0.0035230546420251807,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,month_end_mid,absolute_annual_bias,20,0,-0.0035230546420251807,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,month_end_high,rmse_log,20,0,0.001173081776651208,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,month_end_high,wape,20,0,0.004206657891487997,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,month_end_high,signed_bias,20,0,-0.00022615048225965717,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,month_end_high,absolute_annual_bias,20,0,0.00022615048225965717,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,month_end_missing,rmse_log,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,month_end_missing,wape,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,month_end_missing,signed_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,month_end_missing,absolute_annual_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,other_low,rmse_log,20,5000,0.0023492124948136794,-0.0006193427693339414,0.0052555391897875624,reported,,descriptive unadjusted interval
+development,month_end_x_liquidity,other_low,wape,20,5000,-0.0115806233903743,-0.013907323460250177,-0.009260892033540403,reported,,descriptive unadjusted interval
+development,month_end_x_liquidity,other_low,signed_bias,20,5000,0.04864958735640222,0.04106886678032036,0.0561298002509349,reported,,descriptive unadjusted interval
+development,month_end_x_liquidity,other_low,absolute_annual_bias,20,5000,-0.04864958735640222,-0.056129800250934905,-0.041068866780320366,reported,,descriptive unadjusted interval
+development,month_end_x_liquidity,other_mid,rmse_log,20,5000,-0.017943427188518768,-0.019871845528958907,-0.016175866048403747,reported,,descriptive unadjusted interval
+development,month_end_x_liquidity,other_mid,wape,20,5000,-0.011899310942612373,-0.013892277040341855,-0.009900276484570064,reported,,descriptive unadjusted interval
+development,month_end_x_liquidity,other_mid,signed_bias,20,5000,0.04001293127552176,0.03302910464564609,0.0468690295394522,reported,,descriptive unadjusted interval
+development,month_end_x_liquidity,other_mid,absolute_annual_bias,20,5000,-0.04001293127552176,-0.046869029539452205,-0.03302910464564609,reported,,descriptive unadjusted interval
+development,month_end_x_liquidity,other_high,rmse_log,20,5000,-0.01662982569943272,-0.018295367638523262,-0.01498666512145637,reported,,descriptive unadjusted interval
+development,month_end_x_liquidity,other_high,wape,20,5000,-0.00955823151934898,-0.011386381370047976,-0.0077914819401199,reported,,descriptive unadjusted interval
+development,month_end_x_liquidity,other_high,signed_bias,20,5000,0.02658588203289762,0.020536982309458038,0.03274433751383066,reported,,descriptive unadjusted interval
+development,month_end_x_liquidity,other_high,absolute_annual_bias,20,5000,-0.02658588203289762,-0.03274433751383066,-0.020536982309458038,reported,,descriptive unadjusted interval
+development,month_end_x_liquidity,other_missing,rmse_log,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,other_missing,wape,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,other_missing,signed_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+development,month_end_x_liquidity,other_missing,absolute_annual_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,overall,all,rmse_log,5,5000,-0.019857189553383725,-0.02270378525686903,-0.016315460300642525,reported,,descriptive unadjusted interval
+confirmation,overall,all,wape,5,5000,-0.010483083037361673,-0.014117305299632127,-0.006782471846640434,reported,,descriptive unadjusted interval
+confirmation,overall,all,signed_bias,5,5000,0.020896995187220435,0.011081380477037203,0.030869927160638456,reported,,descriptive unadjusted interval
+confirmation,overall,all,absolute_annual_bias,5,5000,-0.020896995187220435,-0.030869927160638504,-0.011081380477037205,reported,,descriptive unadjusted interval
+confirmation,overall,all,rmse_log,20,5000,-0.019857189553383725,-0.02286767222261458,-0.016090404544358325,reported,,primary retrospective contrast
+confirmation,overall,all,wape,20,5000,-0.010483083037361673,-0.014789734300545528,-0.006425153913011834,reported,,descriptive unadjusted interval
+confirmation,overall,all,signed_bias,20,5000,0.020896995187220435,0.010626109646421217,0.031211649195989823,reported,,descriptive unadjusted interval
+confirmation,overall,all,absolute_annual_bias,20,5000,-0.020896995187220435,-0.031211649195989826,-0.010626109646421219,reported,,descriptive unadjusted interval
+confirmation,overall,all,rmse_log,60,5000,-0.019857189553383725,-0.02268632663721631,-0.01693914453624474,reported,,descriptive unadjusted interval
+confirmation,overall,all,wape,60,5000,-0.010483083037361673,-0.01448969797791224,-0.006984390104470078,reported,,descriptive unadjusted interval
+confirmation,overall,all,signed_bias,60,5000,0.020896995187220435,0.013431264486311585,0.027908588041357343,reported,,descriptive unadjusted interval
+confirmation,overall,all,absolute_annual_bias,60,5000,-0.020896995187220435,-0.027908588041357343,-0.013431264486311597,reported,,descriptive unadjusted interval
+confirmation,size,small,rmse_log,20,5000,-0.02003680629582144,-0.023968116594692893,-0.01488053390244098,reported,,descriptive unadjusted interval
+confirmation,size,small,wape,20,5000,-0.014831388875637452,-0.019942836000952844,-0.009014563693225303,reported,,descriptive unadjusted interval
+confirmation,size,small,signed_bias,20,5000,0.017758939151831243,0.008639926472345013,0.02738859161530502,reported,,descriptive unadjusted interval
+confirmation,size,small,absolute_annual_bias,20,5000,-0.017758939151831243,-0.02738859161530502,-0.008639926472345015,reported,,descriptive unadjusted interval
+confirmation,size,mid,rmse_log,20,5000,-0.02182064054626942,-0.025170818785808464,-0.017913828899235824,reported,,descriptive unadjusted interval
+confirmation,size,mid,wape,20,5000,-0.013301472782290269,-0.018139165591119645,-0.008529669166360283,reported,,descriptive unadjusted interval
+confirmation,size,mid,signed_bias,20,5000,0.022356086414364373,0.013180601352726662,0.03143752698371397,reported,,descriptive unadjusted interval
+confirmation,size,mid,absolute_annual_bias,20,5000,-0.022356086414364373,-0.031437526983713986,-0.013180601352726674,reported,,descriptive unadjusted interval
+confirmation,size,large,rmse_log,20,5000,-0.0180630684110889,-0.02136732107005633,-0.014641783983582336,reported,,descriptive unadjusted interval
+confirmation,size,large,wape,20,5000,-0.008617079438949127,-0.013212449446508828,-0.004351469439512627,reported,,descriptive unadjusted interval
+confirmation,size,large,signed_bias,20,5000,0.020831706500436642,0.008938515661532795,0.03248699583884647,reported,,descriptive unadjusted interval
+confirmation,size,large,absolute_annual_bias,20,5000,-0.020831706500436642,-0.03248699583884647,-0.00893851566153281,reported,,descriptive unadjusted interval
+confirmation,size,missing,rmse_log,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,size,missing,wape,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,size,missing,signed_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,size,missing,absolute_annual_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,liquidity,low,rmse_log,20,5000,-0.018803241120119607,-0.022283993146972873,-0.014615104506966037,reported,,descriptive unadjusted interval
+confirmation,liquidity,low,wape,20,5000,-0.01554033327859472,-0.019684320627918212,-0.010585287691654885,reported,,descriptive unadjusted interval
+confirmation,liquidity,low,signed_bias,20,5000,0.016742243177946592,0.006230610770976533,0.02757306026831862,reported,,descriptive unadjusted interval
+confirmation,liquidity,low,absolute_annual_bias,20,5000,-0.016742243177946592,-0.027573060268318635,-0.0062306107709765406,reported,,descriptive unadjusted interval
+confirmation,liquidity,mid,rmse_log,20,5000,-0.02160058317799357,-0.02534448999995384,-0.0171501469803168,reported,,descriptive unadjusted interval
+confirmation,liquidity,mid,wape,20,5000,-0.015144740537660073,-0.01914999925215388,-0.010918064876120487,reported,,descriptive unadjusted interval
+confirmation,liquidity,mid,signed_bias,20,5000,0.018451772118056042,0.008283057308663414,0.028994520614063834,reported,,descriptive unadjusted interval
+confirmation,liquidity,mid,absolute_annual_bias,20,5000,-0.018451772118056042,-0.028994520614063834,-0.008283057308663418,reported,,descriptive unadjusted interval
+confirmation,liquidity,high,rmse_log,20,5000,-0.019573671873241993,-0.022820443317123223,-0.016135055857203248,reported,,descriptive unadjusted interval
+confirmation,liquidity,high,wape,20,5000,-0.009176935470043501,-0.013663069576846832,-0.004935891123542901,reported,,descriptive unadjusted interval
+confirmation,liquidity,high,signed_bias,20,5000,0.021659778898939774,0.010880143751716897,0.032396295567988925,reported,,descriptive unadjusted interval
+confirmation,liquidity,high,absolute_annual_bias,20,5000,-0.021659778898939774,-0.03239629556798893,-0.01088014375171691,reported,,descriptive unadjusted interval
+confirmation,liquidity,missing,rmse_log,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,liquidity,missing,wape,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,liquidity,missing,signed_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,liquidity,missing,absolute_annual_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,history,0_4,rmse_log,20,0,-0.121709403891197,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,history,0_4,wape,20,0,-0.024661849133965408,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,history,0_4,signed_bias,20,0,-0.0020727316634212567,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,history,0_4,absolute_annual_bias,20,0,0.0020727316634212567,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,history,5_19,rmse_log,20,5000,-0.039739322613708605,-0.06662075999550651,-0.02039384711168606,reported,,descriptive unadjusted interval
+confirmation,history,5_19,wape,20,5000,-0.037927498141344274,-0.054170496417635494,-0.021549309544219294,reported,,descriptive unadjusted interval
+confirmation,history,5_19,signed_bias,20,5000,0.07197040074160432,0.03200918534380802,0.11204978980495796,reported,,descriptive unadjusted interval
+confirmation,history,5_19,absolute_annual_bias,20,5000,-0.07197040074160432,-0.11204978980495799,-0.03200918534380805,reported,,descriptive unadjusted interval
+confirmation,history,20_plus,rmse_log,20,5000,-0.01955335016937554,-0.022624109965848665,-0.01573984038704771,reported,,descriptive unadjusted interval
+confirmation,history,20_plus,wape,20,5000,-0.010457680190176066,-0.014770962970799894,-0.006385560704936828,reported,,descriptive unadjusted interval
+confirmation,history,20_plus,signed_bias,20,5000,0.020880407140935864,0.010630604111873387,0.03119996394422122,reported,,descriptive unadjusted interval
+confirmation,history,20_plus,absolute_annual_bias,20,5000,-0.020880407140935864,-0.03119996394422122,-0.010630604111873393,reported,,descriptive unadjusted interval
+confirmation,history,missing,rmse_log,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,history,missing,wape,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,history,missing,signed_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,history,missing,absolute_annual_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,event,quarterly_expiry,rmse_log,20,0,-0.019341300052456933,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,event,quarterly_expiry,wape,20,0,0.014787345025279675,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,event,quarterly_expiry,signed_bias,20,0,0.06218798709701323,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,event,quarterly_expiry,absolute_annual_bias,20,0,-0.06218798709701323,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,event,monthly_expiry,rmse_log,20,0,-0.017856643983877707,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,event,monthly_expiry,wape,20,0,-0.005114993054860795,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,event,monthly_expiry,signed_bias,20,0,-0.002834967819224765,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,event,monthly_expiry,absolute_annual_bias,20,0,0.002834967819224765,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,event,month_end,rmse_log,20,0,-0.015519545881255703,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,event,month_end,wape,20,0,-0.0018400546548493213,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,event,month_end,signed_bias,20,0,0.051279770482968945,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,event,month_end,absolute_annual_bias,20,0,-0.051279770482968945,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,event,regular,rmse_log,20,5000,-0.020319328455312313,-0.02347907094775356,-0.01650900833346948,reported,,descriptive unadjusted interval
+confirmation,event,regular,wape,20,5000,-0.014287192481693745,-0.017705351484652014,-0.011111518059181825,reported,,descriptive unadjusted interval
+confirmation,event,regular,signed_bias,20,5000,0.014669853654560305,0.004512947427182626,0.025768629765339942,reported,,descriptive unadjusted interval
+confirmation,event,regular,absolute_annual_bias,20,5000,-0.014669853654560305,-0.025768629765339945,-0.004512947427182627,reported,,descriptive unadjusted interval
+confirmation,month_end_x_liquidity,month_end_low,rmse_log,20,0,-0.014521101384781243,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,month_end_low,wape,20,0,-0.0074961110877602155,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,month_end_low,signed_bias,20,0,0.05693314877202116,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,month_end_low,absolute_annual_bias,20,0,-0.05693314877202116,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,month_end_mid,rmse_log,20,0,-0.01476843593841598,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,month_end_mid,wape,20,0,-0.0014539510314176551,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,month_end_mid,signed_bias,20,0,0.05472027283449732,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,month_end_mid,absolute_annual_bias,20,0,-0.05472027283449732,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,month_end_high,rmse_log,20,0,-0.017462808250374995,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,month_end_high,wape,20,0,-0.0016493576042256874,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,month_end_high,signed_bias,20,0,0.05028958818760776,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,month_end_high,absolute_annual_bias,20,0,-0.05028958818760776,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,month_end_missing,rmse_log,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,month_end_missing,wape,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,month_end_missing,signed_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,month_end_missing,absolute_annual_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,other_low,rmse_log,20,5000,-0.01905118919305221,-0.022536269540854848,-0.014735306190555563,reported,,descriptive unadjusted interval
+confirmation,month_end_x_liquidity,other_low,wape,20,5000,-0.016069587558588838,-0.020414857626429632,-0.010963198427388146,reported,,descriptive unadjusted interval
+confirmation,month_end_x_liquidity,other_low,signed_bias,20,5000,0.014097959082121969,0.00390217459135028,0.024431087742367134,reported,,descriptive unadjusted interval
+confirmation,month_end_x_liquidity,other_low,absolute_annual_bias,20,5000,-0.014097959082121969,-0.024431087742367137,-0.003902174591350283,reported,,descriptive unadjusted interval
+confirmation,month_end_x_liquidity,other_mid,rmse_log,20,5000,-0.02198505087750119,-0.025959056464101307,-0.017442586011281687,reported,,descriptive unadjusted interval
+confirmation,month_end_x_liquidity,other_mid,wape,20,5000,-0.016050093049092884,-0.020184319172682617,-0.011668120599405274,reported,,descriptive unadjusted interval
+confirmation,month_end_x_liquidity,other_mid,signed_bias,20,5000,0.01605338755487551,0.006765598431019834,0.02589394185511286,reported,,descriptive unadjusted interval
+confirmation,month_end_x_liquidity,other_mid,absolute_annual_bias,20,5000,-0.01605338755487551,-0.025893941855112866,-0.0067655984310198355,reported,,descriptive unadjusted interval
+confirmation,month_end_x_liquidity,other_high,rmse_log,20,5000,-0.019712109040568748,-0.02329452160017649,-0.01611715723394637,reported,,descriptive unadjusted interval
+confirmation,month_end_x_liquidity,other_high,wape,20,5000,-0.0097133558580631,-0.014215805064077418,-0.005591366688628505,reported,,descriptive unadjusted interval
+confirmation,month_end_x_liquidity,other_high,signed_bias,20,5000,0.01961959895243981,0.009808653835505216,0.029386411642028827,reported,,descriptive unadjusted interval
+confirmation,month_end_x_liquidity,other_high,absolute_annual_bias,20,5000,-0.01961959895243981,-0.02938641164202884,-0.009808653835505216,reported,,descriptive unadjusted interval
+confirmation,month_end_x_liquidity,other_missing,rmse_log,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,other_missing,wape,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,other_missing,signed_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval
+confirmation,month_end_x_liquidity,other_missing,absolute_annual_bias,20,0,,,,suppressed,"insufficient dates/rows, missing year, or zero actual-share denominator",descriptive unadjusted interval

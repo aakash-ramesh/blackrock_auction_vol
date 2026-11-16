@@ -1,0 +1,650 @@
+{
+  "added_paths": [
+    "notebooks/22_intraday_ridge_control.ipynb",
+    "notebooks/23_intraday_feature_ablation.ipynb",
+    "notebooks/24_intraday_shrinkage.ipynb",
+    "notebooks/25_frozen_intraday_evaluation.ipynb",
+    "notebooks/26_quarterly_intraday_walkforward.ipynb",
+    "notebooks/ablate_intraday_ridge_features.py",
+    "notebooks/audit_intraday_robustness.py",
+    "notebooks/audit_unused_intraday_period.py",
+    "notebooks/evaluate_frozen_intraday.py",
+    "notebooks/fit_intraday_ridge_control.py",
+    "notebooks/quarterly_intraday_walkforward.py",
+    "notebooks/shrink_intraday_ridge_update.py",
+    "notebooks/summarize_frozen_intraday_evaluation.py",
+    "notebooks/summarize_intraday_ablation.py",
+    "notebooks/summarize_intraday_shrinkage.py",
+    "notebooks/summarize_quarterly_intraday.py",
+    "reports/intraday_progress_2026_11_16/NYSE_Intraday_Forecasting_Research_Report.docx",
+    "reports/intraday_progress_2026_11_16/build_report.py",
+    "reports/intraday_progress_2026_11_16/intraday_research_report.md",
+    "reports/intraday_progress_2026_11_16/write_report.py",
+    "outputs/experiments/21_intraday_robustness/README.md",
+    "outputs/experiments/21_intraday_robustness/annual_segment_metrics.csv",
+    "outputs/experiments/21_intraday_robustness/audit_plan.json",
+    "outputs/experiments/21_intraday_robustness/daily_paired_errors.csv",
+    "outputs/experiments/21_intraday_robustness/paired_segment_changes.csv",
+    "outputs/experiments/21_intraday_robustness/robustness_summary.csv",
+    "outputs/experiments/21_intraday_robustness/serial_block_bootstrap.csv",
+    "outputs/experiments/21_intraday_robustness/validation_checks.csv",
+    "outputs/experiments/22_intraday_ridge_control/README.md",
+    "outputs/experiments/22_intraday_ridge_control/annual_metrics.csv",
+    "outputs/experiments/22_intraday_ridge_control/comparison.csv",
+    "outputs/experiments/22_intraday_ridge_control/daily_errors_vs_fixed_daily.csv",
+    "outputs/experiments/22_intraday_ridge_control/daily_errors_vs_ridge_daily_control.csv",
+    "outputs/experiments/22_intraday_ridge_control/experiment_plan.json",
+    "outputs/experiments/22_intraday_ridge_control/experiment_summary.json",
+    "outputs/experiments/22_intraday_ridge_control/findings.md",
+    "outputs/experiments/22_intraday_ridge_control/hyperparameter_validation.csv",
+    "outputs/experiments/22_intraday_ridge_control/input_fingerprints.csv",
+    "outputs/experiments/22_intraday_ridge_control/models/preprocessor_2022.json",
+    "outputs/experiments/22_intraday_ridge_control/models/preprocessor_2023.json",
+    "outputs/experiments/22_intraday_ridge_control/models/preprocessor_2024.json",
+    "outputs/experiments/22_intraday_ridge_control/models/preprocessor_2025.json",
+    "outputs/experiments/22_intraday_ridge_control/models/reconstruction_2022.json",
+    "outputs/experiments/22_intraday_ridge_control/models/reconstruction_2023.json",
+    "outputs/experiments/22_intraday_ridge_control/models/reconstruction_2024.json",
+    "outputs/experiments/22_intraday_ridge_control/models/reconstruction_2025.json",
+    "outputs/experiments/22_intraday_ridge_control/models/ridge_daily_control_2022.npy",
+    "outputs/experiments/22_intraday_ridge_control/models/ridge_daily_control_2023.npy",
+    "outputs/experiments/22_intraday_ridge_control/models/ridge_daily_control_2024.npy",
+    "outputs/experiments/22_intraday_ridge_control/models/ridge_daily_control_2025.npy",
+    "outputs/experiments/22_intraday_ridge_control/paired_block_bootstrap.csv",
+    "outputs/experiments/22_intraday_ridge_control/selected_hyperparameters.csv",
+    "outputs/experiments/22_intraday_ridge_control/validation_checks.csv",
+    "outputs/experiments/23_intraday_feature_ablation/README.md",
+    "outputs/experiments/23_intraday_feature_ablation/annual_metrics.csv",
+    "outputs/experiments/23_intraday_feature_ablation/annual_segment_metrics.csv",
+    "outputs/experiments/23_intraday_feature_ablation/comparison.csv",
+    "outputs/experiments/23_intraday_feature_ablation/development_segment_contrasts.csv",
+    "outputs/experiments/23_intraday_feature_ablation/development_segment_means.csv",
+    "outputs/experiments/23_intraday_feature_ablation/experiment_plan.json",
+    "outputs/experiments/23_intraday_feature_ablation/experiment_summary.json",
+    "outputs/experiments/23_intraday_feature_ablation/feature_ablation.png",
+    "outputs/experiments/23_intraday_feature_ablation/findings.md",
+    "outputs/experiments/23_intraday_feature_ablation/group_contrasts.csv",
+    "outputs/experiments/23_intraday_feature_ablation/hyperparameter_validation.csv",
+    "outputs/experiments/23_intraday_feature_ablation/input_fingerprints.csv",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_price_2022.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_price_2022.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_price_2023.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_price_2023.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_price_2024.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_price_2024.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_price_2025.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_price_2025.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_recent_activity_2022.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_recent_activity_2022.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_recent_activity_2023.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_recent_activity_2023.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_recent_activity_2024.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_recent_activity_2024.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_recent_activity_2025.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_recent_activity_2025.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_trades_2022.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_trades_2022.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_trades_2023.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_trades_2023.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_trades_2024.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_trades_2024.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_trades_2025.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_trades_2025.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_volume_2022.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_volume_2022.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_volume_2023.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_volume_2023.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_volume_2024.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_volume_2024.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_volume_2025.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/add_volume_2025.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_price_2022.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_price_2022.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_price_2023.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_price_2023.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_price_2024.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_price_2024.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_price_2025.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_price_2025.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_recent_activity_2022.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_recent_activity_2022.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_recent_activity_2023.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_recent_activity_2023.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_recent_activity_2024.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_recent_activity_2024.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_recent_activity_2025.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_recent_activity_2025.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_trades_2022.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_trades_2022.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_trades_2023.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_trades_2023.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_trades_2024.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_trades_2024.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_trades_2025.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_trades_2025.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_volume_2022.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_volume_2022.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_volume_2023.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_volume_2023.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_volume_2024.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_volume_2024.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_volume_2025.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/drop_volume_2025.npy",
+    "outputs/experiments/23_intraday_feature_ablation/models/preprocessor_2022.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/preprocessor_2023.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/preprocessor_2024.json",
+    "outputs/experiments/23_intraday_feature_ablation/models/preprocessor_2025.json",
+    "outputs/experiments/23_intraday_feature_ablation/paired_group_bootstrap.csv",
+    "outputs/experiments/23_intraday_feature_ablation/selected_hyperparameters.csv",
+    "outputs/experiments/23_intraday_feature_ablation/validation_checks.csv",
+    "outputs/experiments/24_intraday_shrinkage/README.md",
+    "outputs/experiments/24_intraday_shrinkage/annual_metrics.csv",
+    "outputs/experiments/24_intraday_shrinkage/annual_segment_metrics.csv",
+    "outputs/experiments/24_intraday_shrinkage/comparison.csv",
+    "outputs/experiments/24_intraday_shrinkage/daily_errors_global_shrink_confirmation.csv",
+    "outputs/experiments/24_intraday_shrinkage/daily_errors_global_shrink_development.csv",
+    "outputs/experiments/24_intraday_shrinkage/daily_errors_low_liquidity_shrink_confirmation.csv",
+    "outputs/experiments/24_intraday_shrinkage/daily_errors_low_liquidity_shrink_development.csv",
+    "outputs/experiments/24_intraday_shrinkage/daily_errors_month_end_liquidity_shrink_confirmation.csv",
+    "outputs/experiments/24_intraday_shrinkage/daily_errors_month_end_liquidity_shrink_development.csv",
+    "outputs/experiments/24_intraday_shrinkage/daily_errors_month_end_shrink_confirmation.csv",
+    "outputs/experiments/24_intraday_shrinkage/daily_errors_month_end_shrink_development.csv",
+    "outputs/experiments/24_intraday_shrinkage/development_adoption_gate.csv",
+    "outputs/experiments/24_intraday_shrinkage/development_decision.json",
+    "outputs/experiments/24_intraday_shrinkage/development_segment_means.csv",
+    "outputs/experiments/24_intraday_shrinkage/experiment_plan.json",
+    "outputs/experiments/24_intraday_shrinkage/experiment_summary.json",
+    "outputs/experiments/24_intraday_shrinkage/findings.md",
+    "outputs/experiments/24_intraday_shrinkage/input_fingerprints.csv",
+    "outputs/experiments/24_intraday_shrinkage/paired_block_bootstrap.csv",
+    "outputs/experiments/24_intraday_shrinkage/parameters/strengths_2022.json",
+    "outputs/experiments/24_intraday_shrinkage/parameters/strengths_2023.json",
+    "outputs/experiments/24_intraday_shrinkage/parameters/strengths_2024.json",
+    "outputs/experiments/24_intraday_shrinkage/parameters/strengths_2025.json",
+    "outputs/experiments/24_intraday_shrinkage/selected_strengths.csv",
+    "outputs/experiments/24_intraday_shrinkage/shrinkage_comparison.png",
+    "outputs/experiments/24_intraday_shrinkage/validation_checks.csv",
+    "outputs/experiments/24_intraday_shrinkage/validation_strength_grid.csv",
+    "outputs/experiments/25_frozen_intraday_evaluation/README.md",
+    "outputs/experiments/25_frozen_intraday_evaluation/annual_subgroup_metrics.csv",
+    "outputs/experiments/25_frozen_intraday_evaluation/artifact_fingerprints.json",
+    "outputs/experiments/25_frozen_intraday_evaluation/bootstrap_weight_fingerprints.csv",
+    "outputs/experiments/25_frozen_intraday_evaluation/daily_sufficient_statistics.csv",
+    "outputs/experiments/25_frozen_intraday_evaluation/evaluation_protocol.md",
+    "outputs/experiments/25_frozen_intraday_evaluation/evaluation_summary.json",
+    "outputs/experiments/25_frozen_intraday_evaluation/forward_source_coverage.csv",
+    "outputs/experiments/25_frozen_intraday_evaluation/forward_source_file_inventory.csv",
+    "outputs/experiments/25_frozen_intraday_evaluation/input_fingerprints.csv",
+    "outputs/experiments/25_frozen_intraday_evaluation/metric_intervals.csv",
+    "outputs/experiments/25_frozen_intraday_evaluation/period_metric_differences.csv",
+    "outputs/experiments/25_frozen_intraday_evaluation/unused_period_audit.json",
+    "outputs/experiments/25_frozen_intraday_evaluation/unused_period_audit.md",
+    "outputs/experiments/25_frozen_intraday_evaluation/validation_checks.csv",
+    "outputs/experiments/26_quarterly_intraday_audit/README.md",
+    "outputs/experiments/26_quarterly_intraday_audit/annual_metrics.csv",
+    "outputs/experiments/26_quarterly_intraday_audit/annual_segment_metrics.csv",
+    "outputs/experiments/26_quarterly_intraday_audit/comparison.csv",
+    "outputs/experiments/26_quarterly_intraday_audit/daily_statistics_confirmation_vs_annual_ridge.csv",
+    "outputs/experiments/26_quarterly_intraday_audit/daily_statistics_confirmation_vs_fixed_daily.csv",
+    "outputs/experiments/26_quarterly_intraday_audit/daily_statistics_development_vs_annual_ridge.csv",
+    "outputs/experiments/26_quarterly_intraday_audit/daily_statistics_development_vs_fixed_daily.csv",
+    "outputs/experiments/26_quarterly_intraday_audit/experiment_plan.json",
+    "outputs/experiments/26_quarterly_intraday_audit/experiment_summary.json",
+    "outputs/experiments/26_quarterly_intraday_audit/fold_manifest.json",
+    "outputs/experiments/26_quarterly_intraday_audit/hyperparameter_validation.csv",
+    "outputs/experiments/26_quarterly_intraday_audit/input_fingerprints.csv",
+    "outputs/experiments/26_quarterly_intraday_audit/metric_intervals.csv",
+    "outputs/experiments/26_quarterly_intraday_audit/models/preprocessor_2022Q1.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/preprocessor_2022Q2.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/preprocessor_2022Q3.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/preprocessor_2022Q4.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/preprocessor_2023Q1.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/preprocessor_2023Q2.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/preprocessor_2023Q3.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/preprocessor_2023Q4.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/preprocessor_2024Q1.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/preprocessor_2024Q2.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/preprocessor_2024Q3.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/preprocessor_2024Q4.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/preprocessor_2025Q1.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/preprocessor_2025Q2.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/preprocessor_2025Q3.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/preprocessor_2025Q4.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/quarterly_ridge_2022Q1.npy",
+    "outputs/experiments/26_quarterly_intraday_audit/models/quarterly_ridge_2022Q2.npy",
+    "outputs/experiments/26_quarterly_intraday_audit/models/quarterly_ridge_2022Q3.npy",
+    "outputs/experiments/26_quarterly_intraday_audit/models/quarterly_ridge_2022Q4.npy",
+    "outputs/experiments/26_quarterly_intraday_audit/models/quarterly_ridge_2023Q1.npy",
+    "outputs/experiments/26_quarterly_intraday_audit/models/quarterly_ridge_2023Q2.npy",
+    "outputs/experiments/26_quarterly_intraday_audit/models/quarterly_ridge_2023Q3.npy",
+    "outputs/experiments/26_quarterly_intraday_audit/models/quarterly_ridge_2023Q4.npy",
+    "outputs/experiments/26_quarterly_intraday_audit/models/quarterly_ridge_2024Q1.npy",
+    "outputs/experiments/26_quarterly_intraday_audit/models/quarterly_ridge_2024Q2.npy",
+    "outputs/experiments/26_quarterly_intraday_audit/models/quarterly_ridge_2024Q3.npy",
+    "outputs/experiments/26_quarterly_intraday_audit/models/quarterly_ridge_2024Q4.npy",
+    "outputs/experiments/26_quarterly_intraday_audit/models/quarterly_ridge_2025Q1.npy",
+    "outputs/experiments/26_quarterly_intraday_audit/models/quarterly_ridge_2025Q2.npy",
+    "outputs/experiments/26_quarterly_intraday_audit/models/quarterly_ridge_2025Q3.npy",
+    "outputs/experiments/26_quarterly_intraday_audit/models/quarterly_ridge_2025Q4.npy",
+    "outputs/experiments/26_quarterly_intraday_audit/models/reconstruction_2022Q1.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/reconstruction_2022Q2.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/reconstruction_2022Q3.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/reconstruction_2022Q4.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/reconstruction_2023Q1.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/reconstruction_2023Q2.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/reconstruction_2023Q3.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/reconstruction_2023Q4.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/reconstruction_2024Q1.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/reconstruction_2024Q2.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/reconstruction_2024Q3.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/reconstruction_2024Q4.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/reconstruction_2025Q1.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/reconstruction_2025Q2.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/reconstruction_2025Q3.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/reconstruction_2025Q4.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/tuning_preprocessor_2022Q1.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/tuning_preprocessor_2022Q2.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/tuning_preprocessor_2022Q3.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/tuning_preprocessor_2022Q4.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/tuning_preprocessor_2023Q1.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/tuning_preprocessor_2023Q2.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/tuning_preprocessor_2023Q3.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/tuning_preprocessor_2023Q4.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/tuning_preprocessor_2024Q1.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/tuning_preprocessor_2024Q2.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/tuning_preprocessor_2024Q3.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/tuning_preprocessor_2024Q4.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/tuning_preprocessor_2025Q1.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/tuning_preprocessor_2025Q2.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/tuning_preprocessor_2025Q3.json",
+    "outputs/experiments/26_quarterly_intraday_audit/models/tuning_preprocessor_2025Q4.json",
+    "outputs/experiments/26_quarterly_intraday_audit/quarter_metrics.csv",
+    "outputs/experiments/26_quarterly_intraday_audit/quarterly_paired_changes.csv",
+    "outputs/experiments/26_quarterly_intraday_audit/quarterly_stability.png",
+    "outputs/experiments/26_quarterly_intraday_audit/sample_key_fingerprints.csv",
+    "outputs/experiments/26_quarterly_intraday_audit/validation_checks.csv"
+  ],
+  "existing_paths_preserved_with_local_differences": [],
+  "generated_files_kept_local": [
+    {
+      "path": "outputs/experiments/22_intraday_ridge_control/predictions/ridge_control_predictions_2022.parquet",
+      "bytes": 26932174,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/22_intraday_ridge_control/predictions/ridge_control_predictions_2023.parquet",
+      "bytes": 26059422,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/22_intraday_ridge_control/predictions/ridge_control_predictions_2024.parquet",
+      "bytes": 25686460,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/22_intraday_ridge_control/predictions/ridge_control_predictions_2025.parquet",
+      "bytes": 24899784,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/23_intraday_feature_ablation/predictions/ablation_predictions_2022.parquet",
+      "bytes": 46956517,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/23_intraday_feature_ablation/predictions/ablation_predictions_2023.parquet",
+      "bytes": 45405474,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/23_intraday_feature_ablation/predictions/ablation_predictions_2024.parquet",
+      "bytes": 44813793,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/23_intraday_feature_ablation/predictions/ablation_predictions_2025.parquet",
+      "bytes": 43511195,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/24_intraday_shrinkage/predictions/shrinkage_predictions_2022.parquet",
+      "bytes": 34380492,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/24_intraday_shrinkage/predictions/shrinkage_predictions_2023.parquet",
+      "bytes": 33585136,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/24_intraday_shrinkage/predictions/shrinkage_predictions_2024.parquet",
+      "bytes": 32766050,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/24_intraday_shrinkage/predictions/shrinkage_predictions_2025.parquet",
+      "bytes": 31684706,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2022Q1.parquet",
+      "bytes": 3286922,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2022Q2.parquet",
+      "bytes": 3146269,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2022Q3.parquet",
+      "bytes": 3324694,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2022Q4.parquet",
+      "bytes": 3384527,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2023Q1.parquet",
+      "bytes": 3233931,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2023Q2.parquet",
+      "bytes": 3157671,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2023Q3.parquet",
+      "bytes": 3205580,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2023Q4.parquet",
+      "bytes": 3193721,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2024Q1.parquet",
+      "bytes": 3152789,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2024Q2.parquet",
+      "bytes": 3160589,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2024Q3.parquet",
+      "bytes": 3228126,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2024Q4.parquet",
+      "bytes": 3126655,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2025Q1.parquet",
+      "bytes": 2911852,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2025Q2.parquet",
+      "bytes": 3129215,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2025Q3.parquet",
+      "bytes": 3105433,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/predictions/quarterly_predictions_2025Q4.parquet",
+      "bytes": 3091352,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2022Q1_refit.parquet",
+      "bytes": 88707,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2022Q1_tune.parquet",
+      "bytes": 60350,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2022Q1_validation.parquet",
+      "bytes": 28334,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2022Q2_refit.parquet",
+      "bytes": 218929,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2022Q2_tune.parquet",
+      "bytes": 198605,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2022Q2_validation.parquet",
+      "bytes": 27898,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2022Q3_refit.parquet",
+      "bytes": 313171,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2022Q3_tune.parquet",
+      "bytes": 261143,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2022Q3_validation.parquet",
+      "bytes": 26627,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2022Q4_refit.parquet",
+      "bytes": 367327,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2022Q4_tune.parquet",
+      "bytes": 296828,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2022Q4_validation.parquet",
+      "bytes": 26641,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2023Q1_refit.parquet",
+      "bytes": 406554,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2023Q1_tune.parquet",
+      "bytes": 317712,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2023Q1_validation.parquet",
+      "bytes": 26940,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2023Q2_refit.parquet",
+      "bytes": 428463,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2023Q2_tune.parquet",
+      "bytes": 332652,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2023Q2_validation.parquet",
+      "bytes": 24858,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2023Q3_refit.parquet",
+      "bytes": 463733,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2023Q3_tune.parquet",
+      "bytes": 349805,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2023Q3_validation.parquet",
+      "bytes": 24802,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2023Q4_refit.parquet",
+      "bytes": 472412,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2023Q4_tune.parquet",
+      "bytes": 347163,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2023Q4_validation.parquet",
+      "bytes": 24324,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2024Q1_refit.parquet",
+      "bytes": 469456,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2024Q1_tune.parquet",
+      "bytes": 362553,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2024Q1_validation.parquet",
+      "bytes": 24647,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2024Q2_refit.parquet",
+      "bytes": 490373,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2024Q2_tune.parquet",
+      "bytes": 360473,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2024Q2_validation.parquet",
+      "bytes": 23687,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2024Q3_refit.parquet",
+      "bytes": 492622,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2024Q3_tune.parquet",
+      "bytes": 358645,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2024Q3_validation.parquet",
+      "bytes": 23692,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2024Q4_refit.parquet",
+      "bytes": 492419,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2024Q4_tune.parquet",
+      "bytes": 363774,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2024Q4_validation.parquet",
+      "bytes": 23616,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2025Q1_refit.parquet",
+      "bytes": 497554,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2025Q1_tune.parquet",
+      "bytes": 368695,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2025Q1_validation.parquet",
+      "bytes": 23331,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2025Q2_refit.parquet",
+      "bytes": 505824,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2025Q2_tune.parquet",
+      "bytes": 368331,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2025Q2_validation.parquet",
+      "bytes": 22650,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2025Q3_refit.parquet",
+      "bytes": 504155,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2025Q3_tune.parquet",
+      "bytes": 369705,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2025Q3_validation.parquet",
+      "bytes": 22609,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2025Q4_refit.parquet",
+      "bytes": 509724,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2025Q4_tune.parquet",
+      "bytes": 370221,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    },
+    {
+      "path": "outputs/experiments/26_quarterly_intraday_audit/sample_keys/2025Q4_validation.parquet",
+      "bytes": 22720,
+      "reason": "Generated panel/sample/prediction data; recreate using documented scripts and retained fingerprints"
+    }
+  ]
+}

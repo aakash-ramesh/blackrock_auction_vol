@@ -1,0 +1,24 @@
+{
+  "all_checks_passed": true,
+  "checks": 60,
+  "rows": 1260168,
+  "script_sha256": "21d34e317d8c73c803af49710a0e8063779a9020a3eb63d890decdfa89db5640",
+  "prediction_files": [
+    {
+      "path": "outputs/experiments/22_intraday_ridge_control/predictions/ridge_control_predictions_2022.parquet",
+      "sha256": "4429916492c5d49f7a7f63d5ef79b9f04b35ce568e160f2e31ae6e537be3c0ab"
+    },
+    {
+      "path": "outputs/experiments/22_intraday_ridge_control/predictions/ridge_control_predictions_2023.parquet",
+      "sha256": "2478ba7191019527e1745b512a09825a43671fe1fbebb8c4f13582e52c1cf1c0"
+    },
+    {
+      "path": "outputs/experiments/22_intraday_ridge_control/predictions/ridge_control_predictions_2024.parquet",
+      "sha256": "dbce6f81767106d77243b50a595bef044f522daf7ffa1709191f125177c23daa"
+    },
+    {
+      "path": "outputs/experiments/22_intraday_ridge_control/predictions/ridge_control_predictions_2025.parquet",
+      "sha256": "3e4d2a58986505ab5f7b0edf5df41b0e03908f4130a98e2a793ddb326a165b1e"
+    }
+  ]
+}

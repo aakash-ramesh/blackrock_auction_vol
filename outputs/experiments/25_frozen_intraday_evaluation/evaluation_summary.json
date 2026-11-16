@@ -1,0 +1,15 @@
+{
+  "all_checks_passed": true,
+  "checks": 94,
+  "rows": 1260168,
+  "replicates": 5000,
+  "primary_block_dates": 20,
+  "sensitivity_blocks": [
+    5,
+    60
+  ],
+  "protocol_sha256": "e3db5fe2838a2bd549716ed3e8729818c117cf7966c522dd4c9832a9a91bd2b7",
+  "script_sha256": "561f72cf5fc29369b64b8df1a4d65d9546bfe3599707aea317e336dfc4cf5c90",
+  "forward_period_scored": false,
+  "retrospective_only": true
+}
