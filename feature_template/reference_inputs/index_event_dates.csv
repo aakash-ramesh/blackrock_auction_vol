@@ -1,0 +1,232 @@
+date,event_type,subtype,date_rule,public_source
+2011-02-10,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2011-02-28,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2011-03-18,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2011-05-16,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2011-05-31,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2011-05-31,russell_rank_day,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2011-06-10,russell_preliminary_list,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2011-06-17,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2011-06-24,russell_reconstitution,,4th Friday of June (trade at that close),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2011-08-16,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2011-08-31,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2011-09-16,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2011-11-15,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2011-11-30,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2011-12-16,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2012-02-15,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2012-02-29,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2012-03-16,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2012-05-15,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2012-05-31,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2012-05-31,russell_rank_day,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2012-06-08,russell_preliminary_list,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2012-06-15,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2012-06-22,russell_reconstitution,,4th Friday of June (trade at that close),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2012-08-15,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2012-08-31,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2012-09-21,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2012-11-14,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2012-11-30,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2012-12-21,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2013-02-13,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2013-02-28,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2013-03-15,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2013-05-15,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2013-05-31,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2013-05-31,russell_rank_day,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2013-06-14,russell_preliminary_list,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2013-06-21,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2013-06-28,russell_reconstitution,,4th Friday of June (trade at that close),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2013-08-14,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2013-08-30,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2013-09-20,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2013-11-07,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2013-11-26,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2013-12-20,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2014-02-12,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2014-02-28,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2014-03-21,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2014-05-14,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2014-05-30,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2014-05-30,russell_rank_day,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2014-06-13,russell_preliminary_list,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2014-06-20,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2014-06-27,russell_reconstitution,,4th Friday of June (trade at that close),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2014-08-13,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2014-08-29,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2014-09-19,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2014-11-06,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2014-11-25,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2014-12-19,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2015-02-11,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2015-02-27,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2015-03-20,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2015-05-12,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2015-05-29,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2015-05-29,russell_rank_day,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2015-06-12,russell_preliminary_list,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2015-06-19,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2015-06-26,russell_reconstitution,,4th Friday of June (trade at that close),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2015-08-13,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2015-08-31,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2015-09-18,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2015-11-12,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2015-11-30,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2015-12-18,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2016-02-11,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2016-02-29,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2016-03-18,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2016-05-12,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2016-05-27,russell_rank_day,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2016-05-31,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2016-06-10,russell_preliminary_list,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2016-06-17,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2016-06-24,russell_reconstitution,,4th Friday of June (trade at that close),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2016-08-11,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2016-08-31,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2016-09-16,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2016-11-14,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2016-11-30,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2016-12-16,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2017-02-09,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2017-02-28,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2017-03-17,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2017-05-12,russell_rank_day,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2017-05-15,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2017-05-31,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2017-06-09,russell_preliminary_list,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2017-06-16,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2017-06-23,russell_reconstitution,,4th Friday of June (trade at that close),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2017-08-10,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2017-08-31,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2017-09-15,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2017-11-13,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2017-11-30,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2017-12-15,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2018-02-12,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2018-02-28,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2018-03-16,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2018-05-11,russell_rank_day,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2018-05-14,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2018-05-31,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2018-06-08,russell_preliminary_list,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2018-06-15,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2018-06-22,russell_reconstitution,,4th Friday of June (trade at that close),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2018-08-13,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2018-08-31,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2018-09-21,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2018-11-13,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2018-11-30,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2018-12-21,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2019-02-11,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2019-02-28,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2019-03-15,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2019-05-10,russell_rank_day,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2019-05-13,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2019-05-28,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2019-06-07,russell_preliminary_list,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2019-06-21,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2019-06-28,russell_reconstitution,,4th Friday of June (trade at that close),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2019-08-07,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2019-08-27,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2019-09-20,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2019-11-07,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2019-11-26,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2019-12-20,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2020-02-12,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2020-02-28,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2020-03-20,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2020-05-08,russell_rank_day,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2020-05-12,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2020-05-29,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2020-06-05,russell_preliminary_list,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2020-06-15,russell_lockdown_start,,Published annually by FTSE Russell (2020 onward in this file),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2020-06-19,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2020-06-26,russell_reconstitution,,4th Friday of June (trade at that close),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2020-08-12,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2020-08-31,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2020-09-18,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2020-11-10,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2020-11-30,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2020-12-18,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2021-02-09,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2021-02-26,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2021-03-19,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2021-05-07,russell_rank_day,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2021-05-11,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2021-05-27,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2021-06-04,russell_preliminary_list,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2021-06-14,russell_lockdown_start,,Published annually by FTSE Russell (2020 onward in this file),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2021-06-18,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2021-06-25,russell_reconstitution,,4th Friday of June (trade at that close),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2021-08-11,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2021-08-31,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2021-09-17,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2021-11-11,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2021-11-30,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2021-12-17,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2022-02-09,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2022-02-28,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2022-03-18,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2022-05-06,russell_rank_day,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2022-05-12,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2022-05-31,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2022-06-03,russell_preliminary_list,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2022-06-13,russell_lockdown_start,,Published annually by FTSE Russell (2020 onward in this file),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2022-06-17,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2022-06-24,russell_reconstitution,,4th Friday of June (trade at that close),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2022-08-11,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2022-08-31,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2022-09-16,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2022-11-10,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2022-11-30,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2022-12-16,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2023-02-09,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2023-02-28,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2023-03-17,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2023-04-28,russell_rank_day,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2023-05-11,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2023-05-19,russell_preliminary_list,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2023-05-31,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2023-06-05,russell_lockdown_start,,Published annually by FTSE Russell (2020 onward in this file),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2023-06-16,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2023-06-23,russell_reconstitution,,4th Friday of June (trade at that close),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2023-08-10,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2023-08-31,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2023-09-15,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2023-11-14,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2023-11-30,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2023-12-15,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2024-02-12,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2024-02-29,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2024-03-15,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2024-04-30,russell_rank_day,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2024-05-14,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2024-05-24,russell_preliminary_list,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2024-05-31,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2024-06-10,russell_lockdown_start,,Published annually by FTSE Russell (2020 onward in this file),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2024-06-21,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2024-06-28,russell_reconstitution,,4th Friday of June (trade at that close),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2024-08-12,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2024-08-30,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2024-09-20,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2024-11-06,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2024-11-25,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2024-12-20,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2025-02-11,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2025-02-28,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2025-03-21,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2025-04-30,russell_rank_day,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2025-05-13,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2025-05-23,russell_preliminary_list,,Published annually by FTSE Russell,FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2025-05-30,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2025-06-09,russell_lockdown_start,,Published annually by FTSE Russell (2020 onward in this file),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2025-06-20,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2025-06-27,russell_reconstitution,,4th Friday of June (trade at that close),FTSE Russell reconstitution schedule (lseg.com/ftse-russell)
+2025-08-07,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2025-08-26,msci_review_effective,quarterly,No fixed rule: published by MSCI; usually last business day of Feb/Aug,MSCI index review announcements (msci.com/index-review)
+2025-09-19,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
+2025-11-05,msci_review_announcement,,Published by MSCI about two weeks before the effective date,MSCI index review announcements (msci.com/index-review)
+2025-11-24,msci_review_effective,semi_annual,No fixed rule: published by MSCI; usually last business day of May/Nov,MSCI index review announcements (msci.com/index-review)
+2025-12-19,sp_quarterly_rebalance,,3rd Friday of Mar/Jun/Sep/Dec (trade at that close),S&P Dow Jones Indices quarterly rebalance schedule
