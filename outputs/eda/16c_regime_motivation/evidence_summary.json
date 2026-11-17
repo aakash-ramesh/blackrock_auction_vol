@@ -1,0 +1,18 @@
+{
+  "Q1_median_lag20_autocorrelation_inputs": 0.4318946954167501,
+  "Q1_lag1_autocorrelation_model_error": 0.024237541598817545,
+  "Q1_median_spell_length_days": 12.796907018442623,
+  "Q2_mixture_components_with_lowest_bic": 5,
+  "Q3_largest_tercile_gap_in_slope_on_spike_ratio": 0.05127113287506052,
+  "Q4_max_abs_spearman_slope_vs_inputs": 0.5162790697674419,
+  "Q5_max_bias_range_lgbm": 0.03272225455952641,
+  "Q5_max_rmse_range_lgbm": 0.044876122899723814,
+  "Q5_max_abs_spearman_daily_error_vs_inputs": 0.14343543413170412,
+  "Q4_max_abs_spearman_slope_vs_input_changes": 0.24569616430081545,
+  "Q5_oracle_gain_best_single_input": 0.0005481752572232823,
+  "Q5_oracle_gain_core_combination": 0.0010768458932262637,
+  "Q5_project_gate_threshold": 0.002,
+  "Q6_redundant_pairs": [
+    "realized_vol~fear_premium (-0.918)"
+  ]
+}

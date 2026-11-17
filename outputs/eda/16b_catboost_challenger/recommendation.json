@@ -1,0 +1,11 @@
+{
+  "catboost_development_rmse_log": 0.4636661821415258,
+  "catboost_confirmation_rmse_log": 0.422921262306753,
+  "change_vs_frozen_ridge": -0.0242141989247448,
+  "passes_gate_vs": [
+    "rolling5_residual_auction_calendar_liquidity",
+    "lgbm_58_control"
+  ],
+  "best_development_model_overall": "lgbm_61_ratios_large_tuned",
+  "smoke_mode": false
+}

@@ -1,0 +1,56 @@
+{
+  "development_rmse_log": {
+    "rolling5_residual_auction_calendar_liquidity": 0.48788,
+    "lgbm_61_ratios_large": 0.46541,
+    "lgbm_61_ratios_large_tuned": 0.46357,
+    "nn_mlp_tabular": 0.47004,
+    "nn_cnn_lstm_sequence": 0.48509,
+    "nn_cnn_lstm_hybrid": 0.47854,
+    "blend_hybrid_lgbm": 0.4633
+  },
+  "confirmation_rmse_log": {
+    "rolling5_residual_auction_calendar_liquidity": 0.44665,
+    "lgbm_61_ratios_large": 0.42363,
+    "lgbm_61_ratios_large_tuned": 0.42417,
+    "nn_mlp_tabular": 0.42488,
+    "nn_cnn_lstm_sequence": 0.42772,
+    "nn_cnn_lstm_hybrid": 0.42452,
+    "blend_hybrid_lgbm": 0.41839
+  },
+  "mean_development_change_vs_tuned_lgbm": {
+    "nn_mlp_tabular": 0.00647,
+    "nn_cnn_lstm_sequence": 0.02152,
+    "nn_cnn_lstm_hybrid": 0.01497,
+    "blend_hybrid_lgbm": -0.00027
+  },
+  "passes_gate_vs_tuned_lgbm": [],
+  "passes_gate_vs_frozen_ridge": [
+    "nn_mlp_tabular",
+    "blend_hybrid_lgbm"
+  ],
+  "error_correlation_hybrid_vs_tuned_lgbm": 0.9339,
+  "training": {
+    "batch": 1024,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "max_epochs": 8,
+    "patience": 2
+  },
+  "sequence_length": 60,
+  "channels": [
+    "rel_log_auction",
+    "auction_missing",
+    "rel_log_daily_volume",
+    "auction_share",
+    "return_x10",
+    "abs_return_x10",
+    "past_is_last_trading_day_month",
+    "past_is_last_trading_day_quarter",
+    "past_monthly_options_expiry",
+    "past_quarterly_options_expiry",
+    "past_is_early_close",
+    "past_is_friday",
+    "row_present"
+  ],
+  "smoke_mode": false
+}

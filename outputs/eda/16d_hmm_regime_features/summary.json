@@ -1,0 +1,28 @@
+{
+  "bic_states_chosen": {
+    "2022_tune": 6,
+    "2022_refit": 6,
+    "2023_tune": 6,
+    "2023_refit": 6,
+    "2024_tune": 6,
+    "2024_refit": 6,
+    "2025_tune": 6,
+    "2025_refit": 6
+  },
+  "control_matches_16a": 0.0,
+  "mean_development_change_vs_control": {
+    "+ raw regime inputs": 0.00409,
+    "+ HMM (BIC states)": 0.0067,
+    "+ HMM (3 states)": 0.00178,
+    "+ inputs and HMM (BIC)": 0.00763
+  },
+  "passes_gate_vs_control": [],
+  "passes_gate_vs_frozen_ridge": [
+    "lgbm_control",
+    "lgbm_plus_regime_inputs",
+    "lgbm_plus_hmm_bic",
+    "lgbm_plus_hmm_k3",
+    "lgbm_plus_inputs_and_hmm_bic"
+  ],
+  "smoke_mode": false
+}

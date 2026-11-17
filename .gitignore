@@ -83,6 +83,12 @@ target/
 outputs/eda/03_covariate_audit/daily_covariate_panel.parquet
 outputs/eda/05_feature_engineering/enriched_daily_panel.parquet
 outputs/eda/16_nonlinear_challengers/predictions/
+# Row-level forecasts from Notebooks 16a, 16b, 16d and 16e (about 400 MB); rerun the notebooks to rebuild.
+outputs/eda/16a_lightgbm_improvements/predictions/
+outputs/eda/16b_catboost_challenger/predictions/
+outputs/eda/16b_catboost_challenger/combined/
+outputs/eda/16d_hmm_regime_features/predictions/
+outputs/eda/16e_sequence_neural_networks/predictions/
 
 # IPython
 profile_default/

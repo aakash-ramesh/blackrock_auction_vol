@@ -1,3 +1,6 @@
 -r requirements-eda.txt
 lightgbm>=4.6,<5
 scikit-learn>=1.7,<2
+catboost>=1.2,<2
+hmmlearn>=0.3,<0.4
+torch>=2.5,<3

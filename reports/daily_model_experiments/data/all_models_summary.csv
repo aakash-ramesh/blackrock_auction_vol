@@ -1,0 +1,16 @@
+candidate,label,family,development,confirmation,change_vs_ridge
+rolling5_residual_auction_calendar_liquidity,Frozen ridge (benchmark),Ridge benchmark,0.4878803810662706,0.44665337292862733,0.0
+lgbm_58_control,"16a  LightGBM, Notebook 16 setup",Tree models,0.47253919594251803,0.43500070212866754,-0.015341185123752543
+lgbm_61_ratios,16a  + 3 ratio features,Tree models,0.47009434036059555,0.42895194364771944,-0.01778604070567502
+lgbm_61_ratios_large,16a  + 3x training rows,Tree models,0.46540918074594845,0.42363381643279185,-0.022471200320322127
+lgbm_61_ratios_large_tuned,16a  + wider tuning (champion),Tree models,0.46357074256082437,0.42416982382749446,-0.024309638505446207
+lgbm_61_ratios_large_linear,16a  linear trees,Tree models,0.4742435470561719,0.42511137778984825,-0.013636834010098686
+catboost_61_ratios_large,16b  CatBoost,Tree models,0.4636661821415258,0.422921262306753,-0.0242141989247448
+lgbm_plus_regime_inputs,16d  + raw regime inputs,Regime features,0.4694947933495468,0.43590584313785086,-0.018385587716723772
+lgbm_plus_hmm_bic,"16d  + HMM, BIC states",Regime features,0.4721079926323392,0.43327162724830526,-0.01577238843393136
+lgbm_plus_hmm_k3,"16d  + HMM, 3 states",Regime features,0.4671891301491913,0.43669409843556883,-0.020691250917079296
+lgbm_plus_inputs_and_hmm_bic,16d  + inputs and HMM,Regime features,0.47303766314575396,0.4341667073180219,-0.014842717920516613
+nn_mlp_tabular,16e  MLP on 61 features,Neural networks,0.4700433879189916,0.4248753137457386,-0.01783699314727899
+nn_cnn_lstm_sequence,"16e  CNN-inception-LSTM, history only",Neural networks,0.4850903704424252,0.4277195376538937,-0.0027900106238453737
+nn_cnn_lstm_hybrid,16e  CNN-inception-LSTM + features,Neural networks,0.4785358577215502,0.42452470054268143,-0.009344523344720357
+blend_hybrid_lgbm,16e  50/50 blend hybrid + LightGBM,Blend,0.4632972317254033,0.41839194506457233,-0.02458314934086725

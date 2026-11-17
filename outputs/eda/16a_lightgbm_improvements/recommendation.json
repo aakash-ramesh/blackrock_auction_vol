@@ -1,0 +1,17 @@
+{
+  "best_development_candidate": "lgbm_61_ratios_large_tuned",
+  "best_development_rmse_log": 0.46357074256082437,
+  "change_vs_frozen_ridge": -0.024309638505446207,
+  "passes_gate_vs_frozen_ridge": [
+    "lgbm_58_control",
+    "lgbm_61_ratios",
+    "lgbm_61_ratios_large",
+    "lgbm_61_ratios_large_tuned"
+  ],
+  "passes_gate_vs_lgbm_control": [
+    "lgbm_61_ratios",
+    "lgbm_61_ratios_large",
+    "lgbm_61_ratios_large_tuned"
+  ],
+  "smoke_mode": false
+}
