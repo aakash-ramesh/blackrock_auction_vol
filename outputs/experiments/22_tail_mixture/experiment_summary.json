@@ -1,0 +1,42 @@
+{
+  "started_utc": "2026-11-16T16:38:18.790290+00:00",
+  "finished_utc": "2026-11-16T16:44:41.485197+00:00",
+  "development_years": [
+    2022,
+    2023,
+    2024
+  ],
+  "confirmation_year": 2025,
+  "confirmation_previously_inspected": true,
+  "all_checks_passed": true,
+  "checks": 24,
+  "prediction_files": [
+    {
+      "path": "outputs/experiments/22_tail_mixture/predictions/tail_mixture_predictions_2022.parquet",
+      "bytes": 25695957,
+      "sha256": "afb70729c041c6bb659701dd8d40cd57c140ae71c87b1d15449d7d63de095b6c"
+    },
+    {
+      "path": "outputs/experiments/22_tail_mixture/predictions/tail_mixture_predictions_2023.parquet",
+      "bytes": 25330524,
+      "sha256": "aeb2256ff1df9fc4b7b7554b3f8410a5e68f27059c6d46311d54f9cb61f39209"
+    },
+    {
+      "path": "outputs/experiments/22_tail_mixture/predictions/tail_mixture_predictions_2024.parquet",
+      "bytes": 24788393,
+      "sha256": "02629e14cdf6e0bcea48f38e65fe35ecbe659b321b87dd6498cf80feb07b8a12"
+    },
+    {
+      "path": "outputs/experiments/22_tail_mixture/predictions/tail_mixture_predictions_2025.parquet",
+      "bytes": 24107539,
+      "sha256": "0fdf8d644913664a7a1a4b96125a6c601725b3b76072280b72da7b586b050138"
+    }
+  ],
+  "candidates_passing_gate_vs_verified_lgbm": [],
+  "caveats": [
+    "The 90th/95th percentile threshold grid was specified after earlier project results were known.",
+    "Mixture probabilities are evaluated out of time but are not post-hoc calibrated.",
+    "Date bootstrap preserves same-date cross-sectional dependence but not serial dependence.",
+    "2025 is confirmation evidence, not an untouched holdout."
+  ]
+}

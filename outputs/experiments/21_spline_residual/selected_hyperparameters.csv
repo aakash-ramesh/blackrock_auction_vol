@@ -1,0 +1,9 @@
+test_year,validation_year,candidate,n_knots,ridge_strength,stock_shrinkage,design_columns,validation_rmse_log
+2022,2021,spline_residual_58,4,0.0001,,259,0.5948857726465859
+2022,2021,spline_residual_58_stock_effect,4,0.0001,250.0,259,0.594833221930131
+2023,2022,spline_residual_58,8,0.0001,,411,0.5299982151327338
+2023,2022,spline_residual_58_stock_effect,8,0.0001,250.0,411,0.5300078011159189
+2024,2023,spline_residual_58,4,0.0001,,259,0.4817576974275328
+2024,2023,spline_residual_58_stock_effect,4,0.0001,250.0,259,0.4815571651131333
+2025,2024,spline_residual_58,6,1e-05,,335,0.4403566384167233
+2025,2024,spline_residual_58_stock_effect,6,1e-05,250.0,335,0.440285009511189

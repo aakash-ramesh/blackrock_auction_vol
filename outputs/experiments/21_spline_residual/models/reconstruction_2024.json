@@ -1,0 +1,27 @@
+{
+  "fallback": 60293.0,
+  "clip_log": [
+    2.772588722239781,
+    15.788571516254526
+  ],
+  "pooled_selection": {
+    "test_year": 2024,
+    "validation_year": 2023,
+    "candidate": "spline_residual_58",
+    "n_knots": 4,
+    "ridge_strength": 0.0001,
+    "stock_shrinkage": NaN,
+    "design_columns": 259,
+    "validation_rmse_log": 0.4817576974275328
+  },
+  "stock_selection": {
+    "test_year": 2024,
+    "validation_year": 2023,
+    "candidate": "spline_residual_58_stock_effect",
+    "n_knots": 4,
+    "ridge_strength": 0.0001,
+    "stock_shrinkage": 250.0,
+    "design_columns": 259,
+    "validation_rmse_log": 0.48155716511313335
+  }
+}

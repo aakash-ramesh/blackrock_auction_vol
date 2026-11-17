@@ -41,6 +41,12 @@ The original research remains intact. New reproducibility audits and controlled 
 
 The daily squared-error LightGBM improves mean annual 2022–2024 log RMSE from 0.48764 to 0.46941 versus frozen ridge. On the separate, common regular-session universe, the 15:30 ridge update improves log RMSE from 0.46949 for the daily anchor to 0.45995. These two comparisons use different cohorts. The previously inspected 2025 period is confirmation evidence, not an untouched holdout. No production or economic execution claim is made.
 
+## Spline residual experiment through November 16 2026
+
+The [bounded spline experiment](outputs/experiments/21_spline_residual/README.md) tests a pooled penalized cubic-spline residual model and the identical spline plus a shrunk stock-specific residual effect. Both use the frozen 58-feature set, five-year rolling folds, previous-year validation, the median-relative log target, and verified daily anchors. The pooled spline improves modestly on frozen ridge but remains materially behind squared-error LightGBM. The shrunk stock effect is statistically indistinguishable from the pooled spline in development and is not retained. All 20 forecast and reconstruction checks pass.
+
+The [tail-aware mixture experiment](outputs/experiments/22_tail_mixture/README.md) adds a historically selected spike-probability classifier and separate normal/spike residual regressors. Its log-space mixture improves development log RMSE from 0.46941 to 0.46852 and WAPE from 35.45% to 35.14%, with a favorable paired log-MAE interval. The gain is below the project's 0.002 practical RMSE threshold and negative aggregate bias worsens, so the model remains a promising challenger rather than replacing the daily LightGBM anchor. All 24 checks pass.
+
 ### Reproduce the new stages
 
 Use the existing project model environment and run these scripts sequentially from the repository root:
@@ -54,6 +60,8 @@ python notebooks/diagnose_and_calibrate.py
 python notebooks/build_intraday_1530_update.py
 python notebooks/build_intraday_noon_update.py
 python notebooks/compare_intraday_times.py
+python notebooks/run_spline_residual_experiment.py
+python notebooks/run_tail_mixture_experiment.py
 ```
 
 For the macOS environment used in these runs, LightGBM required the local OpenMP library path:

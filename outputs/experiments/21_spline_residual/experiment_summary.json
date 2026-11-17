@@ -1,0 +1,42 @@
+{
+  "started_utc": "2026-11-16T16:30:34.451340+00:00",
+  "finished_utc": "2026-11-16T16:30:35.736879+00:00",
+  "development_years": [
+    2022,
+    2023,
+    2024
+  ],
+  "confirmation_year": 2025,
+  "confirmation_previously_inspected": true,
+  "all_checks_passed": true,
+  "checks": 20,
+  "prediction_files": [
+    {
+      "path": "outputs/experiments/21_spline_residual/predictions/spline_predictions_2022.parquet",
+      "bytes": 18203150,
+      "sha256": "b57592b6a53ba872e9459eaa2f5bc2c904eddd1eb25defec5c8c54ecaf72927b"
+    },
+    {
+      "path": "outputs/experiments/21_spline_residual/predictions/spline_predictions_2023.parquet",
+      "bytes": 18041090,
+      "sha256": "8b3011fa84c00cafce72be5da47ee02458233dbb58e38f00baaf6dfcab9c917a"
+    },
+    {
+      "path": "outputs/experiments/21_spline_residual/predictions/spline_predictions_2024.parquet",
+      "bytes": 17555203,
+      "sha256": "eb5391bce8eb67d3f20e80affed8b13a0390b900986650501b0cbdd6c3cd850a"
+    },
+    {
+      "path": "outputs/experiments/21_spline_residual/predictions/spline_predictions_2025.parquet",
+      "bytes": 17069772,
+      "sha256": "763705fdd65c0dd831a886df1d141ebe7133652e5272518c84f6f68edddd66ea"
+    }
+  ],
+  "candidates_passing_gate_vs_verified_lgbm": [],
+  "caveats": [
+    "Hyperparameter grids were specified for this experiment after earlier project results were known.",
+    "Date bootstrap preserves same-date cross-sectional dependence but not serial dependence.",
+    "The stock effect uses sampled five-year fitting rows and falls back to zero for unseen stocks.",
+    "2025 is confirmation evidence, not an untouched holdout."
+  ]
+}

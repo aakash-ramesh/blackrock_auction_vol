@@ -1,0 +1,14 @@
+{
+  "fallback": 60071.5,
+  "clip_log": [
+    2.9444389791664403,
+    15.823969910042502
+  ],
+  "tail_quantile": 0.9,
+  "residual_threshold": 0.8075379312532113,
+  "selected_iterations": {
+    "classifier": 1130,
+    "normal": 753,
+    "spike": 769
+  }
+}
