@@ -1,0 +1,77 @@
+check,passed
+2022 tune matches saved sample fingerprint,True
+2022 tune chronology and unique keys,True
+2022 validation matches saved sample fingerprint,True
+2022 validation chronology and unique keys,True
+2022 refit matches saved sample fingerprint,True
+2022 refit chronology and unique keys,True
+2022 compact58_median20 finite valid share predictions,True
+2022 compact58_median20 reproduces Notebook 21 metrics,True
+2022 compact58_log_growth finite valid share predictions,True
+2022 compact58_log_growth reproduces Notebook 21 metrics,True
+2022 full99_median20 finite valid share predictions,True
+2022 full99_log_growth finite valid share predictions,True
+2022 compact58_median20 saved model reconstructs shares,True
+2022 compact58_log_growth saved model reconstructs shares,True
+2022 full99_median20 saved model reconstructs shares,True
+2022 full99_log_growth saved model reconstructs shares,True
+2022 frozen benchmark matches evaluation keys and labels,True
+2022 frozen benchmark predictions are valid,True
+2022 saved forecasts cover all unique stock-days,True
+2023 tune matches saved sample fingerprint,True
+2023 tune chronology and unique keys,True
+2023 validation matches saved sample fingerprint,True
+2023 validation chronology and unique keys,True
+2023 refit matches saved sample fingerprint,True
+2023 refit chronology and unique keys,True
+2023 compact58_median20 finite valid share predictions,True
+2023 compact58_median20 reproduces Notebook 21 metrics,True
+2023 compact58_log_growth finite valid share predictions,True
+2023 compact58_log_growth reproduces Notebook 21 metrics,True
+2023 full99_median20 finite valid share predictions,True
+2023 full99_log_growth finite valid share predictions,True
+2023 compact58_median20 saved model reconstructs shares,True
+2023 compact58_log_growth saved model reconstructs shares,True
+2023 full99_median20 saved model reconstructs shares,True
+2023 full99_log_growth saved model reconstructs shares,True
+2023 frozen benchmark matches evaluation keys and labels,True
+2023 frozen benchmark predictions are valid,True
+2023 saved forecasts cover all unique stock-days,True
+2024 tune matches saved sample fingerprint,True
+2024 tune chronology and unique keys,True
+2024 validation matches saved sample fingerprint,True
+2024 validation chronology and unique keys,True
+2024 refit matches saved sample fingerprint,True
+2024 refit chronology and unique keys,True
+2024 compact58_median20 finite valid share predictions,True
+2024 compact58_median20 reproduces Notebook 21 metrics,True
+2024 compact58_log_growth finite valid share predictions,True
+2024 compact58_log_growth reproduces Notebook 21 metrics,True
+2024 full99_median20 finite valid share predictions,True
+2024 full99_log_growth finite valid share predictions,True
+2024 compact58_median20 saved model reconstructs shares,True
+2024 compact58_log_growth saved model reconstructs shares,True
+2024 full99_median20 saved model reconstructs shares,True
+2024 full99_log_growth saved model reconstructs shares,True
+2024 frozen benchmark matches evaluation keys and labels,True
+2024 frozen benchmark predictions are valid,True
+2024 saved forecasts cover all unique stock-days,True
+2025 tune matches saved sample fingerprint,True
+2025 tune chronology and unique keys,True
+2025 validation matches saved sample fingerprint,True
+2025 validation chronology and unique keys,True
+2025 refit matches saved sample fingerprint,True
+2025 refit chronology and unique keys,True
+2025 compact58_median20 finite valid share predictions,True
+2025 compact58_median20 reproduces Notebook 21 metrics,True
+2025 compact58_log_growth finite valid share predictions,True
+2025 compact58_log_growth reproduces Notebook 21 metrics,True
+2025 full99_median20 finite valid share predictions,True
+2025 full99_log_growth finite valid share predictions,True
+2025 compact58_median20 saved model reconstructs shares,True
+2025 compact58_log_growth saved model reconstructs shares,True
+2025 full99_median20 saved model reconstructs shares,True
+2025 full99_log_growth saved model reconstructs shares,True
+2025 frozen benchmark matches evaluation keys and labels,True
+2025 frozen benchmark predictions are valid,True
+2025 saved forecasts cover all unique stock-days,True

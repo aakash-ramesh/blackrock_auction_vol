@@ -35,6 +35,9 @@ The original research remains intact. New reproducibility audits and controlled 
 - [Saved benchmark reconciliation](outputs/reproduction/02_benchmark_reconciliation/README.md): 81 checks; records the historical Notebook 16 summary discrepancy.
 - [Verified compact nonlinear rerun](outputs/reproduction/03_compact_nonlinear/README.md): 60 checks, complete daily evaluation, saved models and preprocessing.
 - [Target formulation comparison](outputs/experiments/17_target_formulations/README.md): 92 checks; retains the median-relative log target over tested direct-level and one-day-growth alternatives.
+- [Ridge-only target comparison](outputs/experiments/21_ridge_target_definitions/README.md) covers 13 targets, including simple day-over-day growth, and scores all forecasts in auction shares. [Target stability plots](outputs/experiments/21_ridge_target_definitions/target_stability.md) and the [reader notebook](notebooks/21_ridge_target_definition_comparison.ipynb) show the results.
+- [Stock and universe target stationarity](outputs/experiments/21_ridge_target_definitions/stock_vs_universe_stationarity.md) compares four individual stocks with daily universe aggregates and reports ADF and KPSS results across the fixed cohort.
+- [Full-feature log-growth ridge comparison](outputs/experiments/22_full_feature_ridge_growth/README.md) crosses 58 and 99 daily features with one-day log growth and the current median-relative target.
 - [Error diagnosis and calibration](outputs/experiments/18_error_diagnosis_calibration/README.md): 87 checks; no tested correction passes the combined gate.
 - [15:30 intraday update](outputs/experiments/19_intraday_1530/README.md): 124 checks; ridge has the best aggregate point estimates and intraday LightGBM passes its information gate.
 - [Noon update and matched timing comparison](outputs/experiments/20_intraday_noon/README.md): 124 checks plus timing/source audits; 15:30 improves on noon for both learned update families.

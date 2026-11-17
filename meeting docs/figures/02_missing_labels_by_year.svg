@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="920" height="255" preserveAspectRatio="xMinYMin meet" viewBox="0 0 920 255" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="920" height="255"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-255)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="233" style="font-family: Helvetica-Bold; font-size: 21px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,466) scale(1,-1)">Missing auction labels are concentrated in 2021 to 2023</text>
+			<path d="M 45,43 L 903,43 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="19.104999999999997" y="39.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,78) scale(1,-1)">0%</text>
+			<path d="M 45,79.5 L 903,79.5 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="19.104999999999997" y="75.5" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,151) scale(1,-1)">2%</text>
+			<path d="M 45,116 L 903,116 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="19.104999999999997" y="112.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,224) scale(1,-1)">4%</text>
+			<path d="M 45,152.5 L 903,152.5 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="19.104999999999997" y="148.5" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,297) scale(1,-1)">6%</text>
+			<path d="M 45,189 L 903,189 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="19.104999999999997" y="185.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,370) scale(1,-1)">8%</text>
+			<rect x="65" y="43" width="43" height="23.181533682938976" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(64%,71%,76%); fill-rule: evenodd;"/>
+			<text x="70.9075" y="73.18153368293898" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,146) scale(1,-1)">1.27%</text>
+			<text x="74.268" y="23" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,46) scale(1,-1)">2015</text>
+			<rect x="142" y="43" width="43" height="23.850280345506974" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(64%,71%,76%); fill-rule: evenodd;"/>
+			<text x="147.9075" y="73.85028034550697" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,147) scale(1,-1)">1.31%</text>
+			<text x="151.268" y="23" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,46) scale(1,-1)">2016</text>
+			<rect x="219" y="43" width="43" height="18.910445903475647" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(64%,71%,76%); fill-rule: evenodd;"/>
+			<text x="224.9075" y="68.91044590347565" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,137) scale(1,-1)">1.04%</text>
+			<text x="228.268" y="23" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,46) scale(1,-1)">2017</text>
+			<rect x="296" y="43" width="43" height="22.113308106882954" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(64%,71%,76%); fill-rule: evenodd;"/>
+			<text x="301.9075" y="72.11330810688295" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,144) scale(1,-1)">1.21%</text>
+			<text x="305.268" y="23" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,46) scale(1,-1)">2018</text>
+			<rect x="373" y="43" width="43" height="45.11909650924001" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(64%,71%,76%); fill-rule: evenodd;"/>
+			<text x="378.9075" y="95.11909650924001" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,190) scale(1,-1)">2.47%</text>
+			<text x="382.268" y="23" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,46) scale(1,-1)">2019</text>
+			<rect x="450" y="43" width="43" height="54.124871172791984" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(64%,71%,76%); fill-rule: evenodd;"/>
+			<text x="455.9075" y="104.12487117279198" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,208) scale(1,-1)">2.97%</text>
+			<text x="459.268" y="23" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,46) scale(1,-1)">2020</text>
+			<rect x="527" y="43" width="43" height="82.39809780591415" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,49%,51%); fill-rule: evenodd;"/>
+			<text x="532.9075" y="132.39809780591415" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,264) scale(1,-1)">4.51%</text>
+			<text x="536.268" y="23" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,46) scale(1,-1)">2021</text>
+			<rect x="604" y="43" width="43" height="127.30371634722889" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,49%,51%); fill-rule: evenodd;"/>
+			<text x="609.9075" y="177.30371634722889" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,354) scale(1,-1)">6.98%</text>
+			<text x="613.268" y="23" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,46) scale(1,-1)">2022</text>
+			<rect x="681" y="43" width="43" height="71.36610201177128" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,49%,51%); fill-rule: evenodd;"/>
+			<text x="686.9075" y="121.36610201177128" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,242) scale(1,-1)">3.91%</text>
+			<text x="690.268" y="23" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,46) scale(1,-1)">2023</text>
+			<rect x="758" y="43" width="43" height="30.748513047560508" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(64%,71%,76%); fill-rule: evenodd;"/>
+			<text x="763.9075" y="80.74851304756051" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,161) scale(1,-1)">1.68%</text>
+			<text x="767.268" y="23" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,46) scale(1,-1)">2024</text>
+			<rect x="835" y="43" width="43" height="19.68614440410012" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(64%,71%,76%); fill-rule: evenodd;"/>
+			<text x="840.9075" y="69.68614440410012" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,139) scale(1,-1)">1.08%</text>
+			<text x="844.268" y="23" style="font-family: Helvetica; font-size: 11px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,46) scale(1,-1)">2025</text>
+		</g>
+	</g>
+</svg>

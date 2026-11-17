@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="920" height="350" preserveAspectRatio="xMinYMin meet" viewBox="0 0 920 350" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="920" height="350"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-350)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="326" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,652) scale(1,-1)">Later information improves the forecast more</text>
+			<text x="0" y="301" style="font-family: Helvetica; font-size: 14px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,602) scale(1,-1)">Common regular session universe   Development averages for 2022 to 2024</text>
+			<text x="202" y="270" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,540) scale(1,-1)">Log RMSE</text>
+			<path d="M 202,52 L 202,250 Z" style="stroke: rgb(87%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="191.297" y="31" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,62) scale(1,-1)">0.45</text>
+			<path d="M 297,52 L 297,250 Z" style="stroke: rgb(87%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="286.2970000000002" y="31" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,62) scale(1,-1)">0.46</text>
+			<path d="M 392,52 L 392,250 Z" style="stroke: rgb(87%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="381.29699999999985" y="31" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,62) scale(1,-1)">0.47</text>
+			<path d="M 487,52 L 487,250 Z" style="stroke: rgb(87%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="476.297" y="31" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,62) scale(1,-1)">0.48</text>
+			<text x="111.759" y="228" style="font-family: Helvetica; font-size: 13px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,456) scale(1,-1)">Daily anchor</text>
+			<path d="M 202,232 L 387.162068,232 Z" style="stroke: rgb(61%,67%,72%); stroke-linecap: butt; stroke-width: 3;"/>
+			<rect x="383.16206759301167" y="228" width="8.0" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(61%,67%,72%); fill-rule: evenodd;"/>
+			<text x="397.16206759301167" y="228" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(61%,67%,72%); stroke:none;" transform="translate(0,456) scale(1,-1)">0.4695</text>
+			<text x="120.417" y="187" style="font-family: Helvetica; font-size: 13px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,374) scale(1,-1)">Noon ridge</text>
+			<path d="M 202,191 L 340.591934,191 Z" style="stroke: rgb(11%,22%,31%); stroke-linecap: butt; stroke-width: 3;"/>
+			<rect x="336.59193401937466" y="187" width="8.0" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(11%,22%,31%); fill-rule: evenodd;"/>
+			<text x="350.59193401937466" y="187" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,374) scale(1,-1)">0.4646</text>
+			<text x="115.36" y="146" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,292) scale(1,-1)">15:30 ridge</text>
+			<path d="M 202,150 L 296.562173,150 Z" style="stroke: rgb(8%,49%,51%); stroke-linecap: butt; stroke-width: 3;"/>
+			<rect x="292.5621730220008" y="146" width="8.0" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,49%,51%); fill-rule: evenodd;"/>
+			<text x="306.5621730220008" y="146" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(8%,49%,51%); stroke:none;" transform="translate(0,292) scale(1,-1)">0.4600</text>
+			<text x="91.518" y="105" style="font-family: Helvetica; font-size: 13px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,210) scale(1,-1)">Noon LightGBM</text>
+			<path d="M 202,109 L 383.43912,109 Z" style="stroke: rgb(11%,22%,31%); stroke-linecap: butt; stroke-width: 3;"/>
+			<rect x="379.4391201931446" y="105" width="8.0" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(11%,22%,31%); fill-rule: evenodd;"/>
+			<text x="393.4391201931446" y="105" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,210) scale(1,-1)">0.4691</text>
+			<text x="90.062" y="64" style="font-family: Helvetica; font-size: 13px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,128) scale(1,-1)">15:30 LightGBM</text>
+			<path d="M 202,68 L 317.384742,68 Z" style="stroke: rgb(11%,22%,31%); stroke-linecap: butt; stroke-width: 3;"/>
+			<rect x="313.3847420251485" y="64" width="8.0" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(11%,22%,31%); fill-rule: evenodd;"/>
+			<text x="327.3847420251485" y="64" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,128) scale(1,-1)">0.4621</text>
+			<text x="643" y="270" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,540) scale(1,-1)">WAPE</text>
+			<path d="M 643,52 L 643,250 Z" style="stroke: rgb(87%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="624.3495" y="31" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,62) scale(1,-1)">34.00%</text>
+			<path d="M 753,52 L 753,250 Z" style="stroke: rgb(87%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="734.3494999999997" y="31" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,62) scale(1,-1)">35.00%</text>
+			<path d="M 863,52 L 863,250 Z" style="stroke: rgb(87%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="844.3495" y="31" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,62) scale(1,-1)">36.00%</text>
+			<path d="M 643,232 L 804.433323,232 Z" style="stroke: rgb(61%,67%,72%); stroke-linecap: butt; stroke-width: 3;"/>
+			<rect x="800.433323428419" y="228" width="8.0" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(61%,67%,72%); fill-rule: evenodd;"/>
+			<text x="814.433323428419" y="228" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(61%,67%,72%); stroke:none;" transform="translate(0,456) scale(1,-1)">35.47%</text>
+			<path d="M 643,191 L 736.81366,191 Z" style="stroke: rgb(11%,22%,31%); stroke-linecap: butt; stroke-width: 3;"/>
+			<rect x="732.8136597984308" y="187" width="8.0" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(11%,22%,31%); fill-rule: evenodd;"/>
+			<text x="746.8136597984308" y="187" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,374) scale(1,-1)">34.85%</text>
+			<path d="M 643,150 L 708.113561,150 Z" style="stroke: rgb(8%,49%,51%); stroke-linecap: butt; stroke-width: 3;"/>
+			<rect x="704.1135609385238" y="146" width="8.0" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,49%,51%); fill-rule: evenodd;"/>
+			<text x="718.1135609385238" y="146" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(8%,49%,51%); stroke:none;" transform="translate(0,292) scale(1,-1)">34.59%</text>
+			<path d="M 643,109 L 779.896039,109 Z" style="stroke: rgb(11%,22%,31%); stroke-linecap: butt; stroke-width: 3;"/>
+			<rect x="775.8960391371747" y="105" width="8.0" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(11%,22%,31%); fill-rule: evenodd;"/>
+			<text x="789.8960391371747" y="105" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,210) scale(1,-1)">35.24%</text>
+			<path d="M 643,68 L 727.204579,68 Z" style="stroke: rgb(11%,22%,31%); stroke-linecap: butt; stroke-width: 3;"/>
+			<rect x="723.2045790573319" y="64" width="8.0" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(11%,22%,31%); fill-rule: evenodd;"/>
+			<text x="737.2045790573319" y="64" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,128) scale(1,-1)">34.77%</text>
+			<text x="0" y="4" style="font-family: Helvetica; font-size: 12px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,8) scale(1,-1)">Both horizontal axes are truncated for readability. Lower values are better.</text>
+		</g>
+	</g>
+</svg>

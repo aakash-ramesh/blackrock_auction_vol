@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="920" height="410" preserveAspectRatio="xMinYMin meet" viewBox="0 0 920 410" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="920" height="410"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-410)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="386" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,772) scale(1,-1)">Recent auction log residuals lead the ridge comparison</text>
+			<text x="0" y="361" style="font-family: Helvetica; font-size: 14px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,722) scale(1,-1)">Development log RMSE after converting every forecast back to shares</text>
+			<path d="M 285,41 L 285,345 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="277.355" y="20" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,40) scale(1,-1)">0.0</text>
+			<path d="M 426.25,41 L 426.25,345 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="418.605" y="20" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,40) scale(1,-1)">0.5</text>
+			<path d="M 567.5,41 L 567.5,345 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="559.855" y="20" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,40) scale(1,-1)">1.0</text>
+			<path d="M 708.75,41 L 708.75,345 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="701.105" y="20" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,40) scale(1,-1)">1.5</text>
+			<path d="M 850,41 L 850,345 Z" style="stroke: rgb(88%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="842.355" y="20" style="font-family: Helvetica; font-size: 11px;fill: rgb(38%,45%,50%); stroke:none;" transform="translate(0,40) scale(1,-1)">2.0</text>
+			<text x="144.28799999999998" y="331" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,662) scale(1,-1)">Median 20 log residual</text>
+			<rect x="285" y="327" width="137.8912483699271" height="15" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,49%,51%); fill-rule: evenodd;"/>
+			<text x="429.8912483699271" y="329" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,658) scale(1,-1)">0.4881</text>
+			<text x="152.28" y="307" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,614) scale(1,-1)">Median 60 log residual</text>
+			<rect x="285" y="303" width="137.91106138149667" height="15" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(50%,61%,68%); fill-rule: evenodd;"/>
+			<text x="429.91106138149667" y="305" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,610) scale(1,-1)">0.4882</text>
+			<text x="161.61599999999999" y="283" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,566) scale(1,-1)">Mean 20 log residual</text>
+			<rect x="285" y="279" width="138.18270709752858" height="15" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(50%,61%,68%); fill-rule: evenodd;"/>
+			<text x="430.1827070975286" y="281" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,562) scale(1,-1)">0.4891</text>
+			<text x="161.61599999999999" y="259" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,518) scale(1,-1)">Mean 60 log residual</text>
+			<rect x="285" y="255" width="138.18749564434034" height="15" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(50%,61%,68%); fill-rule: evenodd;"/>
+			<text x="430.18749564434034" y="257" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,514) scale(1,-1)">0.4892</text>
+			<text x="170.94" y="235" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,470) scale(1,-1)">Lag one log growth</text>
+			<rect x="285" y="231" width="138.70302967541596" height="15" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(50%,61%,68%); fill-rule: evenodd;"/>
+			<text x="430.70302967541596" y="233" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,466) scale(1,-1)">0.4910</text>
+			<text x="213.636" y="211" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,422) scale(1,-1)">Log shares</text>
+			<rect x="285" y="207" width="140.25535376010862" height="15" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(50%,61%,68%); fill-rule: evenodd;"/>
+			<text x="432.2553537601086" y="209" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,418) scale(1,-1)">0.4965</text>
+			<text x="166.95600000000002" y="187" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,374) scale(1,-1)">ADV 20 log residual</text>
+			<rect x="285" y="183" width="140.460874869441" height="15" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(50%,61%,68%); fill-rule: evenodd;"/>
+			<text x="432.460874869441" y="185" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,370) scale(1,-1)">0.4972</text>
+			<text x="133.596" y="163" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,326) scale(1,-1)">Auction to median 20 ratio</text>
+			<rect x="285" y="159" width="213.56720423549677" height="15" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(50%,61%,68%); fill-rule: evenodd;"/>
+			<text x="505.5672042354968" y="161" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,322) scale(1,-1)">0.7560</text>
+			<text x="148.272" y="139" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,278) scale(1,-1)">Auction to ADV 20 ratio</text>
+			<rect x="285" y="135" width="260.51189016156627" height="15" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(50%,61%,68%); fill-rule: evenodd;"/>
+			<text x="552.5118901615663" y="137" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,274) scale(1,-1)">0.9222</text>
+			<text x="170.952" y="115" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,230) scale(1,-1)">Square root shares</text>
+			<rect x="285" y="111" width="305.3505145776444" height="15" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(50%,61%,68%); fill-rule: evenodd;"/>
+			<text x="597.3505145776444" y="113" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,226) scale(1,-1)">1.0809</text>
+			<text x="138.276" y="91" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,182) scale(1,-1)">Median 20 share residual</text>
+			<rect x="285" y="87" width="371.6938728742816" height="15" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(50%,61%,68%); fill-rule: evenodd;"/>
+			<text x="663.6938728742816" y="89" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,178) scale(1,-1)">1.3157</text>
+			<text x="209.652" y="67" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,134) scale(1,-1)">Raw shares</text>
+			<rect x="285" y="63" width="538.8398774656773" height="15" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(50%,61%,68%); fill-rule: evenodd;"/>
+			<text x="830.8398774656773" y="65" style="font-family: Helvetica; font-size: 12px;fill: rgb(11%,22%,31%); stroke:none;" transform="translate(0,130) scale(1,-1)">1.9074</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,86 @@
+{
+  "panel": "midterm presentation/data_analysis/cache/enriched_daily_panel.parquet",
+  "lightgbm": "4.6.0",
+  "samples": {
+    "tune": {
+      "rows": 180000,
+      "first": "2016-01-04",
+      "last": "2020-12-31",
+      "keys_sha256": "9ed16d7b8fdd73164471042e662bebc9cc7db6bd7987460e64212fba98990d02"
+    },
+    "validation": {
+      "rows": 100000,
+      "first": "2021-01-04",
+      "last": "2021-12-31",
+      "keys_sha256": "85c795d048c981f052161ee20bac6cd834ef68a162b88a14915eb0bb9c343d48"
+    },
+    "refit": {
+      "rows": 300000,
+      "first": "2017-01-03",
+      "last": "2021-12-31",
+      "keys_sha256": "ad310452cd5aeeb3c1392ab6853832f05c66fd77b06e4aeb6d22fb628b55387e"
+    },
+    "test": {
+      "rows": 328634,
+      "first": "2022-01-03",
+      "last": "2022-12-30",
+      "keys_sha256": "249366a3b3d5781245f50a9de94e0542e91e4fb06073d0e773b769d7fa4a9484"
+    }
+  },
+  "reference": "verified cache",
+  "fallback": 49598.0,
+  "share_bounds": [
+    3.9999999999999996,
+    6710439.415920007
+  ],
+  "selected": {
+    "log_control": {
+      "model": "log_control",
+      "power": null,
+      "rounds": 1000,
+      "criterion": 0.5819834392596,
+      "rows": 100000,
+      "sessions": 252,
+      "log_rmse": 0.5819834392596,
+      "share_wape": 0.42564190370112337,
+      "daily_total_wape": 0.21995895145591354,
+      "share_bias": -0.18604234336553405
+    },
+    "log_events": {
+      "model": "log_events",
+      "power": null,
+      "rounds": 998,
+      "criterion": 0.5792884888972887,
+      "rows": 100000,
+      "sessions": 252,
+      "log_rmse": 0.5792884888972887,
+      "share_wape": 0.42442078118658527,
+      "daily_total_wape": 0.21356155500399351,
+      "share_bias": -0.1780332985376658
+    },
+    "tweedie": {
+      "model": "tweedie",
+      "power": 1.7,
+      "rounds": 618,
+      "criterion": 6.187101783564785,
+      "rows": 100000,
+      "sessions": 252,
+      "log_rmse": 0.6522206061669148,
+      "share_wape": 0.44945476310267635,
+      "daily_total_wape": 0.18724059494604117,
+      "share_bias": -0.07539531173228209
+    },
+    "tweedie_events": {
+      "model": "tweedie_events",
+      "power": 1.7,
+      "rounds": 525,
+      "criterion": 6.180224195471722,
+      "rows": 100000,
+      "sessions": 252,
+      "log_rmse": 0.6536491316005744,
+      "share_wape": 0.45063476670089064,
+      "daily_total_wape": 0.18138639840331522,
+      "share_bias": -0.06937079931541945
+    }
+  }
+}

@@ -1,0 +1,7 @@
+selection,bounds_policy,metric,winner,score,current_target_score,relative_improvement
+log_rmse,common_bounds,rmse_log,median20_log_residual,0.48811061369885717,0.48811061369885717,0.0
+log_rmse,nonnegative_only,rmse_log,median20_log_residual,0.48763015436530766,0.48763015436530766,0.0
+wape,common_bounds,wape,mean60_log_residual,0.36711038626738085,0.3673097107412577,0.0005426605070543156
+wape,nonnegative_only,wape,mean60_log_residual,0.36437128501865407,0.3648996120348899,0.0014478694928985458
+share_rmse,common_bounds,rmse_raw,mean60_log_residual,656901.9923825202,657166.6984730883,0.0004027990024192407
+share_rmse,nonnegative_only,rmse_raw,mean60_log_residual,637449.9686332439,638440.9254016957,0.0015521510746326905
