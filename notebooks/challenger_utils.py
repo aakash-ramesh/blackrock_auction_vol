@@ -32,7 +32,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 from notebooks.modeling_utils import fit_preprocessor, apply_preprocessor, forecast_metrics  # noqa: E402
 
 EDA = PROJECT_ROOT / "outputs" / "eda"
-PANEL = EDA / "05_feature_engineering" / "enriched_daily_panel.parquet"
+PANEL = Path(os.environ.get("AUCTION_DAILY_PANEL", EDA / "05_feature_engineering" / "enriched_daily_panel.parquet")).resolve()
 BENCHMARK_JSON = EDA / "09_global_finalists" / "frozen_global_benchmark.json"
 BENCHMARK_PREDICTIONS = EDA / "09_global_finalists" / "predictions"
 for required in [PANEL, BENCHMARK_JSON, BENCHMARK_PREDICTIONS]:

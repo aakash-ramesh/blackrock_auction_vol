@@ -1,0 +1,12 @@
+{
+  "notebook": "09_daily_model_results_and_decision.ipynb",
+  "annual_ledger_rows": 288,
+  "study_candidate_entries": 72,
+  "cohorts": 13,
+  "source_gate_checks": 33,
+  "independently_scored_forecast_rows": 5085512,
+  "annual_forecast_score_checks": 16,
+  "selected_daily_recipe": "lgbm_61_ratios_large_tuned",
+  "fresh_training_in_this_notebook": false,
+  "completed_utc": "2026-11-18T16:41:55.757126+00:00"
+}

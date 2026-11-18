@@ -1,0 +1,1328 @@
+{
+  "plan_hash": "fd4ac10f51e41749c8678b24548dcc00c149c305d0eb6b6a04671b2dd758d00e",
+  "prediction_sha256": "48657d4de0242712efff7a5c8b53fd3333a02bb3de5d07d02739d2a4720cb126",
+  "annual_metrics": [
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "config_id": 0,
+      "trees": 671,
+      "refit_seconds": 24.898254625033587,
+      "observations": 328634,
+      "mae_raw": 70000.19558744822,
+      "wape": 0.3596936028576981,
+      "mae_log": 0.3502958576611142,
+      "rmse_log": 0.5046065414999888,
+      "spearman": 0.9545741595947693,
+      "aggregate_bias": -0.1620962889045754
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "config_id": 3,
+      "trees": 710,
+      "refit_seconds": 37.08690108289011,
+      "observations": 328634,
+      "mae_raw": 70991.83166634674,
+      "wape": 0.3647890908195438,
+      "mae_log": 0.3526222471549205,
+      "rmse_log": 0.5048086546891757,
+      "spearman": 0.9543768543318272,
+      "aggregate_bias": -0.1398003438967107
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "config_id": 3,
+      "trees": 534,
+      "refit_seconds": 19.372689249925315,
+      "observations": 328634,
+      "mae_raw": 71144.9581390331,
+      "wape": 0.3655759259446634,
+      "mae_log": 0.3604120960984146,
+      "rmse_log": 0.5121808893488794,
+      "spearman": 0.9531419922389782,
+      "aggregate_bias": -0.13904208506954574
+    }
+  ],
+  "validation_trials": [
+    {
+      "year": 2022,
+      "family": "catboost",
+      "config_id": 0,
+      "config": {
+        "depth": 6,
+        "l2_leaf_reg": 3.0
+      },
+      "best_iteration": 1226,
+      "validation_log_rmse": 0.5712423782175913,
+      "fit_seconds": 37.20787183311768
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "config_id": 1,
+      "config": {
+        "depth": 6,
+        "l2_leaf_reg": 10.0
+      },
+      "best_iteration": 1024,
+      "validation_log_rmse": 0.5710242992790407,
+      "fit_seconds": 32.16013695904985
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "config_id": 2,
+      "config": {
+        "depth": 8,
+        "l2_leaf_reg": 3.0
+      },
+      "best_iteration": 475,
+      "validation_log_rmse": 0.5715951976324931,
+      "fit_seconds": 22.225037166150287
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "config_id": 3,
+      "config": {
+        "depth": 8,
+        "l2_leaf_reg": 10.0
+      },
+      "best_iteration": 710,
+      "validation_log_rmse": 0.5701348753511506,
+      "fit_seconds": 31.975756665924564
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "config_id": 0,
+      "config": {
+        "max_depth": 4,
+        "learning_rate": 0.05,
+        "min_child_weight": 100,
+        "subsample": 0.8,
+        "colsample_bytree": 0.85,
+        "reg_lambda": 5.0
+      },
+      "best_iteration": 1496,
+      "validation_log_rmse": 0.5741089176578932,
+      "fit_seconds": 47.09841854101978
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "config_id": 1,
+      "config": {
+        "max_depth": 6,
+        "learning_rate": 0.05,
+        "min_child_weight": 300,
+        "subsample": 0.8,
+        "colsample_bytree": 0.7,
+        "reg_lambda": 10.0
+      },
+      "best_iteration": 1153,
+      "validation_log_rmse": 0.5712007614002734,
+      "fit_seconds": 42.43667670781724
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "config_id": 2,
+      "config": {
+        "max_depth": 8,
+        "learning_rate": 0.03,
+        "min_child_weight": 500,
+        "subsample": 0.8,
+        "colsample_bytree": 0.7,
+        "reg_lambda": 20.0
+      },
+      "best_iteration": 1424,
+      "validation_log_rmse": 0.5708690825836475,
+      "fit_seconds": 57.89535699994303
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "config_id": 3,
+      "config": {
+        "max_depth": 6,
+        "learning_rate": 0.08,
+        "min_child_weight": 100,
+        "subsample": 0.9,
+        "colsample_bytree": 0.85,
+        "reg_lambda": 5.0
+      },
+      "best_iteration": 534,
+      "validation_log_rmse": 0.5705803412062226,
+      "fit_seconds": 23.38954050000757
+    }
+  ],
+  "samples": [
+    {
+      "phase": "tune",
+      "rows": 750000,
+      "first_date": "2016-01-04 00:00:00",
+      "last_date": "2020-12-31 00:00:00",
+      "key_sha256": "2a3d0efdcdd36dde909a6fc73a0cfbfc972aedc8837c5b38c94495058b14c887",
+      "year": 2022
+    },
+    {
+      "phase": "validation",
+      "rows": 150000,
+      "first_date": "2021-01-04 00:00:00",
+      "last_date": "2021-12-31 00:00:00",
+      "key_sha256": "a928ea7c031778da6136e8d5a9ecb08c8508f5f1f8d345589b2da7d0d2d99366",
+      "year": 2022
+    },
+    {
+      "phase": "refit",
+      "rows": 1000000,
+      "first_date": "2017-01-03 00:00:00",
+      "last_date": "2021-12-31 00:00:00",
+      "key_sha256": "0e5dc17f3a03bd2785b2abd35198027e02a339d1c8a996d34402732cc2359a26",
+      "year": 2022
+    },
+    {
+      "phase": "test",
+      "rows": 328634,
+      "first_date": "2022-01-03 00:00:00",
+      "last_date": "2022-12-30 00:00:00",
+      "key_sha256": "97fb1a4f68b06d95add6f23ab63ac4f971bb1b71c74ae9ea2bb7245869b1a8f5",
+      "year": 2022
+    }
+  ],
+  "importance": [
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "abnormal_volume_lag1",
+      "importance_share": 0.03606194409346801
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "after_long_market_gap",
+      "importance_share": 0.0005265131423578463
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "auction_cv20",
+      "importance_share": 0.008451237395530813
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "auction_short_long_ratio",
+      "importance_share": 0.008525877621097707
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "auction_spike_lag1",
+      "importance_share": 0.0016140247044201528
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "avg20_amihud",
+      "importance_share": 0.011585453784611073
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "avg20_auction_share",
+      "importance_share": 0.01328678239875113
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "avg20_auction_volume",
+      "importance_share": 0.0142101480251348
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "avg20_daily_volume",
+      "importance_share": 0.0014739853452432367
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "avg20_dollar_volume",
+      "importance_share": 0.008303365245308223
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "avg20_turnover",
+      "importance_share": 0.0048361721837602055
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "avg5_auction_volume",
+      "importance_share": 0.005127494184572113
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "avg5_daily_volume",
+      "importance_share": 0.0017261700095914838
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "avg60_auction_volume",
+      "importance_share": 0.001912733478205803
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "avg60_daily_volume",
+      "importance_share": 0.0026013284452030285
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "before_long_market_gap",
+      "importance_share": 0.002506028375077122
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "day_of_week",
+      "importance_share": 0.019268762384420525
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "days_since_last_auction",
+      "importance_share": 0.005479481106870621
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "early_close_month_end_window",
+      "importance_share": 0.00612799927785513
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "expiry_month_end_window",
+      "importance_share": 0.0
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "is_early_close",
+      "importance_share": 0.01683659295472538
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "is_first_trading_day_month",
+      "importance_share": 0.00018183792391277903
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "is_friday",
+      "importance_share": 0.015824605103359392
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "is_last_3_trading_days_month",
+      "importance_share": 0.0003873201756381124
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "is_last_3_trading_days_quarter",
+      "importance_share": 0.0008833798814437798
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "is_last_5_trading_days_month",
+      "importance_share": 0.0003598390110673204
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "is_last_5_trading_days_quarter",
+      "importance_share": 0.0003136195213582657
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "is_last_trading_day_month",
+      "importance_share": 0.025777208428465623
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "is_last_trading_day_quarter",
+      "importance_share": 0.0016037538444814115
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "is_last_trading_day_year",
+      "importance_share": 0.0006709367555331795
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "is_monday",
+      "importance_share": 0.0027890833620678357
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "lag1_amihud",
+      "importance_share": 0.002830033167658272
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "lag1_auction_share",
+      "importance_share": 0.01322243556421078
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "lag1_auction_to_adv20",
+      "importance_share": 0.0035978250747392563
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "lag1_auction_volume",
+      "importance_share": 0.003161628277741093
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "lag1_daily_volume",
+      "importance_share": 0.0021099508752378004
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "lag1_dollar_volume",
+      "importance_share": 0.006644749617593506
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "lag1_hl_range",
+      "importance_share": 0.006840136729767278
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "lag1_quoted_spread",
+      "importance_share": 0.0046236511850856685
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "lag1_turnover",
+      "importance_share": 0.002706421211774005
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "lag2_auction_volume",
+      "importance_share": 0.009081368598495902
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "lag5_auction_volume",
+      "importance_share": 0.006384716357094296
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "median20_auction_volume",
+      "importance_share": 0.01646204003186179
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "median60_auction_volume",
+      "importance_share": 0.003951811176466477
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "month",
+      "importance_share": 0.05759970029869583
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "monthly_options_expiry",
+      "importance_share": 0.034975113217409426
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "prior_auction_observations",
+      "importance_share": 0.027250481199563574
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "quarterly_options_expiry",
+      "importance_share": 0.1310062488041221
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "ratio_avg5_med20",
+      "importance_share": 0.05139053927473579
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "ratio_lag1_med20",
+      "importance_share": 0.058500743496892056
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "ratio_lag1_med60",
+      "importance_share": 0.01738955634590793
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "std20_auction_share",
+      "importance_share": 0.0045333447202844
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "std20_auction_volume",
+      "importance_share": 0.007362819804755566
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "std20_daily_volume",
+      "importance_share": 0.0028344475905195316
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "std60_auction_volume",
+      "importance_share": 0.003143209478928859
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "std60_daily_volume",
+      "importance_share": 0.003545761493455152
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "trading_day_of_month",
+      "importance_share": 0.06961760140417492
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "trading_days_to_month_end",
+      "importance_share": 0.07782600897395806
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "trading_days_to_quarter_end",
+      "importance_share": 0.07328496706177642
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "trading_days_to_year_end",
+      "importance_share": 0.06124669178132168
+    },
+    {
+      "year": 2022,
+      "family": "lightgbm_reference",
+      "feature": "volume_short_long_ratio",
+      "importance_share": 0.0176223190222405
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "abnormal_volume_lag1",
+      "importance_share": 0.021731276297469408
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "after_long_market_gap",
+      "importance_share": 0.00050501478328812
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "auction_cv20",
+      "importance_share": 0.00703378197615825
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "auction_short_long_ratio",
+      "importance_share": 0.012375273788225127
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "auction_spike_lag1",
+      "importance_share": 0.00324500999147344
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "avg20_amihud",
+      "importance_share": 0.00936095332917666
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "avg20_auction_share",
+      "importance_share": 0.016392503951678006
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "avg20_auction_volume",
+      "importance_share": 0.009315776661146568
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "avg20_daily_volume",
+      "importance_share": 0.0005669195769386664
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "avg20_dollar_volume",
+      "importance_share": 0.015359369360354187
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "avg20_turnover",
+      "importance_share": 0.0065581593640552235
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "avg5_auction_volume",
+      "importance_share": 0.001886408461834538
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "avg5_daily_volume",
+      "importance_share": 0.0010243781277207615
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "avg60_auction_volume",
+      "importance_share": 0.0015836044214785597
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "avg60_daily_volume",
+      "importance_share": 0.001587622571109813
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "before_long_market_gap",
+      "importance_share": 0.0028800575359736002
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "day_of_week",
+      "importance_share": 0.05556691390727954
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "days_since_last_auction",
+      "importance_share": 0.00970301414796536
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "early_close_month_end_window",
+      "importance_share": 0.00020253190381486853
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "expiry_month_end_window",
+      "importance_share": 0.0
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "is_early_close",
+      "importance_share": 0.017753111891803283
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "is_first_trading_day_month",
+      "importance_share": 0.0005973383216377081
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "is_friday",
+      "importance_share": 0.019525455098590237
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "is_last_3_trading_days_month",
+      "importance_share": 0.0003574335462615152
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "is_last_3_trading_days_quarter",
+      "importance_share": 0.00024952090507595687
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "is_last_5_trading_days_month",
+      "importance_share": 0.0010096680622722876
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "is_last_5_trading_days_quarter",
+      "importance_share": 0.0015288665350891776
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "is_last_trading_day_month",
+      "importance_share": 0.05797042393059389
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "is_last_trading_day_quarter",
+      "importance_share": 5.4480432737221036e-05
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "is_last_trading_day_year",
+      "importance_share": 0.0
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "is_monday",
+      "importance_share": 0.0019911422460363016
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "lag1_amihud",
+      "importance_share": 0.002406022898382579
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "lag1_auction_share",
+      "importance_share": 0.013020207527027879
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "lag1_auction_to_adv20",
+      "importance_share": 0.0037597552299129997
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "lag1_auction_volume",
+      "importance_share": 0.0016972678178002816
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "lag1_daily_volume",
+      "importance_share": 0.0017036369866403932
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "lag1_dollar_volume",
+      "importance_share": 0.008829672359356049
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "lag1_hl_range",
+      "importance_share": 0.005459297470781366
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "lag1_quoted_spread",
+      "importance_share": 0.003006938616733712
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "lag1_turnover",
+      "importance_share": 0.0024794638926360925
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "lag2_auction_volume",
+      "importance_share": 0.012242643057571275
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "lag5_auction_volume",
+      "importance_share": 0.005669852035133884
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "median20_auction_volume",
+      "importance_share": 0.023804432188002336
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "median60_auction_volume",
+      "importance_share": 0.0024540069407599494
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "month",
+      "importance_share": 0.039643913150556105
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "monthly_options_expiry",
+      "importance_share": 0.018861798215362977
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "prior_auction_observations",
+      "importance_share": 0.033251183946921295
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "quarterly_options_expiry",
+      "importance_share": 0.1845790562966899
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "ratio_avg5_med20",
+      "importance_share": 0.04303580472324291
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "ratio_lag1_med20",
+      "importance_share": 0.04554881098309812
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "ratio_lag1_med60",
+      "importance_share": 0.020664289296854932
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "std20_auction_share",
+      "importance_share": 0.004865511715354656
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "std20_auction_volume",
+      "importance_share": 0.0024153314555956226
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "std20_daily_volume",
+      "importance_share": 0.0030073551073826776
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "std60_auction_volume",
+      "importance_share": 0.0012653114216368282
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "std60_daily_volume",
+      "importance_share": 0.0014493629263796226
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "trading_day_of_month",
+      "importance_share": 0.04418809525135809
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "trading_days_to_month_end",
+      "importance_share": 0.04488672557438872
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "trading_days_to_quarter_end",
+      "importance_share": 0.07683951170838377
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "trading_days_to_year_end",
+      "importance_share": 0.05813456627989628
+    },
+    {
+      "year": 2022,
+      "family": "catboost",
+      "feature": "volume_short_long_ratio",
+      "importance_share": 0.012914163798920618
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "abnormal_volume_lag1",
+      "importance_share": 0.01200918946415186
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "after_long_market_gap",
+      "importance_share": 0.002120611257851124
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "auction_cv20",
+      "importance_share": 0.07294471561908722
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "auction_short_long_ratio",
+      "importance_share": 0.0023769286926835775
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "auction_spike_lag1",
+      "importance_share": 0.0041384585201740265
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "avg20_amihud",
+      "importance_share": 0.014418293721973896
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "avg20_auction_share",
+      "importance_share": 0.0040468438528478146
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "avg20_auction_volume",
+      "importance_share": 0.04732658341526985
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "avg20_daily_volume",
+      "importance_share": 0.001931416685692966
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "avg20_dollar_volume",
+      "importance_share": 0.0026337893214076757
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "avg20_turnover",
+      "importance_share": 0.0019502966897562146
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "avg5_auction_volume",
+      "importance_share": 0.011057318188250065
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "avg5_daily_volume",
+      "importance_share": 0.0013475230662152171
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "avg60_auction_volume",
+      "importance_share": 0.0017129428451880813
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "avg60_daily_volume",
+      "importance_share": 0.0011038974625989795
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "before_long_market_gap",
+      "importance_share": 0.005665284115821123
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "day_of_week",
+      "importance_share": 0.02125939540565014
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "days_since_last_auction",
+      "importance_share": 0.0035323507618159056
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "early_close_month_end_window",
+      "importance_share": 0.015608429908752441
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "expiry_month_end_window",
+      "importance_share": 0.0
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "is_early_close",
+      "importance_share": 0.03299875184893608
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "is_first_trading_day_month",
+      "importance_share": 0.001395546249113977
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "is_friday",
+      "importance_share": 0.008634296245872974
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "is_last_3_trading_days_month",
+      "importance_share": 0.002540414221584797
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "is_last_3_trading_days_quarter",
+      "importance_share": 0.0009231871808879077
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "is_last_5_trading_days_month",
+      "importance_share": 0.0021102300379425287
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "is_last_5_trading_days_quarter",
+      "importance_share": 0.0008109443006105721
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "is_last_trading_day_month",
+      "importance_share": 0.12270237505435944
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "is_last_trading_day_quarter",
+      "importance_share": 0.0
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "is_last_trading_day_year",
+      "importance_share": 0.002728160237893462
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "is_monday",
+      "importance_share": 0.0027733012102544308
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "lag1_amihud",
+      "importance_share": 0.004975673742592335
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "lag1_auction_share",
+      "importance_share": 0.006055030506104231
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "lag1_auction_to_adv20",
+      "importance_share": 0.0062896390445530415
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "lag1_auction_volume",
+      "importance_share": 0.006683632265776396
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "lag1_daily_volume",
+      "importance_share": 0.08548275381326675
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "lag1_dollar_volume",
+      "importance_share": 0.006108744535595179
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "lag1_hl_range",
+      "importance_share": 0.0016924412921071053
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "lag1_quoted_spread",
+      "importance_share": 0.0014382654335349798
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "lag1_turnover",
+      "importance_share": 0.0008755942690186203
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "lag2_auction_volume",
+      "importance_share": 0.006404312793165445
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "lag5_auction_volume",
+      "importance_share": 0.004780077841132879
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "median20_auction_volume",
+      "importance_share": 0.017904937267303467
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "median60_auction_volume",
+      "importance_share": 0.001510651665739715
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "month",
+      "importance_share": 0.03991090506315231
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "monthly_options_expiry",
+      "importance_share": 0.018647266551852226
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "prior_auction_observations",
+      "importance_share": 0.0024218063335865736
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "quarterly_options_expiry",
+      "importance_share": 0.2981181740760803
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "ratio_avg5_med20",
+      "importance_share": 0.008488664403557777
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "ratio_lag1_med20",
+      "importance_share": 0.00825488567352295
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "ratio_lag1_med60",
+      "importance_share": 0.002462259726598859
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "std20_auction_share",
+      "importance_share": 0.002712161047384143
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "std20_auction_volume",
+      "importance_share": 0.023306963965296745
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "std20_daily_volume",
+      "importance_share": 0.0025211628526449203
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "std60_auction_volume",
+      "importance_share": 0.0024307684507220984
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "std60_daily_volume",
+      "importance_share": 0.0011700323084369302
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "trading_day_of_month",
+      "importance_share": 0.005639587063342333
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "trading_days_to_month_end",
+      "importance_share": 0.01370947901159525
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "trading_days_to_quarter_end",
+      "importance_share": 0.004607733339071274
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "trading_days_to_year_end",
+      "importance_share": 0.005779873579740524
+    },
+    {
+      "year": 2022,
+      "family": "xgboost",
+      "feature": "volume_short_long_ratio",
+      "importance_share": 0.004815093707293272
+    }
+  ],
+  "checks": [
+    {
+      "year": 2022,
+      "check": "chronological windows",
+      "passed": true
+    },
+    {
+      "year": 2022,
+      "check": "unique date/PERMNO keys",
+      "passed": true
+    },
+    {
+      "year": 2022,
+      "check": "complete evaluation benchmark keys and labels",
+      "passed": true
+    },
+    {
+      "year": 2022,
+      "check": "shared samples and preprocessing",
+      "passed": true
+    },
+    {
+      "year": 2022,
+      "check": "finite nonnegative predictions",
+      "passed": true
+    },
+    {
+      "year": 2022,
+      "check": "all saved models reconstruct predictions",
+      "passed": true
+    }
+  ]
+}

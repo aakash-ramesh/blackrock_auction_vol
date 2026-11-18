@@ -1,0 +1,9 @@
+{
+  "observations": 327355,
+  "rmse_log": 0.5025383852980154,
+  "wape": 0.360136832441775,
+  "aggregate_bias": -0.12226826761203724,
+  "year": 2022,
+  "strength": 0.001,
+  "max_forecast_difference": 0.0
+}

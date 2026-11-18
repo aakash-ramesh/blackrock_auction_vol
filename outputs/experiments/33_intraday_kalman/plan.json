@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "times": [
+    "10:30",
+    "12:00",
+    "14:00",
+    "15:00",
+    "15:30"
+  ],
+  "target": "log1p(auction)-log1p(tuned daily)",
+  "component_tune": "2021-01-01 through March preceding evaluation year",
+  "component_validation": "Q2 preceding evaluation year",
+  "component_final_fit": "2021 onward through June; frozen thereafter",
+  "meta_calibration": "Q3 preceding evaluation year",
+  "meta_validation": "Q4 preceding evaluation year",
+  "meta_final_fit": "Q3+Q4, using genuinely out-of-time frozen component measurements",
+  "row_caps": {
+    "component_tune": 250000,
+    "validation": 120000,
+    "component_refit": 350000
+  },
+  "ridge_grid": [
+    1e-07,
+    1e-06,
+    1e-05,
+    0.0001,
+    0.001,
+    0.01,
+    0.1
+  ],
+  "kalman_selection": "Q4 log RMSE at 15:30; grid fixed before scoring",
+  "within_day_state": "fixed terminal log residual; correlated static filter has Q=0",
+  "inflation": "diagonal-only sensitivity; Q/P0 fractions 0.01,0.1,0.5 per elapsed hour",
+  "missing_policy": "latest-only uses daily if latest missing; sequential methods retain earlier measurements; all-missing exact daily",
+  "gate": {
+    "mean_log_rmse_gain": 0.002,
+    "maximum_annual_deterioration": 0.002,
+    "no_mean_wape_worsening": true,
+    "paired_log_rmse_upper_below_zero": true,
+    "references": [
+      "latest_ridge",
+      "incumbent_1530"
+    ]
+  },
+  "uncertainty": {
+    "block_dates": 20,
+    "replicates": 5000,
+    "conditional_on_fits": true
+  },
+  "code_hash": "0c358e071091e8357500188290950206c46984a7303b114c8cafa4f9639bacd2",
+  "panel_hash": "455b030d83c02f5c95b418608ed9084bcb9d4c7b246bbb558becbe8596add030",
+  "raw_hashes": {
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2015/trade_checkpoints_2015.parquet": "8b2755af82c20a35d1e99c45c0a98bf170d0316339a536789b9b12b1fe654fe5",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2016/trade_checkpoints_2016.parquet": "aed9c05a34a46c20108159a87b10f4aefd1cc96cdb2a2d61b04d7a5567611eba",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2017/trade_checkpoints_2017.parquet": "a4c4caa56bdacba078568ed52f0e6a88ed7124ddf94f733c1027273021018ed2",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2018/trade_checkpoints_2018.parquet": "dbb2a9fd7b87b91c1407708b1c7436ad2cefcca0f31f45913e260f0c7df8cae9",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2019/trade_checkpoints_2019.parquet": "73aaf3e535d8aef537e206ef99f399201822a44b8fdc82bd3b8c6703009ca7a0",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2020/trade_checkpoints_2020.parquet": "bd07ffc305542e33f5ee7b1920d023abc04aba2721ee233e56e3cab6687da3cc",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2021/trade_checkpoints_2021.parquet": "a3e85996369f91629d6d7e21e4a2a595e7e3305287bca51f69427e0eae72df3c",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2022/trade_checkpoints_2022.parquet": "8501666c0c33ad87f5d9f077a5ff678f0d9a37837eea3c30d2456ca582e9795e",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2023/trade_checkpoints_2023.parquet": "ba794e769ed7e1616bb6428561aec684490109350243212fc60e3fadc1fccc79",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2024/trade_checkpoints_2024.parquet": "f7d4ac720783bf36e4631e090005dbeaab997dcb7d94ce7bc1fabc839d4f0e33",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2025/trade_checkpoints_2025.parquet": "bce9899b018de57f247dd3b620d3add28c4b504c4df8649dd03cf6de94021608"
+  },
+  "anchor_hashes": {
+    "tree_2021.parquet": "b3f07be4b4c266e2ff7d849c15ddb3e6f7b5fdc644128e757b3380cad3ba9a28",
+    "tree_2022.parquet": "c8c5b23c39ab11797a6798e81c5638b19392cb4b3522a5e4b915dbf8d62a1a91",
+    "tree_2023.parquet": "ecbc355f5ba5f3d8aa58c4f83527dec5eb079abcb7d9bd228c11b16d432a5465",
+    "tree_2024.parquet": "4795a931777b0093e276467afc8a1ef93373aafdcc67385256d6a0c6ddfc3e1e",
+    "tree_2025.parquet": "e7856a3dd0ebcf0696ec20bd5660f002c96f6afb032d1878c4fe8996057b6391"
+  },
+  "incumbent_hash": "e19effea8e05287c833b77e62d8e3059b5c87c0d846bf928d6746f101669adc2"
+}

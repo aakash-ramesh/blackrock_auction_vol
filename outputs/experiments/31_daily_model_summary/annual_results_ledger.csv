@@ -1,0 +1,289 @@
+year,candidate,observations,rmse_log,wape,aggregate_bias,cohort,evidence,source
+2022,lag1_auction,325406,0.7636746420361079,0.6527480397994334,-0.0021887509697534613,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2022,avg5_auction,327521,0.7531699209860847,0.5935849012037455,-0.0022474590527743477,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2022,median20_auction,328307,0.6564337549057905,0.4521928897830585,-0.26095105803043883,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2022,median60_auction,328515,0.6710158022351352,0.4527264175449771,-0.27803822764484054,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2022,auction_participation_x_adv,328307,0.7954080590116598,0.5270096469248603,-0.04174001660104043,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2022,median20_fallback,328634,0.676029911189699,0.4525431135323577,-0.2609639210399608,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2022,global_ridge,328634,0.5483605413515584,0.38882986591985086,-0.15434914808069078,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2022,global_ridge_calibrated,328634,0.5813336771798185,0.4467001016688544,0.037089898699722124,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2023,lag1_auction,316936,0.7099248960394003,0.6215736106276954,-0.0016263374280702791,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2023,avg5_auction,318180,0.6913061808957888,0.5687658658234179,-0.0021743973515623294,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2023,median20_auction,318478,0.6031358586912583,0.43418058606265314,-0.24645364375336598,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2023,median60_auction,318603,0.6278502697107885,0.4369426227035996,-0.27336097426058603,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2023,auction_participation_x_adv,318478,0.7069358449806672,0.49956822751044605,-0.04196474745486123,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2023,median20_fallback,318679,0.6149770725494211,0.43457236668796373,-0.24673088268645582,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2023,global_ridge,318679,0.4959508792563167,0.3761381026779487,-0.14342948629575525,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2023,global_ridge_calibrated,318679,0.5267000827241057,0.43182827290400805,0.04325522116875602,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2024,lag1_auction,315216,0.6681616215411447,0.5935149116847441,-0.002988026586169479,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2024,avg5_auction,315994,0.6502846725485681,0.5370847297426562,-0.0040847862591912865,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2024,median20_auction,316124,0.5680079545042149,0.416751237596506,-0.23441581687679613,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2024,median60_auction,316161,0.5873123719231231,0.4183722225114203,-0.2541313597818714,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2024,auction_participation_x_adv,316124,0.6340258473261549,0.48047145842457256,-0.030492919920369843,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2024,median20_fallback,316212,0.5724000960767077,0.4169179563249449,-0.2345687212442309,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2024,global_ridge,316212,0.45687489695178596,0.3609403715049894,-0.12955778474632196,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2024,global_ridge_calibrated,316212,0.4960493285490442,0.4138723919064447,0.05068730126726373,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2025,lag1_auction,307117,0.6335123583802457,0.543853078582511,-0.0034565004013685785,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2025,avg5_auction,307699,0.6053153221728658,0.4874293407475117,-0.004120283687248261,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2025,median20_auction,307778,0.5382599875968807,0.3930948323905944,-0.20075909323762664,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2025,median60_auction,307798,0.558289016879833,0.3967865709981933,-0.224990206565437,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2025,auction_participation_x_adv,307778,0.5929136168088397,0.44918993420725806,-0.003873787306960752,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2025,median20_fallback,307853,0.5406329897343323,0.3932294442160226,-0.20089625396657163,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2025,global_ridge,307853,0.45138351763296736,0.35038589812027476,-0.11622318792384412,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2025,global_ridge_calibrated,307853,0.47943307226068216,0.39712786903819974,0.05346515617771197,Historical baselines,saved study,eda/07_temporal_baselines/overall_baseline_metrics.csv
+2022,compact58_median20,328634,0.5340099498308083,0.38024834874522573,-0.14679296923667906,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2022,compact58_log_growth,328634,0.5381293285088302,0.3873820994141701,-0.15394332670360156,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2022,full99_median20,328634,0.5349308423754257,0.3807897640723878,-0.14459810866156386,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2022,full99_log_growth,328634,0.5392040567811215,0.3879499557035168,-0.1495481745208832,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2022,frozen_compact58_median20,328634,0.5335072687328366,0.3810598113195089,-0.14440720646243876,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2023,compact58_median20,318679,0.48395724801220014,0.36922703803074663,-0.14359248762791998,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2023,compact58_log_growth,318679,0.4859846942857329,0.37439806623876637,-0.14434277942665508,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2023,full99_median20,318679,0.4829696434916128,0.36775191489737696,-0.14591047889437492,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2023,full99_log_growth,318679,0.48502564491293,0.37378267770531837,-0.1435670964563871,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2023,frozen_compact58_median20,318679,0.48365806543080686,0.3697448391746572,-0.1416483139480743,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2024,compact58_median20,316212,0.4463646432535628,0.35279014763615807,-0.14467306438123972,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2024,compact58_log_growth,316212,0.4488385047319778,0.36108635506805914,-0.14574185924790262,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2024,full99_median20,316212,0.44558328883051024,0.35134987931690137,-0.14398971455624066,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2024,full99_log_growth,316212,0.44723221591369094,0.36019792677960416,-0.13527426080448524,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2024,frozen_compact58_median20,316212,0.4457627753853866,0.3532159264448591,-0.14527875141918556,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2025,compact58_median20,307853,0.44665284247736714,0.3450246146786659,-0.0973138142738178,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2025,compact58_log_growth,307853,0.44860440498623383,0.34999143705912666,-0.1049585057681075,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2025,full99_median20,307853,0.44955596948055865,0.3414308527354106,-0.1301935667314028,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2025,full99_log_growth,307853,0.45146454658106827,0.34710028493335765,-0.13754841177612842,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2025,frozen_compact58_median20,307853,0.44511930839683667,0.3456306724525617,-0.0962349539309979,Target and feature finalists,saved study,experiments/22_full_feature_ridge_growth/annual_metrics.csv
+2022,expanding_log_full,328634,0.5467289668163066,0.39047657149033843,-0.14867094275636894,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2022,rolling3_residual_full,328634,0.5332942844274823,0.3785062141880963,-0.15110667594067106,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2022,rolling5_log_full,328634,0.5432160568347955,0.3863964382516311,-0.14657903210675272,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2022,rolling5_residual_full,328634,0.5341451886414867,0.38110115505109504,-0.1437465168198424,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2022,rolling5_residual_recent_full,328634,0.5332249082472916,0.3803879316898904,-0.14663806727753337,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2022,rolling5_residual_auction_calendar,328634,0.5365433533903028,0.3822728867569421,-0.14173260531205156,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2022,rolling5_residual_auction_calendar_liquidity,328634,0.5335072687328366,0.3810598113195089,-0.14440720646243876,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2023,expanding_log_full,318679,0.4953390898725815,0.37859288155620846,-0.13596022273849262,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2023,rolling3_residual_full,318679,0.4891420243642467,0.36833713394052664,-0.13795169155960985,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2023,rolling5_log_full,318679,0.4922643492364196,0.37324114672398756,-0.13751138957839737,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2023,rolling5_residual_full,318679,0.4823232089829294,0.36791828135185434,-0.1428381087712861,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2023,rolling5_residual_recent_full,318679,0.4819354242339295,0.3681417947388045,-0.14160759820354107,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2023,rolling5_residual_auction_calendar,318679,0.4866483074613159,0.3713441463692703,-0.13643074053546977,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2023,rolling5_residual_auction_calendar_liquidity,318679,0.48365806543080686,0.3697448391746572,-0.14164831394807442,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2024,expanding_log_full,316212,0.45486333408550095,0.36116186164297404,-0.12565182615523907,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2024,rolling3_residual_full,316212,0.4541720139254007,0.35547489868107013,-0.13142529606649334,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2024,rolling5_log_full,316212,0.45279473484436433,0.35534487991376673,-0.14697647213451703,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2024,rolling5_residual_full,316212,0.44483962797144094,0.35168437881057923,-0.1447983527630322,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2024,rolling5_residual_recent_full,316212,0.4451357755000946,0.353484477694952,-0.1311863403603779,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2024,rolling5_residual_auction_calendar,316212,0.4485712654006833,0.3534931427133019,-0.14111660220641908,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2024,rolling5_residual_auction_calendar_liquidity,316212,0.4457627753853866,0.3532159264448591,-0.14527875141918556,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2025,expanding_log_full,307853,0.4511749725767888,0.3532810281783137,-0.11054425865812945,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2025,rolling3_residual_full,307853,0.44893433154723356,0.3413027269713197,-0.13519309321903883,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2025,rolling5_log_full,307853,0.4532069804804005,0.346264142196932,-0.15229554036814685,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2025,rolling5_residual_full,307853,0.4501329257966638,0.34131554858454155,-0.14146410652043573,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2025,rolling5_residual_recent_full,307853,0.4461371314471967,0.3414211603063308,-0.12607046295698865,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2025,rolling5_residual_auction_calendar,307853,0.44785450003323857,0.3473425774159727,-0.09152638104865884,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2025,rolling5_residual_auction_calendar_liquidity,307853,0.44511930839683667,0.3456306724525616,-0.09623495393099801,Global ridge finalists,saved study,eda/09_global_finalists/global_finalist_metrics.csv
+2022,rolling5_residual_auction_calendar_liquidity,328634,0.5335072687328366,0.3810598113195089,-0.14440720646243876,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2022,rolling5_residual_recent_full,328634,0.5332249082472916,0.3803879316898904,-0.14663806727753337,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2022,interaction_size,328634,0.533904912328844,0.3785720935905774,-0.157786311877386,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2022,interaction_liquidity,328634,0.5340072647919016,0.37865431945017525,-0.15732451454354657,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2022,interaction_intensity,328634,0.5332300057047764,0.3815315882672551,-0.13951549041284672,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2022,split_size,328634,0.532711430713013,0.3779108916500169,-0.1570818206888729,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2022,split_liquidity,328634,0.5339807795719127,0.379662607391827,-0.15409664933720513,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2022,split_intensity,328634,0.533056533284572,0.3815010541567529,-0.1393314684927074,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2022,split_size_liquidity_2x2,328634,0.5330180371256248,0.3785150190173875,-0.1560651467140003,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2022,event_hybrid,328634,0.5350136107720943,0.37891881173075026,-0.15004523153444604,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2022,history_hybrid,328634,0.5344932625079369,0.37945918076804114,-0.15329893275690265,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2023,rolling5_residual_auction_calendar_liquidity,318679,0.48365806543080686,0.3697448391746572,-0.14164831394807442,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2023,rolling5_residual_recent_full,318679,0.4819354242339295,0.3681417947388045,-0.14160759820354107,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2023,interaction_size,318679,0.48295997532764046,0.367661875537812,-0.14354305253211408,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2023,interaction_liquidity,318679,0.48362362335258996,0.36787222626911553,-0.14889359903864596,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2023,interaction_intensity,318679,0.48361782942179177,0.3699577475745428,-0.13853276302621753,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2023,split_size,318679,0.48237945643999264,0.3652763903359235,-0.1443781363468163,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2023,split_liquidity,318679,0.48352353765066824,0.36671735356800617,-0.14817167131861775,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2023,split_intensity,318679,0.4835122157631906,0.3701222341515694,-0.13841362437744475,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2023,split_size_liquidity_2x2,318679,0.4826827167887852,0.36483377440471304,-0.1467020832200432,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2023,event_hybrid,318679,0.48413532112445545,0.36680794072560113,-0.14415966731245755,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2023,history_hybrid,318679,0.48345009464276134,0.36882908965627287,-0.142866134177969,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2024,rolling5_residual_auction_calendar_liquidity,316212,0.4457627753853866,0.3532159264448591,-0.14527875141918556,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2024,rolling5_residual_recent_full,316212,0.4451357755000946,0.353484477694952,-0.1311863403603779,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2024,interaction_size,316212,0.44543768665699207,0.3514949294500661,-0.1503890214310053,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2024,interaction_liquidity,316212,0.4459600082930288,0.3517064652768446,-0.15287190088779123,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2024,interaction_intensity,316212,0.44567510044438713,0.3527930285559768,-0.14602246642970074,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2024,split_size,316212,0.4443502587412826,0.3492503372303463,-0.15394929937461455,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2024,split_liquidity,316212,0.44551466003186374,0.3508226283282525,-0.15251684744286298,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2024,split_intensity,316212,0.4450943276238813,0.35301569632093266,-0.1414383926868945,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2024,split_size_liquidity_2x2,316212,0.4444838565504165,0.34963452260288325,-0.15308361693497763,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2024,event_hybrid,316212,0.44804792646492986,0.3535850078017998,-0.1727971078276278,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2024,history_hybrid,316212,0.4459389253526035,0.35271498948223917,-0.1465755801891504,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2025,rolling5_residual_auction_calendar_liquidity,307853,0.44511930839683667,0.3456306724525616,-0.09623495393099801,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2025,rolling5_residual_recent_full,307853,0.4461371314471967,0.3414211603063308,-0.12607046295698865,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2025,interaction_size,307853,0.4468601606385464,0.3436702189927925,-0.10411697382746088,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2025,interaction_liquidity,307853,0.4470312895425696,0.3437535896610542,-0.10412156397304939,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2025,interaction_intensity,307853,0.44721553291911703,0.3458186111049297,-0.09771942347001317,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2025,split_size,307853,0.4463401287442765,0.3421244016166912,-0.10798478721114968,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2025,split_liquidity,307853,0.4469877881199527,0.3431597775804069,-0.10550312774469695,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2025,split_intensity,307853,0.44716542904242357,0.3462043270731582,-0.09666234819953878,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2025,split_size_liquidity_2x2,307853,0.44689475831802994,0.3431352713217598,-0.1065228555167046,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2025,event_hybrid,307853,0.443085057700446,0.3385154928493023,-0.10820560084080888,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2025,history_hybrid,307853,0.44680908494944477,0.3453303150415065,-0.09674149861482806,Ridge segmentation,saved study,eda/10_segmentation_tests/segmentation_candidate_metrics.csv
+2022,rolling5_residual_auction_calendar_liquidity,328634,0.5335072687328366,0.3810598113195089,-0.14440720646243876,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2022,lgbm_residual_58_l2,328634,0.5101042702020712,0.36680312759373573,-0.14662918212727716,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2022,blend50_residual_58_l2,328634,0.5110197825045435,0.3669547985417212,-0.15132614048887705,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2022,lgbm_residual_58_huber,328634,0.5146912667448844,0.365265113149711,-0.1580918549771243,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2022,blend50_residual_58_huber,328634,0.5145147421426114,0.3672069759988424,-0.15575970197250089,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2023,rolling5_residual_auction_calendar_liquidity,318679,0.48365806543080686,0.3697448391746572,-0.1416483139480743,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2023,lgbm_residual_58_l2,318679,0.4609339167957853,0.35201477462985115,-0.14502461918004217,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2023,blend50_residual_58_l2,318679,0.46335320755903014,0.35476180706631893,-0.14775057336038222,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2023,lgbm_residual_58_huber,318679,0.46312845707632316,0.350291824616276,-0.15678997836953956,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2023,blend50_residual_58_huber,318679,0.4646643034523531,0.3538684391587069,-0.15334692452622922,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2024,rolling5_residual_auction_calendar_liquidity,316212,0.4457627753853866,0.35321592644485905,-0.14527875141918556,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2024,lgbm_residual_58_l2,316212,0.43720418771915914,0.3447367143126812,-0.14047156886629886,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2024,blend50_residual_58_l2,316212,0.43450638783670453,0.3433848139249784,-0.146070683321193,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2024,lgbm_residual_58_huber,316212,0.4384156113905374,0.3432834329340292,-0.15585270374731752,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2024,blend50_residual_58_huber,316212,0.43499036392939033,0.3424491109382915,-0.1538668600775882,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2025,rolling5_residual_auction_calendar_liquidity,307853,0.44511930839683667,0.3456306724525617,-0.0962349539309979,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2025,lgbm_residual_58_l2,307853,0.4306458593063416,0.32942843400101973,-0.08898017538290914,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2025,blend50_residual_58_l2,307853,0.4303966586585168,0.33105456016281665,-0.09628237617771185,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2025,lgbm_residual_58_huber,307853,0.4320933050714981,0.32944371475216194,-0.09406788598404048,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2025,blend50_residual_58_huber,307853,0.43086501096634544,0.33081847171217943,-0.09883535312491853,Verified compact nonlinear,saved models reconstructed in notebook 05,reproduction/03_compact_nonlinear/nonlinear_candidate_metrics.csv
+2022,lgbm_residual_99_l2,328634,0.5168260251322249,0.37003692836686924,-0.16802168190808697,Original expanded nonlinear,saved study,eda/16_nonlinear_challengers/nonlinear_candidate_metrics.csv
+2022,blend50_residual_99_l2,328634,0.5189225679430665,0.3705430343850454,-0.1625950698525812,Original expanded nonlinear,saved study,eda/16_nonlinear_challengers/nonlinear_candidate_metrics.csv
+2023,lgbm_residual_99_l2,318679,0.46756879765829634,0.35606561659544894,-0.16606009551185474,Original expanded nonlinear,saved study,eda/16_nonlinear_challengers/nonlinear_candidate_metrics.csv
+2023,blend50_residual_99_l2,318679,0.47001640266272243,0.3581257069820118,-0.1570414434826688,Original expanded nonlinear,saved study,eda/16_nonlinear_challengers/nonlinear_candidate_metrics.csv
+2024,lgbm_residual_99_l2,316212,0.442355335040454,0.3476468758683753,-0.14510682859114155,Original expanded nonlinear,saved study,eda/16_nonlinear_challengers/nonlinear_candidate_metrics.csv
+2024,blend50_residual_99_l2,316212,0.4375391001887782,0.344637035412536,-0.14764602158632145,Original expanded nonlinear,saved study,eda/16_nonlinear_challengers/nonlinear_candidate_metrics.csv
+2025,lgbm_residual_99_l2,307853,0.43852586763431095,0.3338355562821752,-0.10349343842489633,Original expanded nonlinear,saved study,eda/16_nonlinear_challengers/nonlinear_candidate_metrics.csv
+2025,blend50_residual_99_l2,307853,0.43758063084463367,0.3346485305870977,-0.10241474064349232,Original expanded nonlinear,saved study,eda/16_nonlinear_challengers/nonlinear_candidate_metrics.csv
+2022,rolling5_residual_auction_calendar_liquidity,328634,0.5338028731532306,0.3804073839814825,-0.14659023966614582,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2022,lgbm_58_control,328634,0.5167442242558943,0.36778335856948136,-0.21056456907363297,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2022,lgbm_61_ratios,328634,0.5137260742773913,0.3649691552014607,-0.2014963035879569,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2022,lgbm_61_ratios_large,328634,0.5059785769616801,0.3639932391922462,-0.13400252422574888,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2022,lgbm_61_ratios_large_tuned,328634,0.5025076122408917,0.3597550885568734,-0.14753874209480422,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2022,lgbm_61_ratios_large_linear,328634,0.5321639193607972,0.4030042769269949,-0.0398816234349203,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2023,rolling5_residual_auction_calendar_liquidity,318679,0.48380371426926333,0.3691591888915943,-0.1435145133938579,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2023,lgbm_58_control,318679,0.4612592543525056,0.35206210425316,-0.16029891540545993,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2023,lgbm_61_ratios,318679,0.45990139162414057,0.3498484960242186,-0.15698623852631022,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2023,lgbm_61_ratios_large,318679,0.45591640490811874,0.34763576716147837,-0.14571017080739335,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2023,lgbm_61_ratios_large_tuned,318679,0.45468819306217395,0.3460401836204536,-0.14978807795804383,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2023,lgbm_61_ratios_large_linear,318679,0.45373027935488536,0.3458387016720056,-0.14133125744784747,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2024,rolling5_residual_auction_calendar_liquidity,316212,0.44603455577631773,0.35266206479075585,-0.1441618902723827,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2024,lgbm_58_control,316212,0.4396141092191541,0.3463383853564608,-0.15133592365623838,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2024,lgbm_61_ratios,316212,0.436655555180255,0.34312255796246477,-0.15118331737657853,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2024,lgbm_61_ratios_large,316212,0.4343325603680467,0.34055078660835625,-0.1612992887602458,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2024,lgbm_61_ratios_large_tuned,316212,0.4335164223794076,0.34061704581498786,-0.1594129336052149,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2024,lgbm_61_ratios_large_linear,316212,0.4368364424528331,0.3413610205879567,-0.16610566147755146,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2025,rolling5_residual_auction_calendar_liquidity,307853,0.44665337292862733,0.34545691837258924,-0.09419800611203677,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2025,lgbm_58_control,307853,0.43500070212866754,0.3338410435476285,-0.07688628938270947,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2025,lgbm_61_ratios,307853,0.42895194364771944,0.3279872676501466,-0.08603926792633343,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2025,lgbm_61_ratios_large,307853,0.42363381643279185,0.3233822421203493,-0.09879575405570484,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2025,lgbm_61_ratios_large_tuned,307853,0.42416982382749446,0.3243643756458689,-0.09915013177082532,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2025,lgbm_61_ratios_large_linear,307853,0.42511137778984825,0.3240378275593954,-0.1046554575965315,LightGBM improvement series,saved study,eda/16a_lightgbm_improvements/candidate_metrics.csv
+2022,rolling5_residual_auction_calendar_liquidity,328634,0.5338028731532306,0.3804073839814825,-0.14659023966614582,Historical CatBoost,saved study,eda/16b_catboost_challenger/candidate_metrics.csv
+2022,catboost_61_ratios_large,328634,0.5041157210917651,0.36407650961860866,-0.13810847950160032,Historical CatBoost,saved study,eda/16b_catboost_challenger/candidate_metrics.csv
+2023,rolling5_residual_auction_calendar_liquidity,318679,0.48380371426926333,0.3691591888915943,-0.1435145133938579,Historical CatBoost,saved study,eda/16b_catboost_challenger/candidate_metrics.csv
+2023,catboost_61_ratios_large,318679,0.45628578429429967,0.3497257398199271,-0.15003067868602515,Historical CatBoost,saved study,eda/16b_catboost_challenger/candidate_metrics.csv
+2024,rolling5_residual_auction_calendar_liquidity,316212,0.44603455577631773,0.35266206479075585,-0.1441618902723827,Historical CatBoost,saved study,eda/16b_catboost_challenger/candidate_metrics.csv
+2024,catboost_61_ratios_large,316212,0.4305970410385125,0.33942840120983003,-0.1466643663838758,Historical CatBoost,saved study,eda/16b_catboost_challenger/candidate_metrics.csv
+2025,rolling5_residual_auction_calendar_liquidity,307853,0.44665337292862733,0.34545691837258924,-0.09419800611203677,Historical CatBoost,saved study,eda/16b_catboost_challenger/candidate_metrics.csv
+2025,catboost_61_ratios_large,307853,0.422921262306753,0.32189056270461985,-0.10994617019345909,Historical CatBoost,saved study,eda/16b_catboost_challenger/candidate_metrics.csv
+2022,lightgbm_reference,328634,0.5046065414999888,0.3596936028576981,-0.1620962889045754,Fresh booster comparison,fresh four-fold fits in notebook 06,experiments/28_daily_booster_comparison/annual_metrics.csv
+2022,catboost,328634,0.5048086546891757,0.3647890908195438,-0.1398003438967107,Fresh booster comparison,fresh four-fold fits in notebook 06,experiments/28_daily_booster_comparison/annual_metrics.csv
+2022,xgboost,328634,0.5121808893488794,0.3655759259446634,-0.13904208506954574,Fresh booster comparison,fresh four-fold fits in notebook 06,experiments/28_daily_booster_comparison/annual_metrics.csv
+2023,lightgbm_reference,318679,0.4543009375576326,0.34534094380246194,-0.14788201473536045,Fresh booster comparison,fresh four-fold fits in notebook 06,experiments/28_daily_booster_comparison/annual_metrics.csv
+2023,catboost,318679,0.45601215890782926,0.3490744819988072,-0.1463365151750925,Fresh booster comparison,fresh four-fold fits in notebook 06,experiments/28_daily_booster_comparison/annual_metrics.csv
+2023,xgboost,318679,0.45646634930132995,0.34835709202079207,-0.14729671304881986,Fresh booster comparison,fresh four-fold fits in notebook 06,experiments/28_daily_booster_comparison/annual_metrics.csv
+2024,lightgbm_reference,316212,0.4331610362773629,0.34073187735078386,-0.14769993178973884,Fresh booster comparison,fresh four-fold fits in notebook 06,experiments/28_daily_booster_comparison/annual_metrics.csv
+2024,catboost,316212,0.4309946141611594,0.34078079797612487,-0.1422406839600231,Fresh booster comparison,fresh four-fold fits in notebook 06,experiments/28_daily_booster_comparison/annual_metrics.csv
+2024,xgboost,316212,0.4313160185470699,0.33900068850558845,-0.1546913838911368,Fresh booster comparison,fresh four-fold fits in notebook 06,experiments/28_daily_booster_comparison/annual_metrics.csv
+2025,lightgbm_reference,307853,0.4222442264286821,0.32376632568383995,-0.08957957188432153,Fresh booster comparison,fresh four-fold fits in notebook 06,experiments/28_daily_booster_comparison/annual_metrics.csv
+2025,catboost,307853,0.4239689952019068,0.3242944710086657,-0.1066111527735395,Fresh booster comparison,fresh four-fold fits in notebook 06,experiments/28_daily_booster_comparison/annual_metrics.csv
+2025,xgboost,307853,0.42654498117696515,0.32865550281588324,-0.09243044679095302,Fresh booster comparison,fresh four-fold fits in notebook 06,experiments/28_daily_booster_comparison/annual_metrics.csv
+2022,rolling5_residual_auction_calendar_liquidity,328634,0.5338028731532306,0.3804073839814825,-0.14659023966614582,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2022,lgbm_control,328634,0.5059785769616801,0.3639932391922462,-0.13400252422574888,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2022,lgbm_plus_regime_inputs,328634,0.5103089039928768,0.3665617598556023,-0.15220867907873958,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2022,lgbm_plus_hmm_bic,328634,0.5180855405628332,0.3691722766863955,-0.1597152428382984,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2022,lgbm_plus_hmm_k3,328634,0.5078463110763242,0.3668996364376685,-0.1608516204474818,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2022,lgbm_plus_inputs_and_hmm_bic,328634,0.5187743413617106,0.3725310123287303,-0.15177535872284909,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2023,rolling5_residual_auction_calendar_liquidity,318679,0.48380371426926333,0.3691591888915943,-0.1435145133938579,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2023,lgbm_control,318679,0.45591640490811874,0.34763576716147837,-0.14571017080739335,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2023,lgbm_plus_regime_inputs,318679,0.4628787588635954,0.3533409946236823,-0.14410277444668174,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2023,lgbm_plus_hmm_bic,318679,0.45888129229630853,0.3509315001288861,-0.12857404075260903,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2023,lgbm_plus_hmm_k3,318679,0.46050854166066496,0.3496869701268153,-0.15335257366386779,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2023,lgbm_plus_inputs_and_hmm_bic,318679,0.4597447583052991,0.35116304648201613,-0.1391701839321433,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2024,rolling5_residual_auction_calendar_liquidity,316212,0.44603455577631773,0.35266206479075585,-0.1441618902723827,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2024,lgbm_control,316212,0.4343325603680467,0.34055078660835625,-0.1612992887602458,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2024,lgbm_plus_regime_inputs,316212,0.4352967171921682,0.34187876140560025,-0.16023874303844066,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2024,lgbm_plus_hmm_bic,316212,0.4393571450378759,0.3435835162432061,-0.160072305917899,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2024,lgbm_plus_hmm_k3,316212,0.43321253771058466,0.3405154559591975,-0.13749993351817302,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2024,lgbm_plus_inputs_and_hmm_bic,316212,0.44059388977025216,0.3452071771555199,-0.15605127784673234,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2025,rolling5_residual_auction_calendar_liquidity,307853,0.44665337292862733,0.34545691837258924,-0.09419800611203677,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2025,lgbm_control,307853,0.42363381643279185,0.3233822421203493,-0.09879575405570484,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2025,lgbm_plus_regime_inputs,307853,0.43590584313785086,0.34010855610279117,-0.050452448303417885,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2025,lgbm_plus_hmm_bic,307853,0.43327162724830526,0.33178074946212327,-0.09470263409343138,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2025,lgbm_plus_hmm_k3,307853,0.43669409843556883,0.3336265727039803,-0.08750184554069051,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2025,lgbm_plus_inputs_and_hmm_bic,307853,0.4341667073180219,0.3355451456273774,-0.07229688875981055,HMM and regime inputs,saved study,eda/16d_hmm_regime_features/candidate_metrics.csv
+2022,rolling5_residual_auction_calendar_liquidity,328634,0.5338028731532306,0.3804073839814825,-0.14659023966614582,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2022,lgbm_61_ratios_large,328634,0.5059785769616801,0.3639932391922462,-0.13400252422574888,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2022,lgbm_61_ratios_large_tuned,328634,0.5025076122408917,0.3597550885568734,-0.14753874209480422,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2023,rolling5_residual_auction_calendar_liquidity,318679,0.48380371426926333,0.3691591888915943,-0.1435145133938579,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2023,lgbm_61_ratios_large,318679,0.45591640490811874,0.34763576716147837,-0.14571017080739335,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2023,lgbm_61_ratios_large_tuned,318679,0.45468819306217395,0.3460401836204536,-0.14978807795804383,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2024,rolling5_residual_auction_calendar_liquidity,316212,0.44603455577631773,0.35266206479075585,-0.1441618902723827,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2024,lgbm_61_ratios_large,316212,0.4343325603680467,0.34055078660835625,-0.1612992887602458,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2024,lgbm_61_ratios_large_tuned,316212,0.4335164223794076,0.34061704581498786,-0.1594129336052149,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2025,rolling5_residual_auction_calendar_liquidity,307853,0.44665337292862733,0.34545691837258924,-0.09419800611203677,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2025,lgbm_61_ratios_large,307853,0.42363381643279185,0.3233822421203493,-0.09879575405570484,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2025,lgbm_61_ratios_large_tuned,307853,0.42416982382749446,0.3243643756458689,-0.09915013177082532,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2022,nn_mlp_tabular,328634,0.5050388440959939,0.36606614295044704,-0.11380620615680226,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2022,nn_cnn_lstm_sequence,328634,0.5416649951021937,0.3940172727158216,-0.07415294264770667,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2022,nn_cnn_lstm_hybrid,328634,0.5253186007726399,0.37362295562839776,-0.15845831601512927,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2023,nn_mlp_tabular,318679,0.46241862095067443,0.35898940203508717,-0.11095301539903157,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2023,nn_cnn_lstm_sequence,318679,0.47032788794364244,0.3579835503175055,-0.16680844334559675,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2023,nn_cnn_lstm_hybrid,318679,0.4678435115812526,0.35308362656410774,-0.20643916605864931,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2024,nn_mlp_tabular,316212,0.4426726987103064,0.34655774200917544,-0.15278675342440906,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2024,nn_cnn_lstm_sequence,316212,0.4432782282814393,0.35662490893176146,-0.09260774308882802,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2024,nn_cnn_lstm_hybrid,316212,0.4424454608107582,0.3467485352713314,-0.14240349542664388,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2025,nn_mlp_tabular,307853,0.4248753137457386,0.3251981297447875,-0.09199425776271553,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2025,nn_cnn_lstm_sequence,307853,0.4277195376538937,0.3269119582084008,-0.11250451761166835,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2025,nn_cnn_lstm_hybrid,307853,0.42452470054268143,0.3240181846394454,-0.11116411905183543,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2022,blend_hybrid_lgbm,328634,0.503649455522713,0.36150673892394974,-0.15882952858724841,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2023,blend_hybrid_lgbm,318679,0.4550773921298696,0.34490104056645526,-0.1809500227043993,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2024,blend_hybrid_lgbm,316212,0.43116484752362744,0.33899927304651845,-0.15366229681813592,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2025,blend_hybrid_lgbm,307853,0.41839194506457233,0.3197375811945163,-0.10756075025046374,Neural networks and blend,saved study,eda/16e_sequence_neural_networks/candidate_metrics.csv
+2022,spline_residual_58,328634,0.531187556537061,0.3762175679652146,-0.16807032711878778,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2022,spline_residual_58_stock_effect,328634,0.5311435877851078,0.3759758400417235,-0.1659842506287338,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2022,tail_mixture_log_mean,328634,0.5086769400677639,0.36228572558397604,-0.1623381650553537,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2022,tail_mixture_share_mean,328634,0.5355311359770356,0.36732523017480345,-0.12183085787497061,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2022,lgbm_residual_58_l2,328634,0.5101042702020712,0.36680312759373573,-0.14662918212727705,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2023,spline_residual_58,318679,0.4820396248234012,0.3651716754787845,-0.172452000828882,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2023,spline_residual_58_stock_effect,318679,0.4818380415441354,0.3647757075650718,-0.17127212686459703,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2023,tail_mixture_log_mean,318679,0.459218058000619,0.3488051183762211,-0.14886989967095599,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2023,tail_mixture_share_mean,318679,0.471699569530451,0.35350566926449006,-0.11415733362447888,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2023,lgbm_residual_58_l2,318679,0.4609339167957853,0.3520147746298512,-0.14502461918004228,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2024,spline_residual_58,316212,0.44281187837939684,0.34942079085860533,-0.14679530281810071,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2024,spline_residual_58_stock_effect,316212,0.44278567701656407,0.34903687545855316,-0.14538866459777267,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2024,tail_mixture_log_mean,316212,0.43765327102413465,0.3431913602434671,-0.17118956888085213,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2024,tail_mixture_share_mean,316212,0.44105337970441755,0.34535797131953766,-0.14197922720555645,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2024,lgbm_residual_58_l2,316212,0.43720418771915914,0.3447367143126812,-0.14047156886629908,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2025,spline_residual_58,307853,0.4454969091140728,0.3426179168462699,-0.10114917805210433,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2025,spline_residual_58_stock_effect,307853,0.4454737020754101,0.342549406327339,-0.10004952439690074,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2025,tail_mixture_log_mean,307853,0.428852194099474,0.32727809427004967,-0.10411469792492734,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2025,tail_mixture_share_mean,307853,0.43185347252631534,0.33169232655240405,-0.07097731731309231,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2025,lgbm_residual_58_l2,307853,0.4306458593063416,0.3294284340010197,-0.08898017538290914,Spline and tail audit,saved models reconstructed in notebook 08,experiments/30_checkpoint5_master_audit/reconstructed_metrics.csv
+2022,published_log,328634,0.5101042702020712,0.36680312759373573,-0.14662918212727705,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2022,log_control,328634,0.5105857990566544,0.36554474132067516,-0.15449787776616497,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2022,log_events,328634,0.509708604394257,0.36484412948887635,-0.15148013685376227,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2022,tweedie,328634,0.578716169267697,0.39320210089724916,-0.029008147169474086,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2022,tweedie_events,328634,0.5774820851340039,0.3930026543579654,-0.022685339880778144,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2023,published_log,318679,0.4609339167957853,0.3520147746298512,-0.14502461918004228,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2023,log_control,318679,0.46196973793701296,0.35256584765384474,-0.1431802995284831,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2023,log_events,318679,0.45752185760699426,0.34952226017926896,-0.14819118061990855,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2023,tweedie,318679,0.5194927429981557,0.37485961567594783,-0.04417341493787097,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2023,tweedie_events,318679,0.5044670757694808,0.37403934724438204,-0.040326636634721025,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2024,published_log,316212,0.43720418771915914,0.3447367143126812,-0.14047156886629908,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2024,log_control,316212,0.44072133758561677,0.3461058764020712,-0.15989882720883797,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2024,log_events,316212,0.43662506970786813,0.34325894675388874,-0.160539701398826,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2024,tweedie,316212,0.48038796998062483,0.365552952879212,-0.0689424067522163,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2024,tweedie_events,316212,0.4711500200831687,0.36025527604167007,-0.07925721696130172,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2025,published_log,307853,0.4306458593063416,0.3294284340010197,-0.08898017538290914,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2025,log_control,307853,0.4322397889820148,0.33181032856749654,-0.07999034791734239,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2025,log_events,307853,0.4286102744846336,0.3292475572195052,-0.08716210463225793,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2025,tweedie,307853,0.45960079202648807,0.3571567874280622,0.004956573823446941,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv
+2025,tweedie_events,307853,0.45544013759530105,0.35543583352079205,0.00043251392622911666,Loss and event comparison,saved forecasts independently scored in notebook 08,experiments/30_checkpoint5_master_audit/verified_tweedie_annual_metrics.csv

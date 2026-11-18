@@ -1,0 +1,666 @@
+{
+  "continuous": {
+    "lag1_auction_volume": {
+      "log1p": true,
+      "lower": 4.7535901911063645,
+      "upper": 14.895905235612132,
+      "median": 10.819398212191988,
+      "scale": 1.7272854330066358,
+      "missing_indicator": true
+    },
+    "lag2_auction_volume": {
+      "log1p": true,
+      "lower": 4.770684624465665,
+      "upper": 14.893509134616004,
+      "median": 10.817164872371869,
+      "scale": 1.7257409912938166,
+      "missing_indicator": true
+    },
+    "lag5_auction_volume": {
+      "log1p": true,
+      "lower": 4.762173934797756,
+      "upper": 14.899042771704945,
+      "median": 10.817435542331806,
+      "scale": 1.724313543312395,
+      "missing_indicator": true
+    },
+    "avg5_auction_volume": {
+      "log1p": true,
+      "lower": 5.183187059294405,
+      "upper": 14.786140759517073,
+      "median": 10.989642570601886,
+      "scale": 1.6724050742024597,
+      "missing_indicator": true
+    },
+    "avg20_auction_volume": {
+      "log1p": true,
+      "lower": 5.537137397247254,
+      "upper": 14.693332867742631,
+      "median": 11.074858391378065,
+      "scale": 1.6098439411829335,
+      "missing_indicator": true
+    },
+    "avg60_auction_volume": {
+      "log1p": true,
+      "lower": 5.782194972973998,
+      "upper": 14.638149556724084,
+      "median": 11.116596247237716,
+      "scale": 1.5518991989472426,
+      "missing_indicator": true
+    },
+    "median20_auction_volume": {
+      "log1p": true,
+      "lower": 4.852030263919617,
+      "upper": 14.425932164347298,
+      "median": 10.725577489011457,
+      "scale": 1.654138453862874,
+      "missing_indicator": true
+    },
+    "median60_auction_volume": {
+      "log1p": true,
+      "lower": 4.962179130455178,
+      "upper": 14.37836164380074,
+      "median": 10.713406146123676,
+      "scale": 1.6455511900968225,
+      "missing_indicator": true
+    },
+    "std20_auction_volume": {
+      "log1p": true,
+      "lower": 5.316466831851518,
+      "upper": 14.831563869808702,
+      "median": 10.817505458653052,
+      "scale": 1.6806057734757591,
+      "missing_indicator": true
+    },
+    "std60_auction_volume": {
+      "log1p": true,
+      "lower": 6.0200275394358265,
+      "upper": 14.870132741035505,
+      "median": 11.170995771824872,
+      "scale": 1.530118665868796,
+      "missing_indicator": true
+    },
+    "auction_cv20": {
+      "log1p": false,
+      "lower": 0.26759259869701985,
+      "upper": 3.6828975115952924,
+      "median": 0.7202748686073803,
+      "scale": 0.5859272363069621,
+      "missing_indicator": true
+    },
+    "auction_short_long_ratio": {
+      "log1p": false,
+      "lower": 0.11559699382742522,
+      "upper": 3.1027735938976155,
+      "median": 0.9349518686296716,
+      "scale": 0.45040016065932753,
+      "missing_indicator": true
+    },
+    "lag1_auction_share": {
+      "log1p": false,
+      "lower": 0.0016025817675206144,
+      "upper": 0.45944503174243895,
+      "median": 0.08247222588834457,
+      "scale": 0.0745491861548551,
+      "missing_indicator": true
+    },
+    "avg20_auction_share": {
+      "log1p": false,
+      "lower": 0.005006005077483656,
+      "upper": 0.22681475299608067,
+      "median": 0.09778972975218164,
+      "scale": 0.04335775233507864,
+      "missing_indicator": true
+    },
+    "std20_auction_share": {
+      "log1p": false,
+      "lower": 0.004388482916019702,
+      "upper": 0.16497405429866446,
+      "median": 0.053266365175623644,
+      "scale": 0.02918232365833236,
+      "missing_indicator": true
+    },
+    "lag1_auction_to_adv20": {
+      "log1p": false,
+      "lower": 0.001201656596374507,
+      "upper": 0.9814161221216454,
+      "median": 0.07125960096786477,
+      "scale": 0.1124369424984686,
+      "missing_indicator": true
+    },
+    "days_since_last_auction": {
+      "log1p": false,
+      "lower": 1.0,
+      "upper": 4.0,
+      "median": 1.0,
+      "scale": 0.8869134776530723,
+      "missing_indicator": true
+    },
+    "prior_auction_observations": {
+      "log1p": false,
+      "lower": 16.0,
+      "upper": 1753.0,
+      "median": 987.0,
+      "scale": 430.44022620732125,
+      "missing_indicator": false
+    },
+    "trading_day_of_month": {
+      "log1p": false,
+      "lower": 1.0,
+      "upper": 22.0,
+      "median": 11.0,
+      "scale": 6.10443901843328,
+      "missing_indicator": false
+    },
+    "trading_days_to_month_end": {
+      "log1p": false,
+      "lower": 0.0,
+      "upper": 21.0,
+      "median": 10.0,
+      "scale": 6.104783714451552,
+      "missing_indicator": false
+    },
+    "trading_days_to_quarter_end": {
+      "log1p": false,
+      "lower": 0.0,
+      "upper": 63.0,
+      "median": 31.0,
+      "scale": 18.196843117013895,
+      "missing_indicator": false
+    },
+    "trading_days_to_year_end": {
+      "log1p": false,
+      "lower": 1.0,
+      "upper": 250.0,
+      "median": 125.0,
+      "scale": 72.72289037270451,
+      "missing_indicator": false
+    },
+    "lag1_daily_volume": {
+      "log1p": true,
+      "lower": 8.234648558727235,
+      "upper": 17.35069202648863,
+      "median": 13.373258273241795,
+      "scale": 1.5804443625861122,
+      "missing_indicator": true
+    },
+    "avg5_daily_volume": {
+      "log1p": true,
+      "lower": 8.70119865525255,
+      "upper": 17.312529833013436,
+      "median": 13.428722149415833,
+      "scale": 1.5275186143142387,
+      "missing_indicator": true
+    },
+    "avg20_daily_volume": {
+      "log1p": true,
+      "lower": 8.891570991024905,
+      "upper": 17.279693509597482,
+      "median": 13.472919469291504,
+      "scale": 1.4947244655423213,
+      "missing_indicator": true
+    },
+    "avg60_daily_volume": {
+      "log1p": true,
+      "lower": 9.046060440838321,
+      "upper": 17.24846835908299,
+      "median": 13.505063268745328,
+      "scale": 1.4717817168229936,
+      "missing_indicator": true
+    },
+    "std20_daily_volume": {
+      "log1p": true,
+      "lower": 8.423612056326244,
+      "upper": 16.629756659434616,
+      "median": 12.642126255159807,
+      "scale": 1.4815723614433352,
+      "missing_indicator": true
+    },
+    "std60_daily_volume": {
+      "log1p": true,
+      "lower": 8.842889119833893,
+      "upper": 16.719374834556863,
+      "median": 12.90959851453551,
+      "scale": 1.4393308930144273,
+      "missing_indicator": true
+    },
+    "abnormal_volume_lag1": {
+      "log1p": false,
+      "lower": 0.18469909662298747,
+      "upper": 4.386605752253702,
+      "median": 0.8864326049740987,
+      "scale": 0.550266344407804,
+      "missing_indicator": true
+    },
+    "volume_short_long_ratio": {
+      "log1p": false,
+      "lower": 0.3332394339705005,
+      "upper": 2.404983921692709,
+      "median": 0.9556092425338251,
+      "scale": 0.3150114926442432,
+      "missing_indicator": true
+    },
+    "lag1_dollar_volume": {
+      "log1p": true,
+      "lower": 10.607408806453181,
+      "upper": 21.106897264493206,
+      "median": 17.053511698420145,
+      "scale": 1.9972849144146416,
+      "missing_indicator": true
+    },
+    "avg20_dollar_volume": {
+      "log1p": true,
+      "lower": 11.263915695422988,
+      "upper": 21.037305139634505,
+      "median": 17.148148507048404,
+      "scale": 1.9100095959271997,
+      "missing_indicator": true
+    },
+    "lag1_turnover": {
+      "log1p": false,
+      "lower": 0.00024082214019520852,
+      "upper": 0.10489554979486977,
+      "median": 0.006660658651592558,
+      "scale": 0.012579946999693666,
+      "missing_indicator": true
+    },
+    "avg20_turnover": {
+      "log1p": false,
+      "lower": 0.0004352764885298381,
+      "upper": 0.09108087313693546,
+      "median": 0.007315355112852491,
+      "scale": 0.011308223973966573,
+      "missing_indicator": true
+    },
+    "lag1_amihud": {
+      "log1p": true,
+      "lower": 0.0,
+      "upper": 0.3485916281107507,
+      "median": 0.00039021501360737864,
+      "scale": 0.034443884318925005,
+      "missing_indicator": true
+    },
+    "avg20_amihud": {
+      "log1p": true,
+      "lower": 6.993446881351801e-06,
+      "upper": 0.4062576080952073,
+      "median": 0.000572380686756087,
+      "scale": 0.039819843060384476,
+      "missing_indicator": true
+    },
+    "lag1_quoted_spread": {
+      "log1p": true,
+      "lower": 2.945581863250746e-05,
+      "upper": 0.020285608452018086,
+      "median": 0.00043744532631073295,
+      "scale": 0.0023393106319508235,
+      "missing_indicator": true
+    },
+    "lag1_hl_range": {
+      "log1p": false,
+      "lower": 0.0027965013719393364,
+      "upper": 0.18877551020408162,
+      "median": 0.025766871165644103,
+      "scale": 0.02705731261381484,
+      "missing_indicator": true
+    },
+    "ratio_lag1_med20": {
+      "log1p": false,
+      "lower": -1.478546705558351,
+      "upper": 2.8884678570314004,
+      "median": 0.0022019037973091877,
+      "scale": 0.6440932157446444,
+      "missing_indicator": true
+    },
+    "ratio_avg5_med20": {
+      "log1p": false,
+      "lower": -0.6283675283667223,
+      "upper": 2.7499248581481597,
+      "median": 0.15785853412847867,
+      "scale": 0.4844862171533048,
+      "missing_indicator": true
+    },
+    "ratio_lag1_med60": {
+      "log1p": false,
+      "lower": -1.5360562759156027,
+      "upper": 2.983637617518088,
+      "median": 0.008289759278465581,
+      "scale": 0.6739794607431981,
+      "missing_indicator": true
+    }
+  },
+  "boolean": {
+    "auction_spike_lag1": {
+      "missing_indicator": true
+    },
+    "is_monday": {
+      "missing_indicator": false
+    },
+    "is_friday": {
+      "missing_indicator": false
+    },
+    "is_first_trading_day_month": {
+      "missing_indicator": false
+    },
+    "is_last_trading_day_month": {
+      "missing_indicator": false
+    },
+    "is_last_3_trading_days_month": {
+      "missing_indicator": false
+    },
+    "is_last_5_trading_days_month": {
+      "missing_indicator": false
+    },
+    "is_last_trading_day_quarter": {
+      "missing_indicator": false
+    },
+    "is_last_3_trading_days_quarter": {
+      "missing_indicator": false
+    },
+    "is_last_5_trading_days_quarter": {
+      "missing_indicator": false
+    },
+    "is_last_trading_day_year": {
+      "missing_indicator": false
+    },
+    "monthly_options_expiry": {
+      "missing_indicator": false
+    },
+    "quarterly_options_expiry": {
+      "missing_indicator": false
+    },
+    "after_long_market_gap": {
+      "missing_indicator": false
+    },
+    "before_long_market_gap": {
+      "missing_indicator": false
+    },
+    "is_early_close": {
+      "missing_indicator": false
+    },
+    "early_close_month_end_window": {
+      "missing_indicator": false
+    },
+    "expiry_month_end_window": {
+      "missing_indicator": false
+    }
+  },
+  "categorical": {
+    "day_of_week": {
+      "levels": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "reference": "0",
+      "modeled_levels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "month": {
+      "levels": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "reference": "1",
+      "modeled_levels": [
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    }
+  },
+  "output_names": [
+    "lag1_auction_volume",
+    "lag1_auction_volume__missing",
+    "lag2_auction_volume",
+    "lag2_auction_volume__missing",
+    "lag5_auction_volume",
+    "lag5_auction_volume__missing",
+    "avg5_auction_volume",
+    "avg5_auction_volume__missing",
+    "avg20_auction_volume",
+    "avg20_auction_volume__missing",
+    "avg60_auction_volume",
+    "avg60_auction_volume__missing",
+    "median20_auction_volume",
+    "median20_auction_volume__missing",
+    "median60_auction_volume",
+    "median60_auction_volume__missing",
+    "std20_auction_volume",
+    "std20_auction_volume__missing",
+    "std60_auction_volume",
+    "std60_auction_volume__missing",
+    "auction_cv20",
+    "auction_cv20__missing",
+    "auction_short_long_ratio",
+    "auction_short_long_ratio__missing",
+    "lag1_auction_share",
+    "lag1_auction_share__missing",
+    "avg20_auction_share",
+    "avg20_auction_share__missing",
+    "std20_auction_share",
+    "std20_auction_share__missing",
+    "lag1_auction_to_adv20",
+    "lag1_auction_to_adv20__missing",
+    "days_since_last_auction",
+    "days_since_last_auction__missing",
+    "prior_auction_observations",
+    "trading_day_of_month",
+    "trading_days_to_month_end",
+    "trading_days_to_quarter_end",
+    "trading_days_to_year_end",
+    "lag1_daily_volume",
+    "lag1_daily_volume__missing",
+    "avg5_daily_volume",
+    "avg5_daily_volume__missing",
+    "avg20_daily_volume",
+    "avg20_daily_volume__missing",
+    "avg60_daily_volume",
+    "avg60_daily_volume__missing",
+    "std20_daily_volume",
+    "std20_daily_volume__missing",
+    "std60_daily_volume",
+    "std60_daily_volume__missing",
+    "abnormal_volume_lag1",
+    "abnormal_volume_lag1__missing",
+    "volume_short_long_ratio",
+    "volume_short_long_ratio__missing",
+    "lag1_dollar_volume",
+    "lag1_dollar_volume__missing",
+    "avg20_dollar_volume",
+    "avg20_dollar_volume__missing",
+    "lag1_turnover",
+    "lag1_turnover__missing",
+    "avg20_turnover",
+    "avg20_turnover__missing",
+    "lag1_amihud",
+    "lag1_amihud__missing",
+    "avg20_amihud",
+    "avg20_amihud__missing",
+    "lag1_quoted_spread",
+    "lag1_quoted_spread__missing",
+    "lag1_hl_range",
+    "lag1_hl_range__missing",
+    "ratio_lag1_med20",
+    "ratio_lag1_med20__missing",
+    "ratio_avg5_med20",
+    "ratio_avg5_med20__missing",
+    "ratio_lag1_med60",
+    "ratio_lag1_med60__missing",
+    "auction_spike_lag1",
+    "auction_spike_lag1__missing",
+    "is_monday",
+    "is_friday",
+    "is_first_trading_day_month",
+    "is_last_trading_day_month",
+    "is_last_3_trading_days_month",
+    "is_last_5_trading_days_month",
+    "is_last_trading_day_quarter",
+    "is_last_3_trading_days_quarter",
+    "is_last_5_trading_days_quarter",
+    "is_last_trading_day_year",
+    "monthly_options_expiry",
+    "quarterly_options_expiry",
+    "after_long_market_gap",
+    "before_long_market_gap",
+    "is_early_close",
+    "early_close_month_end_window",
+    "expiry_month_end_window",
+    "day_of_week==1",
+    "day_of_week==2",
+    "day_of_week==3",
+    "day_of_week==4",
+    "day_of_week==OTHER",
+    "month==10",
+    "month==11",
+    "month==12",
+    "month==2",
+    "month==3",
+    "month==4",
+    "month==5",
+    "month==6",
+    "month==7",
+    "month==8",
+    "month==9",
+    "month==OTHER"
+  ],
+  "output_sources": [
+    "lag1_auction_volume",
+    "lag1_auction_volume",
+    "lag2_auction_volume",
+    "lag2_auction_volume",
+    "lag5_auction_volume",
+    "lag5_auction_volume",
+    "avg5_auction_volume",
+    "avg5_auction_volume",
+    "avg20_auction_volume",
+    "avg20_auction_volume",
+    "avg60_auction_volume",
+    "avg60_auction_volume",
+    "median20_auction_volume",
+    "median20_auction_volume",
+    "median60_auction_volume",
+    "median60_auction_volume",
+    "std20_auction_volume",
+    "std20_auction_volume",
+    "std60_auction_volume",
+    "std60_auction_volume",
+    "auction_cv20",
+    "auction_cv20",
+    "auction_short_long_ratio",
+    "auction_short_long_ratio",
+    "lag1_auction_share",
+    "lag1_auction_share",
+    "avg20_auction_share",
+    "avg20_auction_share",
+    "std20_auction_share",
+    "std20_auction_share",
+    "lag1_auction_to_adv20",
+    "lag1_auction_to_adv20",
+    "days_since_last_auction",
+    "days_since_last_auction",
+    "prior_auction_observations",
+    "trading_day_of_month",
+    "trading_days_to_month_end",
+    "trading_days_to_quarter_end",
+    "trading_days_to_year_end",
+    "lag1_daily_volume",
+    "lag1_daily_volume",
+    "avg5_daily_volume",
+    "avg5_daily_volume",
+    "avg20_daily_volume",
+    "avg20_daily_volume",
+    "avg60_daily_volume",
+    "avg60_daily_volume",
+    "std20_daily_volume",
+    "std20_daily_volume",
+    "std60_daily_volume",
+    "std60_daily_volume",
+    "abnormal_volume_lag1",
+    "abnormal_volume_lag1",
+    "volume_short_long_ratio",
+    "volume_short_long_ratio",
+    "lag1_dollar_volume",
+    "lag1_dollar_volume",
+    "avg20_dollar_volume",
+    "avg20_dollar_volume",
+    "lag1_turnover",
+    "lag1_turnover",
+    "avg20_turnover",
+    "avg20_turnover",
+    "lag1_amihud",
+    "lag1_amihud",
+    "avg20_amihud",
+    "avg20_amihud",
+    "lag1_quoted_spread",
+    "lag1_quoted_spread",
+    "lag1_hl_range",
+    "lag1_hl_range",
+    "ratio_lag1_med20",
+    "ratio_lag1_med20",
+    "ratio_avg5_med20",
+    "ratio_avg5_med20",
+    "ratio_lag1_med60",
+    "ratio_lag1_med60",
+    "auction_spike_lag1",
+    "auction_spike_lag1",
+    "is_monday",
+    "is_friday",
+    "is_first_trading_day_month",
+    "is_last_trading_day_month",
+    "is_last_3_trading_days_month",
+    "is_last_5_trading_days_month",
+    "is_last_trading_day_quarter",
+    "is_last_3_trading_days_quarter",
+    "is_last_5_trading_days_quarter",
+    "is_last_trading_day_year",
+    "monthly_options_expiry",
+    "quarterly_options_expiry",
+    "after_long_market_gap",
+    "before_long_market_gap",
+    "is_early_close",
+    "early_close_month_end_window",
+    "expiry_month_end_window",
+    "day_of_week",
+    "day_of_week",
+    "day_of_week",
+    "day_of_week",
+    "day_of_week",
+    "month",
+    "month",
+    "month",
+    "month",
+    "month",
+    "month",
+    "month",
+    "month",
+    "month",
+    "month",
+    "month",
+    "month"
+  ]
+}

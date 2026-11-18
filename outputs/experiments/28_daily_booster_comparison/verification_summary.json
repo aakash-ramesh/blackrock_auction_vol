@@ -1,0 +1,131 @@
+{
+  "status": "passed",
+  "plan_hash": "fd4ac10f51e41749c8678b24548dcc00c149c305d0eb6b6a04671b2dd758d00e",
+  "stock_days": 1271378,
+  "model_years": 12,
+  "validation_trials": 32,
+  "checks": [
+    {
+      "year": 2022,
+      "check": "chronological windows",
+      "passed": true
+    },
+    {
+      "year": 2022,
+      "check": "unique date/PERMNO keys",
+      "passed": true
+    },
+    {
+      "year": 2022,
+      "check": "complete evaluation benchmark keys and labels",
+      "passed": true
+    },
+    {
+      "year": 2022,
+      "check": "shared samples and preprocessing",
+      "passed": true
+    },
+    {
+      "year": 2022,
+      "check": "finite nonnegative predictions",
+      "passed": true
+    },
+    {
+      "year": 2022,
+      "check": "all saved models reconstruct predictions",
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "check": "chronological windows",
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "check": "unique date/PERMNO keys",
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "check": "complete evaluation benchmark keys and labels",
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "check": "shared samples and preprocessing",
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "check": "finite nonnegative predictions",
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "check": "all saved models reconstruct predictions",
+      "passed": true
+    },
+    {
+      "year": 2024,
+      "check": "chronological windows",
+      "passed": true
+    },
+    {
+      "year": 2024,
+      "check": "unique date/PERMNO keys",
+      "passed": true
+    },
+    {
+      "year": 2024,
+      "check": "complete evaluation benchmark keys and labels",
+      "passed": true
+    },
+    {
+      "year": 2024,
+      "check": "shared samples and preprocessing",
+      "passed": true
+    },
+    {
+      "year": 2024,
+      "check": "finite nonnegative predictions",
+      "passed": true
+    },
+    {
+      "year": 2024,
+      "check": "all saved models reconstruct predictions",
+      "passed": true
+    },
+    {
+      "year": 2025,
+      "check": "chronological windows",
+      "passed": true
+    },
+    {
+      "year": 2025,
+      "check": "unique date/PERMNO keys",
+      "passed": true
+    },
+    {
+      "year": 2025,
+      "check": "complete evaluation benchmark keys and labels",
+      "passed": true
+    },
+    {
+      "year": 2025,
+      "check": "shared samples and preprocessing",
+      "passed": true
+    },
+    {
+      "year": 2025,
+      "check": "finite nonnegative predictions",
+      "passed": true
+    },
+    {
+      "year": 2025,
+      "check": "all saved models reconstruct predictions",
+      "passed": true
+    }
+  ],
+  "annual_metric_reconciliation": true,
+  "independent_sql_metric_reconciliation": true
+}

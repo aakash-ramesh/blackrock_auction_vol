@@ -1,0 +1,58 @@
+family,config,validation_log_rmse,checkpoint,strength
+kalman_diagonal,"{""shrinkage"": 1.0, ""prior_scale"": 0.5}",0.5699554630548361,,
+kalman_diagonal,"{""shrinkage"": 1.0, ""prior_scale"": 1.0}",0.6480683000773438,,
+kalman_diagonal,"{""shrinkage"": 1.0, ""prior_scale"": 2.0}",0.8548672388152926,,
+kalman_inflated,"{""shrinkage"": 1.0, ""q_fraction"": 0.01}",0.6544229968914786,,
+kalman_inflated,"{""shrinkage"": 1.0, ""q_fraction"": 0.1}",0.7152932778459554,,
+kalman_inflated,"{""shrinkage"": 1.0, ""q_fraction"": 0.5}",0.9820408380731429,,
+kalman_correlated,"{""shrinkage"": 0.0, ""prior_scale"": 0.5}",0.5572070229087749,,
+kalman_correlated,"{""shrinkage"": 0.0, ""prior_scale"": 1.0}",0.5533604245551411,,
+kalman_correlated,"{""shrinkage"": 0.0, ""prior_scale"": 2.0}",0.564904761738887,,
+kalman_correlated,"{""shrinkage"": 0.25, ""prior_scale"": 0.5}",0.5565941831195659,,
+kalman_correlated,"{""shrinkage"": 0.25, ""prior_scale"": 1.0}",0.5544977914061433,,
+kalman_correlated,"{""shrinkage"": 0.25, ""prior_scale"": 2.0}",0.5743976901315718,,
+kalman_correlated,"{""shrinkage"": 0.5, ""prior_scale"": 0.5}",0.5554782111502062,,
+kalman_correlated,"{""shrinkage"": 0.5, ""prior_scale"": 1.0}",0.558343868932593,,
+kalman_correlated,"{""shrinkage"": 0.5, ""prior_scale"": 2.0}",0.5989755266811919,,
+kalman_correlated,"{""shrinkage"": 0.75, ""prior_scale"": 0.5}",0.5554757905278371,,
+kalman_correlated,"{""shrinkage"": 0.75, ""prior_scale"": 1.0}",0.5731513967013308,,
+kalman_correlated,"{""shrinkage"": 0.75, ""prior_scale"": 2.0}",0.6610611252253942,,
+kalman_robust,"{""shrinkage"": 0.25, ""innovation_clip"": 2.5}",0.5540433647920121,,
+kalman_robust,"{""shrinkage"": 0.25, ""innovation_clip"": 4.0}",0.5542420312958198,,
+kalman_robust,"{""shrinkage"": 0.75, ""innovation_clip"": 2.5}",0.5682775299575754,,
+kalman_robust,"{""shrinkage"": 0.75, ""innovation_clip"": 4.0}",0.5717093338323841,,
+signal_stack_ridge,null,0.5613591894615294,10:30,1e-07
+signal_stack_ridge,null,0.5613592246629766,10:30,1e-06
+signal_stack_ridge,null,0.5613595843707126,10:30,1e-05
+signal_stack_ridge,null,0.5613639330530734,10:30,0.0001
+signal_stack_ridge,null,0.5614675514806944,10:30,0.001
+signal_stack_ridge,null,0.5635381308432091,10:30,0.01
+signal_stack_ridge,null,0.5676463505362008,10:30,0.1
+signal_stack_ridge,null,0.5588353189483402,12:00,1e-07
+signal_stack_ridge,null,0.5588353835476806,12:00,1e-06
+signal_stack_ridge,null,0.5588360943468408,12:00,1e-05
+signal_stack_ridge,null,0.5588483918277956,12:00,0.0001
+signal_stack_ridge,null,0.559076860162635,12:00,0.001
+signal_stack_ridge,null,0.5606957364302649,12:00,0.01
+signal_stack_ridge,null,0.5661930457237861,12:00,0.1
+signal_stack_ridge,null,0.556965470132466,14:00,1e-07
+signal_stack_ridge,null,0.5569641062865163,14:00,1e-06
+signal_stack_ridge,null,0.5569513776918812,14:00,1e-05
+signal_stack_ridge,null,0.5568804754478395,14:00,0.0001
+signal_stack_ridge,null,0.5569817547155533,14:00,0.001
+signal_stack_ridge,null,0.5584549961738943,14:00,0.01
+signal_stack_ridge,null,0.5644907637538396,14:00,0.1
+signal_stack_ridge,null,0.5553379535269768,15:00,1e-07
+signal_stack_ridge,null,0.5553362344564274,15:00,1e-06
+signal_stack_ridge,null,0.5553212706805903,15:00,1e-05
+signal_stack_ridge,null,0.5552521726406957,15:00,0.0001
+signal_stack_ridge,null,0.5553048796106265,15:00,0.001
+signal_stack_ridge,null,0.5566385989651812,15:00,0.01
+signal_stack_ridge,null,0.5627305891605975,15:00,0.1
+signal_stack_ridge,null,0.5535837739829921,15:30,1e-07
+signal_stack_ridge,null,0.5535809745966509,15:30,1e-06
+signal_stack_ridge,null,0.553558369784105,15:30,1e-05
+signal_stack_ridge,null,0.5534876764446726,15:30,0.0001
+signal_stack_ridge,null,0.553645529707929,15:30,0.001
+signal_stack_ridge,null,0.5550627301302788,15:30,0.01
+signal_stack_ridge,null,0.5610419671132426,15:30,0.1

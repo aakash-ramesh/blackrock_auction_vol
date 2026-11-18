@@ -97,23 +97,18 @@ def prepare():
     pd.DataFrame(catalog).to_csv(OUT / "feature_timing_catalog.csv",index=False)
 
 
-def build_panel(con):
-    progress("Auditing checkpoint keys and building prior-only 15:30 history")
+def checkpoint_panel_query(con, panel):
+    """Build the shared 15:30 feature query around the daily_predictions relation."""
     raw=str(ROOT / "blackrock_data/stock_intraday/trade_checkpoints/year=*/trade_checkpoints_*.parquet")
     con.execute(f"CREATE TEMP VIEW raw_cp AS SELECT * FROM read_parquet('{raw}',union_by_name=true) WHERE checkpoint='15:30'")
     assert con.sql("SELECT count(*)-count(DISTINCT(date,permno)) FROM raw_cp").fetchone()[0]==0
-    forecasts=[f"SELECT date,permno,uncalibrated AS daily_forecast FROM read_parquet('{HISTORICAL}')"]
-    for year in range(2022,2026):
-        forecasts.append(f"SELECT date,permno,lgbm_residual_58_l2 AS daily_forecast FROM read_parquet('{DAILY / 'predictions' / f'nonlinear_challenger_predictions_{year}.parquet'}')")
-    con.execute("CREATE TEMP VIEW daily_predictions AS "+" UNION ALL ".join(forecasts))
-    assert con.sql("SELECT count(*)-count(DISTINCT(date,permno)) FROM daily_predictions").fetchone()[0]==0
     fields=[("cum_volume","cp_cum_volume"),("cum_dollar_volume","cp_cum_dollar_volume"),("cum_trade_count","cp_cum_trade_count"),
             ("recent_30m_volume","cp_recent_30m_volume"),("vwap","cp_vwap"),("recent_30m_volume_share","cp_recent_30m_volume_share")]
     valid="coalesce(c.checkpoint_data_found,false) AND NOT coalesce(c.checkpoint_after_market_close,true) AND NOT coalesce(p.is_early_close,true) AND c.cum_volume IS NOT NULL AND c.cum_volume>0"
     cp_select=",".join(f"CASE WHEN {valid} THEN c.{source} END AS {destination}" for source,destination in fields)
-    query=f'''WITH joined AS(
+    return f'''WITH joined AS(
         SELECT p.*, {valid} AS cp_available,{cp_select}
-        FROM read_parquet('{PANEL}') p LEFT JOIN raw_cp c USING(date,permno)
+        FROM read_parquet('{panel}') p LEFT JOIN raw_cp c USING(date,permno)
     ), historical AS(
         SELECT *,avg(cp_cum_volume) OVER w20 AS checkpoint_avg_volume20,
         avg(cp_cum_trade_count) OVER w20 AS checkpoint_avg_trades20,
@@ -127,6 +122,16 @@ def build_panel(con):
         cp_vwap/nullif(lag1_price,0)-1 cp_vwap_return_prior_close
     FROM historical h JOIN daily_predictions d USING(date,permno)
     WHERE h.eligible_target AND h.year BETWEEN 2021 AND 2025'''
+
+
+def build_panel(con):
+    progress("Auditing checkpoint keys and building prior-only 15:30 history")
+    forecasts=[f"SELECT date,permno,uncalibrated AS daily_forecast FROM read_parquet('{HISTORICAL}')"]
+    for year in range(2022,2026):
+        forecasts.append(f"SELECT date,permno,lgbm_residual_58_l2 AS daily_forecast FROM read_parquet('{DAILY / 'predictions' / f'nonlinear_challenger_predictions_{year}.parquet'}')")
+    con.execute("CREATE TEMP VIEW daily_predictions AS "+" UNION ALL ".join(forecasts))
+    assert con.sql("SELECT count(*)-count(DISTINCT(date,permno)) FROM daily_predictions").fetchone()[0]==0
+    query=checkpoint_panel_query(con, PANEL)
     destination=OUT / "intraday_panel.parquet"
     con.execute(f"COPY ({query}) TO '{destination}' (FORMAT PARQUET,COMPRESSION ZSTD)")
     con.execute(f"CREATE TEMP VIEW panel AS SELECT * FROM read_parquet('{destination}')")

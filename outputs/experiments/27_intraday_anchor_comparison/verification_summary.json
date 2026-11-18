@@ -1,0 +1,25 @@
+{
+  "anchors": [
+    "original",
+    "tree",
+    "blend"
+  ],
+  "years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "evaluation_stock_days": 1260168,
+  "checks": [
+    "common date/PERMNO keys and exact auction labels",
+    "unique keys and finite nonnegative daily forecasts",
+    "original annual daily and ridge scores reproduced",
+    "original checkpoint coverage reproduced",
+    "chronological update tuning and refitting",
+    "exact daily fallback for unavailable checkpoints",
+    "same historical samples across refitted ridge anchors",
+    "finite nonnegative ridge forecasts"
+  ],
+  "status": "passed"
+}
