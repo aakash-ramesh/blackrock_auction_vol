@@ -1,0 +1,1328 @@
+{
+  "plan_hash": "fd4ac10f51e41749c8678b24548dcc00c149c305d0eb6b6a04671b2dd758d00e",
+  "prediction_sha256": "3b5056de334e4dee5eedcc22279285d9efdac440abc9006a31de19ca756bc7ff",
+  "annual_metrics": [
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "config_id": 3,
+      "trees": 782,
+      "refit_seconds": 39.01524458313361,
+      "observations": 318679,
+      "mae_raw": 76078.83758013956,
+      "wape": 0.34534094380246194,
+      "mae_log": 0.31845237905447804,
+      "rmse_log": 0.4543009375576326,
+      "spearman": 0.9616911697140402,
+      "aggregate_bias": -0.14788201473536045
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "config_id": 3,
+      "trees": 747,
+      "refit_seconds": 41.539444874972105,
+      "observations": 318679,
+      "mae_raw": 76901.33850606937,
+      "wape": 0.3490744819988072,
+      "mae_log": 0.3205561507426467,
+      "rmse_log": 0.45601215890782926,
+      "spearman": 0.9612699405060413,
+      "aggregate_bias": -0.1463365151750925
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "config_id": 1,
+      "trees": 554,
+      "refit_seconds": 22.516067000105977,
+      "observations": 318679,
+      "mae_raw": 76743.29702098483,
+      "wape": 0.34835709202079207,
+      "mae_log": 0.3197313780815019,
+      "rmse_log": 0.45646634930132995,
+      "spearman": 0.9612812743713434,
+      "aggregate_bias": -0.14729671304881986
+    }
+  ],
+  "validation_trials": [
+    {
+      "year": 2023,
+      "family": "catboost",
+      "config_id": 0,
+      "config": {
+        "depth": 6,
+        "l2_leaf_reg": 3.0
+      },
+      "best_iteration": 398,
+      "validation_log_rmse": 0.5102898373030917,
+      "fit_seconds": 15.730308249825612
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "config_id": 1,
+      "config": {
+        "depth": 6,
+        "l2_leaf_reg": 10.0
+      },
+      "best_iteration": 326,
+      "validation_log_rmse": 0.5099689831332959,
+      "fit_seconds": 13.194630999816582
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "config_id": 2,
+      "config": {
+        "depth": 8,
+        "l2_leaf_reg": 3.0
+      },
+      "best_iteration": 628,
+      "validation_log_rmse": 0.5059201828115153,
+      "fit_seconds": 29.802173583069816
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "config_id": 3,
+      "config": {
+        "depth": 8,
+        "l2_leaf_reg": 10.0
+      },
+      "best_iteration": 747,
+      "validation_log_rmse": 0.5044246117332946,
+      "fit_seconds": 35.465318999951705
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "config_id": 0,
+      "config": {
+        "max_depth": 4,
+        "learning_rate": 0.05,
+        "min_child_weight": 100,
+        "subsample": 0.8,
+        "colsample_bytree": 0.85,
+        "reg_lambda": 5.0
+      },
+      "best_iteration": 847,
+      "validation_log_rmse": 0.5107956294726921,
+      "fit_seconds": 30.157575165852904
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "config_id": 1,
+      "config": {
+        "max_depth": 6,
+        "learning_rate": 0.05,
+        "min_child_weight": 300,
+        "subsample": 0.8,
+        "colsample_bytree": 0.7,
+        "reg_lambda": 10.0
+      },
+      "best_iteration": 554,
+      "validation_log_rmse": 0.5081152918250247,
+      "fit_seconds": 24.424133916851133
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "config_id": 2,
+      "config": {
+        "max_depth": 8,
+        "learning_rate": 0.03,
+        "min_child_weight": 500,
+        "subsample": 0.8,
+        "colsample_bytree": 0.7,
+        "reg_lambda": 20.0
+      },
+      "best_iteration": 691,
+      "validation_log_rmse": 0.5082262847075821,
+      "fit_seconds": 33.68242970807478
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "config_id": 3,
+      "config": {
+        "max_depth": 6,
+        "learning_rate": 0.08,
+        "min_child_weight": 100,
+        "subsample": 0.9,
+        "colsample_bytree": 0.85,
+        "reg_lambda": 5.0
+      },
+      "best_iteration": 231,
+      "validation_log_rmse": 0.5091281099956285,
+      "fit_seconds": 13.133533082902431
+    }
+  ],
+  "samples": [
+    {
+      "phase": "tune",
+      "rows": 750000,
+      "first_date": "2017-01-03 00:00:00",
+      "last_date": "2021-12-31 00:00:00",
+      "key_sha256": "646bd7f99f0f9850afdca8be4de36a03406491831a243a540d47b077c22040f6",
+      "year": 2023
+    },
+    {
+      "phase": "validation",
+      "rows": 150000,
+      "first_date": "2022-01-03 00:00:00",
+      "last_date": "2022-12-30 00:00:00",
+      "key_sha256": "4995be8437f2f45c1bcbdb98fe68c5872a8d7e07b3c522cbfdfc318c70cdfb26",
+      "year": 2023
+    },
+    {
+      "phase": "refit",
+      "rows": 1000000,
+      "first_date": "2018-01-02 00:00:00",
+      "last_date": "2022-12-30 00:00:00",
+      "key_sha256": "b668067e4b64baa590e45011eba39e272f9756ada6489e6a1d2c0cb009d6e163",
+      "year": 2023
+    },
+    {
+      "phase": "test",
+      "rows": 318679,
+      "first_date": "2023-01-03 00:00:00",
+      "last_date": "2023-12-29 00:00:00",
+      "key_sha256": "585d501070e396b2cf650737d3751fc3aae08d7de0c5967502091d146f6acfc5",
+      "year": 2023
+    }
+  ],
+  "importance": [
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "abnormal_volume_lag1",
+      "importance_share": 0.040027165425451865
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "after_long_market_gap",
+      "importance_share": 0.0016843208168439842
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "auction_cv20",
+      "importance_share": 0.0067148404878949386
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "auction_short_long_ratio",
+      "importance_share": 0.01154857461289075
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "auction_spike_lag1",
+      "importance_share": 0.004537455509084918
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "avg20_amihud",
+      "importance_share": 0.011895843448118615
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "avg20_auction_share",
+      "importance_share": 0.01572147867238744
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "avg20_auction_volume",
+      "importance_share": 0.025203930913192646
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "avg20_daily_volume",
+      "importance_share": 0.002832535292723741
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "avg20_dollar_volume",
+      "importance_share": 0.008961608646966174
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "avg20_turnover",
+      "importance_share": 0.005762765925627993
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "avg5_auction_volume",
+      "importance_share": 0.0026485519538013936
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "avg5_daily_volume",
+      "importance_share": 0.002077392265718898
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "avg60_auction_volume",
+      "importance_share": 0.002054385595804571
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "avg60_daily_volume",
+      "importance_share": 0.005303839994023248
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "before_long_market_gap",
+      "importance_share": 0.002765690036428132
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "day_of_week",
+      "importance_share": 0.01789884412062703
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "days_since_last_auction",
+      "importance_share": 0.005954635563765013
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "early_close_month_end_window",
+      "importance_share": 0.005795277964220607
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "expiry_month_end_window",
+      "importance_share": 0.0
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "is_early_close",
+      "importance_share": 0.014018647251912143
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "is_first_trading_day_month",
+      "importance_share": 0.0003056930417552334
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "is_friday",
+      "importance_share": 0.013710795086462106
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "is_last_3_trading_days_month",
+      "importance_share": 0.0015606271535936538
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "is_last_3_trading_days_quarter",
+      "importance_share": 0.00019151377619093277
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "is_last_5_trading_days_month",
+      "importance_share": 0.0015859437940518766
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "is_last_5_trading_days_quarter",
+      "importance_share": 0.0007952043603694965
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "is_last_trading_day_month",
+      "importance_share": 0.03477832397950647
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "is_last_trading_day_quarter",
+      "importance_share": 0.002257418982407354
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "is_last_trading_day_year",
+      "importance_share": 0.0008061108964113131
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "is_monday",
+      "importance_share": 0.0026479316220229697
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "lag1_amihud",
+      "importance_share": 0.003072836360329654
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "lag1_auction_share",
+      "importance_share": 0.012693292926272227
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "lag1_auction_to_adv20",
+      "importance_share": 0.0039373896278479216
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "lag1_auction_volume",
+      "importance_share": 0.0034037678905554
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "lag1_daily_volume",
+      "importance_share": 0.0034779398333255503
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "lag1_dollar_volume",
+      "importance_share": 0.007235663655704764
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "lag1_hl_range",
+      "importance_share": 0.006632146731116243
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "lag1_quoted_spread",
+      "importance_share": 0.0038843288556562995
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "lag1_turnover",
+      "importance_share": 0.004170409994654041
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "lag2_auction_volume",
+      "importance_share": 0.00995117965170423
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "lag5_auction_volume",
+      "importance_share": 0.007997254797024378
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "median20_auction_volume",
+      "importance_share": 0.01994703132060079
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "median60_auction_volume",
+      "importance_share": 0.004008632427883544
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "month",
+      "importance_share": 0.04004489770892543
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "monthly_options_expiry",
+      "importance_share": 0.04270927707422245
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "prior_auction_observations",
+      "importance_share": 0.026400286361179363
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "quarterly_options_expiry",
+      "importance_share": 0.152886242957597
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "ratio_avg5_med20",
+      "importance_share": 0.048390844110809676
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "ratio_lag1_med20",
+      "importance_share": 0.054417627048873596
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "ratio_lag1_med60",
+      "importance_share": 0.01730197890046212
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "std20_auction_share",
+      "importance_share": 0.005065779876246761
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "std20_auction_volume",
+      "importance_share": 0.005135818111422848
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "std20_daily_volume",
+      "importance_share": 0.002780270579412504
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "std60_auction_volume",
+      "importance_share": 0.002199103593915816
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "std60_daily_volume",
+      "importance_share": 0.0028142232119737756
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "trading_day_of_month",
+      "importance_share": 0.04216442044243823
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "trading_days_to_month_end",
+      "importance_share": 0.06262929252453467
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "trading_days_to_quarter_end",
+      "importance_share": 0.08719937030680462
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "trading_days_to_year_end",
+      "importance_share": 0.05007397390884842
+    },
+    {
+      "year": 2023,
+      "family": "lightgbm_reference",
+      "feature": "volume_short_long_ratio",
+      "importance_share": 0.01532737201940215
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "abnormal_volume_lag1",
+      "importance_share": 0.024508951210190973
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "after_long_market_gap",
+      "importance_share": 0.0011140556656374053
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "auction_cv20",
+      "importance_share": 0.005793727082625521
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "auction_short_long_ratio",
+      "importance_share": 0.010229312675481756
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "auction_spike_lag1",
+      "importance_share": 0.0024445837498039617
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "avg20_amihud",
+      "importance_share": 0.009967943437246647
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "avg20_auction_share",
+      "importance_share": 0.015794307518663998
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "avg20_auction_volume",
+      "importance_share": 0.01788517843521396
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "avg20_daily_volume",
+      "importance_share": 0.0006674090757543367
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "avg20_dollar_volume",
+      "importance_share": 0.010456555501731624
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "avg20_turnover",
+      "importance_share": 0.006651931718938037
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "avg5_auction_volume",
+      "importance_share": 0.0017487296055734994
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "avg5_daily_volume",
+      "importance_share": 0.0012048347913402463
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "avg60_auction_volume",
+      "importance_share": 0.0012987874639083256
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "avg60_daily_volume",
+      "importance_share": 0.001065408898820615
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "before_long_market_gap",
+      "importance_share": 0.00396398416752191
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "day_of_week",
+      "importance_share": 0.06548769497041229
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "days_since_last_auction",
+      "importance_share": 0.012868829358182047
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "early_close_month_end_window",
+      "importance_share": 0.0012568718668969003
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "expiry_month_end_window",
+      "importance_share": 0.0
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "is_early_close",
+      "importance_share": 0.015951297410591626
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "is_first_trading_day_month",
+      "importance_share": 0.0007228614518368198
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "is_friday",
+      "importance_share": 0.009148114099257712
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "is_last_3_trading_days_month",
+      "importance_share": 0.001605837308448081
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "is_last_3_trading_days_quarter",
+      "importance_share": 9.902397921371249e-05
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "is_last_5_trading_days_month",
+      "importance_share": 0.0001614257873081068
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "is_last_5_trading_days_quarter",
+      "importance_share": 0.00025454950795148515
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "is_last_trading_day_month",
+      "importance_share": 0.021109421182017127
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "is_last_trading_day_quarter",
+      "importance_share": 0.00011262582193670612
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "is_last_trading_day_year",
+      "importance_share": 0.0
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "is_monday",
+      "importance_share": 0.0012828625376305033
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "lag1_amihud",
+      "importance_share": 0.0017510650115641266
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "lag1_auction_share",
+      "importance_share": 0.013848590235707217
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "lag1_auction_to_adv20",
+      "importance_share": 0.0040203878822659
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "lag1_auction_volume",
+      "importance_share": 0.0018195196331881876
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "lag1_daily_volume",
+      "importance_share": 0.0013343297436054099
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "lag1_dollar_volume",
+      "importance_share": 0.007840123591690031
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "lag1_hl_range",
+      "importance_share": 0.006267464952558599
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "lag1_quoted_spread",
+      "importance_share": 0.0022423854942505367
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "lag1_turnover",
+      "importance_share": 0.0023586985774508764
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "lag2_auction_volume",
+      "importance_share": 0.015148882174610731
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "lag5_auction_volume",
+      "importance_share": 0.007010603112320895
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "median20_auction_volume",
+      "importance_share": 0.03096418160693979
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "median60_auction_volume",
+      "importance_share": 0.0029542625996203907
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "month",
+      "importance_share": 0.03281118449651123
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "monthly_options_expiry",
+      "importance_share": 0.016547470651877262
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "prior_auction_observations",
+      "importance_share": 0.02567042087296603
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "quarterly_options_expiry",
+      "importance_share": 0.18024528222453876
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "ratio_avg5_med20",
+      "importance_share": 0.041654878349897444
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "ratio_lag1_med20",
+      "importance_share": 0.05018146575973885
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "ratio_lag1_med60",
+      "importance_share": 0.01705353851152375
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "std20_auction_share",
+      "importance_share": 0.0048725703771047135
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "std20_auction_volume",
+      "importance_share": 0.0018759591831569453
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "std20_daily_volume",
+      "importance_share": 0.0018976195132345205
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "std60_auction_volume",
+      "importance_share": 0.001130261814139062
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "std60_daily_volume",
+      "importance_share": 0.0013234208574455996
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "trading_day_of_month",
+      "importance_share": 0.045369690091529705
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "trading_days_to_month_end",
+      "importance_share": 0.07803681291049351
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "trading_days_to_quarter_end",
+      "importance_share": 0.08565258058368469
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "trading_days_to_year_end",
+      "importance_share": 0.06198893735076586
+    },
+    {
+      "year": 2023,
+      "family": "catboost",
+      "feature": "volume_short_long_ratio",
+      "importance_share": 0.011270295555483452
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "abnormal_volume_lag1",
+      "importance_share": 0.012538774870336056
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "after_long_market_gap",
+      "importance_share": 0.004042627289891243
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "auction_cv20",
+      "importance_share": 0.026190653443336487
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "auction_short_long_ratio",
+      "importance_share": 0.006692891009151936
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "auction_spike_lag1",
+      "importance_share": 0.019835814833641052
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "avg20_amihud",
+      "importance_share": 0.0016879166942089796
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "avg20_auction_share",
+      "importance_share": 0.030208872631192207
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "avg20_auction_volume",
+      "importance_share": 0.06898654252290726
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "avg20_daily_volume",
+      "importance_share": 0.0014426474226638675
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "avg20_dollar_volume",
+      "importance_share": 0.0015027123736217618
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "avg20_turnover",
+      "importance_share": 0.001375160412862897
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "avg5_auction_volume",
+      "importance_share": 0.010853097774088383
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "avg5_daily_volume",
+      "importance_share": 0.00114197947550565
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "avg60_auction_volume",
+      "importance_share": 0.004318761173635721
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "avg60_daily_volume",
+      "importance_share": 0.0011174516985192895
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "before_long_market_gap",
+      "importance_share": 0.005106560420244932
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "day_of_week",
+      "importance_share": 0.01917078159749508
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "days_since_last_auction",
+      "importance_share": 0.0022562004160135984
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "early_close_month_end_window",
+      "importance_share": 0.02172117866575718
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "expiry_month_end_window",
+      "importance_share": 0.0
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "is_early_close",
+      "importance_share": 0.024297863245010376
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "is_first_trading_day_month",
+      "importance_share": 0.0010723249288275838
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "is_friday",
+      "importance_share": 0.010162780061364174
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "is_last_3_trading_days_month",
+      "importance_share": 0.0018611428095027804
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "is_last_3_trading_days_quarter",
+      "importance_share": 0.001121923211030662
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "is_last_5_trading_days_month",
+      "importance_share": 0.0009353102650493383
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "is_last_5_trading_days_quarter",
+      "importance_share": 0.0025083820801228285
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "is_last_trading_day_month",
+      "importance_share": 0.07914716005325317
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "is_last_trading_day_quarter",
+      "importance_share": 0.0020481415558606386
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "is_last_trading_day_year",
+      "importance_share": 0.017775194719433784
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "is_monday",
+      "importance_share": 0.002810058416798711
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "lag1_amihud",
+      "importance_share": 0.002868443029001355
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "lag1_auction_share",
+      "importance_share": 0.00866162870079279
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "lag1_auction_to_adv20",
+      "importance_share": 0.004953762982040644
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "lag1_auction_volume",
+      "importance_share": 0.007861025631427765
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "lag1_daily_volume",
+      "importance_share": 0.0013060305500403047
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "lag1_dollar_volume",
+      "importance_share": 0.0016572227468714118
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "lag1_hl_range",
+      "importance_share": 0.005704153794795275
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "lag1_quoted_spread",
+      "importance_share": 0.00867767445743084
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "lag1_turnover",
+      "importance_share": 0.0007462716894224286
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "lag2_auction_volume",
+      "importance_share": 0.0042106700129806995
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "lag5_auction_volume",
+      "importance_share": 0.005425966810435057
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "median20_auction_volume",
+      "importance_share": 0.06427010148763657
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "median60_auction_volume",
+      "importance_share": 0.0014025249984115362
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "month",
+      "importance_share": 0.08581917732954025
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "monthly_options_expiry",
+      "importance_share": 0.038526587188243866
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "prior_auction_observations",
+      "importance_share": 0.002177502028644085
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "quarterly_options_expiry",
+      "importance_share": 0.2590765357017517
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "ratio_avg5_med20",
+      "importance_share": 0.015272632241249084
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "ratio_lag1_med20",
+      "importance_share": 0.011775540187954903
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "ratio_lag1_med60",
+      "importance_share": 0.0021267568226903677
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "std20_auction_share",
+      "importance_share": 0.010781284421682358
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "std20_auction_volume",
+      "importance_share": 0.026266297325491905
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "std20_daily_volume",
+      "importance_share": 0.0031540023628622293
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "std60_auction_volume",
+      "importance_share": 0.003896750044077635
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "std60_daily_volume",
+      "importance_share": 0.0020200926810503006
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "trading_day_of_month",
+      "importance_share": 0.005000143777579069
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "trading_days_to_month_end",
+      "importance_share": 0.013321764767169952
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "trading_days_to_quarter_end",
+      "importance_share": 0.00824781320989132
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "trading_days_to_year_end",
+      "importance_share": 0.005372702144086361
+    },
+    {
+      "year": 2023,
+      "family": "xgboost",
+      "feature": "volume_short_long_ratio",
+      "importance_share": 0.005488141439855099
+    }
+  ],
+  "checks": [
+    {
+      "year": 2023,
+      "check": "chronological windows",
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "check": "unique date/PERMNO keys",
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "check": "complete evaluation benchmark keys and labels",
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "check": "shared samples and preprocessing",
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "check": "finite nonnegative predictions",
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "check": "all saved models reconstruct predictions",
+      "passed": true
+    }
+  ]
+}

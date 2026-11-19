@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "panel_hash": "455b030d83c02f5c95b418608ed9084bcb9d4c7b246bbb558becbe8596add030",
+  "checkpoint_panel_hash": "13d8f9165dbd1bc35e41c4905c6aac66d38490a6b6fbe504a64948f705e1e30f",
+  "versions": {
+    "lightgbm": "4.6.0",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "duckdb": "1.5.6"
+  },
+  "years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "fresh_fit_year": 2022,
+  "source_hashes": {
+    "build_intraday_1530_update.py": "e795dbf75f3d58dc94c2a26bd5051eeadf147ef59b0d87cb18ae97697e87da78",
+    "build_intraday_noon_update.py": "a769cc743e466e469daeac58595027e21b3c881eccfffbecb3b21c6f1794cd9c",
+    "modeling_utils.py": "a7e027ba0b425faea51f425d864f76eab9d83ff7568b9e78882fc74f8cc164cd",
+    "compare_intraday_anchors.py": "f85f9013503875cf769e3c28e631da67348d405e82a141dd482408604a14c559"
+  },
+  "raw_checkpoint_hashes": {
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2015/trade_checkpoints_2015.parquet": "8b2755af82c20a35d1e99c45c0a98bf170d0316339a536789b9b12b1fe654fe5",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2016/trade_checkpoints_2016.parquet": "aed9c05a34a46c20108159a87b10f4aefd1cc96cdb2a2d61b04d7a5567611eba",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2017/trade_checkpoints_2017.parquet": "a4c4caa56bdacba078568ed52f0e6a88ed7124ddf94f733c1027273021018ed2",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2018/trade_checkpoints_2018.parquet": "dbb2a9fd7b87b91c1407708b1c7436ad2cefcca0f31f45913e260f0c7df8cae9",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2019/trade_checkpoints_2019.parquet": "73aaf3e535d8aef537e206ef99f399201822a44b8fdc82bd3b8c6703009ca7a0",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2020/trade_checkpoints_2020.parquet": "bd07ffc305542e33f5ee7b1920d023abc04aba2721ee233e56e3cab6687da3cc",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2021/trade_checkpoints_2021.parquet": "a3e85996369f91629d6d7e21e4a2a595e7e3305287bca51f69427e0eae72df3c",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2022/trade_checkpoints_2022.parquet": "8501666c0c33ad87f5d9f077a5ff678f0d9a37837eea3c30d2456ca582e9795e",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2023/trade_checkpoints_2023.parquet": "ba794e769ed7e1616bb6428561aec684490109350243212fc60e3fadc1fccc79",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2024/trade_checkpoints_2024.parquet": "f7d4ac720783bf36e4631e090005dbeaab997dcb7d94ce7bc1fabc839d4f0e33",
+    "blackrock_data/stock_intraday/trade_checkpoints/year=2025/trade_checkpoints_2025.parquet": "bce9899b018de57f247dd3b620d3add28c4b504c4df8649dd03cf6de94021608"
+  },
+  "original_daily_hashes": {
+    "original_2021.parquet": "75d51d4946120455e0651f238f1f3fe24c24bf87523487322b1374175ed38e9b",
+    "original_2022.parquet": "b183dd449bda0dae2b161b1f503437bd726ea5ff4cd78e134373126cd26e2f7a",
+    "original_2023.parquet": "a438334eb2bb7e8ffa01fb7145efda89957a4820c8b267bb592d25e210dbbf87",
+    "original_2024.parquet": "09a3afab9bcff6be45b66091768b95e6d9b58fa3d2dc83833a558812c77ec547",
+    "original_2025.parquet": "2528bd6d785e7128073fcae2d6c83aac0565fc3ecc63690f43309cbffe9f2c51"
+  }
+}

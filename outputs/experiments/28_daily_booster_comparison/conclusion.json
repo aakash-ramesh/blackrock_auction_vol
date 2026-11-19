@@ -1,0 +1,8 @@
+{
+  "selected_family": "lightgbm_reference",
+  "lowest_development_point_estimate": "catboost",
+  "challengers_passing_gate": [],
+  "explanation": "Neither challenger meets all frozen replacement criteria. Retain the tuned LightGBM recipe as the main daily model.",
+  "evaluation_rows": 1271378,
+  "plan_hash": "fd4ac10f51e41749c8678b24548dcc00c149c305d0eb6b6a04671b2dd758d00e"
+}

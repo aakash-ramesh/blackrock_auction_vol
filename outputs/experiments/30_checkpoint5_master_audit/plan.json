@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "panel_hash": "455b030d83c02f5c95b418608ed9084bcb9d4c7b246bbb558becbe8596add030",
+  "versions": {
+    "lightgbm": "4.6.0",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "duckdb": "1.5.6",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1"
+  },
+  "reconstruction_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "fresh_year": 2022,
+  "fresh_scope": "original four-way Tweedie/event comparison",
+  "fresh_row_caps": [
+    180000,
+    100000,
+    300000
+  ],
+  "fresh_threads": 4,
+  "source_hashes": {
+    "run_spline_residual_experiment.py": "4cb1123f17b2a3e195345139faeba5e4614664940ad38a25a152968919bb6edf",
+    "run_tail_mixture_experiment.py": "77dfe00510e99f4ee4b075e8d2b2f3953fcaddb6eaac6553011ccc6c072d1dae",
+    "compare_daily_tweedie_and_rebalance.py": "a493f1ab1ec735043c030904982c680f17a8e616cf80f564b269e9ff645f573f"
+  }
+}

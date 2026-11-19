@@ -1,0 +1,19 @@
+{
+  "checkpoint": 6,
+  "evaluation_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "regular_session_stock_days": 1260168,
+  "reconstructed_annual_score_rows": 172,
+  "pairing_annual_score_rows": 28,
+  "independent_history_rows": 32570,
+  "primary_bootstrap_interval_rows": 8,
+  "summary_arithmetic_checks": 46,
+  "fresh_ridge_year": 2022,
+  "fresh_ridge_sample_fingerprints_match": true,
+  "selected_pairing": "tuned daily LightGBM + annual 15:30 ridge",
+  "completed_utc": "2026-11-18T16:56:13.883010+00:00"
+}

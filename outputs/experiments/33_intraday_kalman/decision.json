@@ -1,0 +1,25 @@
+{
+  "selected_method": "incumbent_1530",
+  "decision_basis": "equal-year development 2022-2024; gate versus both references",
+  "confirmation_previously_inspected": true,
+  "selected_from": [
+    "multi_checkpoint_ridge",
+    "signal_stack_ridge",
+    "kalman_diagonal",
+    "kalman_inflated",
+    "kalman_correlated",
+    "kalman_robust"
+  ],
+  "math_checks": {
+    "known_single_measurement": true,
+    "missing_measurement_skipped": true,
+    "correlated_filter_equals_batch_Gaussian_update": true,
+    "ridge_system_matches_original_helper": true
+  },
+  "annual_metric_rows": 164,
+  "primary_gate_references": [
+    "latest_ridge",
+    "incumbent_1530"
+  ],
+  "completed_utc": "2026-11-18T18:20:04.658243+00:00"
+}

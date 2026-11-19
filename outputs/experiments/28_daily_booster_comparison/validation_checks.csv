@@ -1,0 +1,25 @@
+year,check,passed
+2022,chronological windows,True
+2022,unique date/PERMNO keys,True
+2022,complete evaluation benchmark keys and labels,True
+2022,shared samples and preprocessing,True
+2022,finite nonnegative predictions,True
+2022,all saved models reconstruct predictions,True
+2023,chronological windows,True
+2023,unique date/PERMNO keys,True
+2023,complete evaluation benchmark keys and labels,True
+2023,shared samples and preprocessing,True
+2023,finite nonnegative predictions,True
+2023,all saved models reconstruct predictions,True
+2024,chronological windows,True
+2024,unique date/PERMNO keys,True
+2024,complete evaluation benchmark keys and labels,True
+2024,shared samples and preprocessing,True
+2024,finite nonnegative predictions,True
+2024,all saved models reconstruct predictions,True
+2025,chronological windows,True
+2025,unique date/PERMNO keys,True
+2025,complete evaluation benchmark keys and labels,True
+2025,shared samples and preprocessing,True
+2025,finite nonnegative predictions,True
+2025,all saved models reconstruct predictions,True

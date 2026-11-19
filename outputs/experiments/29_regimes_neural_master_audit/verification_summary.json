@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "plan_hash": "a328188487a26e43fdde87f8ebf552b5ec76d5d6a51d191ed4d6cd5a48efe53b",
+  "source_comparisons": 30,
+  "fresh_model_score_comparisons": 10,
+  "fresh_evaluation_rows": 328634,
+  "forward_filter_no_lookahead": true,
+  "sequence_history_prior_only": true,
+  "training_only_sequence_fallbacks": true,
+  "independent_sql_metrics": true,
+  "blend_identity": true
+}

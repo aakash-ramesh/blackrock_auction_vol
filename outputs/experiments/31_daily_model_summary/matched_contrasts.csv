@@ -1,0 +1,7 @@
+comparison,cohort,candidate,reference,development_log_RMSE_change
+Size split vs compact ridge,Ridge segmentation,split_size,rolling5_residual_auction_calendar_liquidity,-0.0011623212182472753
+CatBoost vs fresh tuned LightGBM,Fresh booster comparison,catboost,lightgbm_reference,-8.436252560667379e-05
+XGBoost vs fresh tuned LightGBM,Fresh booster comparison,xgboost,lightgbm_reference,0.002631580620765017
+Three-state HMM vs untuned tree,HMM and regime inputs,lgbm_plus_hmm_k3,lgbm_control,0.0017799494032427199
+Neural blend vs tuned tree,Neural networks and blend,blend_hybrid_lgbm,lgbm_61_ratios_large_tuned,-0.000273510835421098
+Tail mixture vs verified compact tree,Spline and tail audit,tail_mixture_log_mean,lgbm_residual_58_l2,-0.0008980352081660037

@@ -1,0 +1,3 @@
+family,mean_log_RMSE_change,worst_annual_change,daily_log_MAE_change,legacy_log_MAE_lower,legacy_log_MAE_upper,practical_gain,annual_stability,paired_log_MAE_favorable,passes_gate
+catboost,-8.436252560667379e-05,0.0017112213501966345,0.0012046423409993318,-5.7026667511703625e-05,0.0023801854729713903,False,True,False,False
+xgboost,0.0026315806207649617,0.00757434784889055,0.003183727959323191,0.0018099235322207928,0.004489549749258617,False,False,False,False

@@ -1,0 +1,8 @@
+{
+  "LightGBM_RMSE": 0.5046065414999888,
+  "hybrid_RMSE": 0.5306640730859987,
+  "blend_RMSE": 0.505054733729434,
+  "Pearson_error_correlation": 0.9069549823748151,
+  "uncentred_error_similarity": 0.9039047542622608,
+  "break_even_similarity": 0.9005249040356021
+}
