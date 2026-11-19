@@ -2,6 +2,11 @@
 
 Closing-auction volume prediction with leakage-safe daily features and rolling out-of-time evaluation.
 
+## Where to start
+
+- [`master_research/`](master_research/README.md): consolidated research, from the data through daily and intraday modeling.
+- [`feature_template/`](feature_template/README.md): rebuilds the E0–E5 daily features from the raw data (load, clean, build, save), with the formula and source of every feature. [`feature_template/data_build/`](feature_template/data_build/) rebuilds the options data from OptionMetrics on WRDS.
+
 ## Environment
 
 The EDA notebooks use `requirements-eda.txt`. Nonlinear model challengers additionally use LightGBM and scikit-learn:
