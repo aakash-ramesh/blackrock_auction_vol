@@ -16,6 +16,7 @@ Takes the project's raw data, cleans it, and builds the model-ready features for
 | `01_feature_pipeline_template.ipynb` | **The template.** Load → clean → build features → save. |
 | `02_checks_optional.ipynb` | Optional. Checks the template: data quality, no look-ahead, and a comparison with the midterm results. Not needed to build the features. |
 | `reference_inputs/` | Small date lists that can't be computed by rule: FOMC meetings, MSCI review dates, S&P 500 changes and membership. |
+| `data_build/build_options_daily.ipynb` | Rebuilds the options data (`stock_daily/options_daily/`) from OptionMetrics on WRDS. Needs a WRDS login with OptionMetrics access. |
 
 ## What it reads
 
@@ -24,6 +25,13 @@ Takes the project's raw data, cleans it, and builds the model-ready features for
 | CRSP daily | `blackrock_data/stock_daily/crsp_daily/` | WRDS CRSP (NYSE-listed US common stocks) |
 | Closing-auction prints | `blackrock_data/stock_daily/auction_daily/` | WRDS TAQ |
 | Options (optional) | `blackrock_data/stock_daily/options_daily/` | WRDS OptionMetrics |
+
+## Rebuilding the input data
+
+The template reads data files that were first pulled from WRDS. The notebooks in `data_build/` rebuild them from the original source:
+
+- **Options data**: `data_build/build_options_daily.ipynb` pulls OptionMetrics contract data, sums it to one row per stock per day on WRDS, links it to CRSP `permno`, and saves it to `stock_daily/options_daily/`. About an hour for 2015–2025.
+- **Index rebalancing data**: in progress.
 
 ## What it produces (`outputs/`)
 
