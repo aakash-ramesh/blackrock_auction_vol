@@ -89,6 +89,9 @@ outputs/eda/16b_catboost_challenger/predictions/
 outputs/eda/16b_catboost_challenger/combined/
 outputs/eda/16d_hmm_regime_features/predictions/
 outputs/eda/16e_sequence_neural_networks/predictions/
+outputs/eda/18_intraday_model/_work/
+# Intraday sprint row-level predictions; rerun the track notebooks to rebuild.
+outputs/experiments/34_intraday_sprint/submissions/
 
 # IPython
 profile_default/
