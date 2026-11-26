@@ -12,15 +12,19 @@ against the incumbent (that anchor plus the annual 15:30 ridge, from master note
 The harness needs the regenerated incumbent files, which are not in Git (they are large). From the repository root:
 
 ```sh
-python -m venv .venv && .venv/bin/python -m pip install -r requirements-models.txt
+python3 -m venv .venv && .venv/bin/python -m pip install -r requirements-models.txt pyarrow
+.venv/bin/python -m ipykernel install --prefix "$PWD/.venv" --name auction-local
 .venv/bin/python notebooks/reproduce_daily_panel.py                 # daily panel, about 1 minute
 export AUCTION_DAILY_PANEL="$PWD/outputs/reproduction/01_daily_panel/enriched_daily_panel.parquet"
 .venv/bin/python notebooks/compare_intraday_anchors.py tree         # tuned daily LightGBM anchors, 2021–2025
 .venv/bin/python notebooks/compare_intraday_anchors.py compare      # checkpoint panel + incumbent ridge
 ```
 
-`reproduce_daily_panel.py` runs a notebook with a Jupyter kernel named `auction-local`. If you don't have it:
-`.venv/bin/python -m ipykernel install --prefix "$PWD/.venv" --name auction-local`.
+`pyarrow` is needed for Parquet files but is not in `requirements-models.txt` yet. The `ipykernel` line registers
+the `auction-local` Jupyter kernel that `reproduce_daily_panel.py` expects. If that script fails with
+`No module named pip`, run `.venv/bin/python -m ensurepip` first. Do not run `reproduce_compact_nonlinear.py` or
+`diagnose_and_calibrate.py`: they check byte-for-byte fingerprints that a rebuilt panel never matches, and the
+harness doesn't need them.
 
 These scripts rewrite some committed summary files under `outputs/`. Restore them afterwards with
 `git restore outputs/reproduction outputs/experiments/27_intraday_anchor_comparison` so they don't end up in a commit.
